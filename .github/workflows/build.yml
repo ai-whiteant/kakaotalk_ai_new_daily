@@ -1,6 +1,5 @@
-name: Python Build and Test
+ame: Python Build and Test
 
-# 코드가 push되거나 풀 리퀘스트(PR)가 생성될 때 자동으로 실행
 on:
   push:
     branches: [ "main" ]
@@ -12,17 +11,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    # 1. 깃허브 저장소의 코드를 가상 서버로 가져옴
     - name: Checkout code
       uses: actions/checkout@v4
 
-    # 2. 가상 서버에 파이썬 3.11 설치
     - name: Set up Python 3.11
       uses: actions/setup-python@v5
       with:
         python-version: "3.11"
 
-    # 3. 코드 실행 및 테스트
     - name: Run Python script
       run: |
         python main.py
