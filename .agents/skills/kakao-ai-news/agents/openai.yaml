@@ -1,0 +1,3 @@
+interface:
+  display_name: "Kakao ai news"
+  short_description: "최근 일주일 국내외 AI 교육 뉴스를 정리해 카카오톡 나에게 전송"

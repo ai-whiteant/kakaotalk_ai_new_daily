@@ -216,3 +216,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local AI news configuration
+config.json
+config.json.*
+.env
+.env.*
+!.env.example
+**/work/
+**/__pycache__/
+.venv/
+.state/
+*.enc
+*.log
+*.pem
+*.key
+news-output/
