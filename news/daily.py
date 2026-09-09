@@ -96,7 +96,8 @@ class MCP:
         if not name:
             raise ServiceError('Required Tavily tool unavailable: ' + suffix)
         properties = self.tools[name]['inputSchema'].get('properties', {})
-        result = self.rpc('tools/call', {'name': name, 'arguments': {k: v for k, v in arguments.items() if k in properties}})
+        supported = {k: properties[k].get('const', v) for k, v in arguments.items() if k in properties}
+        result = self.rpc('tools/call', {'name': name, 'arguments': supported})
         if result.get('isError'):
             raise ServiceError('Tavily ' + suffix + ' failed')
         if isinstance(result.get('structuredContent'), dict):
@@ -141,14 +142,14 @@ def collect(mcp, now):
                                      'search_depth': 'advanced', 'max_results': 10})
             for row in data.get('results', []):
                 date = published(row.get('published_date'))
-                if not date or not now - timedelta(days=7) <= date <= now:
+                if date and not now - timedelta(days=7) <= date <= now:
                     continue
                 try:
                     url = canonical(row['url'])
                 except (KeyError, ValueError):
                     continue
                 if url not in found:
-                    found[url] = {'id': len(found), 'group': group, 'url': url, 'published_date': date.isoformat(),
+                    found[url] = {'id': len(found), 'group': group, 'url': url, 'published_date': date.isoformat() if date else None,
                                   'title': row.get('title', ''), 'score': row.get('score', 0)}
     shortlist = []
     for group in groups:
@@ -196,7 +197,8 @@ JSON 객체 {"articles":[{"id":입력 ID,"group":"국내 또는 해외","title":
         # Source date-only evidence cannot prove an exact timestamp: conservative boundary handling.
         if not date or not now - timedelta(days=7) <= date <= now:
             continue
-        if abs((date.date() - published(source['published_date']).date()).days) > 1:
+        search_date = published(source['published_date'])
+        if search_date and abs((date.date() - search_date.date()).days) > 1:
             continue
         seen.add(row['id'])
         selected.append({**row, 'url': source['url']})
@@ -336,3 +338,4 @@ if __name__ == '__main__':
     except Exception as error:
         print('Stopped safely: ' + type(error).__name__ + '; no credentials printed', file=sys.stderr)
         raise SystemExit(1)
+
