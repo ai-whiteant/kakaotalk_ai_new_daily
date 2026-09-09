@@ -7,7 +7,7 @@
 - 다른 PC에서 실행 가능한 Python 코드와 `Kakao ai news` 스킬 포함
 - GitHub Actions 실행 시각: 매일 **오전 7시, 한국 시간** (`22:00 UTC`)
 - 실제 예약 전송은 저장소 변수 `ENABLE_DAILY_NEWS=true`를 설정한 뒤 활성화됩니다. **코드 업로드만으로 발송이 시작되지 않습니다.**
-- 최초 설정에는 Tavily API 키, 요약용 OpenAI API 키, 카카오 REST API 키와 Client Secret, 본인 계정 OAuth 인증이 필요합니다. OpenAI API 사용료는 ChatGPT 구독과 별도입니다.
+- 최초 설정에는 Tavily API 키, 요약용 Gemini API 키, 카카오 REST API 키와 Client Secret, 본인 계정 OAuth 인증이 필요합니다. Google AI Studio에서 무료 등급 프로젝트를 사용하세요. 코드로 결제 등급을 판별할 수는 없습니다. 결제를 연결한 프로젝트는 요금이 발생할 수 있습니다. 한도 오류가 나면 자동 재시도나 다른 유료 모델로 전환하지 않고 중단합니다.
 
 ## 다른 PC에서 준비
 
@@ -29,8 +29,8 @@ macOS/Linux에서는 `.venv/bin/python`을 사용합니다. 예제 복사는 최
 | 키 | 입력할 값 |
 | --- | --- |
 | `TAVILY_API_KEY` | Tavily API 키 |
-| `OPENAI_API_KEY` | OpenAI API 키 |
-| `OPENAI_MODEL` | 기본 `gpt-4.1-mini`; 사용 가능한 모델로 변경 가능 |
+| `GEMINI_API_KEY` | Gemini API 키 |
+| `GEMINI_MODEL` | 기본 `gemini-3.1-flash-lite`; 사용 가능한 모델로 변경 가능 |
 | `KAKAO_REST_API_KEY` | 카카오 앱 → 플랫폼 키 → REST API 키 |
 | `KAKAO_CLIENT_SECRET` | 해당 REST API 키의 클라이언트 시크릿; 기능 사용 시 필수 |
 | `KAKAO_REFRESH_TOKEN` | 아래 OAuth 도구가 자동 입력 |
@@ -69,7 +69,7 @@ macOS/Linux에서는 `.venv/bin/python`을 사용합니다. 예제 복사는 최
 저장소 **Settings → Secrets and variables → Actions → Secrets**에서 아래 Repository secrets를 설정합니다. 값은 `news/config.json`에서 가져옵니다.
 
 - `TAVILY_API_KEY`
-- `OPENAI_API_KEY`
+- `GEMINI_API_KEY`
 - `KAKAO_REST_API_KEY`
 - `KAKAO_CLIENT_SECRET` (앱에서 클라이언트 시크릿 기능을 사용하면 필수)
 - `KAKAO_REFRESH_TOKEN`
@@ -112,3 +112,4 @@ python -m unittest news.test_daily -v
 테스트는 실제 API 호출이나 메시지 전송 없이 메시지 길이·URL 보존·암호화·전송 상태·날짜 근거 검증을 확인합니다.
 
 공식 문서: [Tavily MCP](https://docs.tavily.com/documentation/mcp), [카카오 로그인](https://developers.kakao.com/docs/ko/kakaologin/rest-api), [카카오 메시지](https://developers.kakao.com/docs/ko/kakaotalk-message/rest-api), [GitHub 예약 실행](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule).
+

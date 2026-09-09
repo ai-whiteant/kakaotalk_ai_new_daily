@@ -20,9 +20,9 @@ class NewsTests(unittest.TestCase):
         source = {'id': 1, 'text': 'Published 2026-09-09', 'url': 'https://example.org/a', 'published_date': None}
         row = {'id': 1, 'group': '국내', 'title': 't', 'summary': 's', 'implication': 'i', 'source': 'p',
                'publication_date': '2026-09-09', 'date_evidence': 'Published 2026-09-09'}
-        response = {'choices': [{'finish_reason': 'stop', 'message': {'content': json.dumps({'articles': [row]})}}]}
+        response = {'candidates': [{'finishReason': 'STOP', 'content': {'parts': [{'text': json.dumps({'articles': [row]})}]}}]}
         with patch('news.daily.api', return_value=response):
-            self.assertEqual(len(summarize({'OPENAI_MODEL': 'test', 'OPENAI_API_KEY': 'test'}, [source], datetime(2026,9,9,7,tzinfo=KST))), 1)
+            self.assertEqual(len(summarize({'GEMINI_MODEL': 'test', 'GEMINI_API_KEY': 'test'}, [source], datetime(2026,9,9,7,tzinfo=KST))), 1)
 
     def test_split_preserves_text_and_url(self):
         url = 'https://example.org/article?long=' + 'a' * 70
@@ -85,9 +85,9 @@ class NewsTests(unittest.TestCase):
         source = {'id': 1, 'text': 'Published 2026-09-09', 'url': 'https://example.org/a', 'published_date': '2026-09-09'}
         row = {'id': 1, 'group': '국내', 'title': 't', 'summary': 's', 'implication': 'i', 'source': 'p',
                'publication_date': '2026-09-09', 'date_evidence': 'invented'}
-        response = {'choices': [{'finish_reason': 'stop', 'message': {'content': json.dumps({'articles': [row]})}}]}
+        response = {'candidates': [{'finishReason': 'STOP', 'content': {'parts': [{'text': json.dumps({'articles': [row]})}]}}]}
         with patch('news.daily.api', return_value=response):
-            self.assertEqual(summarize({'OPENAI_MODEL': 'test', 'OPENAI_API_KEY': 'test'}, [source], datetime(2026,9,9,7,tzinfo=KST)), [])
+            self.assertEqual(summarize({'GEMINI_MODEL': 'test', 'GEMINI_API_KEY': 'test'}, [source], datetime(2026,9,9,7,tzinfo=KST)), [])
 
 
 if __name__ == '__main__':

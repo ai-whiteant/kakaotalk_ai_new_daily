@@ -24,8 +24,8 @@ jobs:
     timeout-minutes: 20
     env:
       TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
-      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-      OPENAI_MODEL: gpt-4.1-mini
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GEMINI_MODEL: gemini-3.1-flash-lite
       KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
       KAKAO_CLIENT_SECRET: ${{ secrets.KAKAO_CLIENT_SECRET }}
       KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
@@ -65,3 +65,4 @@ jobs:
           name: ai-education-news
           path: news-output/latest.md
           retention-days: 7
+

@@ -172,16 +172,18 @@ JSON 객체 {"articles":[{"id":입력 ID,"group":"국내 또는 해외","title":
 "summary":"핵심내용 140자 이내","implication":"시사점 100자 이내","source":"매체/기관",
 "publication_date":"YYYY-MM-DD","date_evidence":"최초 발행일을 확인할 수 있는 원문의 정확한 짧은 문자열"}]}만 반환한다.
 근거가 부족하면 건수를 줄이거나 빈 배열로 반환한다. 원문에 없는 사실/날짜를 추가하지 않는다.'''
-    output = api('https://api.openai.com/v1/chat/completions', {
-        'model': cfg['OPENAI_MODEL'], 'temperature': 0.2, 'max_completion_tokens': 3500,
-        'response_format': {'type': 'json_object'},
-        'messages': [{'role': 'system', 'content': prompt},
-                     {'role': 'user', 'content': json.dumps({'now': now.isoformat(), 'sources': candidates}, ensure_ascii=False)}]},
-        {'Authorization': 'Bearer ' + cfg['OPENAI_API_KEY']})
-    choice = output['choices'][0]
-    if choice.get('finish_reason') != 'stop':
+    model = cfg['GEMINI_MODEL']
+    if not re.fullmatch(r'[A-Za-z0-9._-]+', model):
+        raise ServiceError('Invalid Gemini model identifier')
+    output = api(f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent', {
+        'systemInstruction': {'parts': [{'text': prompt}]},
+        'contents': [{'role': 'user', 'parts': [{'text': json.dumps({'now': now.isoformat(), 'sources': candidates}, ensure_ascii=False)}]}],
+        'generationConfig': {'temperature': 0.2, 'maxOutputTokens': 8192, 'responseMimeType': 'application/json'}},
+        {'x-goog-api-key': cfg['GEMINI_API_KEY']})
+    choices = output.get('candidates', [])
+    if not choices or choices[0].get('finishReason') != 'STOP':
         raise ServiceError('Summary incomplete; no message sent')
-    result = json.loads(choice['message']['content'])
+    result = json.loads(''.join(p.get('text', '') for p in choices[0].get('content', {}).get('parts', []) if not p.get('thought')))
     sources = {r['id']: r for r in candidates}
     selected, seen = [], set()
     for row in result.get('articles', [])[:6]:
@@ -308,12 +310,12 @@ def main():
     parser.add_argument('--check', action='store_true')
     args = parser.parse_args()
     cfg = config()
-    require(cfg, 'TAVILY_API_KEY', 'OPENAI_API_KEY')
+    require(cfg, 'TAVILY_API_KEY', 'GEMINI_API_KEY')
     state = State(cfg) if args.send or args.check else None
     headers = refresh(cfg, state) if state else None
     mcp = MCP(cfg['TAVILY_API_KEY'])
     if args.check:
-        print('Tavily MCP and Kakao refresh/consent verified. OpenAI generation not tested.')
+        print('Tavily MCP and Kakao refresh/consent verified. Gemini generation not tested.')
         return
     now = datetime.now(KST)
     articles = summarize(cfg, collect(mcp, now), now)
