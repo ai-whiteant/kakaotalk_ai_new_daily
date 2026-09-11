@@ -1,0 +1,18 @@
+{
+  "status": "GATEWAY_COMPACT_PRODUCTION_ONCE_PASS",
+  "phase62_final": "GATEWAY_LINK_PASS",
+  "messages_planned": 10,
+  "messages_sent": 10,
+  "article_buttons": 8,
+  "gateway_article_links": 8,
+  "direct_original_links": 0,
+  "developers_links": 0,
+  "test_markers": 0,
+  "scheduled_live_count": 0,
+  "protected": true,
+  "tavily_calls": 0,
+  "gemini_calls": 0,
+  "automatic_retry": 0,
+  "commit": 0,
+  "push": 0
+}

@@ -1,0 +1,12 @@
+{
+  "existing": {
+    "count": 168,
+    "passed": true,
+    "log_sha256": "12455bd161f90480170cb983c53b34f68d0eef97c30f161a5d38e49040597413"
+  },
+  "new": {
+    "count": 24,
+    "passed": true,
+    "log_sha256": "3d2e3a9225d07794d63f41b6e03cfdb4509bf476b317215579d275013703f429"
+  }
+}

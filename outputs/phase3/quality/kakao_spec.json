@@ -1,0 +1,8 @@
+{
+  "url": "https://developers.kakao.com/docs/ko/message-template/default",
+  "checked": "2026-09-12",
+  "text_limit": 200,
+  "measurement": "UTF-16 units (existing implementation convention, conservative)",
+  "button_link": "existing KAKAO_LINK_URL unchanged",
+  "splitting": "whole safe fields; contiguous numbered article parts; URL intact"
+}

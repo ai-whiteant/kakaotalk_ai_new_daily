@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "input_sha256": "1043ab60b27ee34b4e47cfb3af630eb8e3422af87ceb8f06b70f8d4faa1fbdb9",
+  "article_count": 8,
+  "messages_planned": 28,
+  "messages_sent": 28,
+  "production_logical_runs": 1,
+  "test_marker_count": 0,
+  "scheduled_live_count": 0,
+  "source_urls_preserved": 8,
+  "safe_fields_modified": 0,
+  "max_utf16_units": 189,
+  "existing_tests": 168,
+  "new_tests": 24,
+  "prior_phase3_journal_receipt_preserved": true,
+  "protected_files_unchanged": true,
+  "automatic_retries": 0,
+  "tavily_calls": 0,
+  "gemini_calls": 0,
+  "push": 0,
+  "api_receipt_only": true,
+  "security_scan": "PASS; actual known credentials and private/API key patterns; package allowlist/CRC/hashes"
+}

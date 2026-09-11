@@ -1,0 +1,14 @@
+[
+  {
+    "sequence": 1,
+    "kind": "article",
+    "article_number": 1,
+    "button_title": "원문 보기",
+    "web_url": "https://www.schools.nyc.gov/about-us/policies/guidance-on-artificial-intelligence",
+    "mobile_web_url": "https://www.schools.nyc.gov/about-us/policies/guidance-on-artificial-intelligence",
+    "text_sha256": "f194dac92f5ef0595472ccd5190140f76385f40417b4df7850e3a9f7b25a67df",
+    "url_sha256": "0cf9391f0bc2d15f4fe131ffc51cebd1b28a8eef7c7abe9471d93ebcb3ef576f",
+    "template_sha256": "cdd4e82107dd38351ae09959617e0613022aa468aed2815d2f712b1a227bc293",
+    "stage": "IMMEDIATELY_BEFORE_NETWORK"
+  }
+]

@@ -1,0 +1,6 @@
+.vercel
+node_modules
+tests
+README.md
+.env*
+*.log

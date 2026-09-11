@@ -1,0 +1,35 @@
+test_01_eight (news.test_phase5_compact.CompactTests.test_01_eight) ... ok
+test_02_ids (news.test_phase5_compact.CompactTests.test_02_ids) ... ok
+test_03_urls (news.test_phase5_compact.CompactTests.test_03_urls) ... ok
+test_04_labels (news.test_phase5_compact.CompactTests.test_04_labels) ... ok
+test_05_one_button (news.test_phase5_compact.CompactTests.test_05_one_button) ... ok
+test_06_link_identity (news.test_phase5_compact.CompactTests.test_06_link_identity) ... ok
+test_07_test_marker_zero (news.test_phase5_compact.CompactTests.test_07_test_marker_zero) ... ok
+test_08_header (news.test_phase5_compact.CompactTests.test_08_header) ... ok
+test_09_article_count (news.test_phase5_compact.CompactTests.test_09_article_count) ... ok
+test_10_overview (news.test_phase5_compact.CompactTests.test_10_overview) ... ok
+test_11_total (news.test_phase5_compact.CompactTests.test_11_total) ... ok
+test_12_numbers (news.test_phase5_compact.CompactTests.test_12_numbers) ... ok
+test_13_article_limit (news.test_phase5_compact.CompactTests.test_13_article_limit) ... ok
+test_14_overview_limit (news.test_phase5_compact.CompactTests.test_14_overview_limit) ... ok
+test_15_lossless_sentences (news.test_phase5_compact.CompactTests.test_15_lossless_sentences) ... ok
+test_16_input_immutable (news.test_phase5_compact.CompactTests.test_16_input_immutable) ... ok
+test_17_unapproved_input (news.test_phase5_compact.CompactTests.test_17_unapproved_input) ... ok
+test_18_no_network (news.test_phase5_compact.CompactTests.test_18_no_network) ... ok
+test_19_no_gemini (news.test_phase5_compact.CompactTests.test_19_no_gemini) ... ok
+test_20_actual_send_zero (news.test_phase5_compact.CompactTests.test_20_actual_send_zero) ... ok
+test_21_preservation_gate (news.test_phase5_compact.CompactTests.test_21_preservation_gate) ... ok
+test_22_secret (news.test_phase5_compact.CompactTests.test_22_secret) ... ok
+test_23_no_schedule (news.test_phase5_compact.CompactTests.test_23_no_schedule) ... ok
+test_24_failed_regression (news.test_phase5_compact.CompactTests.test_24_failed_regression) ... ok
+test_25_failed_new_tests (news.test_phase5_compact.CompactTests.test_25_failed_new_tests) ... ok
+test_26_link_mutation (news.test_phase5_compact.CompactTests.test_26_link_mutation) ... ok
+test_27_sentence_fallback (news.test_phase5_compact.CompactTests.test_27_sentence_fallback) ... ok
+test_28_unsplittable_hold (news.test_phase5_compact.CompactTests.test_28_unsplittable_hold) ... ok
+test_29_caveats (news.test_phase5_compact.CompactTests.test_29_caveats) ... ok
+test_30_body_no_urls (news.test_phase5_compact.CompactTests.test_30_body_no_urls) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.168s
+
+OK

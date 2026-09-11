@@ -1,0 +1,23 @@
+{
+  "final_gate": "HOLD",
+  "existing_tests": 252,
+  "new_tests": 30,
+  "smoke_api_calls": 1,
+  "smoke_success": 1,
+  "full_send_calls": 0,
+  "actual_click": "FAIL_USER_REPORTED_WRONG_DESTINATION",
+  "planned_article_links": 8,
+  "actual_outbound_audits": 1,
+  "header_buttons_preview": 0,
+  "overview_buttons_preview": 0,
+  "article_buttons_preview": 8,
+  "header_overview_transport": "UNRESOLVED: default text template requires link; not declared send-ready",
+  "prior_journals_receipts_unchanged": true,
+  "settings_unchanged": true,
+  "new_journal": "separate smoke only",
+  "scheduled_live_count": 0,
+  "tavily_calls": 0,
+  "gemini_calls": 0,
+  "automatic_retries": 0,
+  "push": 0
+}

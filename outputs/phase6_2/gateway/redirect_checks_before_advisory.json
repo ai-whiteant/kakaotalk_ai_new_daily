@@ -1,0 +1,164 @@
+{
+  "domain": "https://kakao-ai-news-link-gateway.vercel.app",
+  "targets_sha256": "034a7e68efbb5a81ae21e76581ddf77348793288bedec255a26de785eeb6c3fe",
+  "articles": [
+    {
+      "event_id": "evt_0da37ec7577bcd6b517d",
+      "expected_url": "https://www.schools.nyc.gov/about-us/policies/guidance-on-artificial-intelligence",
+      "initial": {
+        "status": 302,
+        "location": "https://www.schools.nyc.gov/about-us/policies/guidance-on-artificial-intelligence",
+        "final_url": "https://kakao-ai-news-link-gateway.vercel.app/r/evt_0da37ec7577bcd6b517d"
+      },
+      "final": {
+        "status": 200,
+        "location": null,
+        "final_url": "https://www.schools.nyc.gov/about-us/policies/guidance-on-artificial-intelligence"
+      },
+      "passed": true
+    },
+    {
+      "event_id": "evt_4d1b5eaf0b2969af273d",
+      "expected_url": "https://gottheimer.house.gov/posts/release-gottheimer-unveils-bipartisan-back-to-school-agenda-for-ai-in-k-12-education",
+      "initial": {
+        "status": 302,
+        "location": "https://gottheimer.house.gov/posts/release-gottheimer-unveils-bipartisan-back-to-school-agenda-for-ai-in-k-12-education",
+        "final_url": "https://kakao-ai-news-link-gateway.vercel.app/r/evt_4d1b5eaf0b2969af273d"
+      },
+      "final": {
+        "status": 200,
+        "location": null,
+        "final_url": "https://gottheimer.house.gov/posts/release-gottheimer-unveils-bipartisan-back-to-school-agenda-for-ai-in-k-12-education"
+      },
+      "passed": true
+    },
+    {
+      "event_id": "evt_5e1e8fa929a91cc7a20f",
+      "expected_url": "https://www.brookings.edu/articles/3-reasons-why-going-slow-to-go-fast-is-the-right-approach-for-ai-in-schools/",
+      "initial": {
+        "status": 302,
+        "location": "https://www.brookings.edu/articles/3-reasons-why-going-slow-to-go-fast-is-the-right-approach-for-ai-in-schools/",
+        "final_url": "https://kakao-ai-news-link-gateway.vercel.app/r/evt_5e1e8fa929a91cc7a20f"
+      },
+      "final": {
+        "status": 200,
+        "location": null,
+        "final_url": "https://www.brookings.edu/articles/3-reasons-why-going-slow-to-go-fast-is-the-right-approach-for-ai-in-schools/"
+      },
+      "passed": true
+    },
+    {
+      "event_id": "evt_d6a714447eb9102f7b6c",
+      "expected_url": "https://www.court.gov.cn/zixun/xiangqing/511101.html",
+      "initial": {
+        "status": 302,
+        "location": "https://www.court.gov.cn/zixun/xiangqing/511101.html",
+        "final_url": "https://kakao-ai-news-link-gateway.vercel.app/r/evt_d6a714447eb9102f7b6c"
+      },
+      "final": {
+        "status": null,
+        "error_type": "URLError"
+      },
+      "passed": false
+    },
+    {
+      "event_id": "evt_2c5e8e267c5e3b302614",
+      "expected_url": "https://www.navercorp.com/media/pressReleasesDetail?seq=10034628",
+      "initial": {
+        "status": 302,
+        "location": "https://www.navercorp.com/media/pressReleasesDetail?seq=10034628",
+        "final_url": "https://kakao-ai-news-link-gateway.vercel.app/r/evt_2c5e8e267c5e3b302614"
+      },
+      "final": {
+        "status": 200,
+        "location": null,
+        "final_url": "https://www.navercorp.com/media/pressReleasesDetail?seq=10034628"
+      },
+      "passed": true
+    },
+    {
+      "event_id": "evt_69c74bc9d2234f20c095",
+      "expected_url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
+      "initial": {
+        "status": 302,
+        "location": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
+        "final_url": "https://kakao-ai-news-link-gateway.vercel.app/r/evt_69c74bc9d2234f20c095"
+      },
+      "final": {
+        "status": 200,
+        "location": null,
+        "final_url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/"
+      },
+      "passed": true
+    },
+    {
+      "event_id": "evt_02616cccf42396459676",
+      "expected_url": "https://news.samsung.com/global/samsung-and-mistral-ai-announce-strategic-partnership-for-intelligence-driven-semiconductor-infrastructure",
+      "initial": {
+        "status": 302,
+        "location": "https://news.samsung.com/global/samsung-and-mistral-ai-announce-strategic-partnership-for-intelligence-driven-semiconductor-infrastructure",
+        "final_url": "https://kakao-ai-news-link-gateway.vercel.app/r/evt_02616cccf42396459676"
+      },
+      "final": {
+        "status": 200,
+        "location": null,
+        "final_url": "https://news.samsung.com/global/samsung-and-mistral-ai-announce-strategic-partnership-for-intelligence-driven-semiconductor-infrastructure"
+      },
+      "passed": true
+    },
+    {
+      "event_id": "evt_3ea3f9900f7045801269",
+      "expected_url": "https://huggingface.co/blog/Hcompany/neomme",
+      "initial": {
+        "status": 302,
+        "location": "https://huggingface.co/blog/Hcompany/neomme",
+        "final_url": "https://kakao-ai-news-link-gateway.vercel.app/r/evt_3ea3f9900f7045801269"
+      },
+      "final": {
+        "status": 200,
+        "location": null,
+        "final_url": "https://huggingface.co/blog/Hcompany/neomme"
+      },
+      "passed": true
+    }
+  ],
+  "controls": [
+    {
+      "path": "/health",
+      "expected": 200,
+      "response": {
+        "status": 200,
+        "location": null,
+        "final_url": "https://kakao-ai-news-link-gateway.vercel.app/health"
+      }
+    },
+    {
+      "path": "/",
+      "expected": 200,
+      "response": {
+        "status": 200,
+        "location": null,
+        "final_url": "https://kakao-ai-news-link-gateway.vercel.app/"
+      }
+    },
+    {
+      "path": "/r/not-valid",
+      "expected": 400,
+      "response": {
+        "status": 400,
+        "location": null,
+        "final_url": "https://kakao-ai-news-link-gateway.vercel.app/r/not-valid"
+      }
+    },
+    {
+      "path": "/r/evt_ffffffffffffffffffff",
+      "expected": 404,
+      "response": {
+        "status": 404,
+        "location": null,
+        "final_url": "https://kakao-ai-news-link-gateway.vercel.app/r/evt_ffffffffffffffffffff"
+      }
+    }
+  ],
+  "passed": false
+}

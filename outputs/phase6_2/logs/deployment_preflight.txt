@@ -1,0 +1,5 @@
+npx.cmd --yes vercel@latest whoami
+Vercel CLI 59.16.0 / Node.js 24.18.0
+Logged out. Exit 1.
+No login, project creation, temporary deployment, or account settings changes.
+CLI bootstrap emitted upstream deprecation warnings for stream-to-promise and tar. Gateway has no npm dependencies.

@@ -1,0 +1,10 @@
+{
+  "time": "2026-09-11T16:16:10.348522+00:00",
+  "gate": "PASS",
+  "receipt_status": "TEST_SEND_PASS",
+  "tavily_calls": 0,
+  "gemini_calls": 0,
+  "live": 0,
+  "input_sha256": "1043ab60b27ee34b4e47cfb3af630eb8e3422af87ceb8f06b70f8d4faa1fbdb9",
+  "post_settings_unchanged": true
+}

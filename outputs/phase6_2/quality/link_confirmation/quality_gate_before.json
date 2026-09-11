@@ -1,0 +1,32 @@
+{
+  "implementation": "GATEWAY_IMPLEMENTATION_PASS",
+  "deployment": "GATEWAY_DEPLOYMENT_PASS",
+  "final_gate": "GATEWAY_KAKAO_SMOKE_API_PASS_USER_CONFIRMATION_REQUIRED",
+  "gateway_tests": 20,
+  "python_new_tests": 30,
+  "existing_tests": 282,
+  "total_passed": 332,
+  "protected_unchanged": true,
+  "kakao_domain_registration_required": false,
+  "actual_kakao_calls": 1,
+  "tavily_calls": 0,
+  "gemini_calls": 0,
+  "scheduled_live_count": 0,
+  "push": 0,
+  "gateway_redirect": "PASS",
+  "final_fetch_policy": "ADVISORY_ONLY",
+  "production_origin": "https://kakao-ai-news-link-gateway.vercel.app",
+  "additional_kakao_calls_this_run": 0,
+  "domain_registration": {
+    "status": "COMPLETE",
+    "default_web_domain": true,
+    "origin": "https://kakao-ai-news-link-gateway.vercel.app",
+    "evidence": "User confirmed registration and default web domain setting; no Kakao API used to inspect settings."
+  },
+  "user_click_confirmation": {
+    "status": "PENDING",
+    "note": "Browser redirect confirmation is not confirmation of this Kakao smoke message click."
+  },
+  "test_evidence": "quality/reconciliation/test_evidence.json",
+  "full_send_count": 0
+}

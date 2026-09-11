@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "head": "e9214a689b223b799ae20a73e54712c81d19a377",
+  "secret_tracked": 0,
+  "safe_sha256": "1043ab60b27ee34b4e47cfb3af630eb8e3422af87ceb8f06b70f8d4faa1fbdb9",
+  "targets_exact_match": true,
+  "protected_unchanged": true
+}

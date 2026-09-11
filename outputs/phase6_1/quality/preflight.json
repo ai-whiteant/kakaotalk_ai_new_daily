@@ -1,0 +1,18 @@
+{
+  "status": "PASS_FOR_SMOKE_ONLY",
+  "prior_phase6_status": {
+    "status": "COMPACT_SEND_PASS",
+    "quality": "PASS",
+    "domain_registration": "USER_CONFIRMED",
+    "messages_planned": 10,
+    "messages_sent": 10,
+    "article_buttons": 8,
+    "test_markers": 0,
+    "scheduled_live_count": 0,
+    "time": "2026-09-11T17:21:05.338126+00:00",
+    "protected": true
+  },
+  "prior_phase6_domain_evidence": "USER_CONFIRMED in preserved Phase6 run; user authorizes 6.1A smoke through start prompt",
+  "protected_hashes_unchanged": true,
+  "secret_tracked": 0
+}

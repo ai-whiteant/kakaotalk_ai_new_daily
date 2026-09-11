@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "existing": 192,
+  "new": 30,
+  "messages": 10,
+  "max_utf16": 157,
+  "actual_kakao_send_count": 0,
+  "scheduled_live_count": 0
+}

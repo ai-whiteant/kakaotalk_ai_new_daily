@@ -1,0 +1,67 @@
+{
+  "mode": "COMPACT_PRODUCTION_ONCE",
+  "messages_planned": 10,
+  "messages_sent": 10,
+  "parts": [
+    {
+      "sequence": 1,
+      "result_code": 0,
+      "http_success": true,
+      "http_status": 200
+    },
+    {
+      "sequence": 2,
+      "result_code": 0,
+      "http_success": true,
+      "http_status": 200
+    },
+    {
+      "sequence": 3,
+      "result_code": 0,
+      "http_success": true,
+      "http_status": 200
+    },
+    {
+      "sequence": 4,
+      "result_code": 0,
+      "http_success": true,
+      "http_status": 200
+    },
+    {
+      "sequence": 5,
+      "result_code": 0,
+      "http_success": true,
+      "http_status": 200
+    },
+    {
+      "sequence": 6,
+      "result_code": 0,
+      "http_success": true,
+      "http_status": 200
+    },
+    {
+      "sequence": 7,
+      "result_code": 0,
+      "http_success": true,
+      "http_status": 200
+    },
+    {
+      "sequence": 8,
+      "result_code": 0,
+      "http_success": true,
+      "http_status": 200
+    },
+    {
+      "sequence": 9,
+      "result_code": 0,
+      "http_success": true,
+      "http_status": 200
+    },
+    {
+      "sequence": 10,
+      "result_code": 0,
+      "http_success": true,
+      "http_status": 200
+    }
+  ]
+}

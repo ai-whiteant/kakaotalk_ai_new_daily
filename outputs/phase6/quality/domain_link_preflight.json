@@ -1,0 +1,16 @@
+{
+  "structural_link_gate": "PASS",
+  "manual_registration": "PENDING_USER_CONFIRMATION",
+  "domains": [
+    "https://blogs.nvidia.com",
+    "https://gottheimer.house.gov",
+    "https://huggingface.co",
+    "https://news.samsung.com",
+    "https://www.brookings.edu",
+    "https://www.court.gov.cn",
+    "https://www.navercorp.com",
+    "https://www.schools.nyc.gov"
+  ],
+  "actual_API_domain_acceptance": "NOT_TESTED",
+  "settings_changed": false
+}

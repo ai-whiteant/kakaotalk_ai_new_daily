@@ -1,0 +1,23 @@
+{
+  "news/phase5_compact.py": "5d2180d70da8c61a0595946dd4633dc43fda4cc0d342d395e3ba570e2c8b950d",
+  "news/test_phase5_compact.py": "4d4ac4426ebe9102ca24380014b779ea3ac5d8f64bb63455b51f023333baac86",
+  "PHASE5_COMPACT_README.md": "aa26f3ec3b54d20bb51ea508aa4d1a20a75a29c90d5550dd49e96139848703ea",
+  "PHASE5_COMPACT_FORMAT_EXECUTION_REPORT.md": "2f02f4da513cbd417d515e3847c9f50737927e32dab03583a0e3d9b1be092083",
+  "SESSION_HANDOFF.md": "2f671f2dd9d43f42e07214bbe586ca18802049b0aee927bde9b5cb245d15e494",
+  "outputs/phase5/compact/compact_items.json": "991868cecce7e57e19728558cb20991ddae48b1b1fcda1d4cc47bdede9d3c071",
+  "outputs/phase5/compact/mobile_messages.json": "8bd2d67d55faf32a5e8d1d1e695aed20738a12ab60ee1953b0be80f21a0f27e7",
+  "outputs/phase5/compact/mobile_preview.md": "62cd3f9a256b4834517ac01c5db8e59940a7697479addd34bad1b9320203cf3b",
+  "outputs/phase5/logs/audit.json": "a42d22aea8a8a9e2c5cd1af419cde08b6d2e9852d54873b776fb19efbd782f0a",
+  "outputs/phase5/logs/run.json": "1df9fcb12cb2c5abc00224313f738a4a5d46d1d60301a8e5282b1daf9c54ad9a",
+  "outputs/phase5/logs/tests.txt": "469569446c7bf832221c0377a37ba587888f73228696b446f96c5003b2c631ba",
+  "outputs/phase5/logs/tests_existing.txt": "e6e1fe0da00e62d2e88732a0d87c42d18c085fccafa23efd2ddd52248eef4125",
+  "outputs/phase5/logs/tests_phase5.txt": "eb0eb51cfc34297e5129d3b44b216d35635c93c6817523c07050e9577a7a4ef0",
+  "outputs/phase5/quality/artifact.json": "19a54f0aad7adaa6f0eb16394502d5c659e822c8052bc82154f9baa0ab2d66ff",
+  "outputs/phase5/quality/baseline.json": "72ec5fb80ac0ff62cab593ace909379046467e42000fb220ec19b15a165fc5ec",
+  "outputs/phase5/quality/compression_review.json": "c27480df4f8887a2320ed048ca25044178ecd70dd6db405f7079d761fbd1146a",
+  "outputs/phase5/quality/git_diff.patch": "713d5b873d6e979d776596467e7cc74757c5f63f20ef6eabd6ebd1f2a25f1623",
+  "outputs/phase5/quality/git_status.txt": "4b0b9484398de18cd4387b223128e87742ba13715d05534e76dd772d76996cf3",
+  "outputs/phase5/quality/preflight.json": "92d4d48b67db500171440e3809561ddb5a178ebc36b1ccf5ff1c52a8ffdcc64e",
+  "outputs/phase5/quality/quality_gate.json": "7932011127c620371ed346a480014c7f5596583ff52e205a897911b3cbec6f54",
+  "outputs/phase5/quality/test_evidence.json": "d9eab710f057468ad94b95e2968bf54c51cadfad9308b62da5707f8d795974eb"
+}

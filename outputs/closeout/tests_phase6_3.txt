@@ -1,0 +1,33 @@
+test_articles_eight (news.test_phase6_3.FinalOnceTests.test_articles_eight) ... ok
+test_button_title (news.test_phase6_3.FinalOnceTests.test_button_title) ... ok
+test_click_gate_blocks (news.test_phase6_3.FinalOnceTests.test_click_gate_blocks) ... ok
+test_count_order (news.test_phase6_3.FinalOnceTests.test_count_order) ... ok
+test_dry_no_send (news.test_phase6_3.FinalOnceTests.test_dry_no_send) ... ok
+test_exactly_ten_and_replay_block (news.test_phase6_3.FinalOnceTests.test_exactly_ten_and_replay_block) ... ok
+test_first_timeout_stops (news.test_phase6_3.FinalOnceTests.test_first_timeout_stops) ... ok
+test_gateway_urls (news.test_phase6_3.FinalOnceTests.test_gateway_urls) ... ok
+test_invalid_result_stops (news.test_phase6_3.FinalOnceTests.test_invalid_result_stops) ... ok
+test_journal_separate (news.test_phase6_3.FinalOnceTests.test_journal_separate) ... ok
+test_link_tamper (news.test_phase6_3.FinalOnceTests.test_link_tamper) ... ok
+test_no_direct_links (news.test_phase6_3.FinalOnceTests.test_no_direct_links) ... ok
+test_no_markers (news.test_phase6_3.FinalOnceTests.test_no_markers) ... ok
+test_order_tamper (news.test_phase6_3.FinalOnceTests.test_order_tamper) ... ok
+test_partial_stops (news.test_phase6_3.FinalOnceTests.test_partial_stops) ... ok
+test_phase62_click_pass (news.test_phase6_3.FinalOnceTests.test_phase62_click_pass) ... ok
+test_prior_preserved (news.test_phase6_3.FinalOnceTests.test_prior_preserved) ... ok
+test_quality_hold_no_auth (news.test_phase6_3.FinalOnceTests.test_quality_hold_no_auth) ... ok
+test_root_links (news.test_phase6_3.FinalOnceTests.test_root_links) ... ok
+test_safe_allowlist (news.test_phase6_3.FinalOnceTests.test_safe_allowlist) ... ok
+test_scheduled_zero (news.test_phase6_3.FinalOnceTests.test_scheduled_zero) ... ok
+test_secret_gate (news.test_phase6_3.FinalOnceTests.test_secret_gate) ... ok
+test_test_evidence_tamper (news.test_phase6_3.FinalOnceTests.test_test_evidence_tamper) ... ok
+test_text_preserved (news.test_phase6_3.FinalOnceTests.test_text_preserved) ... ok
+test_text_tamper (news.test_phase6_3.FinalOnceTests.test_text_tamper) ... ok
+test_utf16 (news.test_phase6_3.FinalOnceTests.test_utf16) ... ok
+test_validate_good (news.test_phase6_3.FinalOnceTests.test_validate_good) ... ok
+test_web_mobile_equal (news.test_phase6_3.FinalOnceTests.test_web_mobile_equal) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.743s
+
+OK

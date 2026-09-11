@@ -1,0 +1,13 @@
+{
+  "status": "GATEWAY_COMPACT_PRODUCTION_ONCE_PASS",
+  "existing_tests": 332,
+  "phase6_3_tests": 28,
+  "total_tests": 360,
+  "previously_sent": 10,
+  "additional_sends": 0,
+  "protected": true,
+  "scheduled_live_count": 0,
+  "tavily_calls": 0,
+  "gemini_calls": 0,
+  "replay_blocked_by_existing_journal": true
+}

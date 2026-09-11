@@ -1,0 +1,147 @@
+{
+  "mode": "PRODUCTION_ONCE",
+  "messages_planned": 28,
+  "messages_sent": 28,
+  "parts": [
+    {
+      "sequence": 1,
+      "result_code": 0,
+      "http_success": true
+    },
+    {
+      "sequence": 2,
+      "result_code": 0,
+      "http_success": true
+    },
+    {
+      "sequence": 3,
+      "result_code": 0,
+      "http_success": true
+    },
+    {
+      "sequence": 4,
+      "result_code": 0,
+      "http_success": true
+    },
+    {
+      "sequence": 5,
+      "result_code": 0,
+      "http_success": true
+    },
+    {
+      "sequence": 6,
+      "result_code": 0,
+      "http_success": true
+    },
+    {
+      "sequence": 7,
+      "result_code": 0,
+      "http_success": true
+    },
+    {
+      "sequence": 8,
+      "result_code": 0,
+      "http_success": true
+    },
+    {
+      "sequence": 9,
+      "result_code": 0,
+      "http_success": true
+    },
+    {
+      "sequence": 10,
+      "result_code": 0,
+      "http_success": true
+    },
+    {
+      "sequence": 11,
+      "result_code": 0,
+      "http_success": true
+    },
+    {
+      "sequence": 12,
+      "result_code": 0,
+      "http_success": true
+    },
+    {
+      "sequence": 13,
+      "result_code": 0,
+      "http_success": true
+    },
+    {
+      "sequence": 14,
+      "result_code": 0,
+      "http_success": true
+    },
+    {
+      "sequence": 15,
+      "result_code": 0,
+      "http_success": true
+    },
+    {
+      "sequence": 16,
+      "result_code": 0,
+      "http_success": true
+    },
+    {
+      "sequence": 17,
+      "result_code": 0,
+      "http_success": true
+    },
+    {
+      "sequence": 18,
+      "result_code": 0,
+      "http_success": true
+    },
+    {
+      "sequence": 19,
+      "result_code": 0,
+      "http_success": true
+    },
+    {
+      "sequence": 20,
+      "result_code": 0,
+      "http_success": true
+    },
+    {
+      "sequence": 21,
+      "result_code": 0,
+      "http_success": true
+    },
+    {
+      "sequence": 22,
+      "result_code": 0,
+      "http_success": true
+    },
+    {
+      "sequence": 23,
+      "result_code": 0,
+      "http_success": true
+    },
+    {
+      "sequence": 24,
+      "result_code": 0,
+      "http_success": true
+    },
+    {
+      "sequence": 25,
+      "result_code": 0,
+      "http_success": true
+    },
+    {
+      "sequence": 26,
+      "result_code": 0,
+      "http_success": true
+    },
+    {
+      "sequence": 27,
+      "result_code": 0,
+      "http_success": true
+    },
+    {
+      "sequence": 28,
+      "result_code": 0,
+      "http_success": true
+    }
+  ]
+}

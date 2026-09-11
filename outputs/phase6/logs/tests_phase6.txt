@@ -1,0 +1,35 @@
+test_01_ten (news.test_phase6.CompactSendTests.test_01_ten) ... ok
+test_02_eight (news.test_phase6.CompactSendTests.test_02_eight) ... ok
+test_03_buttons (news.test_phase6.CompactSendTests.test_03_buttons) ... ok
+test_04_titles (news.test_phase6.CompactSendTests.test_04_titles) ... ok
+test_05_web (news.test_phase6.CompactSendTests.test_05_web) ... ok
+test_06_mobile (news.test_phase6.CompactSendTests.test_06_mobile) ... ok
+test_07_test_zero (news.test_phase6.CompactSendTests.test_07_test_zero) ... ok
+test_08_mode (news.test_phase6.CompactSendTests.test_08_mode) ... ok
+test_09_length (news.test_phase6.CompactSendTests.test_09_length) ... ok
+test_10_order (news.test_phase6.CompactSendTests.test_10_order) ... ok
+test_11_labels (news.test_phase6.CompactSendTests.test_11_labels) ... ok
+test_12_hash (news.test_phase6.CompactSendTests.test_12_hash) ... ok
+test_13_old_journal_preservation (news.test_phase6.CompactSendTests.test_13_old_journal_preservation) ... ok
+test_14_exclusive (news.test_phase6.CompactSendTests.test_14_exclusive) ... ok
+test_15_replay (news.test_phase6.CompactSendTests.test_15_replay) ... ok
+test_16_uncertain_no_retry (news.test_phase6.CompactSendTests.test_16_uncertain_no_retry) ... ok
+test_17_link_error (news.test_phase6.CompactSendTests.test_17_link_error) ... ok
+test_18_auth_scope (news.test_phase6.CompactSendTests.test_18_auth_scope) ... ok
+test_19_config_unchanged (news.test_phase6.CompactSendTests.test_19_config_unchanged) ... ok
+test_20_secret (news.test_phase6.CompactSendTests.test_20_secret) ... ok
+test_21_receipt (news.test_phase6.CompactSendTests.test_21_receipt) ... ok
+test_22_schedule (news.test_phase6.CompactSendTests.test_22_schedule) ... ok
+test_23_dry_no_api (news.test_phase6.CompactSendTests.test_23_dry_no_api) ... ok
+test_24_ten_calls (news.test_phase6.CompactSendTests.test_24_ten_calls) ... ok
+test_25_result_codes (news.test_phase6.CompactSendTests.test_25_result_codes) ... ok
+test_26_http_domain_body (news.test_phase6.CompactSendTests.test_26_http_domain_body) ... ok
+test_27_confirmation_missing (news.test_phase6.CompactSendTests.test_27_confirmation_missing) ... ok
+test_28_regression_fail (news.test_phase6.CompactSendTests.test_28_regression_fail) ... ok
+test_29_partial_domain_stop (news.test_phase6.CompactSendTests.test_29_partial_domain_stop) ... ok
+test_30_no_regeneration (news.test_phase6.CompactSendTests.test_30_no_regeneration) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.280s
+
+OK

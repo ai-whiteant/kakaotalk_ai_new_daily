@@ -1,0 +1,12 @@
+{
+  "status": "DRY_RUN_PASS",
+  "quality": "PASS",
+  "domain_registration": "PENDING_USER_CONFIRMATION",
+  "messages_planned": 10,
+  "messages_sent": 0,
+  "article_buttons": 8,
+  "test_markers": 0,
+  "scheduled_live_count": 0,
+  "time": "2026-09-11T17:11:57.647076+00:00",
+  "protected": true
+}

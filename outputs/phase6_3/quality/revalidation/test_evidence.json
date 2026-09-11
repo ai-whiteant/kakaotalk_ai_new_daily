@@ -1,0 +1,17 @@
+{
+  "existing": {
+    "count": 312,
+    "passed": true,
+    "log_sha256": "bc4e0176f54bf588b4ce1a9ae14b4989efdcd523040a3ec87811ca4c1278209d"
+  },
+  "phase6_3": {
+    "count": 28,
+    "passed": true,
+    "log_sha256": "39178e2675aaa5b48b3280116a45e2b01283b11b2036141974772e0128878e9b"
+  },
+  "gateway": {
+    "count": 20,
+    "passed": true,
+    "log_sha256": "3348fe7514e75a45f422e052539d698d62cfdcf56de196b33a52f1e8c297cee0"
+  }
+}

@@ -1,0 +1,35 @@
+test_01_header_zero (news.test_phase6_1.LinkTests.test_01_header_zero) ... ok
+test_02_overview_zero (news.test_phase6_1.LinkTests.test_02_overview_zero) ... ok
+test_03_eight_buttons (news.test_phase6_1.LinkTests.test_03_eight_buttons) ... ok
+test_04_button_title (news.test_phase6_1.LinkTests.test_04_button_title) ... ok
+test_05_web (news.test_phase6_1.LinkTests.test_05_web) ... ok
+test_06_mobile (news.test_phase6_1.LinkTests.test_06_mobile) ... ok
+test_07_no_developers (news.test_phase6_1.LinkTests.test_07_no_developers) ... ok
+test_08_audit_before_post (news.test_phase6_1.LinkTests.test_08_audit_before_post) ... ok
+test_09_audit_allowlist (news.test_phase6_1.LinkTests.test_09_audit_allowlist) ... ok
+test_10_one_call (news.test_phase6_1.LinkTests.test_10_one_call) ... ok
+test_11_link_test_marker (news.test_phase6_1.LinkTests.test_11_link_test_marker) ... ok
+test_12_exclusive (news.test_phase6_1.LinkTests.test_12_exclusive) ... ok
+test_13_replay (news.test_phase6_1.LinkTests.test_13_replay) ... ok
+test_14_full_confirmation_required (news.test_phase6_1.LinkTests.test_14_full_confirmation_required) ... ok
+test_15_full_transport_not_pretended_ready (news.test_phase6_1.LinkTests.test_15_full_transport_not_pretended_ready) ... ok
+test_16_order (news.test_phase6_1.LinkTests.test_16_order) ... ok
+test_17_full_test_marker_zero (news.test_phase6_1.LinkTests.test_17_full_test_marker_zero) ... ok
+test_18_nonarticle_no_link (news.test_phase6_1.LinkTests.test_18_nonarticle_no_link) ... ok
+test_19_old_journal_preserved (news.test_phase6_1.LinkTests.test_19_old_journal_preserved) ... ok
+test_20_hash_binding (news.test_phase6_1.LinkTests.test_20_hash_binding) ... ok
+test_21_source_unchanged (news.test_phase6_1.LinkTests.test_21_source_unchanged) ... ok
+test_22_timeout_no_retry (news.test_phase6_1.LinkTests.test_22_timeout_no_retry) ... ok
+test_23_result_validation (news.test_phase6_1.LinkTests.test_23_result_validation) ... ok
+test_24_no_secret_exception (news.test_phase6_1.LinkTests.test_24_no_secret_exception) ... ok
+test_25_schedule_zero (news.test_phase6_1.LinkTests.test_25_schedule_zero) ... ok
+test_26_config_preserved (news.test_phase6_1.LinkTests.test_26_config_preserved) ... ok
+test_27_no_scope_bypass (news.test_phase6_1.LinkTests.test_27_no_scope_bypass) ... ok
+test_28_dry_no_api (news.test_phase6_1.LinkTests.test_28_dry_no_api) ... ok
+test_29_content_link_mismatch (news.test_phase6_1.LinkTests.test_29_content_link_mismatch) ... ok
+test_30_smoke_length (news.test_phase6_1.LinkTests.test_30_smoke_length) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.479s
+
+OK

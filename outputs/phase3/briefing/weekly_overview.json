@@ -1,0 +1,45 @@
+[
+  {
+    "heading": "가장 중요한 변화",
+    "text": "해석: 학교의 AI 사용 범위와 기업의 특정 업무용 AI 적용을 함께 살펴볼 수 있다. 도입 계획·법안과 확인된 성과를 구분해야 한다.",
+    "kind": "interpretation_or_observation",
+    "source_event_ids": [
+      "evt_0da37ec7577bcd6b517d",
+      "evt_4d1b5eaf0b2969af273d",
+      "evt_5e1e8fa929a91cc7a20f",
+      "evt_2c5e8e267c5e3b302614",
+      "evt_02616cccf42396459676"
+    ]
+  },
+  {
+    "heading": "교육계 핵심 이슈",
+    "text": "해석: 학생의 직접 사용, 교사 연수와 현장 참여를 구분해 검토할 필요가 있다. 학생 경험을 모든 학생의 인과적 학습 저하로 일반화하지 않는다.",
+    "kind": "interpretation_or_observation",
+    "source_event_ids": [
+      "evt_0da37ec7577bcd6b517d",
+      "evt_4d1b5eaf0b2969af273d",
+      "evt_5e1e8fa929a91cc7a20f"
+    ]
+  },
+  {
+    "heading": "주목할 AI 기술",
+    "text": "해석: 로컬 네트워크 추론 분배와 문서 검색용 공개 인코더를 살펴볼 수 있다. 모든 환경의 속도·보안·검색 성능을 보장하는 발표는 아니다.",
+    "kind": "interpretation_or_observation",
+    "source_event_ids": [
+      "evt_69c74bc9d2234f20c095",
+      "evt_3ea3f9900f7045801269"
+    ]
+  },
+  {
+    "heading": "향후 관찰 포인트",
+    "text": "관찰 제안: 학교 정책의 범위·예외, 얼굴·음성 동의와 제공자 책임, 기업 개발 계획과 실제 성과의 구분을 확인한다.",
+    "kind": "interpretation_or_observation",
+    "source_event_ids": [
+      "evt_0da37ec7577bcd6b517d",
+      "evt_4d1b5eaf0b2969af273d",
+      "evt_5e1e8fa929a91cc7a20f",
+      "evt_d6a714447eb9102f7b6c",
+      "evt_02616cccf42396459676"
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "existing": {
+    "count": 312,
+    "passed": true,
+    "log_sha256": "79dd8dd29c10910c791ef1ed06db9341c5ebc351083073963e9c16b1acb60b7c"
+  },
+  "gateway": {
+    "passed": true,
+    "count": 20,
+    "log_sha256": "22499edde3e37752705daf9c9ff63f50b4e5cbca228ee3fd366e06f2355a519a"
+  },
+  "new": {
+    "count": 28,
+    "passed": true,
+    "log_sha256": "d07539108ce2b7896933de305e587861e85a54f0c8f7a32cdce14d6e4ed769a2"
+  }
+}

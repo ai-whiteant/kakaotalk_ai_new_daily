@@ -1,0 +1,14 @@
+{
+  "status": "SMOKE_API_PASS_USER_CONFIRMATION_REQUIRED",
+  "messages_planned": 1,
+  "messages_sent": 1,
+  "parts": [
+    {
+      "sequence": 1,
+      "result_code": 0,
+      "http_success": true
+    }
+  ],
+  "mode": "LINK_SMOKE_ONLY",
+  "scheduled_live_count": 0
+}

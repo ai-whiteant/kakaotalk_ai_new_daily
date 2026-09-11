@@ -1,0 +1,8 @@
+{
+  "status": "READY_FOR_SMOKE",
+  "messages_planned": 1,
+  "messages_sent": 0,
+  "parts": [],
+  "mode": "LINK_SMOKE_ONLY",
+  "scheduled_live_count": 0
+}

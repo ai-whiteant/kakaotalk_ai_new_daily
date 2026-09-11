@@ -1,0 +1,35 @@
+test_advisory_warnings_include_external_errors (news.test_phase6_2.GatewayTests.test_advisory_warnings_include_external_errors) ... ok
+test_allowlist (news.test_phase6_2.GatewayTests.test_allowlist) ... ok
+test_article_buttons (news.test_phase6_2.GatewayTests.test_article_buttons) ... ok
+test_bad_origins (news.test_phase6_2.GatewayTests.test_bad_origins) ... ok
+test_control_failure_still_fails (news.test_phase6_2.GatewayTests.test_control_failure_still_fails) ... ok
+test_deployment_hold (news.test_phase6_2.GatewayTests.test_deployment_hold) ... ok
+test_existing_protected (news.test_phase6_2.GatewayTests.test_existing_protected) ... ok
+test_final_403_advisory (news.test_phase6_2.GatewayTests.test_final_403_advisory) ... ok
+test_final_success_fields (news.test_phase6_2.GatewayTests.test_final_success_fields) ... ok
+test_final_timeout_advisory (news.test_phase6_2.GatewayTests.test_final_timeout_advisory) ... ok
+test_final_urlerror_advisory (news.test_phase6_2.GatewayTests.test_final_urlerror_advisory) ... ok
+test_final_wrong_host_advisory (news.test_phase6_2.GatewayTests.test_final_wrong_host_advisory) ... ok
+test_full_locked (news.test_phase6_2.GatewayTests.test_full_locked) ... ok
+test_gateway_failure_not_external_warning (news.test_phase6_2.GatewayTests.test_gateway_failure_not_external_warning) ... ok
+test_header_overview (news.test_phase6_2.GatewayTests.test_header_overview) ... ok
+test_http_gate_blocks (news.test_phase6_2.GatewayTests.test_http_gate_blocks) ... ok
+test_initial_wrong_status_still_fails (news.test_phase6_2.GatewayTests.test_initial_wrong_status_still_fails) ... ok
+test_input_hash (news.test_phase6_2.GatewayTests.test_input_hash) ... ok
+test_log_tamper (news.test_phase6_2.GatewayTests.test_log_tamper) ... ok
+test_no_direct_originals (news.test_phase6_2.GatewayTests.test_no_direct_originals) ... ok
+test_preflight_rejects_wrong_location (news.test_phase6_2.GatewayTests.test_preflight_rejects_wrong_location) ... ok
+test_preflight_success (news.test_phase6_2.GatewayTests.test_preflight_success) ... ok
+test_registration_blocks_before_auth (news.test_phase6_2.GatewayTests.test_registration_blocks_before_auth) ... ok
+test_single_domain (news.test_phase6_2.GatewayTests.test_single_domain) ... ok
+test_smoke_exactly_one_and_replay (news.test_phase6_2.GatewayTests.test_smoke_exactly_one_and_replay) ... ok
+test_smoke_marker_limit (news.test_phase6_2.GatewayTests.test_smoke_marker_limit) ... ok
+test_text_preserved (news.test_phase6_2.GatewayTests.test_text_preserved) ... ok
+test_timeout_no_retry (news.test_phase6_2.GatewayTests.test_timeout_no_retry) ... ok
+test_urls_eight (news.test_phase6_2.GatewayTests.test_urls_eight) ... ok
+test_wrong_location_still_fails (news.test_phase6_2.GatewayTests.test_wrong_location_still_fails) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.240s
+
+OK

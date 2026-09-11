@@ -1,0 +1,90 @@
+[
+  {
+    "sequence": 2,
+    "kind": "article",
+    "article_number": 1,
+    "button_title": "원문 보기",
+    "web_url": "https://www.schools.nyc.gov/about-us/policies/guidance-on-artificial-intelligence",
+    "mobile_web_url": "https://www.schools.nyc.gov/about-us/policies/guidance-on-artificial-intelligence",
+    "text_sha256": "785b9dc6cff896dd11be1a1e5b2abdf1eec3a67507706f3fb62f356bf7ae0ff4",
+    "url_sha256": "0cf9391f0bc2d15f4fe131ffc51cebd1b28a8eef7c7abe9471d93ebcb3ef576f",
+    "template_sha256": "b68f169bcac358a5e551bb0770745408ed71298b928ab5dbf1de7146f86c1a3c"
+  },
+  {
+    "sequence": 3,
+    "kind": "article",
+    "article_number": 2,
+    "button_title": "원문 보기",
+    "web_url": "https://gottheimer.house.gov/posts/release-gottheimer-unveils-bipartisan-back-to-school-agenda-for-ai-in-k-12-education",
+    "mobile_web_url": "https://gottheimer.house.gov/posts/release-gottheimer-unveils-bipartisan-back-to-school-agenda-for-ai-in-k-12-education",
+    "text_sha256": "5d57b14668adf0624f3523cf807eb4997b8d247c6568df14d836242083fcf03c",
+    "url_sha256": "9d89f99fff3e5d5043100859a2a9a73c0590f293b24e2f92c80add73b76ff99b",
+    "template_sha256": "a58def756ee1dce2994b792c9b4b59122d5342d6282bdb3911c1dd3f32856a69"
+  },
+  {
+    "sequence": 4,
+    "kind": "article",
+    "article_number": 3,
+    "button_title": "원문 보기",
+    "web_url": "https://www.brookings.edu/articles/3-reasons-why-going-slow-to-go-fast-is-the-right-approach-for-ai-in-schools/",
+    "mobile_web_url": "https://www.brookings.edu/articles/3-reasons-why-going-slow-to-go-fast-is-the-right-approach-for-ai-in-schools/",
+    "text_sha256": "7953d09d029a1a2d5033e192d907506fd8d7b313eef95ac3457ab2cd98674bbd",
+    "url_sha256": "d2179c00a7032d75ecd70a9d75199d421a6c61809ccad7fe7365443e9455015a",
+    "template_sha256": "f7fa4ebb7021b0e06046681afd2aad230483dd5e493a5808c1cbef265f068776"
+  },
+  {
+    "sequence": 5,
+    "kind": "article",
+    "article_number": 4,
+    "button_title": "원문 보기",
+    "web_url": "https://www.court.gov.cn/zixun/xiangqing/511101.html",
+    "mobile_web_url": "https://www.court.gov.cn/zixun/xiangqing/511101.html",
+    "text_sha256": "a6bca57be59c910c8f72275d0dc901a366f5e5a3ad04f58cb55cb23125b35e43",
+    "url_sha256": "82353ef1f459a1a7f486884f45d9a7b43c9cb10f161a33eb8a7c12b84003c84e",
+    "template_sha256": "3109c5d05a6ed2756ac65771b27e86617ad226231149514e1e6f987a15b7b486"
+  },
+  {
+    "sequence": 6,
+    "kind": "article",
+    "article_number": 5,
+    "button_title": "원문 보기",
+    "web_url": "https://www.navercorp.com/media/pressReleasesDetail?seq=10034628",
+    "mobile_web_url": "https://www.navercorp.com/media/pressReleasesDetail?seq=10034628",
+    "text_sha256": "8e75564cde9212622b97d9c18b3e39d2cc118fafc017c586bcc0d3ce43afd9f0",
+    "url_sha256": "bdb99b1ee7b4e082e9e694a6dff42a0c3ec0628ad72cdd74775529066a70b294",
+    "template_sha256": "5d307bf7012a6ac14bb6dda99ae461018fb21c4a914036195b751165591d5f92"
+  },
+  {
+    "sequence": 7,
+    "kind": "article",
+    "article_number": 6,
+    "button_title": "원문 보기",
+    "web_url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
+    "mobile_web_url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
+    "text_sha256": "e29e79e0ebeafbe2974c7f4a4f1107a1a727f6454646fb46306bc51a4e11b55e",
+    "url_sha256": "9509bbf8b01c98fec68a52aaccd51d52136357ead57319de5b458d01e3f8ffcd",
+    "template_sha256": "1c14f49d614c9eb6ded8217bf707ad86a2bdf0037984ac2c5a377cec4367d645"
+  },
+  {
+    "sequence": 8,
+    "kind": "article",
+    "article_number": 7,
+    "button_title": "원문 보기",
+    "web_url": "https://huggingface.co/blog/Hcompany/neomme",
+    "mobile_web_url": "https://huggingface.co/blog/Hcompany/neomme",
+    "text_sha256": "804097bf87a8442388b7916933f54a75cf221cd064802b398adb65c5ee6e6778",
+    "url_sha256": "fffbcba03b0b217e48932bf108f9544d9d15dfe90cc71dd430d68dae9df9e2d9",
+    "template_sha256": "a6d28f937308823ce2c28cf21819f91ae43eacb4149a2073b2990131d90a136e"
+  },
+  {
+    "sequence": 9,
+    "kind": "article",
+    "article_number": 8,
+    "button_title": "원문 보기",
+    "web_url": "https://news.samsung.com/global/samsung-and-mistral-ai-announce-strategic-partnership-for-intelligence-driven-semiconductor-infrastructure",
+    "mobile_web_url": "https://news.samsung.com/global/samsung-and-mistral-ai-announce-strategic-partnership-for-intelligence-driven-semiconductor-infrastructure",
+    "text_sha256": "ceebbcf80fec41083ea7d5020b17b9dcbe01ae3611521c28d95a56abd7498572",
+    "url_sha256": "cfeb416b37cbfd9f73451139fa1acea0d2bc71a1070a625c7f5dca225c7ca92d",
+    "template_sha256": "d8edbdf8715550deaca5810c558e72f26b3a85ad1ed375edf26d680427bb6521"
+  }
+]

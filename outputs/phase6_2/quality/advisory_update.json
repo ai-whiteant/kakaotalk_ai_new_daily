@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "total_tests": 332,
+  "advisory_warnings": [
+    {
+      "event_id": "evt_d6a714447eb9102f7b6c",
+      "expected_url": "https://www.court.gov.cn/zixun/xiangqing/511101.html",
+      "final_error": "URLError"
+    }
+  ],
+  "journals_receipts_unchanged": true,
+  "runtime_auth_unchanged_during_task": true,
+  "kakao_calls": 0,
+  "live": 0,
+  "commit": 0,
+  "push": 0
+}

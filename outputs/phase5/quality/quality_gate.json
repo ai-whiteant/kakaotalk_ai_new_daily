@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "checks": {
+    "input_and_review_binding": true,
+    "eight_items": true,
+    "eight_article_messages": true,
+    "ten_total": true,
+    "header_one": true,
+    "overview_one": true,
+    "length": true,
+    "no_body_url": true,
+    "article_links": true,
+    "test_marker_zero": true,
+    "secret_zero": true,
+    "prior_files_preserved": true,
+    "existing_192": true,
+    "new_tests": true,
+    "no_actual_send": true,
+    "no_scheduled_live": true
+  },
+  "artifact_sha256": "b2cffe0ed431478c3a816bad0626137f061f4fe2ece5b0b43683b019277e11c8",
+  "button_validation_scope": "offline structure and approved URL identity only; Kakao registered-domain acceptance NOT tested"
+}

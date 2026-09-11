@@ -1,0 +1,8 @@
+{
+  "before": "Phase6.1 API success; user mobile link FAIL, evidence preserved",
+  "after": "Gateway local implementation PASS; production redirect and mobile UX unverified",
+  "safe_content_changed": false,
+  "direct_original_buttons": 0,
+  "preview_gateway_domains": 1,
+  "header_overview": "Gateway root buttons, not buttonless"
+}

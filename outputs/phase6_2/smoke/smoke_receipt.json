@@ -1,0 +1,8 @@
+{
+  "status": "GATEWAY_KAKAO_SMOKE_API_PASS_USER_CONFIRMATION_REQUIRED",
+  "messages_sent": 1,
+  "messages_planned": 1,
+  "scheduled_live_count": 0,
+  "domain": "https://kakao-ai-news-link-gateway.vercel.app",
+  "result_code": 0
+}

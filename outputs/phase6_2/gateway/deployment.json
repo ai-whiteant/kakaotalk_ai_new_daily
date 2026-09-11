@@ -1,0 +1,8 @@
+{
+  "alias": "https://kakao-ai-news-link-gateway.vercel.app",
+  "status": "GATEWAY_DEPLOYMENT_PASS",
+  "production_origin": "https://kakao-ai-news-link-gateway.vercel.app",
+  "deployment_url": "https://kakao-ai-news-link-gateway-a0gazr0qb.vercel.app",
+  "project_name": "kakao-ai-news-link-gateway",
+  "verified": true
+}

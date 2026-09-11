@@ -1,0 +1,5 @@
+# Preserve bytes of SHA-pinned source and verification evidence across checkouts.
+outputs/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+news/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+link-gateway/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+PHASE5_COMPACT_SEED.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

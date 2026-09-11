@@ -1,0 +1,28 @@
+✔ allowlist exactly matches verified safe input (1.881ms)
+✔ all eight exact 302 locations (0.5266ms)
+✔ unknown event 404 (0.1215ms)
+✔ missing event 400 (0.122ms)
+✔ invalid event 400 (0.1105ms)
+✔ array event 400 (0.1291ms)
+✔ object event 400 (0.0848ms)
+✔ traversal event 400 (0.0822ms)
+✔ newline event 400 (0.1059ms)
+✔ URL query cannot override allowlist (0.2212ms)
+✔ URL-only open redirect rejected (0.1533ms)
+✔ POST 405 without Location (0.1147ms)
+✔ HEAD exact redirect (0.152ms)
+✔ security headers on successes and errors (0.7102ms)
+✔ unsafe configured target fails closed (0.1919ms)
+✔ https URL policy (0.1646ms)
+✔ health GET (0.1702ms)
+✔ health method blocked (0.0992ms)
+✔ public root exists (0.4655ms)
+✔ local HTTP handlers and rewrite routes (180.7439ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 20
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 300.5077

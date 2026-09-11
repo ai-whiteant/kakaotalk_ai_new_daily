@@ -1,0 +1,17 @@
+{
+  "status": "IMPLEMENTATION_PASS_SEND_HOLD",
+  "tests": 252,
+  "unchanged_phase5_templates": true,
+  "prior_journal_receipt_hashes_unchanged": true,
+  "production_journal_created": false,
+  "actual_send_calls": 0,
+  "auth_calls": 0,
+  "test_markers": 0,
+  "article_buttons": 8,
+  "scheduled_live_count": 0,
+  "tavily_calls": 0,
+  "gemini_calls": 0,
+  "automatic_retries": 0,
+  "domain_confirmation": "pending",
+  "security": "known secret and credential-pattern scan PASS; allowlist ZIP CRC/hashes verified"
+}

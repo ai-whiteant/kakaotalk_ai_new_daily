@@ -1,0 +1,50 @@
+{
+  "status": "GATEWAY_COMPACT_PRODUCTION_ONCE_PASS",
+  "messages_planned": 10,
+  "messages_sent": 10,
+  "parts": [
+    {
+      "sequence": 1,
+      "result_code": 0
+    },
+    {
+      "sequence": 2,
+      "result_code": 0
+    },
+    {
+      "sequence": 3,
+      "result_code": 0
+    },
+    {
+      "sequence": 4,
+      "result_code": 0
+    },
+    {
+      "sequence": 5,
+      "result_code": 0
+    },
+    {
+      "sequence": 6,
+      "result_code": 0
+    },
+    {
+      "sequence": 7,
+      "result_code": 0
+    },
+    {
+      "sequence": 8,
+      "result_code": 0
+    },
+    {
+      "sequence": 9,
+      "result_code": 0
+    },
+    {
+      "sequence": 10,
+      "result_code": 0
+    }
+  ],
+  "scheduled_live_count": 0,
+  "input_sha256": "8bd2d67d55faf32a5e8d1d1e695aed20738a12ab60ee1953b0be80f21a0f27e7",
+  "templates_sha256": "65435b717f9da0da93f3a5aec0e39f5ce9f4aa3a013c55f235f3bbad9ccd29c9"
+}

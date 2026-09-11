@@ -1,0 +1,29 @@
+test_01_production_header (news.test_phase4.Phase4Tests.test_01_production_header) ... ok
+test_02_test_marker_zero (news.test_phase4.Phase4Tests.test_02_test_marker_zero) ... ok
+test_03_eight_articles (news.test_phase4.Phase4Tests.test_03_eight_articles) ... ok
+test_04_safe_only_tamper (news.test_phase4.Phase4Tests.test_04_safe_only_tamper) ... ok
+test_05_urls (news.test_phase4.Phase4Tests.test_05_urls) ... ok
+test_06_null_fields (news.test_phase4.Phase4Tests.test_06_null_fields) ... ok
+test_07_utf16_limit (news.test_phase4.Phase4Tests.test_07_utf16_limit) ... ok
+test_08_sequence (news.test_phase4.Phase4Tests.test_08_sequence) ... ok
+test_09_input_sha (news.test_phase4.Phase4Tests.test_09_input_sha) ... ok
+test_10_phase3_journal_preserved (news.test_phase4.Phase4Tests.test_10_phase3_journal_preserved) ... ok
+test_11_exclusive_create (news.test_phase4.Phase4Tests.test_11_exclusive_create) ... ok
+test_12_success_replay_blocked (news.test_phase4.Phase4Tests.test_12_success_replay_blocked) ... ok
+test_13_timeout_no_retry (news.test_phase4.Phase4Tests.test_13_timeout_no_retry) ... ok
+test_14_secret_blocking (news.test_phase4.Phase4Tests.test_14_secret_blocking) ... ok
+test_15_config_unchanged (news.test_phase4.Phase4Tests.test_15_config_unchanged) ... ok
+test_16_config_scheduler_hash_gate (news.test_phase4.Phase4Tests.test_16_config_scheduler_hash_gate) ... ok
+test_17_live_schedule_blocked (news.test_phase4.Phase4Tests.test_17_live_schedule_blocked) ... ok
+test_18_nonzero_response (news.test_phase4.Phase4Tests.test_18_nonzero_response) ... ok
+test_19_receipt_allowlist (news.test_phase4.Phase4Tests.test_19_receipt_allowlist) ... ok
+test_20_dry_run_no_api (news.test_phase4.Phase4Tests.test_20_dry_run_no_api) ... ok
+test_21_partial_failure_no_replay (news.test_phase4.Phase4Tests.test_21_partial_failure_no_replay) ... ok
+test_22_prior_test_gate (news.test_phase4.Phase4Tests.test_22_prior_test_gate) ... ok
+test_23_regression_gate (news.test_phase4.Phase4Tests.test_23_regression_gate) ... ok
+test_24_logical_fields_lossless (news.test_phase4.Phase4Tests.test_24_logical_fields_lossless) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.412s
+
+OK

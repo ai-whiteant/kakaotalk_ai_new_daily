@@ -1,0 +1,9 @@
+{
+  "status": "READY_FOR_SMOKE",
+  "header_buttons": 0,
+  "overview_buttons": 0,
+  "article_buttons": 8,
+  "full_send_enabled": false,
+  "full_send_reason": "User click pending; buttonless header/overview REST transport unresolved",
+  "scheduled_live_count": 0
+}

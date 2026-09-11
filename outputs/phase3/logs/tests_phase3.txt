@@ -1,0 +1,33 @@
+test_01_exact_eight (news.test_phase3.Phase3Tests.test_01_exact_eight) ... ok
+test_02_raw_field_blocked (news.test_phase3.Phase3Tests.test_02_raw_field_blocked) ... ok
+test_03_hold_reject_blocked (news.test_phase3.Phase3Tests.test_03_hold_reject_blocked) ... ok
+test_04_urls_preserved (news.test_phase3.Phase3Tests.test_04_urls_preserved) ... ok
+test_05_null_education_omitted (news.test_phase3.Phase3Tests.test_05_null_education_omitted) ... ok
+test_06_null_classroom_omitted (news.test_phase3.Phase3Tests.test_06_null_classroom_omitted) ... ok
+test_07_education_first (news.test_phase3.Phase3Tests.test_07_education_first) ... ok
+test_08_unique_numbers (news.test_phase3.Phase3Tests.test_08_unique_numbers) ... ok
+test_09_split_preserves_all_fields (news.test_phase3.Phase3Tests.test_09_split_preserves_all_fields) ... ok
+test_10_article_parts_contiguous (news.test_phase3.Phase3Tests.test_10_article_parts_contiguous) ... ok
+test_11_test_marker (news.test_phase3.Phase3Tests.test_11_test_marker) ... ok
+test_12_weekly_binding (news.test_phase3.Phase3Tests.test_12_weekly_binding) ... ok
+test_13_secret_detection (news.test_phase3.Phase3Tests.test_13_secret_detection) ... ok
+test_14_dry_run_no_api (news.test_phase3.Phase3Tests.test_14_dry_run_no_api) ... ok
+test_15_error_no_config_mutation (news.test_phase3.Phase3Tests.test_15_error_no_config_mutation) ... ok
+test_16_live_blocked (news.test_phase3.Phase3Tests.test_16_live_blocked) ... ok
+test_17_input_hash_binding (news.test_phase3.Phase3Tests.test_17_input_hash_binding) ... ok
+test_18_url_mutation (news.test_phase3.Phase3Tests.test_18_url_mutation) ... ok
+test_19_deterministic_order (news.test_phase3.Phase3Tests.test_19_deterministic_order) ... ok
+test_20_receipt_allowlist (news.test_phase3.Phase3Tests.test_20_receipt_allowlist) ... ok
+test_21_limit (news.test_phase3.Phase3Tests.test_21_limit) ... ok
+test_22_atomic_long_field_hold (news.test_phase3.Phase3Tests.test_22_atomic_long_field_hold) ... ok
+test_23_duplicate_event (news.test_phase3.Phase3Tests.test_23_duplicate_event) ... ok
+test_24_failed_regression_blocks (news.test_phase3.Phase3Tests.test_24_failed_regression_blocks) ... ok
+test_25_changed_settings_blocks (news.test_phase3.Phase3Tests.test_25_changed_settings_blocks) ... ok
+test_26_uncertain_no_retry (news.test_phase3.Phase3Tests.test_26_uncertain_no_retry) ... ok
+test_27_scope_failure (news.test_phase3.Phase3Tests.test_27_scope_failure) ... ok
+test_28_text_tamper_blocks (news.test_phase3.Phase3Tests.test_28_text_tamper_blocks) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.249s
+
+OK

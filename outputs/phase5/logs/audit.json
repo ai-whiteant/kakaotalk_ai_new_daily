@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "prior_hashes_unchanged": true,
+  "safe_input_unchanged": true,
+  "phase3_phase4_receipts_journals_unchanged": true,
+  "encrypted_auth_state_unchanged": true,
+  "seed_preview_unchanged": true,
+  "messages_before": 28,
+  "messages_after": 10,
+  "max_utf16": 157,
+  "buttons_8": true,
+  "source_urls_8": true,
+  "character_truncations": 0,
+  "fallback_count": 0,
+  "actual_tavily_calls": 0,
+  "actual_gemini_calls": 0,
+  "actual_kakao_send_count": 0,
+  "scheduled_live_count": 0,
+  "tests": 222,
+  "link_gate": "offline schema and URL identity PASS; registered domains not verified",
+  "independent_review": "PENDING"
+}

@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "api_calls": 0,
+  "artifact_sha256": "09a65c5314302aa13138bf549f1d1542b0991017a4d0d11275de66f6fc8573f7",
+  "checks": {
+    "exactly_8": true,
+    "safe_fields_and_input_binding": true,
+    "hold_reject_zero": true,
+    "null_sections_omitted": true,
+    "no_articles_missing_after_split": true,
+    "sequence_numbers_unique": true,
+    "unique_events": true,
+    "url_preservation": true,
+    "message_limit": true,
+    "test_marker": true,
+    "no_secrets": true,
+    "existing_140": true,
+    "new_tests": true,
+    "settings_unchanged": true,
+    "no_live": true
+  },
+  "note": "Same artifact passed dry-run before the one logical TEST delivery."
+}

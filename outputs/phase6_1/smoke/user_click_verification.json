@@ -1,0 +1,8 @@
+{
+  "status": "FAIL",
+  "user_answer": "Kakao Developers 또는 다른 페이지가 열림",
+  "expected_url": "https://www.schools.nyc.gov/about-us/policies/guidance-on-artificial-intelligence",
+  "actual_destination": "User reports Kakao Developers or another page; exact URL not provided",
+  "final_gate": "HOLD",
+  "additional_send_authorized": false
+}
