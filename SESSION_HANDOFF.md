@@ -1,96 +1,80 @@
 # SESSION_HANDOFF — Kakao ai news
+## 2026-09-12 / Phase 3 Ready
 
-## Current canonical project root
+### Canonical Project Root
 `C:\Vibe Coding\kakaotalk_ai_new_daily`
 
-This path is the single active development root for both home and office environments.
+### Git / Continuity
+- branch: `main`
+- GitHub main 기준 커밋: `c94cfcd1fb163ed7bda4fc099a16b5119c65f39f`
+- commit: `feat: complete Kakao AI news phase1 through phase2.3 and establish continuity baseline`
+- 집 PC ↔ GitHub Source of Truth 구축: PASS
+- 사무실 PC continuity 검증: 차후 진행
+- 현재 프로젝트 마무리는 현 노트북에서 계속 진행
 
-## Current Git state
-- Current branch: `phase1/tavily-search-test`
-- Current local HEAD: `5ff73929c14c956409a94dcfc4f6717d8e371616`
-- Previous Phase 1 baseline: `ec09427ed94b336ac5c77463b45a40fa6c61a419`
-- Remote repository: `https://github.com/ai-whiteant/kakaotalk_ai_new_daily.git`
-- Remote `main` was still behind the local Phase 2~2.3 checkpoint during continuity setup.
-- No Phase 2~2.3 push has been performed yet.
-
-## Completed phases
-### Phase 1
-PASS.
-
-### Phase 2
-Implementation PASS / content HOLD at that stage.
-
-### Phase 2.1
-Guard / dedup hardening PASS.
-
-### Phase 2.2
-Evidence verification system PASS.
-
-### Phase 2.3
-Final Candidate Verification Gate implemented and executed.
-
-Independent review result:
-- Phase 2.3: PASS
-- Phase 2 overall content gate: PASS
-- Final verified candidate pool: 8
-- Existing regression tests: 112/112 PASS
-- Phase 2.3 tests: 28/28 PASS
-- Total: 140/140 PASS
-- Tavily calls during Phase 2.3: 0
-- Gemini calls during Phase 2.3: 0
-- Kakao calls during Phase 2.3: 0
+### Phase Status
+- Phase 1: PASS
+- Phase 2: 구현 PASS
+- Phase 2.1: PASS
+- Phase 2.2: PASS
+- Phase 2.3: 독립 검토 PASS
+- Phase 2 전체 콘텐츠 Gate: PASS
+- Phase 3: READY / 아직 미실행
 - LIVE: 0
 
-## Phase 2.3 checkpoint commit
-`5ff7392 feat: complete phase2 through phase2.3 verification`
+### Phase 2.3 Final Pool
+검증 완료 8건.
+Source of Truth:
+`outputs/phase2_3/samples/safe_content.json`
 
-The commit contains the Phase 2~2.3 implementation, tests, reports, and verified outputs.
+구성:
+- AI 교육 3
+- 정책·윤리 1
+- 국내 AI 1
+- AI 기술·모델 2
+- 산업 1
 
-Result ZIP packages and verification `git_diff.patch` files were intentionally kept outside the commit.
+### Testing Baseline
+- 기존 회귀 테스트: 112/112 PASS
+- Phase 2.3 신규 테스트: 28/28 PASS
+- 총 140/140 PASS
 
-## Current continuity work
-The Git metadata was promoted from the historical nested repository into:
+### Security / Git
+- public GitHub repository
+- staged/commit 전 secret 검사 PASS
+- `tavily/outputs/config.json`은 `tavily/.gitignore`로 제외
+- result package ZIP / local session-transfer folders / verification git_diff.patch는 Git 제외
+- API Key / Access Token / Refresh Token / Client Secret Git 기록 금지
 
-`C:\Vibe Coding\kakaotalk_ai_new_daily`
+### Current Work Pointer
+`Kakao_ai_news_CODEX_PHASE3_BRIEFING_KAKAO_TEST_v1.0.md`에 따라 Phase 3 실행.
 
-Tracked files were hash-checked against HEAD and confirmed identical.
-The worktree is now clean for tracked files.
+Phase 3A:
+- 검증 완료 8건 상세 브리핑
+- Kakao 모바일판
+- 이번 주 AI 한눈에 보기
+- 기존 140 tests + 신규 Phase 3 tests
+- dry-run 품질 게이트
 
-Remaining untracked materials include:
-- project specification MD files
-- `docs/`
-- `references/`
-- `tavily/`
-- local session-transfer folders
-- `PHASE2_3_RESULT_PACKAGE.zip`
+Phase 3B:
+Phase 3A PASS 시에만
+- KakaoTalk `나에게 보내기` TEST
+- LIVE 금지
 
-These must be classified before the next commit.
+### Required Outputs
+- `PHASE3_EXECUTION_REPORT.md`
+- `PHASE3_RESULT_PACKAGE.zip`
 
-## Continuity policy
-Use:
-- Google Drive for global Codex `AGENTS.md`, reusable user skills, templates, and non-code reference sharing.
-- GitHub for the actual Kakao ai news project source, project instructions, tests, and handoff.
-- Local `.codex` runtime/auth/session/SQLite/cache state per PC.
+### Absolute Rules
+- Phase 2.3 safe_* 범위를 벗어난 새 사실 생성 금지
+- 새 뉴스 후보 수집 금지
+- HOLD/REJECT 재진입 금지
+- 기존 API 설정 임의 변경 금지
+- Kakao 오류를 Tavily/Gemini 설정 변경으로 해결하지 않음
+- secret 출력·Git 추적 금지
+- LIVE 금지
+- 사용자 승인 없는 push 금지
 
-Do not synchronize the entire `.codex` folder through Google Drive.
-
-## Next work pointer
-Complete HOME/OFFICE_CONTINUITY_GATE:
-
-1. Add project `AGENTS.md`.
-2. Keep this `SESSION_HANDOFF.md` at repository root.
-3. Add approved project specification documents and safe `docs/` / `references/`.
-4. Inspect `tavily/` before deciding whether to track it.
-5. Keep result ZIPs and local session-transfer folders out of Git.
-6. Run staged secret scan.
-7. Commit the continuity metadata locally.
-8. Review branch strategy and remote diff.
-9. Only after explicit user approval, push the approved branch / integration state to GitHub.
-10. Verify the office PC can clone/pull the same project into the same canonical path.
-
-## Do not do yet
-- Do not start Phase 3.
-- Do not send Kakao messages.
-- Do not enable LIVE.
-- Do not change Tavily / Gemini / Kakao production settings.
-- Do not push without explicit approval.
+### After Phase 3
+Phase 3 결과 독립 검토.
+독립 PASS 후에만 LIVE/자동 발송 운영 여부를 별도 승인.
