@@ -1,0 +1,18 @@
+{
+  "queries": [
+    {"id":"edu_ko_01","category":"ai_education","language":"ko","query":"대한민국 AI 교육 학교 교사 학생","priority":1},
+    {"id":"edu_en_01","category":"ai_education","language":"en","query":"artificial intelligence education teachers students schools","priority":1},
+    {"id":"gen_ko_01","category":"generative_ai","language":"ko","query":"생성형 AI ChatGPT Gemini Claude","priority":2},
+    {"id":"gen_en_01","category":"generative_ai","language":"en","query":"generative AI ChatGPT Gemini Claude latest news","priority":2},
+    {"id":"model_ko_01","category":"ai_models","language":"ko","query":"AI 신모델 공개 오픈소스 멀티모달 에이전트","priority":3},
+    {"id":"model_en_01","category":"ai_models","language":"en","query":"new AI model release open source multimodal agent","priority":3},
+    {"id":"policy_ko_01","category":"policy_ethics","language":"ko","query":"AI 규제 저작권 개인정보 윤리 정책","priority":4},
+    {"id":"policy_en_01","category":"policy_ethics","language":"en","query":"AI regulation copyright privacy ethics policy","priority":4},
+    {"id":"industry_ko_01","category":"industry","language":"ko","query":"AI 산업 반도체 투자 클라우드 플랫폼","priority":5},
+    {"id":"industry_en_01","category":"industry","language":"en","query":"AI industry semiconductor investment cloud platform","priority":5},
+    {"id":"domestic_ko_01","category":"domestic_ai","language":"ko","query":"한국 인공지능 기업 대학 과기정통부","priority":6},
+    {"id":"domestic_en_01","category":"domestic_ai","language":"en","query":"South Korea artificial intelligence companies universities government","priority":6},
+    {"id":"security_ko_01","category":"security","language":"ko","query":"AI 보안 딥페이크 개인정보 유출 악용","priority":7},
+    {"id":"security_en_01","category":"security","language":"en","query":"AI cybersecurity deepfake privacy breach misuse","priority":7}
+  ]
+}

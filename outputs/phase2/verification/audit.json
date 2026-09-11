@@ -1,0 +1,43 @@
+{
+  "security": "PASS",
+  "baseline_commit": "ec09427ed94b336ac5c77463b45a40fa6c61a419",
+  "tracked_secrets": [],
+  "baseline_diff": [],
+  "original_protected_files_unchanged": 10,
+  "event_membership": "PASS",
+  "source_provenance": "PASS",
+  "json_schema": "PASS",
+  "static_lint": "PASS (AST, compile, whitespace, final newline)",
+  "tests": {
+    "phase2": 23,
+    "phase1": 16,
+    "legacy_regression": 10,
+    "total": 49
+  },
+  "real_test_status": "HOLD",
+  "real_model": "gemini-3.1-flash-lite",
+  "risk_codes": {
+    "UNSUPPORTED_ENTITY_MODEL_POLICY": 30,
+    "UNSUPPORTED_NUMBER_OR_DATE": 17
+  },
+  "billing_tier": "user-identified Paid project; not programmatically verified",
+  "kakao_calls": 0,
+  "live_runs": 0,
+  "push": false,
+  "schedule_changes": false,
+  "all_completed_run_ids": [
+    "20260909T125220606319Z",
+    "20260909T125723856804Z"
+  ],
+  "additional_diagnostic_probe_calls": 2,
+  "phase2_source_sha256": {
+    "PHASE2_README.md": "3536b23329cfae37543c34c42d6f486d2dbe55faaefcbeb3df428f6e029ac912",
+    "news/phase2.py": "9cd05f63b5a2795ff8a0976eacae81973e97bdce6d18781bc570ad3d082f0063",
+    "news/phase2_events.py": "c06bc8eede982ea54b3e10cdea4c27082347b48052f37ecefa494f19881a2e51",
+    "news/phase2_gemini.py": "72446696858ee79653ab74bf471422741abfcc769328320030a6764d43e87e4e",
+    "news/phase2_guard.py": "8971ac26ec9b0d8863bc07d9375f851f59899ac98c879edcc0ddc6f9c0d5e90d",
+    "news/phase2_schema.py": "9c9484ba6cc6b72f89ba7bece54fe5b40861198c784bc7716ec7b87b660c7ec9",
+    "news/phase2_requirements.txt": "756cc9e506ae4ee1a6f6c0507088b5cfc0dc8ba350fb2d2d46f1ffa72033adb6",
+    "news/test_phase2.py": "8fcbb9e3100d547512845cc75adcc6b80c964da95c65a23a796ac18e1a6edcb1"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "checked_at": "2026-09-10T08:52:17.911466+00:00",
+  "mode": "TEST",
+  "status": "HOLD",
+  "method": "Codex source review + deterministic offline evidence gate",
+  "packet_sha256": "bdeca6a1c5d5b74a07b33daa53e02d0baebdc4e5639b297ea6b6fa4e604ce40b",
+  "stats": {
+    "events_total": 49,
+    "events_reviewed": 21,
+    "original_fact_check_targets": 89,
+    "evidence_records": 102,
+    "factual_claims": 96,
+    "claim_states": {
+      "VERIFIED_SUPPORTED": 20,
+      "VERIFIED_EQUIVALENT": 14,
+      "VERIFIED_CONTEXTUAL": 14,
+      "UNRESOLVED": 51,
+      "VERIFIED_UNSUPPORTED": 1,
+      "CONTRADICTED": 2
+    },
+    "factual_claim_states": {
+      "VERIFIED_SUPPORTED": 20,
+      "VERIFIED_EQUIVALENT": 14,
+      "VERIFIED_CONTEXTUAL": 14,
+      "UNRESOLVED": 45,
+      "VERIFIED_UNSUPPORTED": 1,
+      "CONTRADICTED": 2
+    },
+    "event_states": {
+      "VERIFIED_PASS": 0,
+      "VERIFIED_WITH_CONTEXT": 3,
+      "VERIFICATION_HOLD": 17,
+      "REJECT": 1
+    },
+    "source_types": {
+      "major_media": 7,
+      "other": 13,
+      "specialist": 6,
+      "official": 19,
+      "research": 2
+    },
+    "source_access": {
+      "failed": 14,
+      "body": 32,
+      "partial": 1
+    }
+  },
+  "tavily_calls": 0,
+  "gemini_calls": 0,
+  "kakao_calls": 0,
+  "live_runs": 0,
+  "reason": "Independent content review pending; no dispatch selection"
+}

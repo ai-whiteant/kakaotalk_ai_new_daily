@@ -1,0 +1,34 @@
+Offline tests: Kakao/Gemini calls are mocked; sent messages in stdout are fixture output.
+Successfully sent 1 message parts; previously sent URLs skipped.
+Successfully sent 0 message parts; previously sent URLs skipped.
+test_all_failed (news.test_phase1.Phase1Tests.test_all_failed) ... ok
+test_auth_and_quota_not_retried (news.test_phase1.Phase1Tests.test_auth_and_quota_not_retried) ... ok
+test_date_parsing (news.test_phase1.Phase1Tests.test_date_parsing) ... ok
+test_environment_and_local_config (news.test_phase1.Phase1Tests.test_environment_and_local_config) ... ok
+test_invalid_query_config_holds (news.test_phase1.Phase1Tests.test_invalid_query_config_holds) ... ok
+test_live_rejected_without_call (news.test_phase1.Phase1Tests.test_live_rejected_without_call) ... ok
+test_malformed_row_holds (news.test_phase1.Phase1Tests.test_malformed_row_holds) ... ok
+test_missing_multiple_categories_holds (news.test_phase1.Phase1Tests.test_missing_multiple_categories_holds) ... ok
+test_network_and_5xx_retry_then_success (news.test_phase1.Phase1Tests.test_network_and_5xx_retry_then_success) ... ok
+test_normalization_schema (news.test_phase1.Phase1Tests.test_normalization_schema) ... ok
+test_partial_failure_continues (news.test_phase1.Phase1Tests.test_partial_failure_continues) ... ok
+test_period_boundaries_and_quarantine (news.test_phase1.Phase1Tests.test_period_boundaries_and_quarantine) ... ok
+test_queries_cover_seven_bilingual_categories (news.test_phase1.Phase1Tests.test_queries_cover_seven_bilingual_categories) ... ok
+test_request_contract (news.test_phase1.Phase1Tests.test_request_contract) ... ok
+test_secret_in_response_is_not_saved (news.test_phase1.Phase1Tests.test_secret_in_response_is_not_saved) ... ok
+test_url_dedup_preserves_provenance (news.test_phase1.Phase1Tests.test_url_dedup_preserves_provenance) ... ok
+test_bad_and_future_dates (news.test_daily.NewsTests.test_bad_and_future_dates) ... ok
+test_canonical_preserves_article_id (news.test_daily.NewsTests.test_canonical_preserves_article_id) ... ok
+test_date_can_be_verified_from_source_without_search_date (news.test_daily.NewsTests.test_date_can_be_verified_from_source_without_search_date) ... ok
+test_mcp_respects_server_const (news.test_daily.NewsTests.test_mcp_respects_server_const) ... ok
+test_oversize_url_stops (news.test_daily.NewsTests.test_oversize_url_stops) ... ok
+test_sent_article_not_repeated (news.test_daily.NewsTests.test_sent_article_not_repeated) ... ok
+test_split_preserves_text_and_url (news.test_daily.NewsTests.test_split_preserves_text_and_url) ... ok
+test_state_encrypted_and_tamper_fails (news.test_daily.NewsTests.test_state_encrypted_and_tamper_fails) ... ok
+test_unfounded_date_evidence_rejected (news.test_daily.NewsTests.test_unfounded_date_evidence_rejected) ... ok
+test_unknown_delivery_blocks_retry (news.test_daily.NewsTests.test_unknown_delivery_blocks_retry) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.150s
+
+OK

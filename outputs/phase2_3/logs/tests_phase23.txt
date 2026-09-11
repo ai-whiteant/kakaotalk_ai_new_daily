@@ -1,0 +1,33 @@
+test_01_select_fifteen_from_31 (news.test_phase23.FinalGateTests.test_01_select_fifteen_from_31) ... ok
+test_02_original_70_priority_not_adjusted_threshold (news.test_phase23.FinalGateTests.test_02_original_70_priority_not_adjusted_threshold) ... ok
+test_03_one_representative_per_group (news.test_phase23.FinalGateTests.test_03_one_representative_per_group) ... ok
+test_04_low_score_important_policy_keeps_original_score (news.test_phase23.FinalGateTests.test_04_low_score_important_policy_keeps_original_score) ... ok
+test_05_high_score_promotion_not_eligible (news.test_phase23.FinalGateTests.test_05_high_score_promotion_not_eligible) ... ok
+test_06_verified_fact (news.test_phase23.FinalGateTests.test_06_verified_fact) ... ok
+test_07_context_rewrite (news.test_phase23.FinalGateTests.test_07_context_rewrite) ... ok
+test_08_unresolved_core_holds (news.test_phase23.FinalGateTests.test_08_unresolved_core_holds) ... ok
+test_09_contradicted_core_rejects (news.test_phase23.FinalGateTests.test_09_contradicted_core_rejects) ... ok
+test_10_hold_not_exported (news.test_phase23.FinalGateTests.test_10_hold_not_exported) ... ok
+test_11_final_url_must_have_body (news.test_phase23.FinalGateTests.test_11_final_url_must_have_body) ... ok
+test_12_rescue_only_below_eight_and_descending (news.test_phase23.FinalGateTests.test_12_rescue_only_below_eight_and_descending) ... ok
+test_13_reject_never_reenters (news.test_phase23.FinalGateTests.test_13_reject_never_reenters) ... ok
+test_14_education_overclaim_blocked (news.test_phase23.FinalGateTests.test_14_education_overclaim_blocked) ... ok
+test_15_only_safe_fields_export (news.test_phase23.FinalGateTests.test_15_only_safe_fields_export) ... ok
+test_16_changed_safe_text_rejected (news.test_phase23.FinalGateTests.test_16_changed_safe_text_rejected) ... ok
+test_17_changed_export_text_rejected (news.test_phase23.FinalGateTests.test_17_changed_export_text_rejected) ... ok
+test_18_fixed_period_end_precision (news.test_phase23.FinalGateTests.test_18_fixed_period_end_precision) ... ok
+test_19_unknown_event_date_holds (news.test_phase23.FinalGateTests.test_19_unknown_event_date_holds) ... ok
+test_20_coverage_gap_holds (news.test_phase23.FinalGateTests.test_20_coverage_gap_holds) ... ok
+test_21_original_candidate_tamper_rejected (news.test_phase23.FinalGateTests.test_21_original_candidate_tamper_rejected) ... ok
+test_22_unchanged_input_objects (news.test_phase23.FinalGateTests.test_22_unchanged_input_objects) ... ok
+test_23_final_duplicates_rejected (news.test_phase23.FinalGateTests.test_23_final_duplicates_rejected) ... ok
+test_24_failed_body_not_support (news.test_phase23.FinalGateTests.test_24_failed_body_not_support) ... ok
+test_25_note_tampering_rejected (news.test_phase23.FinalGateTests.test_25_note_tampering_rejected) ... ok
+test_26_live_refused_before_io (news.test_phase23.FinalGateTests.test_26_live_refused_before_io) ... ok
+test_27_rescue_skips_already_used_issue (news.test_phase23.FinalGateTests.test_27_rescue_skips_already_used_issue) ... ok
+test_28_noncore_contradiction_cannot_enter_safe_text (news.test_phase23.FinalGateTests.test_28_noncore_contradiction_cannot_enter_safe_text) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.009s
+
+OK

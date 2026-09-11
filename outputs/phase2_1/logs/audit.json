@@ -1,0 +1,35 @@
+{
+  "security": "PASS",
+  "input_sha256": "490b4608eb820ed679ee41a6dcfd969f22d032c493837c3ca220eee53d389e40",
+  "baseline_commit": "ec09427ed94b336ac5c77463b45a40fa6c61a419",
+  "unchanged_existing_checkout_files": 59,
+  "unchanged_original_protected_files": 10,
+  "existing_tracked_diff": [],
+  "secret_tracked": [],
+  "tests": {
+    "existing": 49,
+    "new": 30,
+    "total": 79
+  },
+  "input_membership": "PASS",
+  "source_provenance": "PASS",
+  "complete_link": "PASS",
+  "schema": "PASS",
+  "guard_findings_traceability": "PASS",
+  "unsupported_injection_tests": "AUTO_HOLD maintained",
+  "static_lint": "PASS: AST, compile, whitespace, final newline",
+  "kakao_calls": 0,
+  "tavily_calls": 0,
+  "model": "gemini-3.1-flash-lite",
+  "gemini_client_auth_changed": false,
+  "scores_changed": false,
+  "live_runs": 0,
+  "schedule_changes": false,
+  "push": false,
+  "remaining_auto_hold_codes": {
+    "UNSUPPORTED_NUMBER_OR_DATE": 10,
+    "UNSUPPORTED_ENTITY_MODEL_POLICY": 10
+  },
+  "independent_phase3_approval": "NOT_GRANTED",
+  "semantic_review": "Two editorial/report merges separated; remaining groups evidence-checked, not externally fact-verified"
+}

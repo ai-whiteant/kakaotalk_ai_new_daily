@@ -1,0 +1,622 @@
+{
+  "started_at": "2026-09-09T13:21:22.862067+00:00",
+  "mode": "TEST",
+  "status": "HOLD",
+  "errors": [],
+  "warnings": [],
+  "kakao_calls": 0,
+  "tavily_calls": 0,
+  "live_runs": 0,
+  "input_sha256": "490b4608eb820ed679ee41a6dcfd969f22d032c493837c3ca220eee53d389e40",
+  "model": "gemini-3.1-flash-lite",
+  "counts": {
+    "candidates": 57,
+    "events": 49,
+    "relations": {
+      "FOLLOW_UP": 3,
+      "SAME_EVENT": 17,
+      "DIFFERENT_EVENT": 1
+    },
+    "unresolved": 0,
+    "guard": {
+      "PASS": 28,
+      "VERIFY": 5,
+      "AUTO_HOLD": 16
+    },
+    "at_least_70": 20
+  },
+  "calls": [
+    {
+      "stage": "DEDUP",
+      "attempt": 1,
+      "time": "2026-09-09T13:21:23.063567+00:00",
+      "status": "PASS",
+      "total_tokens": 1503,
+      "response_id": "UF2hapntDtqZvr0PtqrPgAo"
+    },
+    {
+      "stage": "DEDUP",
+      "attempt": 1,
+      "time": "2026-09-09T13:21:24.990048+00:00",
+      "status": "PASS",
+      "total_tokens": 1703,
+      "response_id": "Ul2hatuCBoepvr0P6_-sgQ0"
+    },
+    {
+      "stage": "DEDUP",
+      "attempt": 1,
+      "time": "2026-09-09T13:21:26.759710+00:00",
+      "status": "PASS",
+      "total_tokens": 1902,
+      "response_id": "U12hauL9NLm-vr0P5_6WiAo"
+    },
+    {
+      "stage": "DEDUP",
+      "attempt": 1,
+      "time": "2026-09-09T13:21:28.469392+00:00",
+      "status": "PASS",
+      "total_tokens": 1985,
+      "response_id": "VV2hati0I7KNvr0PlYvUkAo"
+    },
+    {
+      "stage": "DEDUP",
+      "attempt": 1,
+      "time": "2026-09-09T13:21:30.348047+00:00",
+      "status": "PASS",
+      "total_tokens": 1964,
+      "response_id": "V12hasbDHafO1e8P07SdmA0"
+    },
+    {
+      "stage": "DEDUP",
+      "attempt": 1,
+      "time": "2026-09-09T13:21:32.412840+00:00",
+      "status": "PASS",
+      "total_tokens": 1933,
+      "response_id": "WV2hapfkIaXarfcPta3SoQM"
+    },
+    {
+      "stage": "DEDUP",
+      "attempt": 1,
+      "time": "2026-09-09T13:21:34.310406+00:00",
+      "status": "PASS",
+      "total_tokens": 1938,
+      "response_id": "W12hatCMG6_u2roPgp-OiAw"
+    },
+    {
+      "stage": "DEDUP",
+      "attempt": 1,
+      "time": "2026-09-09T13:21:36.409492+00:00",
+      "status": "PASS",
+      "total_tokens": 2010,
+      "response_id": "XV2haqrcIJWc0-kPtfed4QI"
+    },
+    {
+      "stage": "DEDUP",
+      "attempt": 1,
+      "time": "2026-09-09T13:21:38.514545+00:00",
+      "status": "PASS",
+      "total_tokens": 2505,
+      "response_id": "X12haq-9KLaGvr0Plrv8mA0"
+    },
+    {
+      "stage": "DEDUP",
+      "attempt": 1,
+      "time": "2026-09-09T13:21:40.611200+00:00",
+      "status": "PASS",
+      "total_tokens": 1727,
+      "response_id": "YV2harjiLMzM0-kP7IyJiQs"
+    },
+    {
+      "stage": "DEDUP",
+      "attempt": 1,
+      "time": "2026-09-09T13:21:42.185619+00:00",
+      "status": "PASS",
+      "total_tokens": 2618,
+      "response_id": "Y12hapb7GPON0-kP9vPw6QM"
+    },
+    {
+      "stage": "DEDUP",
+      "attempt": 1,
+      "time": "2026-09-09T13:21:44.364427+00:00",
+      "status": "PASS",
+      "total_tokens": 3083,
+      "response_id": "ZV2haobIHvu9vr0PjNbFyAo"
+    },
+    {
+      "stage": "DEDUP",
+      "attempt": 1,
+      "time": "2026-09-09T13:21:46.451097+00:00",
+      "status": "PASS",
+      "total_tokens": 2635,
+      "response_id": "Z12hate1JLuj9tMPkLKDyQ4"
+    },
+    {
+      "stage": "DEDUP",
+      "attempt": 1,
+      "time": "2026-09-09T13:21:48.432058+00:00",
+      "status": "PASS",
+      "total_tokens": 2355,
+      "response_id": "aV2hatGuIrH_vr0Pm-XJ6Aw"
+    },
+    {
+      "stage": "DEDUP",
+      "attempt": 1,
+      "time": "2026-09-09T13:21:50.134388+00:00",
+      "status": "PASS",
+      "total_tokens": 2384,
+      "response_id": "a12havHBEPy30-kP_c2goQE"
+    },
+    {
+      "stage": "DEDUP",
+      "attempt": 1,
+      "time": "2026-09-09T13:21:51.920906+00:00",
+      "status": "PASS",
+      "total_tokens": 2866,
+      "response_id": "bV2hap7CBIHH2roP1cj6wAE"
+    },
+    {
+      "stage": "DEDUP",
+      "attempt": 1,
+      "time": "2026-09-09T13:21:53.737572+00:00",
+      "status": "PASS",
+      "total_tokens": 2620,
+      "response_id": "b12hasrCBtzmrfcPw9GYoQk"
+    },
+    {
+      "stage": "DEDUP",
+      "attempt": 1,
+      "time": "2026-09-09T13:21:55.725281+00:00",
+      "status": "PASS",
+      "total_tokens": 2634,
+      "response_id": "cF2haoyvNsiq9tMPkLrxkAs"
+    },
+    {
+      "stage": "DEDUP",
+      "attempt": 1,
+      "time": "2026-09-09T13:21:57.521267+00:00",
+      "status": "PASS",
+      "total_tokens": 2173,
+      "response_id": "cl2hauLrJovF0-kP6_fGoQE"
+    },
+    {
+      "stage": "DEDUP",
+      "attempt": 1,
+      "time": "2026-09-09T13:21:59.190434+00:00",
+      "status": "PASS",
+      "total_tokens": 2201,
+      "response_id": "dF2hatKCEpPa2roP58KY4QQ"
+    },
+    {
+      "stage": "DEDUP",
+      "attempt": 1,
+      "time": "2026-09-09T13:22:00.803448+00:00",
+      "status": "PASS",
+      "total_tokens": 1946,
+      "response_id": "dV2hasTmONPp1e8PvNq_kA0"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:22:02.681298+00:00",
+      "status": "PASS",
+      "total_tokens": 2246,
+      "response_id": "d12haq6GMtrXrfcPjsHm-AM"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:22:06.847638+00:00",
+      "status": "PASS",
+      "total_tokens": 2135,
+      "response_id": "fF2harivBNSM1e8Prc-tmQo"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:22:10.889338+00:00",
+      "status": "PASS",
+      "total_tokens": 2200,
+      "response_id": "f12hat7NPIG3vr0PwuDL-Aw"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:22:13.274716+00:00",
+      "status": "PASS",
+      "total_tokens": 2078,
+      "response_id": "gl2hapOCGaXarfcP2JjBoQc"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:22:16.960869+00:00",
+      "status": "PASS",
+      "total_tokens": 2164,
+      "response_id": "hl2haoG-BZ_r2roP56iPyQw"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:22:21.016706+00:00",
+      "status": "PASS",
+      "total_tokens": 1745,
+      "response_id": "il2havnfBpDfrfcP_cyH6Ak"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:22:24.877715+00:00",
+      "status": "PASS",
+      "total_tokens": 1809,
+      "response_id": "jl2haoSWAfG-vr0PmNLDsA4"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:22:29.846482+00:00",
+      "status": "PASS",
+      "total_tokens": 1696,
+      "response_id": "kl2hasWWO8LZ2roP9YH94AU"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:22:33.199351+00:00",
+      "status": "PASS",
+      "total_tokens": 1663,
+      "response_id": "ll2havCoFNSp2roPlvWEwQc"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:22:36.888099+00:00",
+      "status": "PASS",
+      "total_tokens": 2975,
+      "response_id": "mV2havXZO9qZvr0PtqrPgAo"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:22:40.676037+00:00",
+      "status": "PASS",
+      "total_tokens": 1634,
+      "response_id": "nV2haqDXLo7grfcPhbXL8AE"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:22:44.939418+00:00",
+      "status": "PASS",
+      "total_tokens": 1723,
+      "response_id": "ol2has-kAfu9vr0PjNbFyAo"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:22:48.222977+00:00",
+      "status": "PASS",
+      "total_tokens": 1720,
+      "response_id": "pV2hateLFKHp2roPuKGU6As"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:22:52.345719+00:00",
+      "status": "PASS",
+      "total_tokens": 2055,
+      "response_id": "qV2hasTYHsLZ2roP9YH94AU"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:22:55.406123+00:00",
+      "status": "PASS",
+      "total_tokens": 2276,
+      "response_id": "rF2hau6WJtDKrfcPwJW2qAw"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:22:59.088951+00:00",
+      "status": "PASS",
+      "total_tokens": 2097,
+      "response_id": "sF2haoC4C8v_1e8PrpjAwAo"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:23:02.659839+00:00",
+      "status": "PASS",
+      "total_tokens": 1542,
+      "response_id": "s12hasyLL4O7vr0PjrnkgA0"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:23:05.769502+00:00",
+      "status": "PASS",
+      "total_tokens": 1686,
+      "response_id": "tl2hatmXNtzmrfcPw9GYoQk"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:23:08.754382+00:00",
+      "status": "PASS",
+      "total_tokens": 1475,
+      "response_id": "uV2hatqsNdrXrfcPjeXj-AE"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:23:12.031374+00:00",
+      "status": "PASS",
+      "total_tokens": 1686,
+      "response_id": "vV2harT8B6Gz1e8P9P6V0Qk"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:23:15.484900+00:00",
+      "status": "PASS",
+      "total_tokens": 1696,
+      "response_id": "wF2hauvhJI_T1e8PkbPx6QE"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:23:18.898653+00:00",
+      "status": "PASS",
+      "total_tokens": 1911,
+      "response_id": "xF2hatBd7K_aug-s86OhAQ"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:23:21.799919+00:00",
+      "status": "PASS",
+      "total_tokens": 1448,
+      "response_id": "xl2haqrmOOfVrfcPhtThmQw"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:23:25.125489+00:00",
+      "status": "PASS",
+      "total_tokens": 1805,
+      "response_id": "yl2haoyBDsDqrfcProSOqAI"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:23:29.901808+00:00",
+      "status": "PASS",
+      "total_tokens": 1699,
+      "response_id": "zl2hauOoPK_u2roPgp-OiAw"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:23:33.379689+00:00",
+      "status": "PASS",
+      "total_tokens": 1434,
+      "response_id": "0l2hao7lHa_grfcPm8ia-Qk"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:23:35.850159+00:00",
+      "status": "PASS",
+      "total_tokens": 1743,
+      "response_id": "1F2hapDVOrGi9tMPveq3mA0"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:23:39.930184+00:00",
+      "status": "PASS",
+      "total_tokens": 2375,
+      "response_id": "2V2haqP8Ad-Zvr0P5a7-sA4"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:23:43.596261+00:00",
+      "status": "PASS",
+      "total_tokens": 2205,
+      "response_id": "3F2hau_rK9jKrfcP_Z-RuQI"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:23:46.994577+00:00",
+      "status": "PASS",
+      "total_tokens": 1647,
+      "response_id": "4F2havPfDayA2roPnYyxsQs"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:23:50.162641+00:00",
+      "status": "PASS",
+      "total_tokens": 2128,
+      "response_id": "412hapyAD-W4vr0Ppau0kQ0"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:23:53.044938+00:00",
+      "status": "PASS",
+      "total_tokens": 2719,
+      "response_id": "5l2haqfqCKHp2roPuKGU6As"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:23:56.023551+00:00",
+      "status": "PASS",
+      "total_tokens": 1532,
+      "response_id": "6V2hauCnBsv_1e8PrpjAwAo"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:23:59.006005+00:00",
+      "status": "PASS",
+      "total_tokens": 1531,
+      "response_id": "7F2harzZCOXYrfcP5YjSmAU"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:24:02.165861+00:00",
+      "status": "PASS",
+      "total_tokens": 1592,
+      "response_id": "712haq_ND8LZ2roP9YH94AU"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:24:05.362569+00:00",
+      "status": "PASS",
+      "total_tokens": 1304,
+      "response_id": "8l2haqC0HLHs1e8PuKXVyA0"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:24:08.017050+00:00",
+      "status": "PASS",
+      "total_tokens": 1336,
+      "response_id": "9V2har7bB9DKrfcPwJW2qAw"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:24:11.019276+00:00",
+      "status": "PASS",
+      "total_tokens": 2499,
+      "response_id": "-F2hat_JB8OXosUPptKa2Qw"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:24:14.858909+00:00",
+      "status": "PASS",
+      "total_tokens": 2491,
+      "response_id": "_F2haob3A6XarfcPta3SoQM"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:24:18.395164+00:00",
+      "status": "PASS",
+      "total_tokens": 5256,
+      "response_id": "_12hapLHI8elvr0P4c_dgQ0"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:24:22.295947+00:00",
+      "status": "PASS",
+      "total_tokens": 1890,
+      "response_id": "A16hauSxF6TkrfcPkOz12Qk"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:24:24.691475+00:00",
+      "status": "PASS",
+      "total_tokens": 1763,
+      "response_id": "BV6haszLNrH_vr0Pm-XJ6Aw"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:24:29.753957+00:00",
+      "status": "PASS",
+      "total_tokens": 1725,
+      "response_id": "Cl6haonbM5DfrfcP_cyH6Ak"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:24:33.154858+00:00",
+      "status": "PASS",
+      "total_tokens": 2173,
+      "response_id": "Dl6hasXIEvON0-kP9vPw6QM"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:24:37.729155+00:00",
+      "status": "PASS",
+      "total_tokens": 2519,
+      "response_id": "El6hauXhNcrfrfcPw6KgwAc"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:24:41.416300+00:00",
+      "status": "PASS",
+      "total_tokens": 1457,
+      "response_id": "Fl6hat-GIfy30-kP_c2goQE"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:24:44.806534+00:00",
+      "status": "PASS",
+      "total_tokens": 1480,
+      "response_id": "Gl6havbyAd_prfcPiIqCyAk"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:27:22.998657+00:00",
+      "status": "PASS",
+      "total_tokens": 1619,
+      "response_id": "uF6hat_wCpWc0-kPtfed4QI"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:27:26.405920+00:00",
+      "status": "PASS",
+      "total_tokens": 1439,
+      "response_id": "u16haurZH4_N1e8P6urX8Aw"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:27:29.598198+00:00",
+      "status": "PASS",
+      "total_tokens": 1617,
+      "response_id": "vl6hauiXLe-Y0-kPhIfKYQ"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:27:33.279359+00:00",
+      "status": "PASS",
+      "total_tokens": 1775,
+      "response_id": "wl6hasb1F4zz2roPucikkAw"
+    }
+  ],
+  "finished_at": "2026-09-09T13:24:47.813538+00:00",
+  "deterministic_guard_recheck": {
+    "method": "Same API outputs; restore original_model_risk and remove only appended guard targets",
+    "before": {
+      "PASS": 28,
+      "VERIFY": 5,
+      "AUTO_HOLD": 16
+    },
+    "after": {
+      "PASS": 28,
+      "VERIFY": 5,
+      "AUTO_HOLD": 16
+    },
+    "api_calls": 0,
+    "changes": []
+  }
+}

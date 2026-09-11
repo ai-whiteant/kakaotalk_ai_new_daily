@@ -1,0 +1,470 @@
+[
+  {
+    "source_id": "gott",
+    "url": "https://gottheimer.house.gov/posts/release-gottheimer-unveils-bipartisan-back-to-school-agenda-for-ai-in-k-12-education",
+    "source_name": "Congressman Gottheimer",
+    "source_type": "official",
+    "notes": [
+      "9월 4일 발표. Gottheimer와 Obernolte의 AI LABS Act는 학교 AI 실습실·교사 연수 지원 법안이다. 법률 시행이나 지원금 지급 완료가 아니다."
+    ],
+    "locator": "2026-09-04; paragraphs 24–35",
+    "access": "body",
+    "retrieved_at": "2026-09-11T14:47:23.362028+00:00",
+    "notes_sha256": "b1a10f80f090b9e20623ba2939a716ea832702d1d91293be31f7aa3f1cc184c5",
+    "verification_only": true,
+    "retrieval_method": "web.run open/click/find; short reviewed paraphrase",
+    "timestamp_scope": "review record time; original publisher date checked separately"
+  },
+  {
+    "source_id": "nyc",
+    "url": "https://www.schools.nyc.gov/about-us/policies/guidance-on-artificial-intelligence",
+    "source_name": "NYC Public Schools",
+    "source_type": "official",
+    "notes": [
+      "2026–27 2K–8 학생 대면 생성형 AI 유예. 보조공학 등 예외를 둔다. 교사의 수업 준비·행정 허용과 채점·학생 결정 금지를 구분한다."
+    ],
+    "locator": "AI and Screen Time Policy Updates; How Teachers May Use AI",
+    "access": "body",
+    "retrieved_at": "2026-09-11T14:47:23.362028+00:00",
+    "notes_sha256": "95cc0708cb696fc91952c9013b89b5eb20f7bf6d00e62b822640cf14d1310b1a",
+    "verification_only": true,
+    "retrieval_method": "web.run open/click/find; short reviewed paraphrase",
+    "timestamp_scope": "review record time; original publisher date checked separately"
+  },
+  {
+    "source_id": "nyc_release",
+    "url": "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat",
+    "source_name": "NYC Mayor Office",
+    "source_type": "official",
+    "notes": [
+      "공식 발표일은 9월 2일이며 2026–27학년도 1년 유예다. 고등학교 제한적 시범 사용·리터러시 교육과 저학년 화면 규칙을 구분한다."
+    ],
+    "locator": "date header; paragraphs 72–75",
+    "access": "body",
+    "retrieved_at": "2026-09-11T14:47:23.362028+00:00",
+    "notes_sha256": "83918f7b983cab1c03ccd83e38e6772a6bc276e6abf0de3e5bf130ea54b738f7",
+    "verification_only": true,
+    "retrieval_method": "web.run open/click/find; short reviewed paraphrase",
+    "timestamp_scope": "review record time; original publisher date checked separately"
+  },
+  {
+    "source_id": "wnyc",
+    "url": "https://wnyc.org/browse/shows/episode/simplecast/f5794230-aa49-4b0e-8273-e9b26763c5a6",
+    "source_name": "WNYC",
+    "source_type": "major_media",
+    "notes": [
+      "9월 7일 방송은 뉴욕 정책과 학교 밖 시행 과제를 다룬다. 공식 발표 자체는 이전인 9월 2일이다."
+    ],
+    "locator": "episode date and description 9–15",
+    "access": "body",
+    "retrieved_at": "2026-09-11T14:47:23.362028+00:00",
+    "notes_sha256": "b12d8c6274b65125e5a25c089321be57318f2630a6ed873e8ba41355fb48dbfb",
+    "verification_only": true,
+    "retrieval_method": "web.run open/click/find; short reviewed paraphrase",
+    "timestamp_scope": "review record time; original publisher date checked separately"
+  },
+  {
+    "source_id": "abc_nyc",
+    "url": "https://abc7ny.com/post/new-york-city-public-schools-banning-ai-use-middle-school-year/19778716/",
+    "source_name": "WABC",
+    "source_type": "major_media",
+    "notes": [
+      "9월 3일 원 보도는 수요일 정책 발표와 2K–8 생성형 AI 유예 및 교사 준비 업무 허용을 구분한다."
+    ],
+    "locator": "date and reporter body 15–31",
+    "access": "body",
+    "retrieved_at": "2026-09-11T14:47:23.362028+00:00",
+    "notes_sha256": "f7f80ae4ff465ebbc2a76405104bc11d3fc95d91fac358ec452aea9af30c9b4d",
+    "verification_only": true,
+    "retrieval_method": "web.run open/click/find; short reviewed paraphrase",
+    "timestamp_scope": "review record time; original publisher date checked separately"
+  },
+  {
+    "source_id": "gothamist",
+    "url": "https://tollbit.gothamist.com/news/nyc-public-schools-to-ban-ai-for-teaching-students-below-9th-grade",
+    "source_name": "Gothamist",
+    "source_type": "major_media",
+    "notes": [
+      "9월 1일 사전 보도는 규칙이 수요일 발표될 예정이라고 적었다. 공식 발표일과 사전 취재일을 혼동하지 않는다."
+    ],
+    "locator": "publication header; paragraphs 69–71",
+    "access": "body",
+    "retrieved_at": "2026-09-11T14:47:23.362028+00:00",
+    "notes_sha256": "0ea3f716820007a9094279ffd12b0a50e7a6dba7e7002da5241a23128ec6faef",
+    "verification_only": true,
+    "retrieval_method": "web.run open/click/find; short reviewed paraphrase",
+    "timestamp_scope": "review record time; original publisher date checked separately"
+  },
+  {
+    "source_id": "brook",
+    "url": "https://www.brookings.edu/articles/3-reasons-why-going-slow-to-go-fast-is-the-right-approach-for-ai-in-schools/",
+    "source_name": "Brookings / Rebecca Winthrop",
+    "source_type": "research",
+    "notes": [
+      "9월 8일 교육 해설. 학생의 사고·대화와 가족 신뢰를 고려한 점진 도입을 제안하며, 에스토니아·네덜란드 사례를 든다. 인과 효과의 확정 연구로 취급하지 않는다."
+    ],
+    "locator": "date; Risks; Common-sense exceptions; trust sections",
+    "access": "body",
+    "retrieved_at": "2026-09-11T14:47:23.362028+00:00",
+    "notes_sha256": "01b0870f63ebb16f37e3ca50fd48bac9c9b7be766f206b0b635e09af79a82881",
+    "verification_only": true,
+    "retrieval_method": "web.run open/click/find; short reviewed paraphrase",
+    "timestamp_scope": "review record time; original publisher date checked separately"
+  },
+  {
+    "source_id": "estonia",
+    "url": "https://tihupe.ee/wp-content/uploads/2026/07/Summary-of-the-AI-Leap-World-Cafe-Discussions_web_.pdf",
+    "source_name": "AI Leap",
+    "source_type": "research",
+    "notes": [
+      "학생 토론은 AI의 빠르고 비판단적인 답 때문에 교사·동료보다 AI에 질문할 수 있다는 경험을 담는다. 대표성 있는 인과 실험이나 모든 학생의 소통 감소 입증은 아니다."
+    ],
+    "locator": "PDF pp 2 and 6, AI and Relationships",
+    "access": "body",
+    "retrieved_at": "2026-09-11T14:47:23.362028+00:00",
+    "notes_sha256": "c9518734dd317f545c5a7d328a6edf51830a8b20d9cbba3a32580576b373877c",
+    "verification_only": true,
+    "retrieval_method": "web.run open/click/find; short reviewed paraphrase",
+    "timestamp_scope": "review record time; original publisher date checked separately"
+  },
+  {
+    "source_id": "nolai",
+    "url": "https://www.ru.nl/en/nolai",
+    "source_name": "Radboud University / NOLAI",
+    "source_type": "official",
+    "notes": [
+      "학교·교사가 현장 문제의 AI 해결 가능성을 연구소와 탐색한다. 개별 프로젝트의 성적 향상이나 수기 조기경보 효과는 이 페이지에서 확정하지 않는다."
+    ],
+    "locator": "Education section; Open call examples",
+    "access": "body",
+    "retrieved_at": "2026-09-11T14:47:23.362028+00:00",
+    "notes_sha256": "54b327230c23946fa892c4129ad20213deb1a380fe21d1403a5d52fe22d2abd6",
+    "verification_only": true,
+    "retrieval_method": "web.run open/click/find; short reviewed paraphrase",
+    "timestamp_scope": "review record time; original publisher date checked separately"
+  },
+  {
+    "source_id": "estonia_review",
+    "url": "https://tihupe.ee/wp-content/uploads/2026/08/AI-Leap-First-Annual-Review-202526.pdf",
+    "source_name": "AI Leap annual review",
+    "source_type": "research",
+    "notes": [
+      "교사 응답에서 학생의 산출물과 설명 능력 간 차이에 대한 우려를 제시한다. 자기보고 자료로서 학생 인지능력 저하의 인과 증거는 아니다."
+    ],
+    "locator": "PDF p13; teacher-reported concerns",
+    "access": "body",
+    "retrieved_at": "2026-09-11T14:47:23.362028+00:00",
+    "notes_sha256": "a9e60871833f4d95b589cfb08aba5589992cef32ed1f324d0fb60aad8cdd5ea4",
+    "verification_only": true,
+    "retrieval_method": "web.run open/click/find; short reviewed paraphrase",
+    "timestamp_scope": "review record time; original publisher date checked separately"
+  },
+  {
+    "source_id": "china",
+    "url": "https://www.court.gov.cn/zixun/xiangqing/511101.html",
+    "source_name": "Supreme People Court of China",
+    "source_type": "official",
+    "notes": [
+      "9월 7일 AI 분쟁 심리 의견 공개. 현행 법률에 따른 사법 지침이며 별도 AI 법 제정이 아니다. (4)는 동의 없는 식별 가능한 얼굴·음성 이용을 법정 예외와 함께 규정하고 (7)은 침해 통지 후 필요한 조치를 취하지 않은 제공자 책임을 다룬다."
+    ],
+    "locator": "2026-09-07; legal text clauses (4),(7)",
+    "access": "body",
+    "retrieved_at": "2026-09-11T14:47:23.362028+00:00",
+    "notes_sha256": "9ab2a140c34915b76133f6030c801df27949fff89a173a65fa1e0b89e1ae838e",
+    "verification_only": true,
+    "retrieval_method": "web.run open/click/find; short reviewed paraphrase",
+    "timestamp_scope": "review record time; original publisher date checked separately"
+  },
+  {
+    "source_id": "china_media",
+    "url": "https://m.economictimes.com/tech/artificial-intelligence/chinas-top-court-posts-guidelines-on-deepfakes-ai-disputes/amp_articleshow/133878157.cms",
+    "source_name": "AFP via Economic Times",
+    "source_type": "major_media",
+    "notes": [
+      "9월 7일 보도는 중국 최고법원의 딥페이크·AI 분쟁 지침을 설명한다. 자동 synopsis의 legislation 표현 대신 법원 원문을 우선한다."
+    ],
+    "locator": "AFP reporter paragraphs 28–40",
+    "access": "body",
+    "retrieved_at": "2026-09-11T14:47:23.362028+00:00",
+    "notes_sha256": "e8cd70fc1a4288821e69e362e0bb18a0f5e5801cead319be274b2ae28cf6d8cd",
+    "verification_only": true,
+    "retrieval_method": "web.run open/click/find; short reviewed paraphrase",
+    "timestamp_scope": "review record time; original publisher date checked separately"
+  },
+  {
+    "source_id": "naver",
+    "url": "https://www.navercorp.com/media/pressReleasesDetail?seq=10034628",
+    "source_name": "NAVER",
+    "source_type": "official",
+    "notes": [
+      "9월 3일 사이버보안 파운데이션 모델 사업 선정 발표. 모델 개발·검증은 계획이다. 공식 총 33개와 언론 총 32개가 달라 참여기관 수를 안전 문장에서 제외한다."
+    ],
+    "locator": "date and body 204–211",
+    "access": "body",
+    "retrieved_at": "2026-09-11T14:47:23.362028+00:00",
+    "notes_sha256": "ab36c3a8131f339842e61b0c31debc166a0eba6b4824c4cbaebcb3a2fd9eaaef",
+    "verification_only": true,
+    "retrieval_method": "web.run open/click/find; short reviewed paraphrase",
+    "timestamp_scope": "review record time; original publisher date checked separately"
+  },
+  {
+    "source_id": "herald",
+    "url": "https://www.koreaherald.com/article/10861436",
+    "source_name": "Yonhap via Korea Herald",
+    "source_type": "major_media",
+    "notes": [
+      "9월 3일 11:13:35 보도. 과기정통부를 인용해 네이버클라우드 사업 선정, 지원 계획, 월내 계약 예정을 구분한다. 총 32개 표기는 기업 공식 33개와 충돌한다."
+    ],
+    "locator": "published header; body 85–93",
+    "access": "body",
+    "retrieved_at": "2026-09-11T14:47:23.362028+00:00",
+    "notes_sha256": "f323286efbee23a9e808e1e1701a74694dd194056b6afd83e1bdc6e7bb94f771",
+    "verification_only": true,
+    "retrieval_method": "web.run open/click/find; short reviewed paraphrase",
+    "timestamp_scope": "review record time; original publisher date checked separately"
+  },
+  {
+    "source_id": "nvidia",
+    "url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
+    "source_name": "NVIDIA",
+    "source_type": "official",
+    "notes": [
+      "9월 3일 IFA 글은 로컬 에이전트 도구와 네트워크 PC에 추론 요청을 분배하는 PAIR를 발표했다. 뒤의 모델 목록은 8월 출시 요약으로 구분한다."
+    ],
+    "locator": "date; Today announcements; August roundup",
+    "access": "body",
+    "retrieved_at": "2026-09-11T14:47:23.362028+00:00",
+    "notes_sha256": "04727b1cd04bf8fef6476ebc8a0873d8c7dabbc3aa7ba0ed4c1d821003d45ee2",
+    "verification_only": true,
+    "retrieval_method": "web.run open/click/find; short reviewed paraphrase",
+    "timestamp_scope": "review record time; original publisher date checked separately"
+  },
+  {
+    "source_id": "samsung",
+    "url": "https://news.samsung.com/global/samsung-and-mistral-ai-announce-strategic-partnership-for-intelligence-driven-semiconductor-infrastructure",
+    "source_name": "Samsung Electronics",
+    "source_type": "official",
+    "notes": [
+      "9월 9일 한국 발표. Mistral Large 등을 활용한 반도체 설계·제조용 온프레미스 AI 협력 계획이다. 결함 탐지·장비 최적화 목표를 제시하나 실제 수율·효율 개선을 입증하지 않는다."
+    ],
+    "locator": "date; body 75–83",
+    "access": "body",
+    "retrieved_at": "2026-09-11T14:47:23.362028+00:00",
+    "notes_sha256": "3d7e59df693d5f8d2d76fec3e6353b75fe9a80cf33d634cda2c72c585cb0b80b",
+    "verification_only": true,
+    "retrieval_method": "web.run open/click/find; short reviewed paraphrase",
+    "timestamp_scope": "review record time; original publisher date checked separately"
+  },
+  {
+    "source_id": "donga",
+    "url": "https://www.donga.com/news/Economy/article/all/20260909/134631328/2",
+    "source_name": "Dong-A Ilbo",
+    "source_type": "major_media",
+    "notes": [
+      "9월 9일 04:30 KST 입력, 07:22 수정. 8일 프랑스 현지 정상회담에서 삼성·미스트랄 전략적 협력 및 반도체 AI 공동 개발이 보도되었다. 투자 금액·이전 투자연도는 이 검토에 사용하지 않는다."
+    ],
+    "locator": "date header 87–89; body 151,155",
+    "access": "body",
+    "retrieved_at": "2026-09-11T14:47:23.362028+00:00",
+    "notes_sha256": "317bc918bfe3843520ff7561db4ab98e7b65fda2c435e01c78be7f078c84a39e",
+    "verification_only": true,
+    "retrieval_method": "web.run open/click/find; short reviewed paraphrase",
+    "timestamp_scope": "review record time; original publisher date checked separately"
+  },
+  {
+    "source_id": "neomme",
+    "url": "https://huggingface.co/blog/Hcompany/neomme",
+    "source_name": "H Company team",
+    "source_type": "official",
+    "notes": [
+      "9월 3일 개발팀 공개. NeoMME 260M·800M 멀티모달 다국어 인코더와 Apache 2.0 체크포인트, 문서 검색 평가를 제시한다. 벤치마크는 연구진 평가로 귀속하며 현장 일반 성능으로 확대하지 않는다."
+    ],
+    "locator": "date; TLDR; benchmark table",
+    "access": "body",
+    "retrieved_at": "2026-09-11T14:47:23.362028+00:00",
+    "notes_sha256": "9a26a7231e6fea46c84a77e83c21683e716cbf41f63995e994d931f3cf7064bf",
+    "verification_only": true,
+    "retrieval_method": "web.run open/click/find; short reviewed paraphrase",
+    "timestamp_scope": "review record time; original publisher date checked separately"
+  },
+  {
+    "source_id": "neomme_paper",
+    "url": "https://arxiv.org/abs/2609.01657",
+    "source_name": "NeoMME authors",
+    "source_type": "research",
+    "notes": [
+      "논문은 단일 인코더가 이미지와 텍스트를 처리하며 시각 문서 검색용으로 평가된 구조와 공개 체크포인트를 설명한다."
+    ],
+    "locator": "abstract; architecture; evaluation",
+    "access": "body",
+    "retrieved_at": "2026-09-11T14:47:23.362028+00:00",
+    "notes_sha256": "9756df052ab72127d45f96576c65258a6a3e3cc2c6ce4b936954b02750c3c312",
+    "verification_only": true,
+    "retrieval_method": "web.run open/click/find; short reviewed paraphrase",
+    "timestamp_scope": "review record time; original publisher date checked separately"
+  },
+  {
+    "source_id": "ebs_body",
+    "url": "https://v.daum.net/v/20260909123729132",
+    "source_name": "EBS reporter via Daum",
+    "source_type": "major_media",
+    "notes": [
+      "9월 9일 12:37 EBS 원 보도 본문. 초중고·교육청 15건 중 13건은 업무상 과실, 해킹과 기타는 각 1건이다. 기존 Gemini의 해킹이 주원인이라는 요약과 반대다."
+    ],
+    "locator": "EBS reporter body 83–123, excluding auto summary",
+    "access": "body",
+    "retrieved_at": "2026-09-11T14:47:23.362028+00:00",
+    "notes_sha256": "e7cd272d48ee9921917ddba93a288f6abb59648631874170eda1121ff600092e",
+    "verification_only": true,
+    "retrieval_method": "web.run open/click/find; short reviewed paraphrase",
+    "timestamp_scope": "review record time; original publisher date checked separately"
+  },
+  {
+    "source_id": "builtin",
+    "url": "https://builtin.com/artificial-intelligence/ai-copyright",
+    "source_name": "Built In",
+    "source_type": "specialist",
+    "notes": [
+      "9월 8일 갱신 표시이나 본문은 2022·2023 사건 등 일반 저작권 해설이다. 기간 내 신규 법적 변화와 최초 발행일을 확인하지 못했다."
+    ],
+    "locator": "updated header; legal history sections",
+    "access": "body",
+    "retrieved_at": "2026-09-11T14:47:23.362028+00:00",
+    "notes_sha256": "d0bd63701788e317200db84facdb8c97eb780e14a9b977ac44e77a7f417cde0c",
+    "verification_only": true,
+    "retrieval_method": "web.run open/click/find; short reviewed paraphrase",
+    "timestamp_scope": "review record time; original publisher date checked separately"
+  },
+  {
+    "source_id": "nsf",
+    "url": "https://www.nsf.gov/science-matters/materials-science-stuff-modern-world",
+    "source_name": "NSF",
+    "source_type": "official",
+    "notes": [
+      "9월 2일 소재과학의 장기 연구와 AI 실험 등을 설명한 일반 소개다. 새로운 AI 성과의 발생일과 시작 경계 시각을 확정할 수 없다."
+    ],
+    "locator": "September 2 header; materials research overview",
+    "access": "body",
+    "retrieved_at": "2026-09-11T14:47:23.362028+00:00",
+    "notes_sha256": "208254eb32447fbfacf8e9657b88aab2cc5d7f93ef6a1c43cba4c62f6aa6bb80",
+    "verification_only": true,
+    "retrieval_method": "web.run open/click/find; short reviewed paraphrase",
+    "timestamp_scope": "review record time; original publisher date checked separately"
+  },
+  {
+    "source_id": "schoolflat",
+    "url": "https://story.schoolflat.com/",
+    "source_name": "Schoolflat",
+    "source_type": "official",
+    "notes": [
+      "보도자료 목록에 세계은행 행사 시연 제목이 있으나 날짜·세부 근거 전문은 확보하지 못했다. 효과나 공식 채택을 입증하지 않는다."
+    ],
+    "locator": "press release listing only",
+    "access": "partial",
+    "retrieved_at": "2026-09-11T14:47:23.362028+00:00",
+    "notes_sha256": "954da3fee9b194fcaa1555fe78a48aaa12e180149bfb51ea3af63e3ea3a51c0c",
+    "verification_only": true,
+    "retrieval_method": "web.run open/click/find; short reviewed paraphrase",
+    "timestamp_scope": "review record time; original publisher date checked separately"
+  },
+  {
+    "source_id": "outage",
+    "url": "https://gizmodo.com/all-the-major-ai-chatbots-are-experiencing-outages-right-now-2000806887",
+    "source_name": "Gizmodo",
+    "source_type": "specialist",
+    "notes": [
+      "장애 기사 접근 확인."
+    ],
+    "locator": "reporter body; not used for approval",
+    "access": "body",
+    "retrieved_at": "2026-09-11T14:47:23.362028+00:00",
+    "notes_sha256": "64c13df392d0f595f18691fbd206593f3c41c4c58780676aa94fefd4f8a1b2f0",
+    "verification_only": true,
+    "retrieval_method": "web.run open/click/find; short reviewed paraphrase",
+    "timestamp_scope": "review record time; original publisher date checked separately"
+  },
+  {
+    "source_id": "attempt_aalrr",
+    "url": "https://www.aalrr.com/EdLawConnectBlog/responsible-ai-usage-in-higher-education-governance-academic-integrity-and-fraud-compliance-risks",
+    "source_name": "www.aalrr.com",
+    "source_type": "other",
+    "notes": [],
+    "locator": "body retrieval failed",
+    "access": "failed",
+    "retrieved_at": "2026-09-11T14:47:23.362028+00:00",
+    "notes_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "verification_only": true,
+    "retrieval_method": "web.run open/click/find; short reviewed paraphrase",
+    "timestamp_scope": "review record time; original publisher date checked separately"
+  },
+  {
+    "source_id": "attempt_free",
+    "url": "https://zdnet.co.kr/view?no=20260907085715",
+    "source_name": "zdnet.co.kr",
+    "source_type": "other",
+    "notes": [],
+    "locator": "body retrieval failed",
+    "access": "failed",
+    "retrieved_at": "2026-09-11T14:47:23.362028+00:00",
+    "notes_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "verification_only": true,
+    "retrieval_method": "web.run open/click/find; short reviewed paraphrase",
+    "timestamp_scope": "review record time; original publisher date checked separately"
+  },
+  {
+    "source_id": "attempt_ebs",
+    "url": "https://home.ebs.co.kr/ebsnews/menu1/newsAllView/60766799/H?eduNewsYn=N&newsFldDetlCd=",
+    "source_name": "home.ebs.co.kr",
+    "source_type": "other",
+    "notes": [],
+    "locator": "body retrieval failed",
+    "access": "failed",
+    "retrieved_at": "2026-09-11T14:47:23.362028+00:00",
+    "notes_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "verification_only": true,
+    "retrieval_method": "web.run open/click/find; short reviewed paraphrase",
+    "timestamp_scope": "review record time; original publisher date checked separately"
+  },
+  {
+    "source_id": "attempt_boan",
+    "url": "https://www.boannews.com/news/articleView.html?idxno=145757",
+    "source_name": "www.boannews.com",
+    "source_type": "other",
+    "notes": [],
+    "locator": "body retrieval failed",
+    "access": "failed",
+    "retrieved_at": "2026-09-11T14:47:23.362028+00:00",
+    "notes_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "verification_only": true,
+    "retrieval_method": "web.run open/click/find; short reviewed paraphrase",
+    "timestamp_scope": "review record time; original publisher date checked separately"
+  },
+  {
+    "source_id": "attempt_samsung",
+    "url": "https://www.itdaily.kr/news/articleView.html?idxno=241506",
+    "source_name": "www.itdaily.kr",
+    "source_type": "other",
+    "notes": [],
+    "locator": "body retrieval failed",
+    "access": "failed",
+    "retrieved_at": "2026-09-11T14:47:23.362028+00:00",
+    "notes_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "verification_only": true,
+    "retrieval_method": "web.run open/click/find; short reviewed paraphrase",
+    "timestamp_scope": "review record time; original publisher date checked separately"
+  },
+  {
+    "source_id": "attempt_neomme",
+    "url": "https://www.unite.ai/h-company-releases-neomme-an-open-source-multimodal-encoder-family",
+    "source_name": "www.unite.ai",
+    "source_type": "other",
+    "notes": [],
+    "locator": "body retrieval failed",
+    "access": "failed",
+    "retrieved_at": "2026-09-11T14:47:23.362028+00:00",
+    "notes_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "verification_only": true,
+    "retrieval_method": "web.run open/click/find; short reviewed paraphrase",
+    "timestamp_scope": "review record time; original publisher date checked separately"
+  }
+]

@@ -1,0 +1,458 @@
+[
+  {
+    "event_id": "evt_d7f90f35fad9bf6b35e1",
+    "candidate_sha256": "b9091f423b20ac50efead099dc0feed9fd468eefff1060b20c3287562820a312",
+    "verified_claims": [
+      {
+        "claim_id": "c0",
+        "claim": "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음.",
+        "status": "UNRESOLVED",
+        "core": true,
+        "source_ids": [],
+        "reason": "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음.",
+        "semantic_review": true,
+        "evidence_urls": []
+      }
+    ],
+    "safe_title": null,
+    "safe_summary": null,
+    "safe_why_it_matters": null,
+    "safe_education_implication": null,
+    "safe_classroom_use": null,
+    "final_source_id": "attempt_aalrr",
+    "publication_interval": null,
+    "freshness_review": "원문 날짜와 고정 기간 대조. 신규 사실·발표와 후속 해설 및 과거 배경을 구분.",
+    "notes": [],
+    "importance_exception": null,
+    "context_changed": true,
+    "reviewed_at": "2026-09-11T14:47:23.362028+00:00",
+    "reviewed_by": "Codex source review",
+    "independent_review": "PENDING",
+    "original_analysis": {
+      "event_id": "evt_d7f90f35fad9bf6b35e1",
+      "category": "policy_ethics",
+      "scores": {
+        "education_relevance": 28,
+        "ai_technical_importance": 10,
+        "teacher_student_impact": 12,
+        "social_industry_impact": 10,
+        "source_reliability": 8,
+        "recency": 10,
+        "total": 78
+      },
+      "summary": "고등교육 기관 내 AI 도입이 증가함에 따라 학문적 정직성, 데이터 보안, 지식 재산권, 그리고 AI 모델이 야기할 수 있는 윤리적 편향성 등에 대한 거버넌스 강화가 강조되고 있습니다. AALRR은 대학 내 교직원 및 학생의 AI 활용에 관한 정책을 명확히 규정하고, 특히 기밀 데이터의 유출 방지 및 AI 결과물에 대한 인간의 검토와 최종 책임 강화가 필요하다고 제언했습니다. UC Berkeley Law 등의 사례와 같이 기존 교육 기관들은 각자의 학문적 표준과 규정 준수를 결합한 개별 AI 정책을 수립하고 있습니다.",
+      "why_it_matters": "대학 내 AI 활용이 보편화되는 가운데, 기존 학칙만으로는 복잡한 데이터 프라이버시 및 학문적 윤리 문제를 충분히 다루기 어렵기 때문입니다. AI 생성 결과물의 오류 및 편향성 문제에 대해 기관과 개인의 책임을 명확히 규정하는 체계적인 가이드라인 마련은 교육 현장의 법적 리스크를 완화하고 AI의 신뢰성 있는 도입을 돕는 필수적인 절차입니다.",
+      "education_implication": "고등교육 기관은 AI를 활용한 학습 및 연구 활동의 허용 범위를 구체적으로 정의한 학칙 업데이트가 필요합니다. 특히 AI 사용에 대한 공개 의무(disclosure)와 금지 사항을 명시하고, AI를 보조 도구로 활용하되 인간이 최종 결과물에 대한 책임을 지는 책임 기반 모델 도입이 중요합니다.",
+      "classroom_use": "교수자는 수업 계획서에 AI 활용 여부와 출처 표기 방법을 명확히 명시하고, 학생들이 AI를 연구 보조 도구로 사용할 때 준수해야 할 데이터 보안 및 윤리 가이드라인을 제공할 수 있습니다. AI가 생성한 결과물에 대해 비판적으로 검토하고 사실 관계를 직접 확인하는 과제를 통해 학생들의 AI 리터러시를 교육할 수 있습니다.",
+      "uncertainties": [
+        "각 교육 기관마다 AI 정책의 수립 수준과 적용 범위가 상이할 수 있음",
+        "기술적 진보에 따른 정책 업데이트 주기가 법적 혹은 제도적 변화를 따라가지 못할 가능성",
+        "공개된 정책이 실제 교육 현장에서 AI 오남용을 효과적으로 억제할 수 있을지에 대한 실효성 여부"
+      ],
+      "fact_check_targets": [
+        "UC Berkeley Law의 구체적인 AI 사용 정책 내용",
+        "Chancellor’s guidance의 구체적인 권고 사항 및 가이드라인 내용",
+        "교육 기관의 AI 정책 위반 시 실제 적용되는 징계 사례",
+        "[AUTO_HOLD] summary: AALRR — Specific named phrase absent from every related candidate"
+      ],
+      "hallucination_risk": "high"
+    },
+    "original_target_disposition": "안전 문장에 남긴 핵심만 직접 근거 대조. 후속 효과·실측 성과·협약 세부 등 미확보 질문은 미해결로 보존하며 출력하지 않는다.",
+    "coverage": {
+      "title": {
+        "status": "UNRESOLVED",
+        "reason": "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "publication_date": {
+        "status": "UNRESOLVED",
+        "reason": "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "event_date": {
+        "status": "UNRESOLVED",
+        "reason": "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "entities": {
+        "status": "UNRESOLVED",
+        "reason": "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "models": {
+        "status": "UNRESOLVED",
+        "reason": "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "numbers": {
+        "status": "UNRESOLVED",
+        "reason": "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "policy": {
+        "status": "UNRESOLVED",
+        "reason": "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "official_announcement": {
+        "status": "UNRESOLVED",
+        "reason": "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "core_claims": {
+        "status": "UNRESOLVED",
+        "reason": "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "why_it_matters": {
+        "status": "UNRESOLVED",
+        "reason": "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "education_implication": {
+        "status": "UNRESOLVED",
+        "reason": "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "classroom_use": {
+        "status": "UNRESOLVED",
+        "reason": "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "final_url": {
+        "status": "UNRESOLVED",
+        "reason": "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음.",
+        "claim_ids": [
+          "c0"
+        ]
+      }
+    },
+    "field_reviews": {
+      "safe_title": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": false
+      },
+      "safe_summary": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": false
+      },
+      "safe_why_it_matters": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": true
+      },
+      "safe_education_implication": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": true
+      },
+      "safe_classroom_use": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": true
+      }
+    },
+    "hold_reasons": [
+      "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음."
+    ],
+    "verification_status": "FINAL_HOLD",
+    "gate_reasons": [
+      "FINAL_URL_UNVERIFIED",
+      "PUBLICATION_DATE_MISSING",
+      "REQUIRED_SAFE_FIELD_EMPTY",
+      "REQUIRED_core_claims",
+      "REQUIRED_event_date",
+      "REQUIRED_final_url",
+      "REQUIRED_publication_date",
+      "REQUIRED_title",
+      "UNCHECKED_classroom_use",
+      "UNCHECKED_core_claims",
+      "UNCHECKED_education_implication",
+      "UNCHECKED_entities",
+      "UNCHECKED_event_date",
+      "UNCHECKED_final_url",
+      "UNCHECKED_models",
+      "UNCHECKED_numbers",
+      "UNCHECKED_official_announcement",
+      "UNCHECKED_policy",
+      "UNCHECKED_publication_date",
+      "UNCHECKED_title",
+      "UNCHECKED_why_it_matters",
+      "UNRESOLVED_CORE",
+      "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음."
+    ],
+    "selection_rank": 7,
+    "original_score": 78,
+    "selection_adjustment": 0,
+    "category": "policy_ethics",
+    "duplicate_group": "evt_d7f90f35fad9bf6b35e1",
+    "guard_original": "AUTO_HOLD",
+    "origin_state": "VERIFIED_WITH_CONTEXT",
+    "original_url": "https://www.aalrr.com/EdLawConnectBlog/responsible-ai-usage-in-higher-education-governance-academic-integrity-and-fraud-compliance-risks",
+    "final_url": "https://www.aalrr.com/EdLawConnectBlog/responsible-ai-usage-in-higher-education-governance-academic-integrity-and-fraud-compliance-risks",
+    "dispatch_allowed": false
+  },
+  {
+    "event_id": "evt_00c0509e97be6275afd4",
+    "candidate_sha256": "f9e3baba12b32fd4c7e2773ace368acba65155beb4385eade805f9b7d8132723",
+    "verified_claims": [
+      {
+        "claim_id": "c0",
+        "claim": "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족.",
+        "status": "UNRESOLVED",
+        "core": true,
+        "source_ids": [],
+        "reason": "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족.",
+        "semantic_review": true,
+        "evidence_urls": []
+      }
+    ],
+    "safe_title": null,
+    "safe_summary": null,
+    "safe_why_it_matters": null,
+    "safe_education_implication": null,
+    "safe_classroom_use": null,
+    "final_source_id": "builtin",
+    "publication_interval": null,
+    "freshness_review": "원문 날짜와 고정 기간 대조. 신규 사실·발표와 후속 해설 및 과거 배경을 구분.",
+    "notes": [],
+    "importance_exception": null,
+    "context_changed": true,
+    "reviewed_at": "2026-09-11T14:47:23.362028+00:00",
+    "reviewed_by": "Codex source review",
+    "independent_review": "PENDING",
+    "original_analysis": {
+      "event_id": "evt_00c0509e97be6275afd4",
+      "category": "policy_ethics",
+      "scores": {
+        "education_relevance": 20,
+        "ai_technical_importance": 15,
+        "teacher_student_impact": 10,
+        "social_industry_impact": 15,
+        "source_reliability": 7,
+        "recency": 8,
+        "total": 75
+      },
+      "summary": "미국 저작권청(U.S. Copyright Office)은 생성형 AI 학습 및 결과물에 관한 저작권 보고서의 일부를 발표하며, 저작물 무단 학습이 저작권 침해를 구성할 수 있다는 입장을 재확인했습니다. 또한, 기계에 의한 생성물은 '저자' 개념에 포함되지 않음을 분명히 했으며, 프롬프트 입력만으로 생성된 결과물은 저작권 보호 대상이 아님을 강조했습니다. 한편, Chamber of Progress와 같은 단체는 AI 모델 학습을 위한 저작물 사용이 '공정 이용(fair use)'에 해당한다는 주장을 제기하며 관련 규제 개선을 요구하고 있습니다.",
+      "why_it_matters": "생성형 AI의 학습 데이터 사용과 결과물의 저작권 귀속 문제는 교육 현장에서 학생들이 생성 AI를 활용해 만든 과제물의 저작권 처리와 학술적 정직성 문제에 직접적인 영향을 미칩니다. 법적 해석의 불확실성은 기술 산업의 방향뿐만 아니라 디지털 콘텐츠 활용 교육 전반에 중요한 지침이 될 것입니다.",
+      "education_implication": "학생들이 생성 AI로 만든 작업물의 저작권 인정 여부에 대한 명확한 법적 지식을 갖추는 것이 중요해집니다. 교육 기관은 생성 AI가 만든 결과물을 '창작'으로 간주하기보다는 도구의 활용이라는 점을 교육하고, 저작권 관련 윤리 교육을 강화해야 할 필요가 있습니다.",
+      "classroom_use": "생성 AI로 만든 결과물에 저작권이 부여되지 않는 이유를 법적·윤리적 관점에서 토론하고, 기존 예술 작품을 AI 학습에 사용하는 것이 저작권법상 '공정 이용'에 해당하는지 사례를 중심으로 학습하는 활동이 가능합니다.",
+      "uncertainties": [
+        "AI 학습을 위한 저작물 사용이 최종적으로 '공정 이용'으로 인정받을 수 있을지 여부",
+        "미국 저작권청의 보고서 내용이 향후 실제 판례에 어느 정도의 영향력을 발휘할지 여부",
+        "기계 생성물에 대한 저작권 미인정 원칙이 향후 기술 발전에 따라 수정될 가능성"
+      ],
+      "fact_check_targets": [
+        "미국 저작권청이 발표한 'Copyright and Artificial Intelligence' 보고서의 구체적인 내용 확인",
+        "Chamber of Progress의 입장에 대한 상세 근거 자료 검증",
+        "미국 내 AI 생성 저작물 관련 최신 소송 사례 및 판례의 법적 논리 확인"
+      ],
+      "hallucination_risk": "low"
+    },
+    "original_target_disposition": "안전 문장에 남긴 핵심만 직접 근거 대조. 후속 효과·실측 성과·협약 세부 등 미확보 질문은 미해결로 보존하며 출력하지 않는다.",
+    "coverage": {
+      "title": {
+        "status": "UNRESOLVED",
+        "reason": "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "publication_date": {
+        "status": "UNRESOLVED",
+        "reason": "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "event_date": {
+        "status": "UNRESOLVED",
+        "reason": "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "entities": {
+        "status": "UNRESOLVED",
+        "reason": "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "models": {
+        "status": "UNRESOLVED",
+        "reason": "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "numbers": {
+        "status": "UNRESOLVED",
+        "reason": "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "policy": {
+        "status": "UNRESOLVED",
+        "reason": "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "official_announcement": {
+        "status": "UNRESOLVED",
+        "reason": "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "core_claims": {
+        "status": "UNRESOLVED",
+        "reason": "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "why_it_matters": {
+        "status": "UNRESOLVED",
+        "reason": "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "education_implication": {
+        "status": "UNRESOLVED",
+        "reason": "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "classroom_use": {
+        "status": "UNRESOLVED",
+        "reason": "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "final_url": {
+        "status": "UNRESOLVED",
+        "reason": "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      }
+    },
+    "field_reviews": {
+      "safe_title": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": false
+      },
+      "safe_summary": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": false
+      },
+      "safe_why_it_matters": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": true
+      },
+      "safe_education_implication": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": true
+      },
+      "safe_classroom_use": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": true
+      }
+    },
+    "hold_reasons": [
+      "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족."
+    ],
+    "verification_status": "FINAL_HOLD",
+    "gate_reasons": [
+      "PUBLICATION_DATE_MISSING",
+      "REQUIRED_SAFE_FIELD_EMPTY",
+      "REQUIRED_core_claims",
+      "REQUIRED_event_date",
+      "REQUIRED_final_url",
+      "REQUIRED_publication_date",
+      "REQUIRED_title",
+      "UNCHECKED_classroom_use",
+      "UNCHECKED_core_claims",
+      "UNCHECKED_education_implication",
+      "UNCHECKED_entities",
+      "UNCHECKED_event_date",
+      "UNCHECKED_final_url",
+      "UNCHECKED_models",
+      "UNCHECKED_numbers",
+      "UNCHECKED_official_announcement",
+      "UNCHECKED_policy",
+      "UNCHECKED_publication_date",
+      "UNCHECKED_title",
+      "UNCHECKED_why_it_matters",
+      "UNRESOLVED_CORE",
+      "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족."
+    ],
+    "selection_rank": 9,
+    "original_score": 75,
+    "selection_adjustment": 0,
+    "category": "policy_ethics",
+    "duplicate_group": "evt_00c0509e97be6275afd4",
+    "guard_original": "PASS",
+    "origin_state": "PASS",
+    "original_url": "https://builtin.com/artificial-intelligence/ai-copyright",
+    "final_url": "https://builtin.com/artificial-intelligence/ai-copyright",
+    "dispatch_allowed": false
+  }
+]

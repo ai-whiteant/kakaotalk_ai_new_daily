@@ -1,0 +1,534 @@
+[
+  {
+    "event_id": "evt_0da37ec7577bcd6b517d",
+    "target_id": "evt_0da37ec7577bcd6b517d:fc:3",
+    "original_target_indices": [
+      3
+    ],
+    "claim": "eighth grade와 8학년은 같은 학생 범위를 뜻한다.",
+    "claim_type": "number",
+    "guard_status": "AUTO_HOLD",
+    "requested_status": "VERIFIED_EQUIVALENT",
+    "reason": "미국 학년 체계의 동일 상한.",
+    "core": true,
+    "administrative": false,
+    "evidence_refs": [
+      {
+        "source_id": "nyc",
+        "note_index": 0
+      }
+    ],
+    "checked_at": "2026-09-10T08:52:15.516498+00:00",
+    "reviewed_by": "Codex source review",
+    "semantic_review": true,
+    "equivalence_context": "NYC 2K–8 policy; not Korean grade conversion",
+    "evidence": [
+      {
+        "source_id": "nyc",
+        "source_url": "https://www.schools.nyc.gov/about-us/policies/guidance-on-artificial-intelligence",
+        "source_name": "NYC Public Schools",
+        "source_type": "official",
+        "evidence_text": "2026–27학년도 2K–8 학생 대면 생성형 AI 유예, 고등학생 승인 프로그램 제한 사용. IEP·504 보조공학 등 예외가 있으며 모든 AI의 일반적 금지와는 다르다.",
+        "locator": "AI and Screen Time Policy Updates; How Teachers May Use AI",
+        "access": "body",
+        "candidate_id": null
+      }
+    ],
+    "verification_status": "VERIFIED_EQUIVALENT",
+    "validation_blocks": []
+  },
+  {
+    "event_id": "evt_0da37ec7577bcd6b517d",
+    "target_id": "evt_0da37ec7577bcd6b517d:fc:4",
+    "original_target_indices": [
+      4
+    ],
+    "claim": "one year와 1년 유예의 기간 동등성",
+    "claim_type": "date",
+    "guard_status": "AUTO_HOLD",
+    "requested_status": "VERIFIED_EQUIVALENT",
+    "reason": "1년은 해당 학년도 유예기간을 뜻한다.",
+    "core": true,
+    "administrative": false,
+    "evidence_refs": [
+      {
+        "source_id": "nyc",
+        "note_index": 2
+      }
+    ],
+    "checked_at": "2026-09-10T08:52:15.516498+00:00",
+    "reviewed_by": "Codex source review",
+    "semantic_review": true,
+    "equivalence_context": "2026–27 school year",
+    "evidence": [
+      {
+        "source_id": "nyc",
+        "source_url": "https://www.schools.nyc.gov/about-us/policies/guidance-on-artificial-intelligence",
+        "source_name": "NYC Public Schools",
+        "source_type": "official",
+        "evidence_text": "학년·기간은 미국 교육체계의 8학년까지, 해당 한 학년도이다.",
+        "locator": "AI and Screen Time Policy Updates; How Teachers May Use AI",
+        "access": "body",
+        "candidate_id": null
+      }
+    ],
+    "verification_status": "VERIFIED_EQUIVALENT",
+    "validation_blocks": []
+  },
+  {
+    "event_id": "evt_69c74bc9d2234f20c095",
+    "target_id": "evt_69c74bc9d2234f20c095:fc:3",
+    "original_target_indices": [
+      3
+    ],
+    "claim": "Nemotron 3.5 Lightning의 300억 파라미터",
+    "claim_type": "number",
+    "guard_status": "AUTO_HOLD",
+    "requested_status": "VERIFIED_EQUIVALENT",
+    "reason": "30 billion=300억의 규모 동등성; 활성 파라미터 수로 바꾸지 않는다.",
+    "core": true,
+    "administrative": false,
+    "evidence_refs": [
+      {
+        "source_id": "original_69c74bc9d2234f20c095_0",
+        "note_index": 0
+      }
+    ],
+    "checked_at": "2026-09-10T08:52:15.516498+00:00",
+    "reviewed_by": "Codex source review",
+    "semantic_review": true,
+    "equivalence_context": "Total parameters: 30 × 10^9 = 300 × 10^8",
+    "evidence": [
+      {
+        "source_id": "original_69c74bc9d2234f20c095_0",
+        "source_url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark",
+        "source_name": "blogs.nvidia.com",
+        "source_type": "official",
+        "evidence_text": "8월 모델 요약에 Nemotron 3.5 Lightning 30-billion과 RTX PC·RTX PRO·DGX Spark·Jetson 지원을 명시한다. Qwen3.8 두 모델과 GLM-5.3-Flash, LTX 2.5 GPU 최적화도 설명한다.",
+        "locator": "August roundup; Local Agents; PAIR",
+        "access": "body",
+        "candidate_id": "c5fea2be4f2543bc4a7e77b1"
+      }
+    ],
+    "verification_status": "VERIFIED_EQUIVALENT",
+    "validation_blocks": []
+  },
+  {
+    "event_id": "evt_d7f90f35fad9bf6b35e1",
+    "target_id": "evt_d7f90f35fad9bf6b35e1:fc:3",
+    "original_target_indices": [
+      3
+    ],
+    "claim": "AALRR이 이 법률 해설의 발행기관이다.",
+    "claim_type": "entity",
+    "guard_status": "AUTO_HOLD",
+    "requested_status": "VERIFIED_EQUIVALENT",
+    "reason": "AALRR 도메인·발행기관 명칭 및 본문 자칭 일치.",
+    "core": true,
+    "administrative": false,
+    "evidence_refs": [
+      {
+        "source_id": "original_d7f90f35fad9bf6b35e1_0",
+        "note_index": 0
+      }
+    ],
+    "checked_at": "2026-09-10T08:52:15.516498+00:00",
+    "reviewed_by": "Codex source review",
+    "semantic_review": true,
+    "equivalence_context": "Atkinson, Andelson, Loya, Ruud & Romo acronym",
+    "safe_statement": "AALRR의 해설은 AI 업무의 인간 검토와 기밀정보 보호를 권고한다.",
+    "evidence": [
+      {
+        "source_id": "original_d7f90f35fad9bf6b35e1_0",
+        "source_url": "https://www.aalrr.com/EdLawConnectBlog/responsible-ai-usage-in-higher-education-governance-academic-integrity-and-fraud-compliance-risks",
+        "source_name": "www.aalrr.com",
+        "source_type": "specialist",
+        "evidence_text": "법률회사 AALRR은 인간 검토·최종 책임·기밀정보 보호를 권고하고 Berkeley Law를 예로 든다. 개별 실제 징계 사건은 이 글에서 제시하지 않는다.",
+        "locator": "Quick Checklist & Next Steps; Lessons from Early Adopters",
+        "access": "body",
+        "candidate_id": "049f73e73aaa39975ae4be4d"
+      }
+    ],
+    "verification_status": "VERIFIED_EQUIVALENT",
+    "validation_blocks": []
+  },
+  {
+    "event_id": "evt_7d321aa730f2aca8e033",
+    "target_id": "evt_7d321aa730f2aca8e033:fc:3",
+    "original_target_indices": [
+      3
+    ],
+    "claim": "two-hour core academics와 교과 학습 2시간",
+    "claim_type": "number",
+    "guard_status": "AUTO_HOLD",
+    "requested_status": "VERIFIED_EQUIVALENT",
+    "reason": "교과 학습 시간의 동일 단위·대상 확인.",
+    "core": true,
+    "administrative": false,
+    "evidence_refs": [
+      {
+        "source_id": "alpha",
+        "note_index": 0
+      }
+    ],
+    "checked_at": "2026-09-10T08:52:15.516498+00:00",
+    "reviewed_by": "Codex source review",
+    "semantic_review": true,
+    "equivalence_context": "Daily core academics, not total school day",
+    "evidence": [
+      {
+        "source_id": "alpha",
+        "source_url": "https://alpha.school/chicago/",
+        "source_name": "Alpha School Chicago",
+        "source_type": "official",
+        "evidence_text": "운영자 소개는 Chicago 캠퍼스의 핵심 교과 학습을 하루 2시간으로 설명하고 나머지는 생활 역량 활동이라고 설명한다. 이는 운영 방식 소개이며 학습 효과의 독립 실험 결과가 아니다.",
+        "locator": "Welcome; Personalized Learning; PreK–8; Meet our Team",
+        "access": "body",
+        "candidate_id": null
+      }
+    ],
+    "verification_status": "VERIFIED_EQUIVALENT",
+    "validation_blocks": []
+  },
+  {
+    "event_id": "evt_7d321aa730f2aca8e033",
+    "target_id": "evt_7d321aa730f2aca8e033:fc:4",
+    "original_target_indices": [
+      4
+    ],
+    "claim": "two-hour core academics와 교과 학습 2시간",
+    "claim_type": "number",
+    "guard_status": "AUTO_HOLD",
+    "requested_status": "VERIFIED_EQUIVALENT",
+    "reason": "교과 학습 시간의 동일 단위·대상 확인.",
+    "core": true,
+    "administrative": false,
+    "evidence_refs": [
+      {
+        "source_id": "alpha",
+        "note_index": 0
+      }
+    ],
+    "checked_at": "2026-09-10T08:52:15.516498+00:00",
+    "reviewed_by": "Codex source review",
+    "semantic_review": true,
+    "equivalence_context": "Daily core academics, not total school day",
+    "evidence": [
+      {
+        "source_id": "alpha",
+        "source_url": "https://alpha.school/chicago/",
+        "source_name": "Alpha School Chicago",
+        "source_type": "official",
+        "evidence_text": "운영자 소개는 Chicago 캠퍼스의 핵심 교과 학습을 하루 2시간으로 설명하고 나머지는 생활 역량 활동이라고 설명한다. 이는 운영 방식 소개이며 학습 효과의 독립 실험 결과가 아니다.",
+        "locator": "Welcome; Personalized Learning; PreK–8; Meet our Team",
+        "access": "body",
+        "candidate_id": null
+      }
+    ],
+    "verification_status": "VERIFIED_EQUIVALENT",
+    "validation_blocks": []
+  },
+  {
+    "event_id": "evt_7d321aa730f2aca8e033",
+    "target_id": "evt_7d321aa730f2aca8e033:extra:5",
+    "original_target_indices": [],
+    "claim": "PreK부터 8th grade까지 대상",
+    "claim_type": "number",
+    "guard_status": "AUTO_HOLD",
+    "requested_status": "VERIFIED_EQUIVALENT",
+    "reason": "캠퍼스 학년 범위 명시.",
+    "core": true,
+    "administrative": false,
+    "evidence_refs": [
+      {
+        "source_id": "alpha",
+        "note_index": 1
+      }
+    ],
+    "checked_at": "2026-09-10T08:52:15.516498+00:00",
+    "reviewed_by": "Codex source review",
+    "semantic_review": true,
+    "equivalence_context": "PreK–8 US grades",
+    "safe_statement": "공식 캠퍼스 안내의 대상은 PreK부터 미국 8학년까지다.",
+    "evidence": [
+      {
+        "source_id": "alpha",
+        "source_url": "https://alpha.school/chicago/",
+        "source_name": "Alpha School Chicago",
+        "source_type": "official",
+        "evidence_text": "캠퍼스 대상은 PreK–8th Grade이고 가이드를 만나는 설명회와 팀 소개가 있다. 실제 개교 완료일 및 모든 가이드의 필수 채용 자격은 이 페이지로 확정하지 못했다.",
+        "locator": "Welcome; Personalized Learning; PreK–8; Meet our Team",
+        "access": "body",
+        "candidate_id": null
+      }
+    ],
+    "verification_status": "VERIFIED_EQUIVALENT",
+    "validation_blocks": []
+  },
+  {
+    "event_id": "evt_d17b94b04c2d6a2f769d",
+    "target_id": "evt_d17b94b04c2d6a2f769d:fc:2",
+    "original_target_indices": [
+      2
+    ],
+    "claim": "3학년 미만의 개별 화면 제한",
+    "claim_type": "number",
+    "guard_status": "AUTO_HOLD",
+    "requested_status": "VERIFIED_EQUIVALENT",
+    "reason": "3학년 미만은 화면 정책의 2K–2 범위.",
+    "core": true,
+    "administrative": false,
+    "evidence_refs": [
+      {
+        "source_id": "nyc",
+        "note_index": 1
+      }
+    ],
+    "checked_at": "2026-09-10T08:52:15.516498+00:00",
+    "reviewed_by": "Codex source review",
+    "semantic_review": true,
+    "equivalence_context": "Screen-time row 2K–2; generative AI ban extends through grade 8",
+    "evidence": [
+      {
+        "source_id": "nyc",
+        "source_url": "https://www.schools.nyc.gov/about-us/policies/guidance-on-artificial-intelligence",
+        "source_name": "NYC Public Schools",
+        "source_type": "official",
+        "evidence_text": "2K–2는 개별 화면 사용 금지, 3–5와 6–8은 별도 권장시간. 교사는 승인·조달 규칙 아래 수업 준비·행정에 AI를 쓸 수 있으나 채점·학생 관련 결정에는 금지된다.",
+        "locator": "AI and Screen Time Policy Updates; How Teachers May Use AI",
+        "access": "body",
+        "candidate_id": null
+      }
+    ],
+    "verification_status": "VERIFIED_EQUIVALENT",
+    "validation_blocks": []
+  },
+  {
+    "event_id": "evt_680f6c20f496df983071",
+    "target_id": "evt_680f6c20f496df983071:fc:4",
+    "original_target_indices": [
+      4
+    ],
+    "claim": "Claude Opus 4.8 및 Opus 5 장애",
+    "claim_type": "model",
+    "guard_status": "AUTO_HOLD",
+    "requested_status": "VERIFIED_EQUIVALENT",
+    "reason": "공식 장애 이력에 Opus 4.8·5 존재; 누락된 Claude 접두어를 버전 발명으로 취급하지 않음.",
+    "core": true,
+    "administrative": false,
+    "evidence_refs": [
+      {
+        "source_id": "anthropic",
+        "note_index": 0
+      }
+    ],
+    "checked_at": "2026-09-10T08:52:15.516498+00:00",
+    "reviewed_by": "Codex source review",
+    "semantic_review": true,
+    "equivalence_context": "Anthropic September 3 incident: Opus models",
+    "evidence": [
+      {
+        "source_id": "anthropic",
+        "source_url": "https://anthropic.statuspage.io/",
+        "source_name": "Anthropic status",
+        "source_type": "official",
+        "evidence_text": "9월 3일 15:25 UTC 갱신은 Opus 4.8과 Opus 5 장애를 명시하며 다른 모델의 오류율 회복을 설명한다. 이후 해결 갱신도 있다. 동시 타사 장애의 공통 원인은 여기서 밝히지 않는다.",
+        "locator": "Sep 3 2026, Elevated errors for multiple models",
+        "access": "body",
+        "candidate_id": null
+      }
+    ],
+    "verification_status": "VERIFIED_EQUIVALENT",
+    "validation_blocks": []
+  },
+  {
+    "event_id": "evt_12c43f6fd0332b85d6d7",
+    "target_id": "evt_12c43f6fd0332b85d6d7:fc:3",
+    "original_target_indices": [
+      3
+    ],
+    "claim": "MediaTek은 해당 투자의 미디어텍이다.",
+    "claim_type": "entity",
+    "guard_status": "AUTO_HOLD",
+    "requested_status": "VERIFIED_EQUIVALENT",
+    "reason": "동일 거래 맥락에서 영문·한글 기업명 일치.",
+    "core": true,
+    "administrative": false,
+    "evidence_refs": [
+      {
+        "source_id": "nvidia_invest",
+        "note_index": 0
+      }
+    ],
+    "checked_at": "2026-09-10T08:52:15.516498+00:00",
+    "reviewed_by": "Codex source review",
+    "semantic_review": true,
+    "equivalence_context": "Same NVIDIA bond transaction",
+    "evidence": [
+      {
+        "source_id": "nvidia_invest",
+        "source_url": "https://nvidianews.nvidia.com/news/nvidia-and-mediatek-deepen-long-standing-partnership-to-build-ai-edge-to-cloud-computing-platforms",
+        "source_name": "NVIDIA Newsroom",
+        "source_type": "official",
+        "evidence_text": "NVIDIA가 MediaTek 발행 전환사채에 35억 달러를 투자했다고 발표했다. MediaTek의 NVLink Fusion 채택과 맞춤 XPU·로컬 AI·자동차 협력을 설명한다.",
+        "locator": "2026-08-31 announcement, partnership paragraphs",
+        "access": "body",
+        "candidate_id": null
+      }
+    ],
+    "verification_status": "VERIFIED_EQUIVALENT",
+    "validation_blocks": []
+  },
+  {
+    "event_id": "evt_34f05779ae69ef70af86",
+    "target_id": "evt_34f05779ae69ef70af86:fc:3",
+    "original_target_indices": [
+      3
+    ],
+    "claim": "AI 예산안 9조4000억원",
+    "claim_type": "number",
+    "guard_status": "AUTO_HOLD",
+    "requested_status": "VERIFIED_EQUIVALENT",
+    "reason": "9조와 4000억은 AI 9조4000억원이라는 동일 합성 금액.",
+    "core": true,
+    "administrative": false,
+    "evidence_refs": [
+      {
+        "source_id": "budget",
+        "note_index": 0
+      }
+    ],
+    "checked_at": "2026-09-10T08:52:15.516498+00:00",
+    "reviewed_by": "Codex source review",
+    "semantic_review": true,
+    "equivalence_context": "KRW proposed budget, not separate amounts",
+    "evidence": [
+      {
+        "source_id": "budget",
+        "source_url": "https://www.korea.kr/news/policyNewsView.do?newsId=148971010",
+        "source_name": "대한민국 정책브리핑 / 과학기술정보통신부",
+        "source_type": "official",
+        "evidence_text": "2027년 예산안 29조6000억원, 24.5% 증가. AI 9조4000억원과 R&D 14조1000억원을 명시한다. 확정 지출액이 아니라 편성안이다.",
+        "locator": "2026-09-01; AI 대전환 / NEXT AI sections",
+        "access": "body",
+        "candidate_id": null
+      }
+    ],
+    "verification_status": "VERIFIED_EQUIVALENT",
+    "validation_blocks": []
+  },
+  {
+    "event_id": "evt_34f05779ae69ef70af86",
+    "target_id": "evt_34f05779ae69ef70af86:fc:4",
+    "original_target_indices": [
+      4
+    ],
+    "claim": "AI 예산안 9조4000억원",
+    "claim_type": "number",
+    "guard_status": "AUTO_HOLD",
+    "requested_status": "VERIFIED_EQUIVALENT",
+    "reason": "9조와 4000억은 AI 9조4000억원이라는 동일 합성 금액.",
+    "core": true,
+    "administrative": false,
+    "evidence_refs": [
+      {
+        "source_id": "budget",
+        "note_index": 0
+      }
+    ],
+    "checked_at": "2026-09-10T08:52:15.516498+00:00",
+    "reviewed_by": "Codex source review",
+    "semantic_review": true,
+    "equivalence_context": "KRW proposed budget, not separate amounts",
+    "evidence": [
+      {
+        "source_id": "budget",
+        "source_url": "https://www.korea.kr/news/policyNewsView.do?newsId=148971010",
+        "source_name": "대한민국 정책브리핑 / 과학기술정보통신부",
+        "source_type": "official",
+        "evidence_text": "2027년 예산안 29조6000억원, 24.5% 증가. AI 9조4000억원과 R&D 14조1000억원을 명시한다. 확정 지출액이 아니라 편성안이다.",
+        "locator": "2026-09-01; AI 대전환 / NEXT AI sections",
+        "access": "body",
+        "candidate_id": null
+      }
+    ],
+    "verification_status": "VERIFIED_EQUIVALENT",
+    "validation_blocks": []
+  },
+  {
+    "event_id": "evt_40de4d5330eaa305435a",
+    "target_id": "evt_40de4d5330eaa305435a:fc:5",
+    "original_target_indices": [
+      5
+    ],
+    "claim": "three와 3개 컨소시엄",
+    "claim_type": "number",
+    "guard_status": "AUTO_HOLD",
+    "requested_status": "VERIFIED_EQUIVALENT",
+    "reason": "보도에서 three consortia는 SKT·KT·Kakao 세 컨소시엄.",
+    "core": true,
+    "administrative": false,
+    "evidence_refs": [
+      {
+        "source_id": "techradar",
+        "note_index": 0
+      }
+    ],
+    "checked_at": "2026-09-10T08:52:15.516498+00:00",
+    "reviewed_by": "Codex source review",
+    "semantic_review": true,
+    "equivalence_context": "Named consortium count; not members within consortium",
+    "evidence": [
+      {
+        "source_id": "techradar",
+        "source_url": "https://www.techradar.com/ai-platforms-assistants/other-governments-will-be-watching-this-closely-south-korea-starts-testing-free-ai-for-the-public",
+        "source_name": "TechRadar",
+        "source_type": "specialist",
+        "evidence_text": "기존 Yahoo 기사의 원 출처는 3개 컨소시엄, 올해 B200 GPU 512개 지원 및 2027년 운영비 보조 계획을 보도한다. 실제 배분·운영 결과와 법적 확약으로 해석할 수 없다.",
+        "locator": "Main article, paragraphs around AI for All",
+        "access": "body",
+        "candidate_id": null
+      }
+    ],
+    "verification_status": "VERIFIED_EQUIVALENT",
+    "validation_blocks": []
+  },
+  {
+    "event_id": "evt_bc49de6c05a6caac6745",
+    "target_id": "evt_bc49de6c05a6caac6745:fc:3",
+    "original_target_indices": [
+      3
+    ],
+    "claim": "자료 제공기관 개인정보보호위원회",
+    "claim_type": "entity",
+    "guard_status": "AUTO_HOLD",
+    "requested_status": "VERIFIED_EQUIVALENT",
+    "reason": "기사 본문에서 개인정보보호위원회와 약칭 개보위를 확인.",
+    "core": true,
+    "administrative": false,
+    "evidence_refs": [
+      {
+        "source_id": "original_bc49de6c05a6caac6745_0",
+        "note_index": 0
+      }
+    ],
+    "checked_at": "2026-09-10T08:52:15.516498+00:00",
+    "reviewed_by": "Codex source review",
+    "semantic_review": true,
+    "equivalence_context": "Full agency name and abbreviation in reporter body",
+    "evidence": [
+      {
+        "source_id": "original_bc49de6c05a6caac6745_0",
+        "source_url": "https://www.mk.co.kr/news/politics/12147202",
+        "source_name": "www.mk.co.kr",
+        "source_type": "major_media",
+        "evidence_text": "9월 8일 의원의 개인정보보호위원회 제출자료 분석 보도다. 초중고·교육청 과징금 0과 대학 제재를 구분하고 통지 위반 3기관을 적었다. 학생정보 항목과 2차 피해 검토 여부는 자료에서 확인되지 않는다고 명시했다.",
+        "locator": "Reporter body, before AI-generated summary sections",
+        "access": "body",
+        "candidate_id": "5153b0030da4155cee77a8ca"
+      }
+    ],
+    "verification_status": "VERIFIED_EQUIVALENT",
+    "validation_blocks": []
+  }
+]

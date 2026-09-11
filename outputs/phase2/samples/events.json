@@ -1,0 +1,174 @@
+[
+  {
+    "event_id": "evt_8bd53493df26c76821b4",
+    "canonical_title": "It’s not just you; ChatGPT, Claude, and Grok are all down in confirmed outages - 9to5Google",
+    "category_hint": "generative_ai",
+    "candidate_ids": [
+      "11f5999f9b21d80c038aec50",
+      "634312fd41da2fd41a0ea59c",
+      "9a047272fc1aa8612151094d",
+      "fc17c6a8e61e648002e61453"
+    ],
+    "primary_source": {
+      "candidate_id": "11f5999f9b21d80c038aec50",
+      "title": "It’s not just you; ChatGPT, Claude, and Grok are all down in confirmed outages - 9to5Google",
+      "url": "https://9to5google.com/2026/09/03/chatgpt-claude-grok-outages/",
+      "source_name": "9to5google.com",
+      "published_at": "2026-09-03T15:07:17+00:00"
+    },
+    "supporting_sources": [
+      {
+        "candidate_id": "634312fd41da2fd41a0ea59c",
+        "title": "Major AI Outage: Grok, Claude Are Down. ChatGPT, Gemini Back Up - PCMag",
+        "url": "https://www.pcmag.com/news/chatgpt-claude-gemini-and-more-are-all-down-right-now",
+        "source_name": "www.pcmag.com",
+        "published_at": "2026-09-03T17:31:45+00:00"
+      },
+      {
+        "candidate_id": "9a047272fc1aa8612151094d",
+        "title": "ChatGPT, Claude, Gemini down: What we know about the AI outages - Mashable",
+        "url": "https://mashable.com/tech/openai-chatgpt-outage-updates-grok-gemini",
+        "source_name": "mashable.com",
+        "published_at": "2026-09-03T17:43:19+00:00"
+      },
+      {
+        "candidate_id": "fc17c6a8e61e648002e61453",
+        "title": "ChatGPT, Claude and other major AI platforms hit by widespread outages - Greenwich Time",
+        "url": "https://www.greenwichtime.com/news/article/ai-outage-reported-chatgpt-grok-claude-gemini-22416033.php",
+        "source_name": "www.greenwichtime.com",
+        "published_at": "2026-09-03T15:47:50+00:00"
+      }
+    ],
+    "entities": [
+      "chatgpt",
+      "claude",
+      "gemini",
+      "google",
+      "grok"
+    ],
+    "event_date": null,
+    "dedup_status": "GEMINI",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_70a6a754fec7056b77b5",
+    "canonical_title": "Naver Cloud selected for govt.-backed cybersecurity AI model project - The Korea Herald",
+    "category_hint": "domestic_ai",
+    "candidate_ids": [
+      "4bfa7a3b38af853db030634b",
+      "b8824dd4c2d6ac98af9f78fe",
+      "f03341341aefd94500eede51"
+    ],
+    "primary_source": {
+      "candidate_id": "4bfa7a3b38af853db030634b",
+      "title": "Naver Cloud selected for govt.-backed cybersecurity AI model project - The Korea Herald",
+      "url": "https://www.koreaherald.com/article/10861436",
+      "source_name": "www.koreaherald.com",
+      "published_at": "2026-09-03T02:13:35+00:00"
+    },
+    "supporting_sources": [
+      {
+        "candidate_id": "b8824dd4c2d6ac98af9f78fe",
+        "title": "Naver Cloud selected for South Korea cybersecurity AI project | UA.NEWS",
+        "url": "https://ua.news/en/technologies/naver-cloud-vidibrali-dlia-proiektu-shi-modeli-z-kiberbezpeki-v-pivdennii-koreyi",
+        "source_name": "ua.news",
+        "published_at": "2026-09-03T05:21:00+00:00"
+      },
+      {
+        "candidate_id": "f03341341aefd94500eede51",
+        "title": "네이버 '사이버보안 특화 AI모델' 만든다…정부사업 수주, 영토확장 - 서울이코노미뉴스",
+        "url": "http://www.seouleconews.com/news/articleView.html?idxno=93498",
+        "source_name": "www.seouleconews.com",
+        "published_at": "2026-09-03T01:34:39+00:00"
+      }
+    ],
+    "entities": [
+      "naver"
+    ],
+    "event_date": null,
+    "dedup_status": "GEMINI",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_460f2361b54fc9d598b7",
+    "canonical_title": "뉴욕시의 'AI 1년 유예'… 한국 교육이 봐야 할 것 [아침을 열며]",
+    "category_hint": "ai_education",
+    "candidate_ids": [
+      "90e2583f52c4700c41c145e3",
+      "973b7e441c9dc7401d4697e2"
+    ],
+    "primary_source": {
+      "candidate_id": "90e2583f52c4700c41c145e3",
+      "title": "뉴욕시의 'AI 1년 유예'… 한국 교육이 봐야 할 것 [아침을 열며]",
+      "url": "https://www.hankookilbo.com/news/article/A2026090709520001657",
+      "source_name": "www.hankookilbo.com",
+      "published_at": "2026-09-08T12:00:00+00:00"
+    },
+    "supporting_sources": [
+      {
+        "candidate_id": "973b7e441c9dc7401d4697e2",
+        "title": "Why New York City Is Restricting Artificial Intelligence in Public Schools | WNYC",
+        "url": "https://wnyc.org/browse/shows/episode/simplecast/f5794230-aa49-4b0e-8273-e9b26763c5a6",
+        "source_name": "wnyc.org",
+        "published_at": "2026-09-08T12:00:00+00:00"
+      }
+    ],
+    "entities": [
+      "newyork"
+    ],
+    "event_date": null,
+    "dedup_status": "GEMINI",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_e8678aff244e50313192",
+    "canonical_title": "NYC schools' AI policy: What experts say about limiting student access",
+    "category_hint": "ai_education",
+    "candidate_ids": [
+      "43d485ec1815d8d97f648d6b",
+      "968642c2aec0fe872b5f4dbe"
+    ],
+    "primary_source": {
+      "candidate_id": "43d485ec1815d8d97f648d6b",
+      "title": "NYC schools' AI policy: What experts say about limiting student access",
+      "url": "https://www.cnbc.com/2026/09/05/nyc-schools-ai-policy-what-experts-say-about-limiting-student-access.html",
+      "source_name": "www.cnbc.com",
+      "published_at": "2026-09-05T13:05:01+00:00"
+    },
+    "supporting_sources": [
+      {
+        "candidate_id": "968642c2aec0fe872b5f4dbe",
+        "title": "\"중학생까지 AI 금지\"…뉴욕시, 학교서 1년간 사용 제한",
+        "url": "https://www.hankyung.com/article/202609043735i",
+        "source_name": "www.hankyung.com",
+        "published_at": "2026-09-04T12:00:00+00:00"
+      }
+    ],
+    "entities": [
+      "newyork"
+    ],
+    "event_date": null,
+    "dedup_status": "GEMINI",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_dbeee01ef6575a9b8128",
+    "canonical_title": "교사 사용까지 제한…학교에서 쫓겨나는 AI - 중앙일보",
+    "category_hint": "ai_education",
+    "candidate_ids": [
+      "d154bf2f43b4643eb44b8a0b"
+    ],
+    "primary_source": {
+      "candidate_id": "d154bf2f43b4643eb44b8a0b",
+      "title": "교사 사용까지 제한…학교에서 쫓겨나는 AI - 중앙일보",
+      "url": "https://www.joongang.co.kr/article/25458988",
+      "source_name": "www.joongang.co.kr",
+      "published_at": "2026-09-03T15:20:03+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  }
+]

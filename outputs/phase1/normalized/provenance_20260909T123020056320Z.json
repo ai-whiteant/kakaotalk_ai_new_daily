@@ -1,0 +1,356 @@
+{
+  "d154bf2f43b4643eb44b8a0b": [
+    {
+      "query_id": "edu_ko_01",
+      "category_hint": "ai_education"
+    }
+  ],
+  "0aea7e5a8ff1bf4e151a32d2": [
+    {
+      "query_id": "edu_ko_01",
+      "category_hint": "ai_education"
+    }
+  ],
+  "54071442c5cf52d502f9be17": [
+    {
+      "query_id": "edu_ko_01",
+      "category_hint": "ai_education"
+    }
+  ],
+  "90e2583f52c4700c41c145e3": [
+    {
+      "query_id": "edu_ko_01",
+      "category_hint": "ai_education"
+    }
+  ],
+  "968642c2aec0fe872b5f4dbe": [
+    {
+      "query_id": "edu_ko_01",
+      "category_hint": "ai_education"
+    }
+  ],
+  "9d89f99fff3e5d5043100859": [
+    {
+      "query_id": "edu_en_01",
+      "category_hint": "ai_education"
+    }
+  ],
+  "973b7e441c9dc7401d4697e2": [
+    {
+      "query_id": "edu_en_01",
+      "category_hint": "ai_education"
+    }
+  ],
+  "84f42458b03358e374c87efc": [
+    {
+      "query_id": "edu_en_01",
+      "category_hint": "ai_education"
+    }
+  ],
+  "359058010f1dec3ad62fae1d": [
+    {
+      "query_id": "edu_en_01",
+      "category_hint": "ai_education"
+    }
+  ],
+  "43d485ec1815d8d97f648d6b": [
+    {
+      "query_id": "edu_en_01",
+      "category_hint": "ai_education"
+    }
+  ],
+  "2c879f7ec891115058b2b00f": [
+    {
+      "query_id": "gen_ko_01",
+      "category_hint": "generative_ai"
+    }
+  ],
+  "fc17c6a8e61e648002e61453": [
+    {
+      "query_id": "gen_ko_01",
+      "category_hint": "generative_ai"
+    },
+    {
+      "query_id": "gen_en_01",
+      "category_hint": "generative_ai"
+    }
+  ],
+  "62deab1d68d917ca5af1b31e": [
+    {
+      "query_id": "gen_ko_01",
+      "category_hint": "generative_ai"
+    },
+    {
+      "query_id": "gen_en_01",
+      "category_hint": "generative_ai"
+    }
+  ],
+  "9a047272fc1aa8612151094d": [
+    {
+      "query_id": "gen_ko_01",
+      "category_hint": "generative_ai"
+    },
+    {
+      "query_id": "gen_en_01",
+      "category_hint": "generative_ai"
+    }
+  ],
+  "634312fd41da2fd41a0ea59c": [
+    {
+      "query_id": "gen_ko_01",
+      "category_hint": "generative_ai"
+    }
+  ],
+  "11f5999f9b21d80c038aec50": [
+    {
+      "query_id": "gen_en_01",
+      "category_hint": "generative_ai"
+    }
+  ],
+  "b8db91cb5697fd8547e469ec": [
+    {
+      "query_id": "gen_en_01",
+      "category_hint": "generative_ai"
+    }
+  ],
+  "5fd9eb09c1412ddf3bce7d75": [
+    {
+      "query_id": "model_ko_01",
+      "category_hint": "ai_models"
+    }
+  ],
+  "7e4e1831e831cb185dac924a": [
+    {
+      "query_id": "model_ko_01",
+      "category_hint": "ai_models"
+    }
+  ],
+  "b60d457b8ab9aba7e45b189a": [
+    {
+      "query_id": "model_ko_01",
+      "category_hint": "ai_models"
+    }
+  ],
+  "3d94dcddf6864713d00e5128": [
+    {
+      "query_id": "model_en_01",
+      "category_hint": "ai_models"
+    }
+  ],
+  "b322305da03080ba3a307e02": [
+    {
+      "query_id": "model_en_01",
+      "category_hint": "ai_models"
+    }
+  ],
+  "2c7ea4dc3166f9c82b8346b4": [
+    {
+      "query_id": "model_en_01",
+      "category_hint": "ai_models"
+    }
+  ],
+  "c5fea2be4f2543bc4a7e77b1": [
+    {
+      "query_id": "model_en_01",
+      "category_hint": "ai_models"
+    }
+  ],
+  "c6fec9a1b5fe3cc4bc3d197a": [
+    {
+      "query_id": "model_en_01",
+      "category_hint": "ai_models"
+    }
+  ],
+  "8b443c1c8c2d42c3efaa0374": [
+    {
+      "query_id": "policy_ko_01",
+      "category_hint": "policy_ethics"
+    }
+  ],
+  "bfc8cc09cbf7726e98a94ed1": [
+    {
+      "query_id": "policy_ko_01",
+      "category_hint": "policy_ethics"
+    }
+  ],
+  "049f73e73aaa39975ae4be4d": [
+    {
+      "query_id": "policy_en_01",
+      "category_hint": "policy_ethics"
+    }
+  ],
+  "fee048a37e5c53ead45abcfe": [
+    {
+      "query_id": "policy_en_01",
+      "category_hint": "policy_ethics"
+    }
+  ],
+  "f7a53089f143a5b45c802698": [
+    {
+      "query_id": "policy_en_01",
+      "category_hint": "policy_ethics"
+    }
+  ],
+  "5f8a16f8585663797f97dfec": [
+    {
+      "query_id": "policy_en_01",
+      "category_hint": "policy_ethics"
+    }
+  ],
+  "a43848ba71c5955347ed9f4d": [
+    {
+      "query_id": "policy_en_01",
+      "category_hint": "policy_ethics"
+    }
+  ],
+  "be06ef5be6d1a8a51110c87c": [
+    {
+      "query_id": "industry_ko_01",
+      "category_hint": "industry"
+    }
+  ],
+  "2ea0d5da8c48a4cc3c83a1ee": [
+    {
+      "query_id": "industry_ko_01",
+      "category_hint": "industry"
+    }
+  ],
+  "8434d9e840afb594e4f9d06d": [
+    {
+      "query_id": "industry_ko_01",
+      "category_hint": "industry"
+    }
+  ],
+  "2ee1fafab11d5cb7b3379de0": [
+    {
+      "query_id": "industry_ko_01",
+      "category_hint": "industry"
+    }
+  ],
+  "067f1e54a946b6b37ed5fbdb": [
+    {
+      "query_id": "industry_ko_01",
+      "category_hint": "industry"
+    }
+  ],
+  "2c167546003bf3c359bbd2a4": [
+    {
+      "query_id": "industry_en_01",
+      "category_hint": "industry"
+    }
+  ],
+  "49b6a9726795486fb5e4f00a": [
+    {
+      "query_id": "industry_en_01",
+      "category_hint": "industry"
+    }
+  ],
+  "8c7021b105b6cee79692da7f": [
+    {
+      "query_id": "industry_en_01",
+      "category_hint": "industry"
+    }
+  ],
+  "a8e055981e35ad8f811a0198": [
+    {
+      "query_id": "industry_en_01",
+      "category_hint": "industry"
+    }
+  ],
+  "63db757481fc47b63377f693": [
+    {
+      "query_id": "industry_en_01",
+      "category_hint": "industry"
+    }
+  ],
+  "367bfcf1dca4c6f39ca2c577": [
+    {
+      "query_id": "domestic_ko_01",
+      "category_hint": "domestic_ai"
+    }
+  ],
+  "254178f824d1b44919720c60": [
+    {
+      "query_id": "domestic_ko_01",
+      "category_hint": "domestic_ai"
+    }
+  ],
+  "0390f196efa3d036028f64c0": [
+    {
+      "query_id": "domestic_ko_01",
+      "category_hint": "domestic_ai"
+    }
+  ],
+  "e685c3f59d8ebd1d70e29dbf": [
+    {
+      "query_id": "domestic_ko_01",
+      "category_hint": "domestic_ai"
+    }
+  ],
+  "f03341341aefd94500eede51": [
+    {
+      "query_id": "domestic_ko_01",
+      "category_hint": "domestic_ai"
+    }
+  ],
+  "1965c4745bc0272cbaf4c131": [
+    {
+      "query_id": "domestic_en_01",
+      "category_hint": "domestic_ai"
+    }
+  ],
+  "4bfa7a3b38af853db030634b": [
+    {
+      "query_id": "domestic_en_01",
+      "category_hint": "domestic_ai"
+    }
+  ],
+  "4fa947e917304e47507586cb": [
+    {
+      "query_id": "domestic_en_01",
+      "category_hint": "domestic_ai"
+    }
+  ],
+  "920f8649313bf834954d3c29": [
+    {
+      "query_id": "domestic_en_01",
+      "category_hint": "domestic_ai"
+    }
+  ],
+  "b8824dd4c2d6ac98af9f78fe": [
+    {
+      "query_id": "domestic_en_01",
+      "category_hint": "domestic_ai"
+    }
+  ],
+  "5153b0030da4155cee77a8ca": [
+    {
+      "query_id": "security_ko_01",
+      "category_hint": "security"
+    }
+  ],
+  "6a12baa30e14f15fd1c0b61e": [
+    {
+      "query_id": "security_ko_01",
+      "category_hint": "security"
+    }
+  ],
+  "e56293ba0bf6c257651f2832": [
+    {
+      "query_id": "security_ko_01",
+      "category_hint": "security"
+    }
+  ],
+  "2a42c03fce132e28dff1e3b8": [
+    {
+      "query_id": "security_ko_01",
+      "category_hint": "security"
+    }
+  ],
+  "faa33b5babc4846b31c2ab43": [
+    {
+      "query_id": "security_en_01",
+      "category_hint": "security"
+    }
+  ]
+}

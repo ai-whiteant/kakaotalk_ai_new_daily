@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "protected_original_files": 10,
+  "protected_original_changes": [],
+  "tracked_file_changes": [],
+  "tracked_secret_files": [],
+  "security_scan": "PASS",
+  "scan_scope": "known credential values from existing config/environment + key/private-key patterns",
+  "static_lint": "PASS: AST, compile, trailing whitespace, final newline",
+  "unit_integration_tests": 16,
+  "existing_regression_tests": 10,
+  "result_period_and_unique_urls": "PASS",
+  "gemini_calls": 0,
+  "kakao_calls": 0,
+  "baseline_commit": "001c849c878b3423ab5cfa2d53cd6aea65cccbf9",
+  "branch": "phase1/tavily-search-test"
+}

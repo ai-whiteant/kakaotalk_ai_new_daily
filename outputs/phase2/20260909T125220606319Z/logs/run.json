@@ -1,0 +1,863 @@
+{
+  "run_id": "20260909T125220606319Z",
+  "mode": "TEST",
+  "status": "HOLD",
+  "started_at": "2026-09-09T12:52:20.606350+00:00",
+  "errors": [],
+  "warnings": [
+    {
+      "code": "REPRESENTATIVE_ID_INVALID",
+      "pair_ids": [
+        "460f2361b54fc9d598b7",
+        "cbd75ccf7781aad93d6b",
+        "d9c46bbf6dbf6244193b",
+        "86479a2f2d1c9bfaa0a4",
+        "eecbfda18ed567d90b44",
+        "947cbd19f18a9d639ae0",
+        "2420ac29ef5caa0206c4",
+        "405f7a46af502d6991fc"
+      ]
+    },
+    {
+      "code": "REPRESENTATIVE_ID_INVALID",
+      "pair_ids": [
+        "32715f99174205f77814",
+        "d6a714447eb9102f7b6c",
+        "43203c424ad6aea6ff95",
+        "93ffae44d932c8af1e63",
+        "5f31c62553db61e15ee9",
+        "0566f8ce53144603fff6",
+        "615ec98b34899b0fd91d",
+        "2dff68a85afb7dc15255"
+      ]
+    },
+    {
+      "code": "REPRESENTATIVE_ID_INVALID",
+      "pair_ids": [
+        "a6fb2c4523ec0cd23d90",
+        "7cfa4fc68c5b2d1f6c78",
+        "b22199c1319afeeaaa55",
+        "f165cb8ea8e4db48c94d",
+        "0acf0adba83e2ce2bef4"
+      ]
+    }
+  ],
+  "kakao": "NOT_CALLED",
+  "tavily": "NOT_CALLED",
+  "final_selection": "NOT_PERFORMED",
+  "security": "PASS",
+  "events": [
+    {
+      "event_id": "evt_dbeee01ef6575a9b8128",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_a67586b8ceedf44517b8",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_795b143f84433dd3595d",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_a12434185e4151027d95",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_fb9a5c5d8f4aa64a9afd",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_4d1b5eaf0b2969af273d",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_0da37ec7577bcd6b517d",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_5e1e8fa929a91cc7a20f",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_7d321aa730f2aca8e033",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_d17b94b04c2d6a2f769d",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_ac8b5a923eba4c5732f2",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_20d59756fe9928b7a158",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_9f322aee4df5bd2d6359",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_664c33959d25612a4c21",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_a9bf388209c81f31a11c",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_1bd2548f80bb7650829b",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_680f6c20f496df983071",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_fda4e328757158040064",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_81ecbf2785cbf73850b4",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_4a8f888aa1259351b4eb",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_3ea3f9900f7045801269",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_25c52d72c779bd651915",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_504a17db3531df046636",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_69c74bc9d2234f20c095",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_9e6894b5ae8779b717e1",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_59f125fc6e67d84fa1ab",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_ec0419e2dbb60888a543",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_d7f90f35fad9bf6b35e1",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_46302d82a7297071d2cc",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_6389f487834d81d55385",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_00c0509e97be6275afd4",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_34dbe933b0fc8a3771be",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_8fed4a4b5566fa2ecd14",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_bfb87cd22cb5ffed3c92",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_12c43f6fd0332b85d6d7",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_b5c1936c0f39a9f0b540",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_ae527859e2ae092d31ef",
+      "status": "PASS",
+      "risk": "medium"
+    },
+    {
+      "event_id": "evt_c0052d16d081e9195966",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_bd8dc22b15cdb813829a",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_568f8ee4c6da48ceeb3c",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_97691eb7863e348efd52",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_6c2e79a8baec6fc438d0",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_34f05779ae69ef70af86",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_8713f0f8943a765aa229",
+      "status": "PASS",
+      "risk": "medium"
+    },
+    {
+      "event_id": "evt_556961fe1c02811c13a6",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_74badd4931f57678af6a",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_e77db1ef182cda9e383b",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_608ba6fe461755404825",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_303ef305e171cbc29496",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_40de4d5330eaa305435a",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_6e23ecb3f5a0280055cb",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_3925dff2ce3a6b2cc70a",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_bc49de6c05a6caac6745",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_9d301d59ba2cd99f1df6",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_110d5de653f5eb8421ba",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_6d300687bb4e64cb0140",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_db01483a4c785623702c",
+      "status": "HOLD",
+      "risk": "high"
+    }
+  ],
+  "model": "gemini-3.1-flash-lite",
+  "billing_tier": "USER_IDENTIFIED_PAID_PROJECT; NOT_INFERRED_FROM_API",
+  "input_sha256": "490b4608eb820ed679ee41a6dcfd969f22d032c493837c3ca220eee53d389e40",
+  "calls": [
+    {
+      "stage": "DEDUP",
+      "attempt": 1,
+      "time": "2026-09-09T12:52:20.728999+00:00",
+      "status": "FAIL",
+      "code": "REPRESENTATIVE_ID_INVALID"
+    },
+    {
+      "stage": "DEDUP",
+      "attempt": 2,
+      "time": "2026-09-09T12:52:25.377813+00:00",
+      "status": "FAIL",
+      "code": "REPRESENTATIVE_ID_INVALID"
+    },
+    {
+      "stage": "DEDUP",
+      "attempt": 1,
+      "time": "2026-09-09T12:52:29.707282+00:00",
+      "status": "FAIL",
+      "code": "REPRESENTATIVE_ID_INVALID"
+    },
+    {
+      "stage": "DEDUP",
+      "attempt": 2,
+      "time": "2026-09-09T12:52:34.880188+00:00",
+      "status": "FAIL",
+      "code": "REPRESENTATIVE_ID_INVALID"
+    },
+    {
+      "stage": "DEDUP",
+      "attempt": 1,
+      "time": "2026-09-09T12:52:39.891586+00:00",
+      "status": "FAIL",
+      "code": "REPRESENTATIVE_ID_INVALID"
+    },
+    {
+      "stage": "DEDUP",
+      "attempt": 2,
+      "time": "2026-09-09T12:52:43.392894+00:00",
+      "status": "FAIL",
+      "code": "REPRESENTATIVE_ID_INVALID"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:52:46.428989+00:00",
+      "status": "PASS",
+      "total_tokens": 2243,
+      "response_id": "m1ahatnjIKjMrfcPubPLqQI"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:52:50.877948+00:00",
+      "status": "PASS",
+      "total_tokens": 2166,
+      "response_id": "oFahapqSBrHUrfcPyNb8kAw"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:52:54.796568+00:00",
+      "status": "PASS",
+      "total_tokens": 2238,
+      "response_id": "o1ahatGgN5HXrfcP9cCP4Qw"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:52:58.270819+00:00",
+      "status": "PASS",
+      "total_tokens": 1439,
+      "response_id": "p1ahatruFpDIrfcPs4Ki6A0"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:53:01.558264+00:00",
+      "status": "PASS",
+      "total_tokens": 1430,
+      "response_id": "qlaharSxKcOXosUPptKa2Qw"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:53:05.024375+00:00",
+      "status": "FAIL",
+      "code": "GEMINI_INCOMPLETE_OUTPUT"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 2,
+      "time": "2026-09-09T12:53:22.878850+00:00",
+      "status": "PASS",
+      "total_tokens": 1752,
+      "response_id": "v1ahaqHIPL3arfcP5de3yAk"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:53:26.753999+00:00",
+      "status": "PASS",
+      "total_tokens": 1496,
+      "response_id": "w1ahaoDONJGk0-kPuLzpuQ4"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:53:30.199438+00:00",
+      "status": "PASS",
+      "total_tokens": 1659,
+      "response_id": "x1ahapiJGqfdvr0P967O8A8"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:53:33.618467+00:00",
+      "status": "PASS",
+      "total_tokens": 1716,
+      "response_id": "ylahaqzpLabHvr0PkeufmQ0"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:53:37.179937+00:00",
+      "status": "PASS",
+      "total_tokens": 1610,
+      "response_id": "zlahaqCmEdPp1e8PvNq_kA0"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:53:40.850377+00:00",
+      "status": "PASS",
+      "total_tokens": 1634,
+      "response_id": "0lahasPJA8rfrfcPw6KgwAc"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:53:43.964369+00:00",
+      "status": "PASS",
+      "total_tokens": 1661,
+      "response_id": "1VahatuKBImjvr0P4JvI-Qw"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:53:47.123218+00:00",
+      "status": "PASS",
+      "total_tokens": 1676,
+      "response_id": "2FahavDnDcPlrfcP8JiY-AU"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:53:50.742500+00:00",
+      "status": "PASS",
+      "total_tokens": 1651,
+      "response_id": "21aharrXObqYvr0Pss6C2Qs"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:53:54.420073+00:00",
+      "status": "PASS",
+      "total_tokens": 1661,
+      "response_id": "31ahauOEIKTcvr0Pg-LO0QI"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:53:57.852251+00:00",
+      "status": "PASS",
+      "total_tokens": 1677,
+      "response_id": "4lahav_2Ovy30-kP_c2goQE"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:54:01.343927+00:00",
+      "status": "PASS",
+      "total_tokens": 1695,
+      "response_id": "5lahavWxG9zmrfcPt9OYoQk"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:54:06.452364+00:00",
+      "status": "PASS",
+      "total_tokens": 2214,
+      "response_id": "61ahaojYI_eM1e8P9ZyI0Qw"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:54:10.620780+00:00",
+      "status": "PASS",
+      "total_tokens": 2277,
+      "response_id": "71ahapXHMLSNvr0PrfnDmA0"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:54:14.388191+00:00",
+      "status": "PASS",
+      "total_tokens": 2267,
+      "response_id": "81ahav_GHqKEvr0PwLylkQ0"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:54:18.737618+00:00",
+      "status": "PASS",
+      "total_tokens": 1568,
+      "response_id": "91ahauj-M7Sj9tMPnb26uAo"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:54:21.646652+00:00",
+      "status": "PASS",
+      "total_tokens": 1609,
+      "response_id": "-lahap-TL9SM1e8Prc-tmQo"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:54:24.645582+00:00",
+      "status": "PASS",
+      "total_tokens": 1445,
+      "response_id": "_VahaobKLq2Q0-kP5vmKqQw"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:54:27.529575+00:00",
+      "status": "PASS",
+      "total_tokens": 1703,
+      "response_id": "AFehau7RJ6LgrfcPp63DkA4"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:54:31.230686+00:00",
+      "status": "PASS",
+      "total_tokens": 1648,
+      "response_id": "BFehap_zG_aN1e8P8q_WkAo"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:54:34.301085+00:00",
+      "status": "PASS",
+      "total_tokens": 1919,
+      "response_id": "B1ehaoXRGM3mrfcPnbDw-Qw"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:54:38.865163+00:00",
+      "status": "PASS",
+      "total_tokens": 1447,
+      "response_id": "C1ehasSXOr-q2roP-_HW2QE"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:54:42.121322+00:00",
+      "status": "PASS",
+      "total_tokens": 1737,
+      "response_id": "D1ehavHoDujSrfcP0tLssQw"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:54:45.673958+00:00",
+      "status": "PASS",
+      "total_tokens": 1706,
+      "response_id": "ElehavOgL6Hp2roPuKGU6As"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:54:49.312165+00:00",
+      "status": "PASS",
+      "total_tokens": 1563,
+      "response_id": "FlehauiQGPTIrfcPutmi2QE"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:54:52.502967+00:00",
+      "status": "PASS",
+      "total_tokens": 1621,
+      "response_id": "GVehasizJqTi1e8Pqba98Qw"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:54:55.759618+00:00",
+      "status": "PASS",
+      "total_tokens": 1424,
+      "response_id": "HFehavXmNKeo1e8Pn9_RsAU"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:54:58.372808+00:00",
+      "status": "PASS",
+      "total_tokens": 2123,
+      "response_id": "H1ehav2VHdrXrfcPjsHm-AM"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:55:01.334621+00:00",
+      "status": "PASS",
+      "total_tokens": 1647,
+      "response_id": "Ilehaqj0GtqZvr0PtqrPgAo"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:55:04.257914+00:00",
+      "status": "PASS",
+      "total_tokens": 2175,
+      "response_id": "JVehasLVFsDqrfcProSOqAI"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:55:07.150175+00:00",
+      "status": "PASS",
+      "total_tokens": 1483,
+      "response_id": "KFehaoLEENzmrfcPw9GYoQk"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:55:10.062755+00:00",
+      "status": "PASS",
+      "total_tokens": 2139,
+      "response_id": "K1ehapCoC4borfcPiculmAU"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:55:13.319213+00:00",
+      "status": "PASS",
+      "total_tokens": 1563,
+      "response_id": "Llehao6wGcblrfcPvZGokAs"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:55:17.099499+00:00",
+      "status": "PASS",
+      "total_tokens": 1514,
+      "response_id": "Mlehapz3Damk0-kPv97hkQs"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:55:20.012706+00:00",
+      "status": "PASS",
+      "total_tokens": 1556,
+      "response_id": "NVehaqfSBrH_vr0Pm-XJ6Aw"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:55:23.463098+00:00",
+      "status": "PASS",
+      "total_tokens": 1386,
+      "response_id": "OFeharqVItqZvr0PtqrPgAo"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:55:26.527729+00:00",
+      "status": "PASS",
+      "total_tokens": 1426,
+      "response_id": "O1ehatmvJZGk0-kPuLzpuQ4"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:55:30.185787+00:00",
+      "status": "PASS",
+      "total_tokens": 2432,
+      "response_id": "P1ehatOmEJWc0-kPtfed4QI"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:55:34.340152+00:00",
+      "status": "PASS",
+      "total_tokens": 2473,
+      "response_id": "Q1ehap3hGq_grfcPm8ia-Qk"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:55:38.304496+00:00",
+      "status": "PASS",
+      "total_tokens": 1997,
+      "response_id": "R1ehasDwGKXarfcPta3SoQM"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:55:41.604964+00:00",
+      "status": "PASS",
+      "total_tokens": 1984,
+      "response_id": "SlehataXK6n72roP2OTNqAs"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:55:45.153308+00:00",
+      "status": "PASS",
+      "total_tokens": 2305,
+      "response_id": "TlehaoDiDYvF0-kP9_fGoQE"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:55:49.157943+00:00",
+      "status": "PASS",
+      "total_tokens": 1681,
+      "response_id": "UlehapqcD87t2roPho2cuAE"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:55:52.085579+00:00",
+      "status": "PASS",
+      "total_tokens": 1645,
+      "response_id": "VVehavqhC_y30-kP_c2goQE"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:55:55.354120+00:00",
+      "status": "PASS",
+      "total_tokens": 1760,
+      "response_id": "WFehasCGHIuy2roPu--uqQE"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:55:59.067589+00:00",
+      "status": "PASS",
+      "total_tokens": 1613,
+      "response_id": "XFehaqKjCqjMrfcPubPLqQI"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:56:02.416787+00:00",
+      "status": "PASS",
+      "total_tokens": 1573,
+      "response_id": "X1ehavzXH6n72roP2OTNqAs"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:56:05.279583+00:00",
+      "status": "PASS",
+      "total_tokens": 2143,
+      "response_id": "YlehauqRGNyAvr0Pi4vquA0"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:56:08.768894+00:00",
+      "status": "PASS",
+      "total_tokens": 2432,
+      "response_id": "ZVehavu_NYzz2roPucikkAw"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:56:12.450492+00:00",
+      "status": "PASS",
+      "total_tokens": 1439,
+      "response_id": "aVehapjjJ6bHvr0PkeufmQ0"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:56:15.907211+00:00",
+      "status": "PASS",
+      "total_tokens": 1535,
+      "response_id": "bVehaodN7K_aug-s86OhAQ"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:56:19.469524+00:00",
+      "status": "PASS",
+      "total_tokens": 1615,
+      "response_id": "cFehavj4IrKi9tMPhtGyoQs"
+    }
+  ],
+  "counts": {
+    "input_candidates": 57,
+    "events": 57,
+    "merged_candidates": 0,
+    "dedup_relations": {},
+    "analyses": 57,
+    "non_high_risk": 19,
+    "high_risk": 38,
+    "http_attempts": 64,
+    "scores": {
+      "min": 3,
+      "max": 90,
+      "mean": 58.77,
+      "at_least_70": 18
+    }
+  },
+  "finished_at": "2026-09-09T12:56:22.390793+00:00"
+}

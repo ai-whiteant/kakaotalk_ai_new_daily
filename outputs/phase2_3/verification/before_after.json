@@ -1,0 +1,14 @@
+{
+  "before": {
+    "PASS": 28,
+    "VERIFIED_WITH_CONTEXT": 3,
+    "VERIFICATION_HOLD": 17,
+    "REJECT": 1
+  },
+  "after_reviewed": {
+    "FINAL_VERIFIED_WITH_CONTEXT": 8,
+    "FINAL_HOLD": 5,
+    "FINAL_REJECT": 2
+  },
+  "final_count": 8
+}

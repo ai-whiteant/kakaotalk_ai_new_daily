@@ -1,0 +1,176 @@
+[
+  {
+    "event_id": "evt_2c5e8e267c5e3b302614",
+    "canonical_title": "Naver Cloud selected for govt.-backed cybersecurity AI model project - The Korea Herald",
+    "category_hint": "domestic_ai",
+    "candidate_ids": [
+      "0390f196efa3d036028f64c0",
+      "1965c4745bc0272cbaf4c131",
+      "4bfa7a3b38af853db030634b",
+      "b8824dd4c2d6ac98af9f78fe",
+      "f03341341aefd94500eede51"
+    ],
+    "primary_source": {
+      "candidate_id": "4bfa7a3b38af853db030634b",
+      "title": "Naver Cloud selected for govt.-backed cybersecurity AI model project - The Korea Herald",
+      "url": "https://www.koreaherald.com/article/10861436",
+      "source_name": "www.koreaherald.com",
+      "published_at": "2026-09-03T02:13:35+00:00"
+    },
+    "supporting_sources": [
+      {
+        "candidate_id": "0390f196efa3d036028f64c0",
+        "title": "[속보] 정부, 보안특화 AI 모델 개발 사업자로 네이버 컨소시엄 선정 | 미주중앙일보",
+        "url": "https://www.koreadaily.com/article/20260902171338890",
+        "source_name": "www.koreadaily.com",
+        "published_at": "2026-09-03T00:12:58+00:00"
+      },
+      {
+        "candidate_id": "1965c4745bc0272cbaf4c131",
+        "title": "South Korea's Government Security-Specialized AI Project Awarded Exclusively to Naver Cloud Consortium — BigGo Finance",
+        "url": "https://finance.biggo.com/news/53374fed-bc42-417d-905f-c9743088b9c7",
+        "source_name": "finance.biggo.com",
+        "published_at": "2026-09-03T01:25:31+00:00"
+      },
+      {
+        "candidate_id": "b8824dd4c2d6ac98af9f78fe",
+        "title": "Naver Cloud selected for South Korea cybersecurity AI project | UA.NEWS",
+        "url": "https://ua.news/en/technologies/naver-cloud-vidibrali-dlia-proiektu-shi-modeli-z-kiberbezpeki-v-pivdennii-koreyi",
+        "source_name": "ua.news",
+        "published_at": "2026-09-03T05:21:00+00:00"
+      },
+      {
+        "candidate_id": "f03341341aefd94500eede51",
+        "title": "네이버 '사이버보안 특화 AI모델' 만든다…정부사업 수주, 영토확장 - 서울이코노미뉴스",
+        "url": "http://www.seouleconews.com/news/articleView.html?idxno=93498",
+        "source_name": "www.seouleconews.com",
+        "published_at": "2026-09-03T01:34:39+00:00"
+      }
+    ],
+    "entities": [
+      "naver"
+    ],
+    "event_date": null,
+    "dedup_status": "GEMINI",
+    "dedup_confidence": 1,
+    "related_events": []
+  },
+  {
+    "event_id": "evt_63f754892b8bf18a540b",
+    "canonical_title": "It’s not just you; ChatGPT, Claude, and Grok are all down in confirmed outages - 9to5Google",
+    "category_hint": "generative_ai",
+    "candidate_ids": [
+      "11f5999f9b21d80c038aec50",
+      "9a047272fc1aa8612151094d",
+      "fc17c6a8e61e648002e61453"
+    ],
+    "primary_source": {
+      "candidate_id": "11f5999f9b21d80c038aec50",
+      "title": "It’s not just you; ChatGPT, Claude, and Grok are all down in confirmed outages - 9to5Google",
+      "url": "https://9to5google.com/2026/09/03/chatgpt-claude-grok-outages/",
+      "source_name": "9to5google.com",
+      "published_at": "2026-09-03T15:07:17+00:00"
+    },
+    "supporting_sources": [
+      {
+        "candidate_id": "9a047272fc1aa8612151094d",
+        "title": "ChatGPT, Claude, Gemini down: What we know about the AI outages - Mashable",
+        "url": "https://mashable.com/tech/openai-chatgpt-outage-updates-grok-gemini",
+        "source_name": "mashable.com",
+        "published_at": "2026-09-03T17:43:19+00:00"
+      },
+      {
+        "candidate_id": "fc17c6a8e61e648002e61453",
+        "title": "ChatGPT, Claude and other major AI platforms hit by widespread outages - Greenwich Time",
+        "url": "https://www.greenwichtime.com/news/article/ai-outage-reported-chatgpt-grok-claude-gemini-22416033.php",
+        "source_name": "www.greenwichtime.com",
+        "published_at": "2026-09-03T15:47:50+00:00"
+      }
+    ],
+    "entities": [
+      "chatgpt",
+      "claude",
+      "gemini",
+      "google",
+      "grok"
+    ],
+    "event_date": null,
+    "dedup_status": "GEMINI",
+    "dedup_confidence": 0.95,
+    "related_events": [
+      {
+        "event_id": "evt_a9bf388209c81f31a11c",
+        "relation": "FOLLOW_UP",
+        "confidence": 0.95,
+        "pair_ids": [
+          "86479a2f2d1c9bfaa0a4"
+        ]
+      }
+    ]
+  },
+  {
+    "event_id": "evt_d6a714447eb9102f7b6c",
+    "canonical_title": "China AI guidelines: China's top court posts guidelines on deepfakes, AI disputes - The Economic Times",
+    "category_hint": "policy_ethics",
+    "candidate_ids": [
+      "a43848ba71c5955347ed9f4d",
+      "faa33b5babc4846b31c2ab43"
+    ],
+    "primary_source": {
+      "candidate_id": "a43848ba71c5955347ed9f4d",
+      "title": "China AI guidelines: China's top court posts guidelines on deepfakes, AI disputes - The Economic Times",
+      "url": "https://m.economictimes.com/tech/artificial-intelligence/chinas-top-court-posts-guidelines-on-deepfakes-ai-disputes/amp_articleshow/133878157.cms",
+      "source_name": "m.economictimes.com",
+      "published_at": "2026-09-07T12:00:00+00:00"
+    },
+    "supporting_sources": [
+      {
+        "candidate_id": "faa33b5babc4846b31c2ab43",
+        "title": "China's highest court sets out new AI red lines with rules on ...",
+        "url": "https://www.scmp.com/news/china/politics/article/3366802/chinas-highest-court-sets-out-new-ai-red-lines-rules-deepfakes-and-privacy",
+        "source_name": "www.scmp.com",
+        "published_at": "2026-09-08T11:12:50+00:00"
+      }
+    ],
+    "entities": [
+      "china"
+    ],
+    "event_date": null,
+    "dedup_status": "GEMINI",
+    "dedup_confidence": 1,
+    "related_events": []
+  },
+  {
+    "event_id": "evt_02616cccf42396459676",
+    "canonical_title": "미스트랄 AI, 韓 제조업 파고든다…삼성과 반도체 AI 개발 < AI < AI/ICT < 기사본문 - 아이티데일리",
+    "category_hint": "industry",
+    "candidate_ids": [
+      "067f1e54a946b6b37ed5fbdb",
+      "2ee1fafab11d5cb7b3379de0"
+    ],
+    "primary_source": {
+      "candidate_id": "067f1e54a946b6b37ed5fbdb",
+      "title": "미스트랄 AI, 韓 제조업 파고든다…삼성과 반도체 AI 개발 < AI < AI/ICT < 기사본문 - 아이티데일리",
+      "url": "https://www.itdaily.kr/news/articleView.html?idxno=241506",
+      "source_name": "www.itdaily.kr",
+      "published_at": "2026-09-09T08:09:01+00:00"
+    },
+    "supporting_sources": [
+      {
+        "candidate_id": "2ee1fafab11d5cb7b3379de0",
+        "title": "삼성전자·미스트랄, '반도체 설계·제조' 특화 AI 공동 개발",
+        "url": "https://www.sidae.com/article/2026090819143733899",
+        "source_name": "www.sidae.com",
+        "published_at": "2026-09-08T16:00:00+00:00"
+      }
+    ],
+    "entities": [
+      "mistral",
+      "samsung"
+    ],
+    "event_date": null,
+    "dedup_status": "GEMINI",
+    "dedup_confidence": 1.0,
+    "related_events": []
+  }
+]

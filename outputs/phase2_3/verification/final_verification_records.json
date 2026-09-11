@@ -1,0 +1,3705 @@
+[
+  {
+    "event_id": "evt_0da37ec7577bcd6b517d",
+    "candidate_sha256": "b1de1c2c4b778ff5be5ee8cdb37430a3faf39feedd027286eeb47d06a9f1df15",
+    "verified_claims": [
+      {
+        "claim_id": "c0",
+        "claim": "9월 2일 정책 발표, 9월 7일 WNYC 후속 해설",
+        "status": "SUPPORTED",
+        "core": true,
+        "source_ids": [
+          "nyc_release",
+          "wnyc",
+          "abc_nyc"
+        ],
+        "reason": "사전 보도일 9월 1일과 공식 발표일 구분. 정확한 시각은 주장하지 않는다.",
+        "semantic_review": true,
+        "evidence_urls": [
+          "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat",
+          "https://wnyc.org/browse/shows/episode/simplecast/f5794230-aa49-4b0e-8273-e9b26763c5a6",
+          "https://abc7ny.com/post/new-york-city-public-schools-banning-ai-use-middle-school-year/19778716/"
+        ]
+      },
+      {
+        "claim_id": "c1",
+        "claim": "2K–8, 한 학년도 학생 대면 생성형 AI 유예와 예외",
+        "status": "EQUIVALENT",
+        "core": true,
+        "source_ids": [
+          "nyc",
+          "nyc_release"
+        ],
+        "reason": "8th grade는 미국 8학년. 모든 AI의 영구 금지가 아니다.",
+        "semantic_review": true,
+        "evidence_urls": [
+          "https://www.schools.nyc.gov/about-us/policies/guidance-on-artificial-intelligence",
+          "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat"
+        ]
+      },
+      {
+        "claim_id": "c2",
+        "claim": "교사 업무 지원 허용과 채점 금지",
+        "status": "SUPPORTED",
+        "core": true,
+        "source_ids": [
+          "nyc"
+        ],
+        "reason": "교사 전체 사용 금지라는 오해 방지.",
+        "semantic_review": true,
+        "evidence_urls": [
+          "https://www.schools.nyc.gov/about-us/policies/guidance-on-artificial-intelligence"
+        ]
+      }
+    ],
+    "safe_title": "뉴욕 공립학교, 8학년까지 학생 대면 생성형 AI 사용 유예",
+    "safe_summary": "뉴욕시는 9월 2일 2026–27학년도 2K부터 미국 8학년까지 학생 대면 생성형 AI 사용을 유예하는 정책을 발표했다. 보조공학 등 예외가 있으며 교사의 수업 준비·행정 활용과 AI 채점 금지는 구분된다.",
+    "safe_why_it_matters": "해석: 학생의 직접 사용과 교사의 지원 업무를 구분한 학교 AI 정책 사례다.",
+    "safe_education_implication": "시사점: 국내 적용을 단정하기보다 학년·사용 주체·보조공학 예외를 함께 살펴볼 수 있다.",
+    "safe_classroom_use": "수업 제안: 허용·제한·예외를 원 지침에 따라 표로 정리한다.",
+    "final_source_id": "nyc",
+    "publication_interval": [
+      "2026-09-07T00:00:00-04:00",
+      "2026-09-07T23:59:59-04:00"
+    ],
+    "freshness_review": "원문 날짜와 고정 기간 대조. 신규 사실·발표와 후속 해설 및 과거 배경을 구분.",
+    "notes": [
+      "기간 내 9월 7일 정책 해설을 검토. 9월 2일 공식 발표의 분 단위 시각은 미확보; 9월 7일 새 발표로 쓰지 않음."
+    ],
+    "importance_exception": null,
+    "context_changed": true,
+    "reviewed_at": "2026-09-11T14:47:23.362028+00:00",
+    "reviewed_by": "Codex source review",
+    "independent_review": "PENDING",
+    "original_analysis": {
+      "event_id": "evt_0da37ec7577bcd6b517d",
+      "category": "ai_education",
+      "scores": {
+        "education_relevance": 30,
+        "ai_technical_importance": 10,
+        "teacher_student_impact": 15,
+        "social_industry_impact": 10,
+        "source_reliability": 8,
+        "recency": 10,
+        "total": 83
+      },
+      "summary": "뉴욕시 공립학교에서 인공지능(AI) 사용에 대한 제한 조치가 시행되었습니다. 8학년 이하 학생들을 대상으로 1년간 AI 사용이 금지되며, 저학년 학생의 경우 화면 시청 시간에 대한 새로운 제한이 도입됩니다. 고등학생과 교사에게는 AI 사용이 여전히 허용되지만, 학교 밖에서 학생들의 AI 사용을 통제해야 하는 집행상의 어려움이 지적되고 있습니다.",
+      "why_it_matters": "교육 현장에서 생성형 AI의 도입과 금지 사이의 정책적 딜레마를 보여주는 사례입니다. 학생들의 발달 단계에 따른 AI 활용의 적절성에 대한 사회적 합의가 여전히 논의 중이며, 학교 시스템 내에서의 기술 관리와 통제가 실질적으로 얼마나 가능한지에 대한 질문을 던지고 있습니다.",
+      "education_implication": "초등 및 중등 교육 과정에서 AI 기술 도입 속도와 학생의 학습권 보호 사이의 균형점을 찾는 것이 교육 당국의 주요 과제가 되었습니다. 특히 기술의 외부 사용을 완전히 차단하기 어려운 현실적 제약으로 인해 단순 금지 정책의 실효성에 대한 재검토가 필요할 수 있습니다.",
+      "classroom_use": "교실 내에서 학생들에게 AI의 기술적 작동 원리와 한계를 교육하고, 학교 밖에서의 책임 있는 AI 사용에 대해 토론하는 기회로 활용할 수 있습니다. 또한 디지털 리터러시 교육의 일부로서 AI 금지 정책의 배경과 기대 효과를 분석하는 비판적 사고 수업 자료로 사용할 수 있습니다.",
+      "uncertainties": [
+        "8학년 이하에 대한 1년 금지 조치 이후의 정책 방향성이 명확하지 않음",
+        "학교 밖에서의 AI 사용을 학교가 실질적으로 어떻게 관리하고 감독할지에 대한 구체적 방법론이 불분명함",
+        "이번 제한 조치가 학생들의 디지털 학습 역량 개발에 미칠 장기적 영향에 대한 평가"
+      ],
+      "fact_check_targets": [
+        "뉴욕시 교육청의 공식 AI 제한 정책 전문",
+        "8학년 이하 대상 AI 금지의 구체적 적용 범위 및 예외 사항",
+        "교사 대상 AI 허용 지침의 세부 내용",
+        "[AUTO_HOLD] summary: 8 — No equal normalized quantity in any related candidate",
+        "[VERIFY] summary: 1 — Quantity exists but grade context is not established"
+      ],
+      "hallucination_risk": "high"
+    },
+    "original_target_disposition": "안전 문장에 남긴 핵심만 직접 근거 대조. 후속 효과·실측 성과·협약 세부 등 미확보 질문은 미해결로 보존하며 출력하지 않는다.",
+    "coverage": {
+      "title": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      "publication_date": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      "event_date": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      "entities": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      "models": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      "numbers": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      "policy": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      "official_announcement": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      "core_claims": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      "why_it_matters": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      "education_implication": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      "classroom_use": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      "final_url": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ]
+      }
+    },
+    "field_reviews": {
+      "safe_title": {
+        "text_sha256": "cfd3ef1bb4cd1ce69a763bb7c267660b0bcbf1dc7ae30b072457c221d7c2e1eb",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ],
+        "interpretation_or_suggestion": false
+      },
+      "safe_summary": {
+        "text_sha256": "d59967d9de812ffd4c997cce9ed05675c17d9f7884bd5019f0686396404d1778",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ],
+        "interpretation_or_suggestion": false
+      },
+      "safe_why_it_matters": {
+        "text_sha256": "51dd1adbc566721356afba9a10ed9fb95e7599882f7d837300f295082767a8ca",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ],
+        "interpretation_or_suggestion": true
+      },
+      "safe_education_implication": {
+        "text_sha256": "5263e49dc8bc3470bad1961ccc75441383cbe8bc3b60beb8c5669bf2549339bb",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ],
+        "interpretation_or_suggestion": true
+      },
+      "safe_classroom_use": {
+        "text_sha256": "9ed3cffd5fd5eb13b64400d159be2990c9f949b60efc9161e803d03602177024",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ],
+        "interpretation_or_suggestion": true
+      }
+    },
+    "verification_status": "FINAL_VERIFIED_WITH_CONTEXT",
+    "gate_reasons": [],
+    "selection_rank": 1,
+    "original_score": 83,
+    "selection_adjustment": 8,
+    "category": "ai_education",
+    "duplicate_group": "nyc_school_policy",
+    "guard_original": "AUTO_HOLD",
+    "origin_state": "VERIFIED_WITH_CONTEXT",
+    "original_url": "https://wnyc.org/browse/shows/episode/simplecast/f5794230-aa49-4b0e-8273-e9b26763c5a6",
+    "final_url": "https://www.schools.nyc.gov/about-us/policies/guidance-on-artificial-intelligence",
+    "dispatch_allowed": false
+  },
+  {
+    "event_id": "evt_4d1b5eaf0b2969af273d",
+    "candidate_sha256": "6013f63ab7606b9fdd4434ef77780a04894009623500ab042db84e454240f6b5",
+    "verified_claims": [
+      {
+        "claim_id": "c0",
+        "claim": "9월 4일 두 의원의 AI LABS Act 발표",
+        "status": "SUPPORTED",
+        "core": true,
+        "source_ids": [
+          "gott"
+        ],
+        "reason": "공식 날짜·기관·법안 명칭과 발표 내용 확인.",
+        "semantic_review": true,
+        "evidence_urls": [
+          "https://gottheimer.house.gov/posts/release-gottheimer-unveils-bipartisan-back-to-school-agenda-for-ai-in-k-12-education"
+        ]
+      },
+      {
+        "claim_id": "c1",
+        "claim": "실습실·교사 연수 지원 제안이며 법률 시행 완료가 아님",
+        "status": "CONTEXTUAL",
+        "core": true,
+        "source_ids": [
+          "gott"
+        ],
+        "reason": "발표와 enacted policy를 구분.",
+        "semantic_review": true,
+        "evidence_urls": [
+          "https://gottheimer.house.gov/posts/release-gottheimer-unveils-bipartisan-back-to-school-agenda-for-ai-in-k-12-education"
+        ]
+      }
+    ],
+    "safe_title": "미 의원, 학교 AI 실습실·교사 연수 지원 법안 발표",
+    "safe_summary": "Gottheimer 의원은 9월 4일 Obernolte 의원과 추진하는 AI LABS Act를 발표했다. 학교 AI 실습실과 교사 연수 지원을 제안한 법안으로, 지원 시행이 완료된 정책은 아니다.",
+    "safe_why_it_matters": "해석: AI 접근 확대와 교사 연수를 함께 설계하려는 입법 제안이라는 점에서 검토 가치가 있다.",
+    "safe_education_implication": "시사점: 학교 AI 활용 논의에서 장비와 함께 교사 준비 및 학생의 비판적 사고를 고려할 수 있다.",
+    "safe_classroom_use": "수업 제안: 법안의 목표와 실제 시행된 제도를 구분해 정리한다.",
+    "final_source_id": "gott",
+    "publication_interval": [
+      "2026-09-04T00:00:00-04:00",
+      "2026-09-04T23:59:59-04:00"
+    ],
+    "freshness_review": "원문 날짜와 고정 기간 대조. 신규 사실·발표와 후속 해설 및 과거 배경을 구분.",
+    "notes": [],
+    "importance_exception": null,
+    "context_changed": true,
+    "reviewed_at": "2026-09-11T14:47:23.362028+00:00",
+    "reviewed_by": "Codex source review",
+    "independent_review": "PENDING",
+    "original_analysis": {
+      "event_id": "evt_4d1b5eaf0b2969af273d",
+      "category": "ai_education",
+      "scores": {
+        "education_relevance": 30,
+        "ai_technical_importance": 10,
+        "teacher_student_impact": 15,
+        "social_industry_impact": 10,
+        "source_reliability": 10,
+        "recency": 10,
+        "total": 85
+      },
+      "summary": "Gottheimer 의원이 초중고 교육 현장에서 AI를 효과적으로 활용하기 위한 양당 차원의 AI LABS Act를 공개했습니다. 이 법안은 미 교육부(Department of Education)가 연방 보조금을 통해 학교 내 AI 실습실을 설치하고, 학생에게는 실습 중심의 AI 교육을, 교사에게는 AI 활용 역량 강화 훈련을 제공하는 내용을 포함하고 있습니다. 또한 이번 의제에는 교실 내 휴대전화 사용 제한 정책과 AI 문해력 향상, 디지털 격차 해소를 위한 노력이 포함되어 있습니다.",
+      "why_it_matters": "교육 현장에 AI 기술을 도입하기 위한 구체적인 인프라 구축과 교사 훈련의 필요성을 정책적으로 다루고 있다는 점에서 중요합니다. 과거의 컴퓨터 실습실처럼 AI 전용 교육 환경을 제도화하려는 시도는 향후 학교 교육의 기술적 변화 방향을 제시할 수 있습니다.",
+      "education_implication": "학교 단위의 AI 실습실 구축이 현실화될 경우, 학생들의 AI 기술 숙련도를 체계적으로 높이고 기술 윤리 교육을 강화하는 계기가 될 수 있습니다. 또한 교사의 AI 도구 활용 능력이 교실 수업의 질을 결정짓는 핵심 요소가 될 것으로 보입니다.",
+      "classroom_use": "AI LABS Act에서 제안하는 AI 실습 환경을 활용하여 학생들이 실제 AI 모델을 체험하고, 교사는 이를 교과 과정에 통합하는 수업 설계가 가능해질 것으로 예상됩니다. AI 윤리, 알고리즘 이해 등 실습 중심의 교육 콘텐츠 개발이 중요해질 것입니다.",
+      "uncertainties": [
+        "AI LABS Act의 의회 통과 여부 및 실제 법제화 시기",
+        "연방 보조금이 구체적으로 어느 정도 규모로 지원될지에 대한 계획",
+        "교사 대상 AI 교육 훈련의 구체적인 커리큘럼 및 의무화 여부",
+        "교실 내 휴대전화 사용 제한 정책이 실제 학습 환경에 미치는 영향"
+      ],
+      "fact_check_targets": [
+        "AI LABS Act의 세부 내용 및 발의자 명단",
+        "미 교육부의 AI 교육 지원 관련 공식 지침 및 기존 보조금 활용 가능성",
+        "AI 실습실 조성을 위한 구체적인 기술 사양 및 교과 과정 기준"
+      ],
+      "hallucination_risk": "low"
+    },
+    "original_target_disposition": "안전 문장에 남긴 핵심만 직접 근거 대조. 후속 효과·실측 성과·협약 세부 등 미확보 질문은 미해결로 보존하며 출력하지 않는다.",
+    "coverage": {
+      "title": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "publication_date": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "event_date": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "entities": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "models": {
+        "status": "NOT_APPLICABLE",
+        "reason": "안전 문장에 모델명 없음.",
+        "claim_ids": []
+      },
+      "numbers": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "policy": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "official_announcement": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "core_claims": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "why_it_matters": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "education_implication": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "classroom_use": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "final_url": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      }
+    },
+    "field_reviews": {
+      "safe_title": {
+        "text_sha256": "e2c74b8faeb6b0b3202820d94a8468e85bf0ffaff4f32c15501b6aab9b1c6511",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ],
+        "interpretation_or_suggestion": false
+      },
+      "safe_summary": {
+        "text_sha256": "5632e8e4286af2064e06691548c082fd309f5012065b1e5f45df9f0bdd169f51",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ],
+        "interpretation_or_suggestion": false
+      },
+      "safe_why_it_matters": {
+        "text_sha256": "1695318623516f8201c6ff330c4ea0b01c40eb7997d7a36cf63d810885978f2d",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ],
+        "interpretation_or_suggestion": true
+      },
+      "safe_education_implication": {
+        "text_sha256": "c5f7519495d9a1a4900a2a32aadcd716935b12747056cb076f2b2833dd01877b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ],
+        "interpretation_or_suggestion": true
+      },
+      "safe_classroom_use": {
+        "text_sha256": "fdf8177c38751ec7304d3df5cc2fef890b364b25fbee891a5058f6d05b13ef40",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ],
+        "interpretation_or_suggestion": true
+      }
+    },
+    "verification_status": "FINAL_VERIFIED_WITH_CONTEXT",
+    "gate_reasons": [],
+    "selection_rank": 2,
+    "original_score": 85,
+    "selection_adjustment": 4,
+    "category": "ai_education",
+    "duplicate_group": "evt_4d1b5eaf0b2969af273d",
+    "guard_original": "PASS",
+    "origin_state": "PASS",
+    "original_url": "https://gottheimer.house.gov/posts/release-gottheimer-unveils-bipartisan-back-to-school-agenda-for-ai-in-k-12-education",
+    "final_url": "https://gottheimer.house.gov/posts/release-gottheimer-unveils-bipartisan-back-to-school-agenda-for-ai-in-k-12-education",
+    "dispatch_allowed": false
+  },
+  {
+    "event_id": "evt_5e1e8fa929a91cc7a20f",
+    "candidate_sha256": "e6a5c94c8ddace59be00b4b2ade2a68ec5c26962f527c62e7f158793141df4ab",
+    "verified_claims": [
+      {
+        "claim_id": "c0",
+        "claim": "9월 8일 Winthrop의 점진 도입 해설",
+        "status": "SUPPORTED",
+        "core": true,
+        "source_ids": [
+          "brook"
+        ],
+        "reason": "새 해설의 발행일과 저자 입장 확인.",
+        "semantic_review": true,
+        "evidence_urls": [
+          "https://www.brookings.edu/articles/3-reasons-why-going-slow-to-go-fast-is-the-right-approach-for-ai-in-schools/"
+        ]
+      },
+      {
+        "claim_id": "c1",
+        "claim": "AI Leap 학생 토론에서 교사보다 AI를 먼저 찾는 경험",
+        "status": "CONTEXTUAL",
+        "core": true,
+        "source_ids": [
+          "estonia",
+          "estonia_review"
+        ],
+        "reason": "정성 토론·자기보고이며 인과 효과를 입증하지 않음.",
+        "semantic_review": true,
+        "evidence_urls": [
+          "https://tihupe.ee/wp-content/uploads/2026/07/Summary-of-the-AI-Leap-World-Cafe-Discussions_web_.pdf",
+          "https://tihupe.ee/wp-content/uploads/2026/08/AI-Leap-First-Annual-Review-202526.pdf"
+        ]
+      },
+      {
+        "claim_id": "c2",
+        "claim": "NOLAI의 교사·학교 문제 기반 탐색",
+        "status": "SUPPORTED",
+        "core": true,
+        "source_ids": [
+          "nolai"
+        ],
+        "reason": "현장 문제를 함께 탐색하는 구조 확인.",
+        "semantic_review": true,
+        "evidence_urls": [
+          "https://www.ru.nl/en/nolai"
+        ]
+      },
+      {
+        "claim_id": "c3",
+        "claim": "개별 수기 지원 프로젝트의 학습 효과",
+        "status": "UNRESOLVED",
+        "core": false,
+        "source_ids": [],
+        "reason": "안전 문장에 제거; 효과 자료 미확보.",
+        "semantic_review": true,
+        "evidence_urls": []
+      }
+    ],
+    "safe_title": "학교 AI 도입 속도, 학생의 사고·대화와 함께 점검해야",
+    "safe_summary": "9월 8일 Brookings 해설은 학교 AI 도입을 점진적으로 검토하자고 제안했다. 에스토니아 학생 토론에는 AI에 먼저 질문하며 교사·동료와의 대화가 줄 수 있다는 경험이 담겼고, 네덜란드 NOLAI는 교사가 현장 문제를 연구자와 탐색하는 방식을 소개한다.",
+    "safe_why_it_matters": "해석: 기술 보급량뿐 아니라 학생의 학습 과정과 교사 참여를 검토하는 관점을 제공한다.",
+    "safe_education_implication": "시사점: 학생 경험과 교사 관찰을 함께 점검할 수 있다. 토론 결과를 모든 학생의 인과적 학습 저하로 일반화할 수는 없다.",
+    "safe_classroom_use": "수업 제안: AI를 사용하기 전후 누구에게 질문했는지 돌아보고, 대면 설명을 함께 연습한다.",
+    "final_source_id": "brook",
+    "publication_interval": [
+      "2026-09-08T00:00:00-04:00",
+      "2026-09-08T23:59:59-04:00"
+    ],
+    "freshness_review": "원문 날짜와 고정 기간 대조. 신규 사실·발표와 후속 해설 및 과거 배경을 구분.",
+    "notes": [
+      "NYC 정책 반복 보도와 달리 에스토니아 학생 경험·네덜란드 교사 설계 논점으로 구분."
+    ],
+    "importance_exception": null,
+    "context_changed": true,
+    "reviewed_at": "2026-09-11T14:47:23.362028+00:00",
+    "reviewed_by": "Codex source review",
+    "independent_review": "PENDING",
+    "original_analysis": {
+      "event_id": "evt_5e1e8fa929a91cc7a20f",
+      "category": "ai_education",
+      "scores": {
+        "education_relevance": 28,
+        "ai_technical_importance": 12,
+        "teacher_student_impact": 14,
+        "social_industry_impact": 10,
+        "source_reliability": 9,
+        "recency": 10,
+        "total": 83
+      },
+      "summary": "네덜란드와 에스토니아의 교육 현장 사례를 통해 AI 도입의 속도 조절 필요성이 제기되었습니다. 네덜란드는 교사 주도로 현장의 문제를 해결하는 AI 도구를 개발하는 방식을 채택하고 있습니다. 반면 에스토니아의 AI Leap 프로그램은 고등학생들에게 AI 도구와 리터러시 교육을 제공했으나, 학생들 사이에서 AI에 과도하게 의존하여 교사와의 상호작용이 감소하고 비판적 사고나 의사소통 연습이 저해될 수 있다는 우려가 확인되었습니다.",
+      "why_it_matters": "AI 기술의 학교 도입 과정에서 기술적 편리함이 교육적 가치인 교사-학생 간 상호작용을 대체할 위험이 있음을 시사합니다. 단순한 기술 보급보다 현장 교사의 참여와 교육적 맥락을 고려한 점진적인 접근이 장기적인 교육 효과를 높이는 데 필수적임을 보여줍니다.",
+      "education_implication": "AI 기술은 학생의 빠른 문제 해결을 돕지만, 학습 과정에서의 숙달과 대면 소통의 기회를 줄일 수 있습니다. 교사는 기술 도입 시 학생들의 상호작용 감소 여부를 면밀히 관찰하고, AI를 보조적 도구로 활용하면서도 교수학습의 핵심인 대화와 비판적 사고를 강화할 수 있는 전략을 마련해야 합니다.",
+      "classroom_use": "교사가 주도하여 실제 교실 내의 수업 문제(예: 특정 학습 과제의 어려움)를 해결하기 위한 도구로서 AI를 설계하거나 수정하는 프로젝트에 활용할 수 있습니다. 또한 AI 활용이 학생들의 교사와의 소통 빈도에 미치는 영향을 학생들이 직접 성찰하는 수업 활동에 활용 가능합니다.",
+      "uncertainties": [
+        "네덜란드와 에스토니아의 사례가 타 국가의 교육 환경에서도 동일하게 적용될 수 있는지 불분명함.",
+        "학생들이 AI에 의존하는 현상이 장기적으로 학업 성취도에 미치는 영향은 아직 충분히 검증되지 않음.",
+        "ITI 도구가 구체적으로 어떤 기술적 기능을 포함하는지, 학생들의 사용 패턴에 관한 상세 데이터는 명시되지 않음."
+      ],
+      "fact_check_targets": [
+        "네덜란드에서 운영 중인 교사 주도 AI 설계 프로젝트의 구체적인 범위와 성과.",
+        "에스토니아 AI Leap 프로그램 내 고등학생들의 교사 소통 감소에 관한 연구 데이터.",
+        "수기 학습 지원을 위한 AI 조기 경보 시스템의 교육적 실효성."
+      ],
+      "hallucination_risk": "low"
+    },
+    "original_target_disposition": "안전 문장에 남긴 핵심만 직접 근거 대조. 후속 효과·실측 성과·협약 세부 등 미확보 질문은 미해결로 보존하며 출력하지 않는다.",
+    "coverage": {
+      "title": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      "publication_date": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      "event_date": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      "entities": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      "models": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      "numbers": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      "policy": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      "official_announcement": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      "core_claims": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      "why_it_matters": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      "education_implication": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      "classroom_use": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      "final_url": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ]
+      }
+    },
+    "field_reviews": {
+      "safe_title": {
+        "text_sha256": "cddf9d277b68f5ffa5efe80e5fa8f163632a500c65b12690d7e40f85c54a65f6",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ],
+        "interpretation_or_suggestion": false
+      },
+      "safe_summary": {
+        "text_sha256": "2a04141f4080da55cf997a3eceac959026663a4da948c1021227cf0c4574e424",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ],
+        "interpretation_or_suggestion": false
+      },
+      "safe_why_it_matters": {
+        "text_sha256": "b848ea25991ef3e10e338b7aa981c33df11a89030bc4696bc6876f8abea7b469",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ],
+        "interpretation_or_suggestion": true
+      },
+      "safe_education_implication": {
+        "text_sha256": "5636e356551bafacd83d6ea493a8a9c86f85ad4d9ab923d644984db4aa1532da",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ],
+        "interpretation_or_suggestion": true
+      },
+      "safe_classroom_use": {
+        "text_sha256": "8660ac02859704b2696c2188fa2b0a29999a19002158060d507c1c29fc06013b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1",
+          "c2"
+        ],
+        "interpretation_or_suggestion": true
+      }
+    },
+    "verification_status": "FINAL_VERIFIED_WITH_CONTEXT",
+    "gate_reasons": [],
+    "selection_rank": 4,
+    "original_score": 83,
+    "selection_adjustment": 3,
+    "category": "ai_education",
+    "duplicate_group": "evt_5e1e8fa929a91cc7a20f",
+    "guard_original": "PASS",
+    "origin_state": "PASS",
+    "original_url": "https://www.brookings.edu/articles/3-reasons-why-going-slow-to-go-fast-is-the-right-approach-for-ai-in-schools",
+    "final_url": "https://www.brookings.edu/articles/3-reasons-why-going-slow-to-go-fast-is-the-right-approach-for-ai-in-schools/",
+    "dispatch_allowed": false
+  },
+  {
+    "event_id": "evt_d7f90f35fad9bf6b35e1",
+    "candidate_sha256": "b9091f423b20ac50efead099dc0feed9fd468eefff1060b20c3287562820a312",
+    "verified_claims": [
+      {
+        "claim_id": "c0",
+        "claim": "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음.",
+        "status": "UNRESOLVED",
+        "core": true,
+        "source_ids": [],
+        "reason": "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음.",
+        "semantic_review": true,
+        "evidence_urls": []
+      }
+    ],
+    "safe_title": null,
+    "safe_summary": null,
+    "safe_why_it_matters": null,
+    "safe_education_implication": null,
+    "safe_classroom_use": null,
+    "final_source_id": "attempt_aalrr",
+    "publication_interval": null,
+    "freshness_review": "원문 날짜와 고정 기간 대조. 신규 사실·발표와 후속 해설 및 과거 배경을 구분.",
+    "notes": [],
+    "importance_exception": null,
+    "context_changed": true,
+    "reviewed_at": "2026-09-11T14:47:23.362028+00:00",
+    "reviewed_by": "Codex source review",
+    "independent_review": "PENDING",
+    "original_analysis": {
+      "event_id": "evt_d7f90f35fad9bf6b35e1",
+      "category": "policy_ethics",
+      "scores": {
+        "education_relevance": 28,
+        "ai_technical_importance": 10,
+        "teacher_student_impact": 12,
+        "social_industry_impact": 10,
+        "source_reliability": 8,
+        "recency": 10,
+        "total": 78
+      },
+      "summary": "고등교육 기관 내 AI 도입이 증가함에 따라 학문적 정직성, 데이터 보안, 지식 재산권, 그리고 AI 모델이 야기할 수 있는 윤리적 편향성 등에 대한 거버넌스 강화가 강조되고 있습니다. AALRR은 대학 내 교직원 및 학생의 AI 활용에 관한 정책을 명확히 규정하고, 특히 기밀 데이터의 유출 방지 및 AI 결과물에 대한 인간의 검토와 최종 책임 강화가 필요하다고 제언했습니다. UC Berkeley Law 등의 사례와 같이 기존 교육 기관들은 각자의 학문적 표준과 규정 준수를 결합한 개별 AI 정책을 수립하고 있습니다.",
+      "why_it_matters": "대학 내 AI 활용이 보편화되는 가운데, 기존 학칙만으로는 복잡한 데이터 프라이버시 및 학문적 윤리 문제를 충분히 다루기 어렵기 때문입니다. AI 생성 결과물의 오류 및 편향성 문제에 대해 기관과 개인의 책임을 명확히 규정하는 체계적인 가이드라인 마련은 교육 현장의 법적 리스크를 완화하고 AI의 신뢰성 있는 도입을 돕는 필수적인 절차입니다.",
+      "education_implication": "고등교육 기관은 AI를 활용한 학습 및 연구 활동의 허용 범위를 구체적으로 정의한 학칙 업데이트가 필요합니다. 특히 AI 사용에 대한 공개 의무(disclosure)와 금지 사항을 명시하고, AI를 보조 도구로 활용하되 인간이 최종 결과물에 대한 책임을 지는 책임 기반 모델 도입이 중요합니다.",
+      "classroom_use": "교수자는 수업 계획서에 AI 활용 여부와 출처 표기 방법을 명확히 명시하고, 학생들이 AI를 연구 보조 도구로 사용할 때 준수해야 할 데이터 보안 및 윤리 가이드라인을 제공할 수 있습니다. AI가 생성한 결과물에 대해 비판적으로 검토하고 사실 관계를 직접 확인하는 과제를 통해 학생들의 AI 리터러시를 교육할 수 있습니다.",
+      "uncertainties": [
+        "각 교육 기관마다 AI 정책의 수립 수준과 적용 범위가 상이할 수 있음",
+        "기술적 진보에 따른 정책 업데이트 주기가 법적 혹은 제도적 변화를 따라가지 못할 가능성",
+        "공개된 정책이 실제 교육 현장에서 AI 오남용을 효과적으로 억제할 수 있을지에 대한 실효성 여부"
+      ],
+      "fact_check_targets": [
+        "UC Berkeley Law의 구체적인 AI 사용 정책 내용",
+        "Chancellor’s guidance의 구체적인 권고 사항 및 가이드라인 내용",
+        "교육 기관의 AI 정책 위반 시 실제 적용되는 징계 사례",
+        "[AUTO_HOLD] summary: AALRR — Specific named phrase absent from every related candidate"
+      ],
+      "hallucination_risk": "high"
+    },
+    "original_target_disposition": "안전 문장에 남긴 핵심만 직접 근거 대조. 후속 효과·실측 성과·협약 세부 등 미확보 질문은 미해결로 보존하며 출력하지 않는다.",
+    "coverage": {
+      "title": {
+        "status": "UNRESOLVED",
+        "reason": "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "publication_date": {
+        "status": "UNRESOLVED",
+        "reason": "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "event_date": {
+        "status": "UNRESOLVED",
+        "reason": "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "entities": {
+        "status": "UNRESOLVED",
+        "reason": "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "models": {
+        "status": "UNRESOLVED",
+        "reason": "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "numbers": {
+        "status": "UNRESOLVED",
+        "reason": "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "policy": {
+        "status": "UNRESOLVED",
+        "reason": "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "official_announcement": {
+        "status": "UNRESOLVED",
+        "reason": "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "core_claims": {
+        "status": "UNRESOLVED",
+        "reason": "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "why_it_matters": {
+        "status": "UNRESOLVED",
+        "reason": "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "education_implication": {
+        "status": "UNRESOLVED",
+        "reason": "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "classroom_use": {
+        "status": "UNRESOLVED",
+        "reason": "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "final_url": {
+        "status": "UNRESOLVED",
+        "reason": "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음.",
+        "claim_ids": [
+          "c0"
+        ]
+      }
+    },
+    "field_reviews": {
+      "safe_title": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": false
+      },
+      "safe_summary": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": false
+      },
+      "safe_why_it_matters": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": true
+      },
+      "safe_education_implication": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": true
+      },
+      "safe_classroom_use": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": true
+      }
+    },
+    "hold_reasons": [
+      "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음."
+    ],
+    "verification_status": "FINAL_HOLD",
+    "gate_reasons": [
+      "FINAL_URL_UNVERIFIED",
+      "PUBLICATION_DATE_MISSING",
+      "REQUIRED_SAFE_FIELD_EMPTY",
+      "REQUIRED_core_claims",
+      "REQUIRED_event_date",
+      "REQUIRED_final_url",
+      "REQUIRED_publication_date",
+      "REQUIRED_title",
+      "UNCHECKED_classroom_use",
+      "UNCHECKED_core_claims",
+      "UNCHECKED_education_implication",
+      "UNCHECKED_entities",
+      "UNCHECKED_event_date",
+      "UNCHECKED_final_url",
+      "UNCHECKED_models",
+      "UNCHECKED_numbers",
+      "UNCHECKED_official_announcement",
+      "UNCHECKED_policy",
+      "UNCHECKED_publication_date",
+      "UNCHECKED_title",
+      "UNCHECKED_why_it_matters",
+      "UNRESOLVED_CORE",
+      "현재 원 기사 접근 실패. 기존 본문 메모만으로 최초 발행일과 기간 내 신규성을 전수 검증할 수 없음."
+    ],
+    "selection_rank": 7,
+    "original_score": 78,
+    "selection_adjustment": 0,
+    "category": "policy_ethics",
+    "duplicate_group": "evt_d7f90f35fad9bf6b35e1",
+    "guard_original": "AUTO_HOLD",
+    "origin_state": "VERIFIED_WITH_CONTEXT",
+    "original_url": "https://www.aalrr.com/EdLawConnectBlog/responsible-ai-usage-in-higher-education-governance-academic-integrity-and-fraud-compliance-risks",
+    "final_url": "https://www.aalrr.com/EdLawConnectBlog/responsible-ai-usage-in-higher-education-governance-academic-integrity-and-fraud-compliance-risks",
+    "dispatch_allowed": false
+  },
+  {
+    "event_id": "evt_d6a714447eb9102f7b6c",
+    "candidate_sha256": "74376bdde063534ae777ed8a851d60f5e8dca0e3b740e7806b5d22a1a2e940d5",
+    "verified_claims": [
+      {
+        "claim_id": "c0",
+        "claim": "9월 7일 최고법원 사법 지침 공개",
+        "status": "SUPPORTED",
+        "core": true,
+        "source_ids": [
+          "china",
+          "china_media"
+        ],
+        "reason": "공식 날짜·명칭 확인.",
+        "semantic_review": true,
+        "evidence_urls": [
+          "https://www.court.gov.cn/zixun/xiangqing/511101.html",
+          "https://m.economictimes.com/tech/artificial-intelligence/chinas-top-court-posts-guidelines-on-deepfakes-ai-disputes/amp_articleshow/133878157.cms"
+        ]
+      },
+      {
+        "claim_id": "c1",
+        "claim": "얼굴·음성 동의 및 제공자 책임의 조건",
+        "status": "CONTEXTUAL",
+        "core": true,
+        "source_ids": [
+          "china"
+        ],
+        "reason": "법문 (4),(7)의 예외·통지·필요 조치를 보존.",
+        "semantic_review": true,
+        "evidence_urls": [
+          "https://www.court.gov.cn/zixun/xiangqing/511101.html"
+        ]
+      }
+    ],
+    "safe_title": "중국 최고법원, 딥페이크 등 AI 분쟁 심리 지침 공개",
+    "safe_summary": "중국 최고인민법원은 9월 7일 AI 분쟁 사건 심리 의견을 공개했다. 법정 예외를 제외한 동의 없는 식별 가능한 얼굴·음성 이용과 침해 통지 후 필요한 조치를 취하지 않은 생성형 AI 제공자의 책임 등을 다룬다.",
+    "safe_why_it_matters": "해석: 새로운 AI 법률 제정과 구분해, 기존 법에 따른 분쟁 판단 기준을 구체화한 자료로 볼 수 있다.",
+    "safe_education_implication": "시사점: 얼굴·음성 사용 동의와 제공자 책임을 비교하는 윤리 논의에 참고할 수 있다. 한국 법에 그대로 적용하지 않는다.",
+    "safe_classroom_use": "수업 제안: 지침에서 동의·예외·통지 후 조치의 차이를 찾아본다.",
+    "final_source_id": "china",
+    "publication_interval": [
+      "2026-09-07T00:00:00+08:00",
+      "2026-09-07T23:59:59+08:00"
+    ],
+    "freshness_review": "원문 날짜와 고정 기간 대조. 신규 사실·발표와 후속 해설 및 과거 배경을 구분.",
+    "notes": [],
+    "importance_exception": null,
+    "context_changed": true,
+    "reviewed_at": "2026-09-11T14:47:23.362028+00:00",
+    "reviewed_by": "Codex source review",
+    "independent_review": "PENDING",
+    "original_analysis": {
+      "event_id": "evt_d6a714447eb9102f7b6c",
+      "category": "policy_ethics",
+      "scores": {
+        "education_relevance": 15,
+        "ai_technical_importance": 15,
+        "teacher_student_impact": 10,
+        "social_industry_impact": 15,
+        "source_reliability": 8,
+        "recency": 10,
+        "total": 73
+      },
+      "summary": "China의 최고 법원은 인공지능 기술과 관련된 민사 소송을 처리하기 위한 새로운 지침을 발표했습니다. 이 지침은 딥페이크, 음성 복제, AI 환각 현상 및 개인의 인격권(이미지, 목소리, 명예 등) 침해와 관련된 법적 책임 범위를 명시하고 있습니다. 사후 세계의 인물을 디지털로 재현하는 행위나 개인 정보 보호 및 소비자 보호와 관련된 문제도 주요 규제 대상으로 포함되었습니다. 이는 별도의 독립된 AI 법안이 제정되기 전까지 법적 공백을 메우고 사법부의 판단 기준을 구체화하려는 시도로 평가됩니다.",
+      "why_it_matters": "AI 기술의 급격한 발전으로 발생하는 법적 분쟁에 대해 사법적 기준이 정립됨에 따라, AI 서비스 제공자와 사용자의 책임 소재가 명확해질 전망입니다. 특히 개인의 디지털 권리 보호와 관련된 레드라인을 설정함으로써 기술 오남용을 억제하려는 강력한 정책적 의지가 담겨 있으며, 향후 기술 발전과 법적 규제 간의 균형을 맞추는 사례가 될 것입니다.",
+      "education_implication": "AI가 생성한 콘텐츠의 진위 여부와 그로 인한 법적 책임에 대한 교육이 필요해짐에 따라, 학생들에게 디지털 미디어 리터러시 및 기술 사용의 윤리적 경계에 대한 교육적 시사점을 제공합니다.",
+      "classroom_use": "AI 생성물의 저작권과 인격권 침해 사례를 토대로, 온라인상의 개인 정보 보호 및 디지털 윤리 관련 토론 학습의 자료로 활용 가능합니다.",
+      "uncertainties": [
+        "구체적인 민사 소송 처리 가이드라인의 세부 조항 및 실질적인 처벌 수준의 명시 여부",
+        "독립적인 AI 법안이 향후 제정될 경우 본 지침과의 법적 관계",
+        "이 가이드라인이 실제로 사법 현장에서 얼마나 일관되게 적용될지에 대한 실효성"
+      ],
+      "fact_check_targets": [
+        "China 최고 법원이 발표한 AI 관련 민사 소송 가이드라인의 원문 확인",
+        "딥페이크 및 음성 복제 관련 법적 책임 규정의 구체적 범위",
+        "개인의 인격권 침해에 대한 구제 절차 명시 여부"
+      ],
+      "hallucination_risk": "low"
+    },
+    "original_target_disposition": "안전 문장에 남긴 핵심만 직접 근거 대조. 후속 효과·실측 성과·협약 세부 등 미확보 질문은 미해결로 보존하며 출력하지 않는다.",
+    "coverage": {
+      "title": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "publication_date": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "event_date": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "entities": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "models": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "numbers": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "policy": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "official_announcement": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "core_claims": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "why_it_matters": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "education_implication": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "classroom_use": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "final_url": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      }
+    },
+    "field_reviews": {
+      "safe_title": {
+        "text_sha256": "e3abaa0cfe529f2c3b6cb66263335560c7b703bf6dc40e7c0ed091c99ae49d92",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ],
+        "interpretation_or_suggestion": false
+      },
+      "safe_summary": {
+        "text_sha256": "9adf9c7a692193dd6f4b5fb709b694756df55bab9a588387d9c11f265cac2c11",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ],
+        "interpretation_or_suggestion": false
+      },
+      "safe_why_it_matters": {
+        "text_sha256": "fe997956307b7f9c2aed80bae3b34c96846743ba7fa5ea3f9e41ebff3b28fec6",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ],
+        "interpretation_or_suggestion": true
+      },
+      "safe_education_implication": {
+        "text_sha256": "3160dda94adfc2fb59494bc94bb0eccd7746a7763f59281c03adb8e367a1d108",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ],
+        "interpretation_or_suggestion": true
+      },
+      "safe_classroom_use": {
+        "text_sha256": "fd4429c21ce4fadebc979ce5fa7c621c8667c1419f9abe4bdbf0104fa574e4e5",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ],
+        "interpretation_or_suggestion": true
+      }
+    },
+    "verification_status": "FINAL_VERIFIED_WITH_CONTEXT",
+    "gate_reasons": [],
+    "selection_rank": 8,
+    "original_score": 73,
+    "selection_adjustment": 3,
+    "category": "policy_ethics",
+    "duplicate_group": "evt_d6a714447eb9102f7b6c",
+    "guard_original": "PASS",
+    "origin_state": "PASS",
+    "original_url": "https://m.economictimes.com/tech/artificial-intelligence/chinas-top-court-posts-guidelines-on-deepfakes-ai-disputes/amp_articleshow/133878157.cms",
+    "final_url": "https://www.court.gov.cn/zixun/xiangqing/511101.html",
+    "dispatch_allowed": false
+  },
+  {
+    "event_id": "evt_00c0509e97be6275afd4",
+    "candidate_sha256": "f9e3baba12b32fd4c7e2773ace368acba65155beb4385eade805f9b7d8132723",
+    "verified_claims": [
+      {
+        "claim_id": "c0",
+        "claim": "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족.",
+        "status": "UNRESOLVED",
+        "core": true,
+        "source_ids": [],
+        "reason": "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족.",
+        "semantic_review": true,
+        "evidence_urls": []
+      }
+    ],
+    "safe_title": null,
+    "safe_summary": null,
+    "safe_why_it_matters": null,
+    "safe_education_implication": null,
+    "safe_classroom_use": null,
+    "final_source_id": "builtin",
+    "publication_interval": null,
+    "freshness_review": "원문 날짜와 고정 기간 대조. 신규 사실·발표와 후속 해설 및 과거 배경을 구분.",
+    "notes": [],
+    "importance_exception": null,
+    "context_changed": true,
+    "reviewed_at": "2026-09-11T14:47:23.362028+00:00",
+    "reviewed_by": "Codex source review",
+    "independent_review": "PENDING",
+    "original_analysis": {
+      "event_id": "evt_00c0509e97be6275afd4",
+      "category": "policy_ethics",
+      "scores": {
+        "education_relevance": 20,
+        "ai_technical_importance": 15,
+        "teacher_student_impact": 10,
+        "social_industry_impact": 15,
+        "source_reliability": 7,
+        "recency": 8,
+        "total": 75
+      },
+      "summary": "미국 저작권청(U.S. Copyright Office)은 생성형 AI 학습 및 결과물에 관한 저작권 보고서의 일부를 발표하며, 저작물 무단 학습이 저작권 침해를 구성할 수 있다는 입장을 재확인했습니다. 또한, 기계에 의한 생성물은 '저자' 개념에 포함되지 않음을 분명히 했으며, 프롬프트 입력만으로 생성된 결과물은 저작권 보호 대상이 아님을 강조했습니다. 한편, Chamber of Progress와 같은 단체는 AI 모델 학습을 위한 저작물 사용이 '공정 이용(fair use)'에 해당한다는 주장을 제기하며 관련 규제 개선을 요구하고 있습니다.",
+      "why_it_matters": "생성형 AI의 학습 데이터 사용과 결과물의 저작권 귀속 문제는 교육 현장에서 학생들이 생성 AI를 활용해 만든 과제물의 저작권 처리와 학술적 정직성 문제에 직접적인 영향을 미칩니다. 법적 해석의 불확실성은 기술 산업의 방향뿐만 아니라 디지털 콘텐츠 활용 교육 전반에 중요한 지침이 될 것입니다.",
+      "education_implication": "학생들이 생성 AI로 만든 작업물의 저작권 인정 여부에 대한 명확한 법적 지식을 갖추는 것이 중요해집니다. 교육 기관은 생성 AI가 만든 결과물을 '창작'으로 간주하기보다는 도구의 활용이라는 점을 교육하고, 저작권 관련 윤리 교육을 강화해야 할 필요가 있습니다.",
+      "classroom_use": "생성 AI로 만든 결과물에 저작권이 부여되지 않는 이유를 법적·윤리적 관점에서 토론하고, 기존 예술 작품을 AI 학습에 사용하는 것이 저작권법상 '공정 이용'에 해당하는지 사례를 중심으로 학습하는 활동이 가능합니다.",
+      "uncertainties": [
+        "AI 학습을 위한 저작물 사용이 최종적으로 '공정 이용'으로 인정받을 수 있을지 여부",
+        "미국 저작권청의 보고서 내용이 향후 실제 판례에 어느 정도의 영향력을 발휘할지 여부",
+        "기계 생성물에 대한 저작권 미인정 원칙이 향후 기술 발전에 따라 수정될 가능성"
+      ],
+      "fact_check_targets": [
+        "미국 저작권청이 발표한 'Copyright and Artificial Intelligence' 보고서의 구체적인 내용 확인",
+        "Chamber of Progress의 입장에 대한 상세 근거 자료 검증",
+        "미국 내 AI 생성 저작물 관련 최신 소송 사례 및 판례의 법적 논리 확인"
+      ],
+      "hallucination_risk": "low"
+    },
+    "original_target_disposition": "안전 문장에 남긴 핵심만 직접 근거 대조. 후속 효과·실측 성과·협약 세부 등 미확보 질문은 미해결로 보존하며 출력하지 않는다.",
+    "coverage": {
+      "title": {
+        "status": "UNRESOLVED",
+        "reason": "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "publication_date": {
+        "status": "UNRESOLVED",
+        "reason": "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "event_date": {
+        "status": "UNRESOLVED",
+        "reason": "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "entities": {
+        "status": "UNRESOLVED",
+        "reason": "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "models": {
+        "status": "UNRESOLVED",
+        "reason": "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "numbers": {
+        "status": "UNRESOLVED",
+        "reason": "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "policy": {
+        "status": "UNRESOLVED",
+        "reason": "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "official_announcement": {
+        "status": "UNRESOLVED",
+        "reason": "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "core_claims": {
+        "status": "UNRESOLVED",
+        "reason": "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "why_it_matters": {
+        "status": "UNRESOLVED",
+        "reason": "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "education_implication": {
+        "status": "UNRESOLVED",
+        "reason": "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "classroom_use": {
+        "status": "UNRESOLVED",
+        "reason": "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "final_url": {
+        "status": "UNRESOLVED",
+        "reason": "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      }
+    },
+    "field_reviews": {
+      "safe_title": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": false
+      },
+      "safe_summary": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": false
+      },
+      "safe_why_it_matters": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": true
+      },
+      "safe_education_implication": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": true
+      },
+      "safe_classroom_use": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": true
+      }
+    },
+    "hold_reasons": [
+      "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족."
+    ],
+    "verification_status": "FINAL_HOLD",
+    "gate_reasons": [
+      "PUBLICATION_DATE_MISSING",
+      "REQUIRED_SAFE_FIELD_EMPTY",
+      "REQUIRED_core_claims",
+      "REQUIRED_event_date",
+      "REQUIRED_final_url",
+      "REQUIRED_publication_date",
+      "REQUIRED_title",
+      "UNCHECKED_classroom_use",
+      "UNCHECKED_core_claims",
+      "UNCHECKED_education_implication",
+      "UNCHECKED_entities",
+      "UNCHECKED_event_date",
+      "UNCHECKED_final_url",
+      "UNCHECKED_models",
+      "UNCHECKED_numbers",
+      "UNCHECKED_official_announcement",
+      "UNCHECKED_policy",
+      "UNCHECKED_publication_date",
+      "UNCHECKED_title",
+      "UNCHECKED_why_it_matters",
+      "UNRESOLVED_CORE",
+      "갱신된 일반 저작권 해설이며 기간 내 새 사건·최초 발행일 확인 부족."
+    ],
+    "selection_rank": 9,
+    "original_score": 75,
+    "selection_adjustment": 0,
+    "category": "policy_ethics",
+    "duplicate_group": "evt_00c0509e97be6275afd4",
+    "guard_original": "PASS",
+    "origin_state": "PASS",
+    "original_url": "https://builtin.com/artificial-intelligence/ai-copyright",
+    "final_url": "https://builtin.com/artificial-intelligence/ai-copyright",
+    "dispatch_allowed": false
+  },
+  {
+    "event_id": "evt_2c5e8e267c5e3b302614",
+    "candidate_sha256": "aef0f1e96046317fecce9f6eeaa0ea5fd6acc2130d7da4a0285046c76e0fbf44",
+    "verified_claims": [
+      {
+        "claim_id": "c0",
+        "claim": "9월 3일 보안 AI 사업 선정",
+        "status": "SUPPORTED",
+        "core": true,
+        "source_ids": [
+          "naver",
+          "herald"
+        ],
+        "reason": "기업 공식 발표와 과기정통부 인용 보도 일치.",
+        "semantic_review": true,
+        "evidence_urls": [
+          "https://www.navercorp.com/media/pressReleasesDetail?seq=10034628",
+          "https://www.koreaherald.com/article/10861436"
+        ]
+      },
+      {
+        "claim_id": "c1",
+        "claim": "모델 개발·실증은 추진 계획",
+        "status": "CONTEXTUAL",
+        "core": true,
+        "source_ids": [
+          "naver",
+          "herald"
+        ],
+        "reason": "완성·실증 성과 확정 표현 제거.",
+        "semantic_review": true,
+        "evidence_urls": [
+          "https://www.navercorp.com/media/pressReleasesDetail?seq=10034628",
+          "https://www.koreaherald.com/article/10861436"
+        ]
+      },
+      {
+        "claim_id": "c2",
+        "claim": "참여기관 총 32개라는 숫자",
+        "status": "CONTRADICTED",
+        "core": false,
+        "source_ids": [
+          "naver",
+          "herald"
+        ],
+        "reason": "공식 33개와 충돌. 정확한 집계는 미해결이며 두 숫자 모두 안전 문장 제외.",
+        "semantic_review": true,
+        "evidence_urls": [
+          "https://www.navercorp.com/media/pressReleasesDetail?seq=10034628",
+          "https://www.koreaherald.com/article/10861436"
+        ]
+      },
+      {
+        "claim_id": "c3",
+        "claim": "계약 세부·평가기준·실제 데이터 보호 성과",
+        "status": "UNRESOLVED",
+        "core": false,
+        "source_ids": [],
+        "reason": "선정 사실과 독립된 후속 정보. 출력하지 않음.",
+        "semantic_review": true,
+        "evidence_urls": []
+      }
+    ],
+    "safe_title": "네이버클라우드 컨소시엄, 보안 특화 AI 모델 사업 선정",
+    "safe_summary": "네이버클라우드 컨소시엄은 9월 3일 사이버보안 특화 AI 파운데이션 모델 개발 사업자로 선정됐다고 발표했다. 국내 보안 환경을 위한 모델 개발과 현장 검증을 추진하는 계획이며, 실제 보안 개선 성과가 확인된 단계라는 뜻은 아니다.",
+    "safe_why_it_matters": "해석: 보안 업무에 특화된 AI를 공공·산업 환경에서 검토하려는 개발 사업이다.",
+    "safe_education_implication": null,
+    "safe_classroom_use": null,
+    "final_source_id": "naver",
+    "publication_interval": [
+      "2026-09-03T11:13:35+09:00",
+      "2026-09-03T11:13:35+09:00"
+    ],
+    "freshness_review": "원문 날짜와 고정 기간 대조. 신규 사실·발표와 후속 해설 및 과거 배경을 구분.",
+    "notes": [
+      "기관 수는 핵심 선정 사실을 구성하지 않는 부가 수치로 제거. 기존 HOLD 사건의 상태는 변경하지 않음."
+    ],
+    "importance_exception": null,
+    "context_changed": true,
+    "reviewed_at": "2026-09-11T14:47:23.362028+00:00",
+    "reviewed_by": "Codex source review",
+    "independent_review": "PENDING",
+    "original_analysis": {
+      "event_id": "evt_2c5e8e267c5e3b302614",
+      "category": "domestic_ai",
+      "scores": {
+        "education_relevance": 15,
+        "ai_technical_importance": 18,
+        "teacher_student_impact": 5,
+        "social_industry_impact": 15,
+        "source_reliability": 9,
+        "recency": 10,
+        "total": 72
+      },
+      "summary": "과학기술정보통신부가 주관하는 '사이버 보안 특화 인공지능(AI) 파운데이션 모델 개발' 사업의 최종 사업자로 네이버클라우드 컨소시엄이 선정되었습니다. 이번 컨소시엄은 네이버클라우드를 주관으로 LG CNS, LG AI연구원, LG유플러스 등 기업과 KAIST, 서울대, 고려대, 포스텍 등 대학 및 연구기관을 포함해 총 32개 기관으로 구성되었습니다. 정부는 사업 추진을 위해 고성능 GPU인 엔비디아 B200 256장을 10개월간 지원하며, 복수의 에이전트와 하네스를 활용한 개발 전략 등을 통해 국내 독자적인 보안 특화 AI 모델을 확보하는 것을 목표로 합니다.",
+      "why_it_matters": "인공지능 기술의 고도화에 따라 지능화되는 사이버 보안 위협에 대응할 수 있는 국가 차원의 보안 거버넌스 및 기술적 자립 역량을 강화하는 중요한 전환점입니다. 특히 기업·대학·연구기관의 광범위한 협력을 통해 금융, 에너지, 국방 등 핵심 산업 현장의 실질적인 보안 데이터를 AI 모델에 접목하려는 시도는 산업 전반의 보안 수준을 높이는 데 기여할 것으로 기대됩니다.",
+      "education_implication": "주요 대학 및 연구기관들이 국가 수준의 보안 특화 AI 개발 프로젝트에 참여함에 따라, 향후 관련 분야의 인재 양성 및 산학 협력 모델이 더욱 강화될 것으로 보입니다. 학생들이 최첨단 보안 AI 파운데이션 모델 개발 현장을 간접적으로 경험하거나, 프로젝트에 참여하는 기관들을 통해 실무 중심의 AI 보안 교육 연구가 활성화될 가능성이 있습니다.",
+      "classroom_use": "보안과 AI 기술의 융합 사례로서, AI 모델이 보안 데이터와 어떻게 상호작용하는지 실무적 관점에서 학습하는 자료로 활용할 수 있습니다. 또한 공공 프로젝트에서 산학연 협업이 어떻게 이루어지는지에 대해 토론하는 기회를 제공할 수 있습니다.",
+      "uncertainties": [
+        "중간 평가 결과에 따라 GPU 지원이 중단되거나 변경될 가능성이 존재함",
+        "개발된 AI 모델이 실제 산업 현장의 사이버 위협 탐지 및 대응에 어느 정도의 실효성을 거둘지는 미지수임"
+      ],
+      "fact_check_targets": [
+        "네이버클라우드 컨소시엄의 구체적인 협약 체결일",
+        "중간 평가의 상세 기준 및 시점",
+        "실제 투입되는 보안 데이터의 구체적인 범위와 개인정보 보호 전략"
+      ],
+      "hallucination_risk": "low"
+    },
+    "original_target_disposition": "안전 문장에 남긴 핵심만 직접 근거 대조. 후속 효과·실측 성과·협약 세부 등 미확보 질문은 미해결로 보존하며 출력하지 않는다.",
+    "coverage": {
+      "title": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "publication_date": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "event_date": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "entities": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "models": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "numbers": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "policy": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "official_announcement": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "core_claims": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "why_it_matters": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "education_implication": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "classroom_use": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "final_url": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      }
+    },
+    "field_reviews": {
+      "safe_title": {
+        "text_sha256": "3d63acd3a7dc377fa8d682094e58fbe5060754d627159e2eb3c95db572745f4c",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ],
+        "interpretation_or_suggestion": false
+      },
+      "safe_summary": {
+        "text_sha256": "73c551536ff9188fd5cef39773c4fcdecd5e9787c45f8bfb6ff69d3c163316be",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ],
+        "interpretation_or_suggestion": false
+      },
+      "safe_why_it_matters": {
+        "text_sha256": "ae39798acd5d2d753430520f9591be86d37db8a9fff1e94c639a340c17f94f2b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ],
+        "interpretation_or_suggestion": true
+      },
+      "safe_education_implication": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ],
+        "interpretation_or_suggestion": true
+      },
+      "safe_classroom_use": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ],
+        "interpretation_or_suggestion": true
+      }
+    },
+    "verification_status": "FINAL_VERIFIED_WITH_CONTEXT",
+    "gate_reasons": [],
+    "selection_rank": 10,
+    "original_score": 72,
+    "selection_adjustment": 3,
+    "category": "domestic_ai",
+    "duplicate_group": "naver_security_selection",
+    "guard_original": "PASS",
+    "origin_state": "PASS",
+    "original_url": "https://www.koreaherald.com/article/10861436",
+    "final_url": "https://www.navercorp.com/media/pressReleasesDetail?seq=10034628",
+    "dispatch_allowed": false
+  },
+  {
+    "event_id": "evt_110d5de653f5eb8421ba",
+    "candidate_sha256": "b570958e2222722b39a8003e1396cde0bd2c37e8992827013658398be48be790",
+    "verified_claims": [
+      {
+        "claim_id": "c0",
+        "claim": "초중등 유출의 주원인은 해킹이라는 기존 요약",
+        "status": "CONTRADICTED",
+        "core": true,
+        "source_ids": [
+          "ebs_body"
+        ],
+        "reason": "원 기자 본문은 15건 중 13건 업무상 과실, 해킹 1건이라고 명시. 주요 원인을 뒤집은 핵심 오류.",
+        "semantic_review": true,
+        "evidence_urls": [
+          "https://v.daum.net/v/20260909123729132"
+        ]
+      }
+    ],
+    "safe_title": null,
+    "safe_summary": null,
+    "safe_why_it_matters": null,
+    "safe_education_implication": null,
+    "safe_classroom_use": null,
+    "final_source_id": "ebs_body",
+    "publication_interval": [
+      "2026-09-09T12:37:00+09:00",
+      "2026-09-09T12:37:00+09:00"
+    ],
+    "freshness_review": "원문 날짜와 고정 기간 대조. 신규 사실·발표와 후속 해설 및 과거 배경을 구분.",
+    "notes": [],
+    "importance_exception": null,
+    "context_changed": true,
+    "reviewed_at": "2026-09-11T14:47:23.362028+00:00",
+    "reviewed_by": "Codex source review",
+    "independent_review": "PENDING",
+    "original_analysis": {
+      "event_id": "evt_110d5de653f5eb8421ba",
+      "category": "security",
+      "scores": {
+        "education_relevance": 25,
+        "ai_technical_importance": 5,
+        "teacher_student_impact": 15,
+        "social_industry_impact": 10,
+        "source_reliability": 8,
+        "recency": 10,
+        "total": 73
+      },
+      "summary": "최근 3년간 교육기관에서 발생한 개인정보 유출로 인해 당국으로부터 처분을 받은 사례가 총 38건으로 확인되었습니다. 초등학교, 중학교, 고등학교 및 교육청에서 발생한 이러한 유출 사고의 주요 원인은 해킹으로 지목되었습니다.",
+      "why_it_matters": "교육기관이 보유한 학생 및 교직원의 개인정보가 해킹에 취약하다는 점이 드러났습니다. 이는 학교 현장의 디지털 보안 관리 체계에 허점이 있음을 시사하며, 민감한 교육 데이터 보호를 위한 실효성 있는 대책 마련이 시급함을 보여줍니다.",
+      "education_implication": "학교가 디지털 환경으로 전환됨에 따라 학생들의 학습 데이터와 개인정보 보호가 교육의 핵심 과제로 부상했습니다. 보안 사고의 지속적인 발생은 교육 행정 시스템 전반에 대한 신뢰 저하를 초래할 수 있습니다.",
+      "classroom_use": "교실 내에서 디지털 기기나 교육용 플랫폼을 활용할 때 개인정보보호의 중요성을 다루는 정보 윤리 교육 자료로 활용할 수 있습니다. 교직원 대상의 보안 지침 강화 필요성을 토의하는 주제로 사용할 수 있습니다.",
+      "uncertainties": [
+        "유출된 38건의 구체적인 피해 규모나 항목이 명시되지 않았음",
+        "해킹의 기술적 경로가 다양하므로 모든 사고가 동일한 유형의 보안 취약점인지 불분명함",
+        "현재 교육기관의 보안 대응 시스템 보완이 어느 단계까지 진행되었는지 파악하기 어려움"
+      ],
+      "fact_check_targets": [
+        "최근 3년간 교육기관 개인정보 유출 처분 38건에 대한 상세 보고서",
+        "해킹을 제외한 기타 유출 사고 원인 비율",
+        "각 시도 교육청별 개인정보 보호 강화 대책 실행 현황"
+      ],
+      "hallucination_risk": "low"
+    },
+    "original_target_disposition": "안전 문장에 남긴 핵심만 직접 근거 대조. 후속 효과·실측 성과·협약 세부 등 미확보 질문은 미해결로 보존하며 출력하지 않는다.",
+    "coverage": {
+      "title": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": []
+      },
+      "publication_date": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": []
+      },
+      "event_date": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": []
+      },
+      "entities": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": []
+      },
+      "models": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": []
+      },
+      "numbers": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": []
+      },
+      "policy": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": []
+      },
+      "official_announcement": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": []
+      },
+      "core_claims": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": []
+      },
+      "why_it_matters": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": []
+      },
+      "education_implication": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": []
+      },
+      "classroom_use": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": []
+      },
+      "final_url": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": []
+      }
+    },
+    "field_reviews": {
+      "safe_title": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": false
+      },
+      "safe_summary": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": false
+      },
+      "safe_why_it_matters": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": true
+      },
+      "safe_education_implication": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": true
+      },
+      "safe_classroom_use": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": true
+      }
+    },
+    "reject_reason": "기존 분석의 핵심 원인 설명 반증. safe export에서 전부 제외하고 재작성으로 숫자를 채우지 않음.",
+    "verification_status": "FINAL_REJECT",
+    "gate_reasons": [
+      "COVERAGE_WITHOUT_EVIDENCE_classroom_use",
+      "COVERAGE_WITHOUT_EVIDENCE_core_claims",
+      "COVERAGE_WITHOUT_EVIDENCE_education_implication",
+      "COVERAGE_WITHOUT_EVIDENCE_entities",
+      "COVERAGE_WITHOUT_EVIDENCE_event_date",
+      "COVERAGE_WITHOUT_EVIDENCE_final_url",
+      "COVERAGE_WITHOUT_EVIDENCE_models",
+      "COVERAGE_WITHOUT_EVIDENCE_numbers",
+      "COVERAGE_WITHOUT_EVIDENCE_official_announcement",
+      "COVERAGE_WITHOUT_EVIDENCE_policy",
+      "COVERAGE_WITHOUT_EVIDENCE_publication_date",
+      "COVERAGE_WITHOUT_EVIDENCE_title",
+      "COVERAGE_WITHOUT_EVIDENCE_why_it_matters",
+      "REQUIRED_SAFE_FIELD_EMPTY"
+    ],
+    "selection_rank": 11,
+    "original_score": 73,
+    "selection_adjustment": 0,
+    "category": "security",
+    "duplicate_group": "education_data_leak_review",
+    "guard_original": "PASS",
+    "origin_state": "PASS",
+    "original_url": "https://home.ebs.co.kr/ebsnews/menu1/newsAllView/60766799/H?eduNewsYn=N&newsFldDetlCd=",
+    "final_url": "https://v.daum.net/v/20260909123729132",
+    "dispatch_allowed": false
+  },
+  {
+    "event_id": "evt_a67586b8ceedf44517b8",
+    "candidate_sha256": "d8d048111b8697379a0beb2d385459c0685f717243ce61950ad10e987f4c02bf",
+    "verified_claims": [
+      {
+        "claim_id": "c0",
+        "claim": "제품 시연 홍보만으로 교육성과나 정책적 채택을 확인할 수 없어 최종 뉴스 가치 부족.",
+        "status": "UNRESOLVED",
+        "core": true,
+        "source_ids": [],
+        "reason": "제품 시연 홍보만으로 교육성과나 정책적 채택을 확인할 수 없어 최종 뉴스 가치 부족.",
+        "semantic_review": true,
+        "evidence_urls": []
+      }
+    ],
+    "safe_title": null,
+    "safe_summary": null,
+    "safe_why_it_matters": null,
+    "safe_education_implication": null,
+    "safe_classroom_use": null,
+    "final_source_id": "schoolflat",
+    "publication_interval": null,
+    "freshness_review": "원문 날짜와 고정 기간 대조. 신규 사실·발표와 후속 해설 및 과거 배경을 구분.",
+    "notes": [],
+    "importance_exception": null,
+    "context_changed": true,
+    "reviewed_at": "2026-09-11T14:47:23.362028+00:00",
+    "reviewed_by": "Codex source review",
+    "independent_review": "PENDING",
+    "original_analysis": {
+      "event_id": "evt_a67586b8ceedf44517b8",
+      "category": "ai_education",
+      "scores": {
+        "education_relevance": 25,
+        "ai_technical_importance": 10,
+        "teacher_student_impact": 10,
+        "social_industry_impact": 10,
+        "source_reliability": 8,
+        "recency": 10,
+        "total": 73
+      },
+      "summary": "AI 교육 솔루션 기업 프리윌린이 한국과 세계은행이 공동으로 주최한 성과 공유 행사에서 수학 AI 코스웨어 '스쿨플랫'을 시연했습니다. 스쿨플랫은 교사의 수업 설계와 학생별 맞춤형 학습을 지원하는 서비스로, 이번 행사를 통해 프리윌린은 글로벌 교육 관계자들과 네트워크를 구축하고 향후 해외 시장 진출 및 협력을 모색할 계획입니다.",
+      "why_it_matters": "국내 에듀테크 기업의 AI 코스웨어가 국제기구 행사를 통해 글로벌 무대에 소개되었다는 점에서 한국형 AI 교육 솔루션의 해외 진출 가능성과 에듀테크 분야의 국제적 협력 흐름을 보여주는 사례입니다.",
+      "education_implication": "AI 코스웨어가 단순한 학습 도구를 넘어 교사의 수업 설계 지원 및 개인화된 학습 경험을 제공하는 방식으로 진화하고 있으며, 이러한 기술이 국내를 넘어 교육 환경이 다른 국가들로 확장될 수 있을지에 대한 교육적 담론을 제시합니다.",
+      "classroom_use": "교실 현장에서 AI 코스웨어를 활용한 수업 설계 및 개별 학생의 학습 수준에 맞춘 데이터 기반 피드백이 어떻게 교육 격차를 해소하거나 수업의 질을 개선할 수 있는지 논의하는 자료로 활용할 수 있습니다.",
+      "uncertainties": [
+        "스쿨플랫의 글로벌 시장 도입 시 국가별 교육 환경 및 커리큘럼 차이를 얼마나 효과적으로 극복할 수 있을지는 미지수입니다.",
+        "세계은행 행사 이후 구체적인 글로벌 협력 계약이나 해외 진출 성과가 확정된 것은 아닙니다.",
+        "국내에서 입증된 서비스 모델이 언어와 문화가 다른 해외 교육 현장에서도 동일한 효과를 낼 수 있는지에 대한 검증이 필요합니다."
+      ],
+      "fact_check_targets": [
+        "스쿨플랫의 전국 학교 사용 현황 및 데이터 수치 확인",
+        "세계은행 성과 공유 행사에서의 구체적인 협력 논의 내용 확인"
+      ],
+      "hallucination_risk": "low"
+    },
+    "original_target_disposition": "안전 문장에 남긴 핵심만 직접 근거 대조. 후속 효과·실측 성과·협약 세부 등 미확보 질문은 미해결로 보존하며 출력하지 않는다.",
+    "coverage": {
+      "title": {
+        "status": "UNRESOLVED",
+        "reason": "제품 시연 홍보만으로 교육성과나 정책적 채택을 확인할 수 없어 최종 뉴스 가치 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "publication_date": {
+        "status": "UNRESOLVED",
+        "reason": "제품 시연 홍보만으로 교육성과나 정책적 채택을 확인할 수 없어 최종 뉴스 가치 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "event_date": {
+        "status": "UNRESOLVED",
+        "reason": "제품 시연 홍보만으로 교육성과나 정책적 채택을 확인할 수 없어 최종 뉴스 가치 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "entities": {
+        "status": "UNRESOLVED",
+        "reason": "제품 시연 홍보만으로 교육성과나 정책적 채택을 확인할 수 없어 최종 뉴스 가치 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "models": {
+        "status": "UNRESOLVED",
+        "reason": "제품 시연 홍보만으로 교육성과나 정책적 채택을 확인할 수 없어 최종 뉴스 가치 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "numbers": {
+        "status": "UNRESOLVED",
+        "reason": "제품 시연 홍보만으로 교육성과나 정책적 채택을 확인할 수 없어 최종 뉴스 가치 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "policy": {
+        "status": "UNRESOLVED",
+        "reason": "제품 시연 홍보만으로 교육성과나 정책적 채택을 확인할 수 없어 최종 뉴스 가치 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "official_announcement": {
+        "status": "UNRESOLVED",
+        "reason": "제품 시연 홍보만으로 교육성과나 정책적 채택을 확인할 수 없어 최종 뉴스 가치 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "core_claims": {
+        "status": "UNRESOLVED",
+        "reason": "제품 시연 홍보만으로 교육성과나 정책적 채택을 확인할 수 없어 최종 뉴스 가치 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "why_it_matters": {
+        "status": "UNRESOLVED",
+        "reason": "제품 시연 홍보만으로 교육성과나 정책적 채택을 확인할 수 없어 최종 뉴스 가치 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "education_implication": {
+        "status": "UNRESOLVED",
+        "reason": "제품 시연 홍보만으로 교육성과나 정책적 채택을 확인할 수 없어 최종 뉴스 가치 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "classroom_use": {
+        "status": "UNRESOLVED",
+        "reason": "제품 시연 홍보만으로 교육성과나 정책적 채택을 확인할 수 없어 최종 뉴스 가치 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "final_url": {
+        "status": "UNRESOLVED",
+        "reason": "제품 시연 홍보만으로 교육성과나 정책적 채택을 확인할 수 없어 최종 뉴스 가치 부족.",
+        "claim_ids": [
+          "c0"
+        ]
+      }
+    },
+    "field_reviews": {
+      "safe_title": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": false
+      },
+      "safe_summary": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": false
+      },
+      "safe_why_it_matters": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": true
+      },
+      "safe_education_implication": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": true
+      },
+      "safe_classroom_use": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": true
+      }
+    },
+    "hold_reasons": [
+      "제품 시연 홍보만으로 교육성과나 정책적 채택을 확인할 수 없어 최종 뉴스 가치 부족."
+    ],
+    "reject_reason": "제품 시연 홍보만으로 교육성과나 정책적 채택을 확인할 수 없어 최종 뉴스 가치 부족.",
+    "verification_status": "FINAL_REJECT",
+    "gate_reasons": [
+      "FINAL_URL_UNVERIFIED",
+      "PUBLICATION_DATE_MISSING",
+      "REQUIRED_SAFE_FIELD_EMPTY",
+      "REQUIRED_core_claims",
+      "REQUIRED_event_date",
+      "REQUIRED_final_url",
+      "REQUIRED_publication_date",
+      "REQUIRED_title",
+      "UNCHECKED_classroom_use",
+      "UNCHECKED_core_claims",
+      "UNCHECKED_education_implication",
+      "UNCHECKED_entities",
+      "UNCHECKED_event_date",
+      "UNCHECKED_final_url",
+      "UNCHECKED_models",
+      "UNCHECKED_numbers",
+      "UNCHECKED_official_announcement",
+      "UNCHECKED_policy",
+      "UNCHECKED_publication_date",
+      "UNCHECKED_title",
+      "UNCHECKED_why_it_matters",
+      "UNRESOLVED_CORE",
+      "제품 시연 홍보만으로 교육성과나 정책적 채택을 확인할 수 없어 최종 뉴스 가치 부족."
+    ],
+    "selection_rank": 12,
+    "original_score": 73,
+    "selection_adjustment": -5,
+    "category": "ai_education",
+    "duplicate_group": "evt_a67586b8ceedf44517b8",
+    "guard_original": "PASS",
+    "origin_state": "PASS",
+    "original_url": "https://zdnet.co.kr/view?no=20260907085715",
+    "final_url": "https://story.schoolflat.com/",
+    "dispatch_allowed": false
+  },
+  {
+    "event_id": "evt_69c74bc9d2234f20c095",
+    "candidate_sha256": "696bc3fc47d441f03465b73d2a51886723c129318e4c5ecd16f738cf72f0c57d",
+    "verified_claims": [
+      {
+        "claim_id": "c0",
+        "claim": "9월 3일 NVIDIA IFA 발표",
+        "status": "SUPPORTED",
+        "core": true,
+        "source_ids": [
+          "nvidia"
+        ],
+        "reason": "당일 발표와 8월 모델 회고를 분리.",
+        "semantic_review": true,
+        "evidence_urls": [
+          "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/"
+        ]
+      },
+      {
+        "claim_id": "c1",
+        "claim": "PAIR가 로컬 PC에 AI 추론 요청 분배",
+        "status": "SUPPORTED",
+        "core": true,
+        "source_ids": [
+          "nvidia"
+        ],
+        "reason": "공식 제품 기능 설명. 모델 벤치마크를 일반화하지 않음.",
+        "semantic_review": true,
+        "evidence_urls": [
+          "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/"
+        ]
+      }
+    ],
+    "safe_title": "NVIDIA, IFA에서 로컬 AI 연결 도구 PAIR 소개",
+    "safe_summary": "NVIDIA는 9월 3일 IFA 발표에서 로컬 AI 에이전트 지원과 PAIR를 소개했다. PAIR는 사용자의 로컬 네트워크에 연결된 PC들에 AI 추론 요청을 분배하는 도구다.",
+    "safe_why_it_matters": "해석: 로컬 AI를 여러 장치에서 실행하는 방식을 살펴볼 수 있다. 모든 환경의 속도·보안 개선이 입증됐다는 의미는 아니다.",
+    "safe_education_implication": null,
+    "safe_classroom_use": null,
+    "final_source_id": "nvidia",
+    "publication_interval": [
+      "2026-09-03T00:00:00+02:00",
+      "2026-09-03T23:59:59+02:00"
+    ],
+    "freshness_review": "원문 날짜와 고정 기간 대조. 신규 사실·발표와 후속 해설 및 과거 배경을 구분.",
+    "notes": [
+      "원 분석의 8월 모델 소개는 당일 신모델 출시로 내보내지 않음."
+    ],
+    "importance_exception": "67점 유지. 주요 AI 기업의 새로운 로컬 AI 도구 발표로 별도 중요 후보 검토.",
+    "context_changed": true,
+    "reviewed_at": "2026-09-11T14:47:23.362028+00:00",
+    "reviewed_by": "Codex source review",
+    "independent_review": "PENDING",
+    "original_analysis": {
+      "event_id": "evt_69c74bc9d2234f20c095",
+      "category": "ai_models",
+      "scores": {
+        "education_relevance": 15,
+        "ai_technical_importance": 18,
+        "teacher_student_impact": 5,
+        "social_industry_impact": 10,
+        "source_reliability": 9,
+        "recency": 10,
+        "total": 67
+      },
+      "summary": "IFA 2026에서 NVIDIA는 로컬 AI 성능을 강화하기 위한 여러 새로운 모델과 기술을 공개했다. Qwen은 다중 모달 MoE 모델인 Qwen3.8-Flash-Next와 코딩 및 에이전트 작업에 최적화된 Qwen3.8-27B를 발표했다. LTX는 영상 생성 모델 LTX 2.5를 최적화했으며, Z.ai는 멀티모달 MoE 모델인 GLM-5.3-Flash를 선보였다. 또한 300억 파라미터 규모의 Nemotron 3.5 Lightning 모델이 공개되어 다양한 NVIDIA 하드웨어 환경에서 구동될 예정이다.",
+      "why_it_matters": "로컬 환경에서 구동 가능한 고성능 모델들이 확산됨에 따라 외부 서버 의존 없이 강력한 AI 기능을 활용할 수 있는 기술적 환경이 조성되고 있다. 특히 에이전트 및 멀티모달 기능이 하드웨어와 통합됨으로써 로컬 컴퓨팅의 AI 활용 범위가 확대될 전망이다.",
+      "education_implication": "로컬 AI 모델의 발전은 교육용 디바이스에서 인터넷 연결 없이도 고성능 AI 모델을 사용할 수 있는 가능성을 제시한다. 이는 학생들의 데이터 프라이버시를 보호하고 오프라인 학습 환경에서도 고급 생성형 AI 도구를 활용하는 교육 혁신을 뒷받침할 수 있다.",
+      "classroom_use": "로컬 GPU가 탑재된 워크스테이션을 활용하여 클라우드 서버 없이 Qwen이나 Nemotron 모델을 사용하여 학생들이 자신만의 에이전트를 프로그래밍하거나 미디어 제작 프로젝트를 수행하는 교육 환경을 구성할 수 있다.",
+      "uncertainties": [
+        "공개된 모델들이 일반 교육용 하드웨어에서 원활하게 작동할 수 있는 최소 사양의 구체적 범위",
+        "이러한 로컬 모델들의 교육 현장 도입 시 고려해야 할 소프트웨어 관리 및 보안 가이드라인의 부재"
+      ],
+      "fact_check_targets": [
+        "Qwen3.8-Flash-Next의 멀티모달 성능 및 하드웨어 점유율",
+        "LTX 2.5의 영상 생성 속도 및 메모리 효율 개선 수치",
+        "Nemotron 3.5 Lightning이 지원하는 정확한 디바이스 범위",
+        "[AUTO_HOLD] summary: 300억 — No equal normalized quantity in any related candidate",
+        "[AUTO_HOLD] classroom_use: GPU — Specific named phrase absent from every related candidate"
+      ],
+      "hallucination_risk": "high"
+    },
+    "original_target_disposition": "안전 문장에 남긴 핵심만 직접 근거 대조. 후속 효과·실측 성과·협약 세부 등 미확보 질문은 미해결로 보존하며 출력하지 않는다.",
+    "coverage": {
+      "title": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "publication_date": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "event_date": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "entities": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "models": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "numbers": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "policy": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "official_announcement": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "core_claims": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "why_it_matters": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "education_implication": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "classroom_use": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "final_url": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      }
+    },
+    "field_reviews": {
+      "safe_title": {
+        "text_sha256": "065a02287fe9df635c16e4ef32f4f94632301b165da8388dc56744549361d8ca",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ],
+        "interpretation_or_suggestion": false
+      },
+      "safe_summary": {
+        "text_sha256": "0515ea9df5b9027789883fca84681e7ad89c13f3b535859170c95252453d4757",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ],
+        "interpretation_or_suggestion": false
+      },
+      "safe_why_it_matters": {
+        "text_sha256": "e115f7561b374c9e4d8ecdbe073947e746be9472ac6c93b21852539709b87c56",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ],
+        "interpretation_or_suggestion": true
+      },
+      "safe_education_implication": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ],
+        "interpretation_or_suggestion": true
+      },
+      "safe_classroom_use": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ],
+        "interpretation_or_suggestion": true
+      }
+    },
+    "verification_status": "FINAL_VERIFIED_WITH_CONTEXT",
+    "gate_reasons": [],
+    "selection_rank": 13,
+    "original_score": 67,
+    "selection_adjustment": 4,
+    "category": "ai_models",
+    "duplicate_group": "evt_69c74bc9d2234f20c095",
+    "guard_original": "AUTO_HOLD",
+    "origin_state": "VERIFIED_WITH_CONTEXT",
+    "original_url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark",
+    "final_url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
+    "dispatch_allowed": false
+  },
+  {
+    "event_id": "evt_6c2e79a8baec6fc438d0",
+    "candidate_sha256": "17b319e0733e6749ac0b1f4c6a1e4fda42c98243ce8de5c6f600552a2ee3aac1",
+    "verified_claims": [
+      {
+        "claim_id": "c0",
+        "claim": "장기 소재과학 소개이며 새 AI 사건으로 보기 어려움. 9월 2일 경계 시각도 확인 불가.",
+        "status": "UNRESOLVED",
+        "core": true,
+        "source_ids": [],
+        "reason": "장기 소재과학 소개이며 새 AI 사건으로 보기 어려움. 9월 2일 경계 시각도 확인 불가.",
+        "semantic_review": true,
+        "evidence_urls": []
+      }
+    ],
+    "safe_title": null,
+    "safe_summary": null,
+    "safe_why_it_matters": null,
+    "safe_education_implication": null,
+    "safe_classroom_use": null,
+    "final_source_id": "nsf",
+    "publication_interval": null,
+    "freshness_review": "원문 날짜와 고정 기간 대조. 신규 사실·발표와 후속 해설 및 과거 배경을 구분.",
+    "notes": [],
+    "importance_exception": null,
+    "context_changed": true,
+    "reviewed_at": "2026-09-11T14:47:23.362028+00:00",
+    "reviewed_by": "Codex source review",
+    "independent_review": "PENDING",
+    "original_analysis": {
+      "event_id": "evt_6c2e79a8baec6fc438d0",
+      "category": "industry",
+      "scores": {
+        "education_relevance": 15,
+        "ai_technical_importance": 12,
+        "teacher_student_impact": 5,
+        "social_industry_impact": 10,
+        "source_reliability": 10,
+        "recency": 8,
+        "total": 60
+      },
+      "summary": "NSF AI-Materials Institute는 데이터 생성, AI 분석, 피드백 과정을 통합하는 클라우드 기반 플랫폼을 개발 중입니다. 이는 전자, 에너지, 양자 기술 분야의 신소재 발견 속도를 개선하기 위한 목적입니다. 또한 AI를 활용한 프로그램 가능한 클라우드 실험실을 통해 연구자들이 원격으로 신소재 실험을 수행할 수 있도록 지원하고 있습니다.",
+      "why_it_matters": "AI가 연구 개발 환경의 효율성을 높이고 신소재 발견이라는 기술적 난제를 해결하는 도구로 활용되고 있습니다. 원격 클라우드 기반 연구 환경은 연구 자원에 대한 접근성을 확대할 가능성을 시사합니다.",
+      "education_implication": "신소재 공학 연구에 AI가 결합되는 사례는 과학 교육 과정에서 디지털 기술의 역할을 강조하며, 데이터 기반 연구 방법론에 대한 학습의 중요성을 시사합니다.",
+      "classroom_use": "클라우드 기반 가상 실험 환경이 과학 연구의 접근성을 어떻게 변화시키는지 사례 연구로 활용할 수 있습니다.",
+      "uncertainties": [
+        "플랫폼의 구체적인 개발 완료 시점이나 상용화 범위는 불명확함",
+        "해당 플랫폼이 지원하는 연구 영역의 세부적인 한계나 조건에 대한 추가 설명이 없음"
+      ],
+      "fact_check_targets": [
+        "NSF AI-Materials Institute의 구체적인 프로젝트 성과",
+        "AI-enabled, programmable cloud laboratories의 운영 방식 및 참여 가능 연구자 범위"
+      ],
+      "hallucination_risk": "low"
+    },
+    "original_target_disposition": "안전 문장에 남긴 핵심만 직접 근거 대조. 후속 효과·실측 성과·협약 세부 등 미확보 질문은 미해결로 보존하며 출력하지 않는다.",
+    "coverage": {
+      "title": {
+        "status": "UNRESOLVED",
+        "reason": "장기 소재과학 소개이며 새 AI 사건으로 보기 어려움. 9월 2일 경계 시각도 확인 불가.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "publication_date": {
+        "status": "UNRESOLVED",
+        "reason": "장기 소재과학 소개이며 새 AI 사건으로 보기 어려움. 9월 2일 경계 시각도 확인 불가.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "event_date": {
+        "status": "UNRESOLVED",
+        "reason": "장기 소재과학 소개이며 새 AI 사건으로 보기 어려움. 9월 2일 경계 시각도 확인 불가.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "entities": {
+        "status": "UNRESOLVED",
+        "reason": "장기 소재과학 소개이며 새 AI 사건으로 보기 어려움. 9월 2일 경계 시각도 확인 불가.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "models": {
+        "status": "UNRESOLVED",
+        "reason": "장기 소재과학 소개이며 새 AI 사건으로 보기 어려움. 9월 2일 경계 시각도 확인 불가.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "numbers": {
+        "status": "UNRESOLVED",
+        "reason": "장기 소재과학 소개이며 새 AI 사건으로 보기 어려움. 9월 2일 경계 시각도 확인 불가.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "policy": {
+        "status": "UNRESOLVED",
+        "reason": "장기 소재과학 소개이며 새 AI 사건으로 보기 어려움. 9월 2일 경계 시각도 확인 불가.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "official_announcement": {
+        "status": "UNRESOLVED",
+        "reason": "장기 소재과학 소개이며 새 AI 사건으로 보기 어려움. 9월 2일 경계 시각도 확인 불가.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "core_claims": {
+        "status": "UNRESOLVED",
+        "reason": "장기 소재과학 소개이며 새 AI 사건으로 보기 어려움. 9월 2일 경계 시각도 확인 불가.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "why_it_matters": {
+        "status": "UNRESOLVED",
+        "reason": "장기 소재과학 소개이며 새 AI 사건으로 보기 어려움. 9월 2일 경계 시각도 확인 불가.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "education_implication": {
+        "status": "UNRESOLVED",
+        "reason": "장기 소재과학 소개이며 새 AI 사건으로 보기 어려움. 9월 2일 경계 시각도 확인 불가.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "classroom_use": {
+        "status": "UNRESOLVED",
+        "reason": "장기 소재과학 소개이며 새 AI 사건으로 보기 어려움. 9월 2일 경계 시각도 확인 불가.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "final_url": {
+        "status": "UNRESOLVED",
+        "reason": "장기 소재과학 소개이며 새 AI 사건으로 보기 어려움. 9월 2일 경계 시각도 확인 불가.",
+        "claim_ids": [
+          "c0"
+        ]
+      }
+    },
+    "field_reviews": {
+      "safe_title": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": false
+      },
+      "safe_summary": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": false
+      },
+      "safe_why_it_matters": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": true
+      },
+      "safe_education_implication": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": true
+      },
+      "safe_classroom_use": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": true
+      }
+    },
+    "hold_reasons": [
+      "장기 소재과학 소개이며 새 AI 사건으로 보기 어려움. 9월 2일 경계 시각도 확인 불가."
+    ],
+    "verification_status": "FINAL_HOLD",
+    "gate_reasons": [
+      "BELOW_70_WITHOUT_IMPORTANCE_REASON",
+      "PUBLICATION_DATE_MISSING",
+      "REQUIRED_SAFE_FIELD_EMPTY",
+      "REQUIRED_core_claims",
+      "REQUIRED_event_date",
+      "REQUIRED_final_url",
+      "REQUIRED_publication_date",
+      "REQUIRED_title",
+      "UNCHECKED_classroom_use",
+      "UNCHECKED_core_claims",
+      "UNCHECKED_education_implication",
+      "UNCHECKED_entities",
+      "UNCHECKED_event_date",
+      "UNCHECKED_final_url",
+      "UNCHECKED_models",
+      "UNCHECKED_numbers",
+      "UNCHECKED_official_announcement",
+      "UNCHECKED_policy",
+      "UNCHECKED_publication_date",
+      "UNCHECKED_title",
+      "UNCHECKED_why_it_matters",
+      "UNRESOLVED_CORE",
+      "장기 소재과학 소개이며 새 AI 사건으로 보기 어려움. 9월 2일 경계 시각도 확인 불가."
+    ],
+    "selection_rank": 14,
+    "original_score": 60,
+    "selection_adjustment": 2,
+    "category": "industry",
+    "duplicate_group": "evt_6c2e79a8baec6fc438d0",
+    "guard_original": "PASS",
+    "origin_state": "PASS",
+    "original_url": "https://www.nsf.gov/science-matters/materials-science-stuff-modern-world",
+    "final_url": "https://www.nsf.gov/science-matters/materials-science-stuff-modern-world",
+    "dispatch_allowed": false
+  },
+  {
+    "event_id": "evt_9f322aee4df5bd2d6359",
+    "candidate_sha256": "99be6b35e7689d927e764805473885f4e0275a324f00fb9d697091668aae38b7",
+    "verified_claims": [
+      {
+        "claim_id": "c0",
+        "claim": "모든 주요 AI 서비스 동시 장애라는 범위와 공식 상태 이력을 이번 검토에서 전수 확인하지 못함.",
+        "status": "UNRESOLVED",
+        "core": true,
+        "source_ids": [],
+        "reason": "모든 주요 AI 서비스 동시 장애라는 범위와 공식 상태 이력을 이번 검토에서 전수 확인하지 못함.",
+        "semantic_review": true,
+        "evidence_urls": []
+      }
+    ],
+    "safe_title": null,
+    "safe_summary": null,
+    "safe_why_it_matters": null,
+    "safe_education_implication": null,
+    "safe_classroom_use": null,
+    "final_source_id": "outage",
+    "publication_interval": null,
+    "freshness_review": "원문 날짜와 고정 기간 대조. 신규 사실·발표와 후속 해설 및 과거 배경을 구분.",
+    "notes": [],
+    "importance_exception": null,
+    "context_changed": true,
+    "reviewed_at": "2026-09-11T14:47:23.362028+00:00",
+    "reviewed_by": "Codex source review",
+    "independent_review": "PENDING",
+    "original_analysis": {
+      "event_id": "evt_9f322aee4df5bd2d6359",
+      "category": "generative_ai",
+      "scores": {
+        "education_relevance": 15,
+        "ai_technical_importance": 15,
+        "teacher_student_impact": 10,
+        "social_industry_impact": 10,
+        "source_reliability": 6,
+        "recency": 5,
+        "total": 61
+      },
+      "summary": "주요 인공지능 챗봇 서비스인 OpenAI의 ChatGPT, Anthropic의 Claude, xAI의 Grok, Google의 Gemini 등에서 동시다발적인 장애나 성능 저하 현상이 보고되었습니다. OpenAI는 서비스 복구를 위한 완화 조치를 적용 중이라고 밝혔으며, Anthropic은 인프라 문제로 인한 부분적인 서비스 중단이 있었다고 설명했습니다.",
+      "why_it_matters": "일상적인 업무와 교육 분야에서 인공지능 도구에 대한 의존도가 높아진 상황에서, 주요 서비스의 동시 장애는 디지털 도구 활용의 취약성을 드러냅니다. 이는 클라우드 기반 인공지능 모델이 중앙집중화된 인프라에 의존하고 있어 발생할 수 있는 잠재적 위험을 시사합니다.",
+      "education_implication": "학교 현장에서 인공지능 도구를 활용한 수업을 진행할 때 기술적 결함으로 인한 중단 가능성을 항상 고려해야 함을 의미합니다. 수업 설계 시 오프라인 대체 방안 마련의 중요성이 강조됩니다.",
+      "classroom_use": "디지털 학습 도구의 장애 발생 시 당황하지 않고 대처할 수 있도록 아날로그 방식의 교수법과 학습 도구를 병행하는 회복 탄력성 높은 교육 환경 구축을 논의하는 사례로 활용할 수 있습니다.",
+      "uncertainties": [
+        "모든 주요 챗봇 서비스가 동시간대에 발생시킨 장애의 근본적인 원인이 동일한지 여부",
+        "각 서비스 기업이 언급한 인프라 문제의 구체적인 내용 및 연관성",
+        "장애가 전면적인 서비스 중단인지 아니면 특정 기능의 일시적인 지연인지에 대한 정확한 범위"
+      ],
+      "fact_check_targets": [
+        "OpenAI, Anthropic, Google, xAI 각 사가 공식 상태 페이지를 통해 발표한 복구 완료 시점",
+        "장애 발생 시점에 영향을 받은 구체적인 기능 목록",
+        "해당 장애가 일반 사용자에게 미친 실질적인 피해 규모"
+      ],
+      "hallucination_risk": "low"
+    },
+    "original_target_disposition": "안전 문장에 남긴 핵심만 직접 근거 대조. 후속 효과·실측 성과·협약 세부 등 미확보 질문은 미해결로 보존하며 출력하지 않는다.",
+    "coverage": {
+      "title": {
+        "status": "UNRESOLVED",
+        "reason": "모든 주요 AI 서비스 동시 장애라는 범위와 공식 상태 이력을 이번 검토에서 전수 확인하지 못함.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "publication_date": {
+        "status": "UNRESOLVED",
+        "reason": "모든 주요 AI 서비스 동시 장애라는 범위와 공식 상태 이력을 이번 검토에서 전수 확인하지 못함.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "event_date": {
+        "status": "UNRESOLVED",
+        "reason": "모든 주요 AI 서비스 동시 장애라는 범위와 공식 상태 이력을 이번 검토에서 전수 확인하지 못함.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "entities": {
+        "status": "UNRESOLVED",
+        "reason": "모든 주요 AI 서비스 동시 장애라는 범위와 공식 상태 이력을 이번 검토에서 전수 확인하지 못함.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "models": {
+        "status": "UNRESOLVED",
+        "reason": "모든 주요 AI 서비스 동시 장애라는 범위와 공식 상태 이력을 이번 검토에서 전수 확인하지 못함.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "numbers": {
+        "status": "UNRESOLVED",
+        "reason": "모든 주요 AI 서비스 동시 장애라는 범위와 공식 상태 이력을 이번 검토에서 전수 확인하지 못함.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "policy": {
+        "status": "UNRESOLVED",
+        "reason": "모든 주요 AI 서비스 동시 장애라는 범위와 공식 상태 이력을 이번 검토에서 전수 확인하지 못함.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "official_announcement": {
+        "status": "UNRESOLVED",
+        "reason": "모든 주요 AI 서비스 동시 장애라는 범위와 공식 상태 이력을 이번 검토에서 전수 확인하지 못함.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "core_claims": {
+        "status": "UNRESOLVED",
+        "reason": "모든 주요 AI 서비스 동시 장애라는 범위와 공식 상태 이력을 이번 검토에서 전수 확인하지 못함.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "why_it_matters": {
+        "status": "UNRESOLVED",
+        "reason": "모든 주요 AI 서비스 동시 장애라는 범위와 공식 상태 이력을 이번 검토에서 전수 확인하지 못함.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "education_implication": {
+        "status": "UNRESOLVED",
+        "reason": "모든 주요 AI 서비스 동시 장애라는 범위와 공식 상태 이력을 이번 검토에서 전수 확인하지 못함.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "classroom_use": {
+        "status": "UNRESOLVED",
+        "reason": "모든 주요 AI 서비스 동시 장애라는 범위와 공식 상태 이력을 이번 검토에서 전수 확인하지 못함.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "final_url": {
+        "status": "UNRESOLVED",
+        "reason": "모든 주요 AI 서비스 동시 장애라는 범위와 공식 상태 이력을 이번 검토에서 전수 확인하지 못함.",
+        "claim_ids": [
+          "c0"
+        ]
+      }
+    },
+    "field_reviews": {
+      "safe_title": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": false
+      },
+      "safe_summary": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": false
+      },
+      "safe_why_it_matters": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": true
+      },
+      "safe_education_implication": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": true
+      },
+      "safe_classroom_use": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": true
+      }
+    },
+    "hold_reasons": [
+      "모든 주요 AI 서비스 동시 장애라는 범위와 공식 상태 이력을 이번 검토에서 전수 확인하지 못함."
+    ],
+    "verification_status": "FINAL_HOLD",
+    "gate_reasons": [
+      "BELOW_70_WITHOUT_IMPORTANCE_REASON",
+      "PUBLICATION_DATE_MISSING",
+      "REQUIRED_SAFE_FIELD_EMPTY",
+      "REQUIRED_core_claims",
+      "REQUIRED_event_date",
+      "REQUIRED_final_url",
+      "REQUIRED_publication_date",
+      "REQUIRED_title",
+      "UNCHECKED_classroom_use",
+      "UNCHECKED_core_claims",
+      "UNCHECKED_education_implication",
+      "UNCHECKED_entities",
+      "UNCHECKED_event_date",
+      "UNCHECKED_final_url",
+      "UNCHECKED_models",
+      "UNCHECKED_numbers",
+      "UNCHECKED_official_announcement",
+      "UNCHECKED_policy",
+      "UNCHECKED_publication_date",
+      "UNCHECKED_title",
+      "UNCHECKED_why_it_matters",
+      "UNRESOLVED_CORE",
+      "모든 주요 AI 서비스 동시 장애라는 범위와 공식 상태 이력을 이번 검토에서 전수 확인하지 못함."
+    ],
+    "selection_rank": 15,
+    "original_score": 61,
+    "selection_adjustment": 0,
+    "category": "generative_ai",
+    "duplicate_group": "ai_outage_sep3",
+    "guard_original": "PASS",
+    "origin_state": "PASS",
+    "original_url": "https://gizmodo.com/all-the-major-ai-chatbots-are-experiencing-outages-right-now-2000806887",
+    "final_url": "https://gizmodo.com/all-the-major-ai-chatbots-are-experiencing-outages-right-now-2000806887",
+    "dispatch_allowed": false
+  },
+  {
+    "event_id": "evt_02616cccf42396459676",
+    "candidate_sha256": "4bf89107452c3060852833ffba2ccfd6db77b1ff6e5ea5649bf414f318942630",
+    "verified_claims": [
+      {
+        "claim_id": "c0",
+        "claim": "삼성·Mistral 전략적 반도체 AI 협력 발표",
+        "status": "SUPPORTED",
+        "core": true,
+        "source_ids": [
+          "samsung",
+          "donga"
+        ],
+        "reason": "프랑스 9월 8일 협력, 한국 9월 9일 보도를 구분.",
+        "semantic_review": true,
+        "evidence_urls": [
+          "https://news.samsung.com/global/samsung-and-mistral-ai-announce-strategic-partnership-for-intelligence-driven-semiconductor-infrastructure",
+          "https://www.donga.com/news/Economy/article/all/20260909/134631328/2"
+        ]
+      },
+      {
+        "claim_id": "c1",
+        "claim": "Mistral Large 등 온프레미스 AI 개발·적용 계획",
+        "status": "CONTEXTUAL",
+        "core": true,
+        "source_ids": [
+          "samsung"
+        ],
+        "reason": "제품명과 내부 운영 방식 직접 확인. 실제 성과는 미확인.",
+        "semantic_review": true,
+        "evidence_urls": [
+          "https://news.samsung.com/global/samsung-and-mistral-ai-announce-strategic-partnership-for-intelligence-driven-semiconductor-infrastructure"
+        ]
+      },
+      {
+        "claim_id": "c2",
+        "claim": "제조 AI의 실측 성능·비용 개선",
+        "status": "UNRESOLVED",
+        "core": false,
+        "source_ids": [],
+        "reason": "계획 기사에 없는 후속 평가를 생성하지 않음.",
+        "semantic_review": true,
+        "evidence_urls": []
+      }
+    ],
+    "safe_title": "삼성·미스트랄, 반도체 설계·제조용 AI 협력 추진",
+    "safe_summary": "삼성전자와 Mistral AI는 반도체 설계·제조를 위한 전략적 협력을 발표했다. 삼성은 Mistral Large 등을 활용해 내부 인프라에서 운영하는 맞춤형 AI 모델을 개발하고 결함 탐지·장비 최적화 등에 적용할 계획이다.",
+    "safe_why_it_matters": "해석: 민감한 제조 데이터를 다루는 기업 내부 AI 도입 사례다. 실제 수율이나 비용 개선이 확인된 성과로 해석해서는 안 된다.",
+    "safe_education_implication": null,
+    "safe_classroom_use": null,
+    "final_source_id": "samsung",
+    "publication_interval": [
+      "2026-09-09T04:30:00+09:00",
+      "2026-09-09T04:30:00+09:00"
+    ],
+    "freshness_review": "원문 날짜와 고정 기간 대조. 신규 사실·발표와 후속 해설 및 과거 배경을 구분.",
+    "notes": [
+      "기간 판정은 같은 협력을 보도한 동아일보 9월 9일 04:30 KST 본문 날짜로 확인. 삼성 원문은 날짜 단위다. 원 ITDaily 접근 실패를 공식 자료·원 보도로 보완."
+    ],
+    "importance_exception": "53점 유지. 주요 국내 기업의 핵심 제조 AI 협력 발표로 워크플로우 별도 중요 후보 조항 적용.",
+    "context_changed": true,
+    "reviewed_at": "2026-09-11T14:47:23.362028+00:00",
+    "reviewed_by": "Codex source review",
+    "independent_review": "PENDING",
+    "original_analysis": {
+      "event_id": "evt_02616cccf42396459676",
+      "category": "industry",
+      "scores": {
+        "education_relevance": 5,
+        "ai_technical_importance": 15,
+        "teacher_student_impact": 0,
+        "social_industry_impact": 15,
+        "source_reliability": 8,
+        "recency": 10,
+        "total": 53
+      },
+      "summary": "삼성전자가 미스트랄 AI와 협력하여 반도체 설계 및 제조 공정에 특화된 AI 솔루션을 개발합니다. 삼성전자는 미스트랄 라지 모델 등을 도입해 데이터 분석, 결함 예측, 공정 최적화 등을 수행할 계획입니다. 특히 보안을 위해 외부 클라우드가 아닌 내부 서버 및 데이터센터를 활용하는 온프레미스 방식으로 모델을 구현하며, 메모리, 파운드리, 로직 등 DS부문 전반으로 협력을 확대할 예정입니다.",
+      "why_it_matters": "반도체 제조 분야에서 보안이 중요한 대규모 데이터를 안전하게 활용하기 위해 온프레미스 기반의 생성형 AI 도입이 확산되고 있음을 보여줍니다. 기업 내부의 폐쇄적인 데이터 환경 내에서 전문적인 AI 모델을 구축하는 방식은 향후 제조 혁신의 핵심 사례가 될 가능성이 있습니다.",
+      "education_implication": null,
+      "classroom_use": null,
+      "uncertainties": [
+        "삼성전자의 구체적인 기술 적용 시점 및 도입 단계별 일정은 명시되지 않음",
+        "미스트랄 AI와 네이버클라우드 간의 협력이 삼성전자와의 파트너십과 장기적으로 어떻게 시너지를 낼지 불분명함",
+        "온프레미스 방식 도입에 따른 구체적인 인프라 구축 비용 및 운영 효율성 결과는 확인되지 않음"
+      ],
+      "fact_check_targets": [
+        "삼성전자와 미스트랄 AI 간의 기술 협력 계약 내용",
+        "미스트랄 AI의 국내 제조 현장 적용 사례 및 성과",
+        "온프레미스 기반 반도체 제조 AI 모델의 실질적인 성능"
+      ],
+      "hallucination_risk": "low"
+    },
+    "original_target_disposition": "안전 문장에 남긴 핵심만 직접 근거 대조. 후속 효과·실측 성과·협약 세부 등 미확보 질문은 미해결로 보존하며 출력하지 않는다.",
+    "coverage": {
+      "title": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "publication_date": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "event_date": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "entities": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "models": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "numbers": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "policy": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "official_announcement": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "core_claims": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "why_it_matters": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "education_implication": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "classroom_use": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "final_url": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      }
+    },
+    "field_reviews": {
+      "safe_title": {
+        "text_sha256": "4f127e4c42b0c3d2828d534e030e54b665d277c8e8329eec0a091bf965298168",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ],
+        "interpretation_or_suggestion": false
+      },
+      "safe_summary": {
+        "text_sha256": "3bcc454ade28cd86b324978008e4d12ee1f79fd923596770261dea4e5f4bb86a",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ],
+        "interpretation_or_suggestion": false
+      },
+      "safe_why_it_matters": {
+        "text_sha256": "25bb0276a9215fea013447792ced5449427f03768a59e41a27657bffa290c8a7",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ],
+        "interpretation_or_suggestion": true
+      },
+      "safe_education_implication": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ],
+        "interpretation_or_suggestion": true
+      },
+      "safe_classroom_use": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ],
+        "interpretation_or_suggestion": true
+      }
+    },
+    "verification_status": "FINAL_VERIFIED_WITH_CONTEXT",
+    "gate_reasons": [],
+    "selection_rank": 16,
+    "original_score": 53,
+    "selection_adjustment": 8,
+    "category": "industry",
+    "duplicate_group": "evt_02616cccf42396459676",
+    "guard_original": "PASS",
+    "origin_state": "PASS",
+    "original_url": "https://www.itdaily.kr/news/articleView.html?idxno=241506",
+    "final_url": "https://news.samsung.com/global/samsung-and-mistral-ai-announce-strategic-partnership-for-intelligence-driven-semiconductor-infrastructure",
+    "dispatch_allowed": false
+  },
+  {
+    "event_id": "evt_9d301d59ba2cd99f1df6",
+    "candidate_sha256": "43a8e86bef099364da2dfb3c4259dbbac789f008775174a90f306e1a8ff42b43",
+    "verified_claims": [
+      {
+        "claim_id": "c0",
+        "claim": "원문 접근 실패. 제조사별 삭제 방법과 최신성을 확인하지 못함.",
+        "status": "UNRESOLVED",
+        "core": true,
+        "source_ids": [],
+        "reason": "원문 접근 실패. 제조사별 삭제 방법과 최신성을 확인하지 못함.",
+        "semantic_review": true,
+        "evidence_urls": []
+      }
+    ],
+    "safe_title": null,
+    "safe_summary": null,
+    "safe_why_it_matters": null,
+    "safe_education_implication": null,
+    "safe_classroom_use": null,
+    "final_source_id": "attempt_boan",
+    "publication_interval": null,
+    "freshness_review": "원문 날짜와 고정 기간 대조. 신규 사실·발표와 후속 해설 및 과거 배경을 구분.",
+    "notes": [],
+    "importance_exception": null,
+    "context_changed": true,
+    "reviewed_at": "2026-09-11T14:47:23.362028+00:00",
+    "reviewed_by": "Codex source review",
+    "independent_review": "PENDING",
+    "original_analysis": {
+      "event_id": "evt_9d301d59ba2cd99f1df6",
+      "category": "security",
+      "scores": {
+        "education_relevance": 10,
+        "ai_technical_importance": 12,
+        "teacher_student_impact": 5,
+        "social_industry_impact": 10,
+        "source_reliability": 8,
+        "recency": 10,
+        "total": 55
+      },
+      "summary": "AI 음성 비서 단말기가 호출어 전후의 음성 데이터를 클라우드 서버로 전송하는 과정에서 발생하는 사생활 침해 위험과 이에 대응하는 3단계 데이터 삭제 및 차단 전략이 제시되었습니다. 주요 방안으로는 제조사 계정의 음성 기록 비활성화, 주기적 영구 삭제 활성화, 그리고 기기 물리적 음소거 기능을 통한 하드웨어 레벨의 마이크 차단이 포함됩니다. 이는 저장된 음성 데이터가 딥페이크 음성 복제나 프로파일링 등 악의적 목적으로 이용되는 것을 방지하기 위함입니다.",
+      "why_it_matters": "스마트홈 환경에서 AI 음성 비서의 사용이 일상화됨에 따라 개인의 일상 대화가 원치 않게 수집 및 저장되는 구조적 취약점이 제기되었습니다. 특히 축적된 음성 데이터가 보안 사고로 유출될 경우 사용자 프라이버시가 심각하게 침해될 수 있으며, 최근의 AI 기술 발달로 인해 이러한 데이터가 범죄에 악용될 가능성이 높아짐에 따라 사용자 차원의 능동적 보안 조치가 강조되고 있습니다.",
+      "education_implication": "디지털 시민 교육 과정에서 스마트 기기 사용 시 개인정보 보호와 프라이버시 설정의 중요성을 인지시키는 사례로 활용 가능합니다. 학생들이 사용하는 AI 기술이 클라우드와 상호작용하는 구조를 이해하고, 정보 보안을 위해 물리적 제어와 소프트웨어적 설정을 병행하는 습관을 형성하도록 유도할 수 있습니다.",
+      "classroom_use": "수업 시간에 학생들과 AI 스피커나 음성 비서 기능을 사용할 때의 보안 수칙에 대해 토의하거나, 스마트 기기 설정 메뉴에서 개인정보 보호 및 데이터 삭제 관련 옵션을 확인하는 활동을 제안할 수 있습니다.",
+      "uncertainties": [
+        "제시된 3단계 삭제법이 모든 브랜드의 AI 스피커 기기에 동일하게 적용 가능한지 여부",
+        "하드웨어 음소거 스위치가 없는 기기 사용자를 위한 구체적인 대안의 부재",
+        "클라우드 서버에 이미 저장된 과거 음성 데이터의 삭제 이후 복구 불가능성에 대한 기술적 보장 수준"
+      ],
+      "fact_check_targets": [
+        "AI 음성 비서의 호출어 전후 음성 데이터 저장 및 서버 전송 방식에 대한 제조사별 상세 정책",
+        "음성 데이터가 실제 딥페이크 음성 복제 공격의 원료로 사용된 구체적 사례",
+        "제조사 계정 관리 포털에서의 음성 활동 기록 비활성화가 실제 서버 데이터 삭제로 이어지는지 여부"
+      ],
+      "hallucination_risk": "low"
+    },
+    "original_target_disposition": "안전 문장에 남긴 핵심만 직접 근거 대조. 후속 효과·실측 성과·협약 세부 등 미확보 질문은 미해결로 보존하며 출력하지 않는다.",
+    "coverage": {
+      "title": {
+        "status": "UNRESOLVED",
+        "reason": "원문 접근 실패. 제조사별 삭제 방법과 최신성을 확인하지 못함.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "publication_date": {
+        "status": "UNRESOLVED",
+        "reason": "원문 접근 실패. 제조사별 삭제 방법과 최신성을 확인하지 못함.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "event_date": {
+        "status": "UNRESOLVED",
+        "reason": "원문 접근 실패. 제조사별 삭제 방법과 최신성을 확인하지 못함.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "entities": {
+        "status": "UNRESOLVED",
+        "reason": "원문 접근 실패. 제조사별 삭제 방법과 최신성을 확인하지 못함.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "models": {
+        "status": "UNRESOLVED",
+        "reason": "원문 접근 실패. 제조사별 삭제 방법과 최신성을 확인하지 못함.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "numbers": {
+        "status": "UNRESOLVED",
+        "reason": "원문 접근 실패. 제조사별 삭제 방법과 최신성을 확인하지 못함.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "policy": {
+        "status": "UNRESOLVED",
+        "reason": "원문 접근 실패. 제조사별 삭제 방법과 최신성을 확인하지 못함.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "official_announcement": {
+        "status": "UNRESOLVED",
+        "reason": "원문 접근 실패. 제조사별 삭제 방법과 최신성을 확인하지 못함.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "core_claims": {
+        "status": "UNRESOLVED",
+        "reason": "원문 접근 실패. 제조사별 삭제 방법과 최신성을 확인하지 못함.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "why_it_matters": {
+        "status": "UNRESOLVED",
+        "reason": "원문 접근 실패. 제조사별 삭제 방법과 최신성을 확인하지 못함.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "education_implication": {
+        "status": "UNRESOLVED",
+        "reason": "원문 접근 실패. 제조사별 삭제 방법과 최신성을 확인하지 못함.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "classroom_use": {
+        "status": "UNRESOLVED",
+        "reason": "원문 접근 실패. 제조사별 삭제 방법과 최신성을 확인하지 못함.",
+        "claim_ids": [
+          "c0"
+        ]
+      },
+      "final_url": {
+        "status": "UNRESOLVED",
+        "reason": "원문 접근 실패. 제조사별 삭제 방법과 최신성을 확인하지 못함.",
+        "claim_ids": [
+          "c0"
+        ]
+      }
+    },
+    "field_reviews": {
+      "safe_title": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": false
+      },
+      "safe_summary": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": false
+      },
+      "safe_why_it_matters": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": true
+      },
+      "safe_education_implication": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": true
+      },
+      "safe_classroom_use": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [],
+        "interpretation_or_suggestion": true
+      }
+    },
+    "hold_reasons": [
+      "원문 접근 실패. 제조사별 삭제 방법과 최신성을 확인하지 못함."
+    ],
+    "verification_status": "FINAL_HOLD",
+    "gate_reasons": [
+      "BELOW_70_WITHOUT_IMPORTANCE_REASON",
+      "FINAL_URL_UNVERIFIED",
+      "PUBLICATION_DATE_MISSING",
+      "REQUIRED_SAFE_FIELD_EMPTY",
+      "REQUIRED_core_claims",
+      "REQUIRED_event_date",
+      "REQUIRED_final_url",
+      "REQUIRED_publication_date",
+      "REQUIRED_title",
+      "UNCHECKED_classroom_use",
+      "UNCHECKED_core_claims",
+      "UNCHECKED_education_implication",
+      "UNCHECKED_entities",
+      "UNCHECKED_event_date",
+      "UNCHECKED_final_url",
+      "UNCHECKED_models",
+      "UNCHECKED_numbers",
+      "UNCHECKED_official_announcement",
+      "UNCHECKED_policy",
+      "UNCHECKED_publication_date",
+      "UNCHECKED_title",
+      "UNCHECKED_why_it_matters",
+      "UNRESOLVED_CORE",
+      "원문 접근 실패. 제조사별 삭제 방법과 최신성을 확인하지 못함."
+    ],
+    "selection_rank": 18,
+    "original_score": 55,
+    "selection_adjustment": 1,
+    "category": "security",
+    "duplicate_group": "evt_9d301d59ba2cd99f1df6",
+    "guard_original": "PASS",
+    "origin_state": "PASS",
+    "original_url": "https://www.boannews.com/news/articleView.html?idxno=145757",
+    "final_url": "https://www.boannews.com/news/articleView.html?idxno=145757",
+    "dispatch_allowed": false
+  },
+  {
+    "event_id": "evt_3ea3f9900f7045801269",
+    "candidate_sha256": "38286f8449c6a2b26572769995710c9ae70b4b319b5fa481ed6844f87d63873d",
+    "verified_claims": [
+      {
+        "claim_id": "c0",
+        "claim": "9월 3일 NeoMME 공개, 260M·800M, Apache 2.0",
+        "status": "SUPPORTED",
+        "core": true,
+        "source_ids": [
+          "neomme",
+          "neomme_paper"
+        ],
+        "reason": "개발팀 공개 자료·논문 일치.",
+        "semantic_review": true,
+        "evidence_urls": [
+          "https://huggingface.co/blog/Hcompany/neomme",
+          "https://arxiv.org/abs/2609.01657"
+        ]
+      },
+      {
+        "claim_id": "c1",
+        "claim": "시각 문서 검색 평가 결과는 연구진 보고",
+        "status": "CONTEXTUAL",
+        "core": true,
+        "source_ids": [
+          "neomme",
+          "neomme_paper"
+        ],
+        "reason": "성능 비교의 조건을 생략한 우월성 표현은 제거.",
+        "semantic_review": true,
+        "evidence_urls": [
+          "https://huggingface.co/blog/Hcompany/neomme",
+          "https://arxiv.org/abs/2609.01657"
+        ]
+      }
+    ],
+    "safe_title": "H Company, 문서 검색용 NeoMME 인코더 공개",
+    "safe_summary": "H Company 연구진은 9월 3일 이미지와 텍스트를 처리하는 NeoMME 인코더 제품군을 공개했다. 260M·800M 규모의 체크포인트를 Apache 2.0으로 제공하며 시각 문서 검색 평가 결과를 제시했다.",
+    "safe_why_it_matters": "해석: 문서 검색용 공개 인코더의 설계와 재현 자료를 검토할 수 있다. 연구진 벤치마크를 모든 현장 데이터의 성능 보장으로 확대하지 않는다.",
+    "safe_education_implication": null,
+    "safe_classroom_use": null,
+    "final_source_id": "neomme",
+    "publication_interval": [
+      "2026-09-03T00:00:00+00:00",
+      "2026-09-03T23:59:59+00:00"
+    ],
+    "freshness_review": "원문 날짜와 고정 기간 대조. 신규 사실·발표와 후속 해설 및 과거 배경을 구분.",
+    "notes": [],
+    "importance_exception": "40점 유지. 공개 모델·코드·연구자료가 제공된 구체적인 기술 발표로 별도 검토. 현장 효과나 교육 효과를 추가하지 않음.",
+    "context_changed": true,
+    "reviewed_at": "2026-09-11T14:47:23.362028+00:00",
+    "reviewed_by": "Codex source review",
+    "independent_review": "PENDING",
+    "original_analysis": {
+      "event_id": "evt_3ea3f9900f7045801269",
+      "category": "ai_models",
+      "scores": {
+        "education_relevance": 5,
+        "ai_technical_importance": 15,
+        "teacher_student_impact": 0,
+        "social_industry_impact": 5,
+        "source_reliability": 7,
+        "recency": 8,
+        "total": 40
+      },
+      "summary": "H Company가 Apache 2.0 라이선스로 오픈 소스 멀티모달 및 다국어 인코더 제품군인 NeoMME를 공개했습니다. 이 인코더는 260M 및 800M 매개변수 규모로 구축되었으며, ViDoRe v3 시각 문서 검색 벤치마크에서 성능을 입증했다고 보고되었습니다. 해당 연구진인 Aurélien Lac과 Tony Wu는 관련 기술 보고서를 arXiv에 제출하였으며, 본 프로젝트는 H Company의 지원을 받아 수행된 연구입니다.",
+      "why_it_matters": "NeoMME와 같은 오픈 소스 멀티모달 인코더의 등장은 특정 도메인(문서 검색 등)에서 모델의 효율성과 성능 최적화에 기여할 수 있습니다. 특히 제한된 컴퓨팅 자원으로도 벤치마크상에서 경쟁력 있는 성과를 달성했다는 점은 소규모 모델의 효율적 설계 모델을 제시할 가능성이 있습니다.",
+      "education_implication": null,
+      "classroom_use": null,
+      "uncertainties": [
+        "NeoMME의 실제 산업 현장 적용 가능성과 확장성 여부",
+        "제한된 컴퓨팅 자원으로 훈련된 모델의 다양한 데이터셋에 대한 일반화 성능"
+      ],
+      "fact_check_targets": [
+        "NeoMME의 ViDoRe v3 벤치마크 성능 수치 확인",
+        "arXiv에 게시된 기술 보고서 내용 검증"
+      ],
+      "hallucination_risk": "low"
+    },
+    "original_target_disposition": "안전 문장에 남긴 핵심만 직접 근거 대조. 후속 효과·실측 성과·협약 세부 등 미확보 질문은 미해결로 보존하며 출력하지 않는다.",
+    "coverage": {
+      "title": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "publication_date": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "event_date": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "entities": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "models": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "numbers": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "policy": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "official_announcement": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "core_claims": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "why_it_matters": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "education_implication": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "classroom_use": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      },
+      "final_url": {
+        "status": "CHECKED",
+        "reason": "아래 claim별 원문·문구 검토에 연결.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ]
+      }
+    },
+    "field_reviews": {
+      "safe_title": {
+        "text_sha256": "ad85b8472d54e4fbf336e07e77866c34218a235b6bc797761bd1e62d20eb53f8",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ],
+        "interpretation_or_suggestion": false
+      },
+      "safe_summary": {
+        "text_sha256": "87c89ce199cfb6f9eb039c722c7c05bd5fd507f2f7b58f9c215a1873d994f23b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ],
+        "interpretation_or_suggestion": false
+      },
+      "safe_why_it_matters": {
+        "text_sha256": "165b3dc4cc6b65e7d7bb6a90a52f3177c00101546ae0f9214b1a65f51dffd051",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ],
+        "interpretation_or_suggestion": true
+      },
+      "safe_education_implication": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ],
+        "interpretation_or_suggestion": true
+      },
+      "safe_classroom_use": {
+        "text_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "reviewed": true,
+        "reason": "명시된 근거 안에서 문장을 검토. 해석·수업 제안은 사실 및 효과 입증과 구분.",
+        "claim_ids": [
+          "c0",
+          "c1"
+        ],
+        "interpretation_or_suggestion": true
+      }
+    },
+    "verification_status": "FINAL_VERIFIED_WITH_CONTEXT",
+    "gate_reasons": [],
+    "selection_rank": 24,
+    "original_score": 40,
+    "selection_adjustment": 8,
+    "category": "ai_models",
+    "duplicate_group": "evt_3ea3f9900f7045801269",
+    "guard_original": "PASS",
+    "origin_state": "PASS",
+    "original_url": "https://www.unite.ai/h-company-releases-neomme-an-open-source-multimodal-encoder-family",
+    "final_url": "https://huggingface.co/blog/Hcompany/neomme",
+    "dispatch_allowed": false
+  }
+]

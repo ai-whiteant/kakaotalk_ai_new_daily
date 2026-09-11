@@ -1,0 +1,226 @@
+[
+  {
+    "analysis": {
+      "event_id": "evt_a67586b8ceedf44517b8",
+      "category": "ai_education",
+      "scores": {
+        "education_relevance": 25,
+        "ai_technical_importance": 10,
+        "teacher_student_impact": 10,
+        "social_industry_impact": 10,
+        "source_reliability": 8,
+        "recency": 10,
+        "total": 73
+      },
+      "summary": "AI 교육 솔루션 기업 프리윌린이 한-세계은행 성과 공유 행사에서 자사의 AI 코스웨어 '스쿨플랫'을 시연하며 글로벌 교육 시장 진출 및 협력 확대 의지를 밝혔다. '스쿨플랫'은 교사의 수업 설계와 학생별 맞춤형 학습을 지원하는 서비스로, 국내 17개 시도교육청 및 다수의 학교 현장에서 사용되고 있다. 권기성 대표는 이번 행사를 계기로 해외 교육 관계자들과 네트워크를 구축하고 한국형 AI 교육 모델의 확산을 추진할 계획이다.",
+      "why_it_matters": "국내 에듀테크 기업이 세계은행(World Bank) 행사를 통해 AI 코스웨어 솔루션을 국제적으로 알리고 글로벌 교육 협력을 모색한다는 점에서 한국 AI 교육 서비스의 해외 진출 가능성과 에듀테크 산업의 성장성을 보여준다.",
+      "education_implication": "AI 기반 코스웨어가 교사의 수업 설계 부담을 경감하고 학생별 맞춤형 학습을 지원하는 도구로서 교육 현장의 디지털 전환에 기여하고 있음을 시사한다.",
+      "classroom_use": "교사가 AI 코스웨어를 수업 설계와 개별 학습 관리에 어떻게 활용할 수 있는지, 그리고 학습 격차 해소를 위해 기술이 어떻게 적용될 수 있는지 분석하는 사례 연구 자료로 활용 가능하다.",
+      "uncertainties": [
+        "스쿨플랫의 글로벌 시장 도입 구체적 계획 및 타 국가 교육 시스템과의 호환성 수준",
+        "세계은행 행사 이후 실제 체결된 구체적인 협력 사업 내용",
+        "한국 내 학교 현장에서의 이용 통계 데이터의 세부 검증 가능성"
+      ],
+      "fact_check_targets": [
+        "프리윌린의 스쿨플랫 서비스 이용자 통계(전국 3641개 학교, 누적 교사 1만 2000명, 누적 학생 350만 명)에 대한 근거 확인",
+        "한-세계은행 성과 공유 행사의 성격 및 프리윌린의 참여 규모",
+        "자동 검증 필요: UNSUPPORTED_ENTITY_MODEL_POLICY / Bank",
+        "자동 검증 필요: UNSUPPORTED_ENTITY_MODEL_POLICY / World"
+      ],
+      "hallucination_risk": "high"
+    },
+    "status": "HOLD",
+    "issues": [
+      {
+        "code": "UNSUPPORTED_ENTITY_MODEL_POLICY",
+        "value": "Bank"
+      },
+      {
+        "code": "UNSUPPORTED_ENTITY_MODEL_POLICY",
+        "value": "World"
+      }
+    ],
+    "verification": "NOT_FACT_CHECKED"
+  },
+  {
+    "analysis": {
+      "event_id": "evt_460f2361b54fc9d598b7",
+      "category": "ai_education",
+      "scores": {
+        "education_relevance": 30,
+        "ai_technical_importance": 10,
+        "teacher_student_impact": 15,
+        "social_industry_impact": 10,
+        "source_reliability": 8,
+        "recency": 10,
+        "total": 83
+      },
+      "summary": "뉴욕시 공립학교가 유아부터 중학교 8학년 학생을 대상으로 교실 내 AI 사용을 1년간 유예(금지)하고, 저학년 대상 스크린타임 제한 정책을 도입함. 다만 고등학생과 교사의 경우 예외적으로 AI 활용이 허용되며, 이번 조치는 AI 도입의 득실, 교육 격차, 학생 자율성 문제에 대한 우려를 반영함.",
+      "why_it_matters": "AI 기술의 급격한 교육 현장 도입에 따른 부작용을 예방하기 위해 선도적으로 사용을 제한하는 정책적 결정이라는 점에서 교육적 시사점이 큼. 특히 학생의 발달 단계에 따른 AI 활용 기준을 설정했다는 점이 중요한 사례가 됨.",
+      "education_implication": "AI가 교육의 질적 향상뿐만 아니라 학생의 자율성과 발달 과정에 미치는 잠재적 위해 요소를 고려해야 함을 시사함. 한국 교육 현장에서도 디지털 기기 활용과 AI 통합 과정에서 발생할 수 있는 부작용에 대한 구체적인 가이드라인 마련이 필요함.",
+      "classroom_use": "AI 활용의 득실을 분석하는 토론 수업 자료로 활용 가능. 학생 스스로 디지털 기기 및 AI 의존도를 성찰하고 건전한 활용법을 수립하는 교육 활동에 적용할 수 있음.",
+      "uncertainties": [
+        "뉴욕시의 이번 정책이 1년 이후 정식 규제로 이어질지 혹은 일시적인 중단인지 불확실함",
+        "교실 밖에서의 AI 사용을 어떻게 관리하고 규제할지에 대한 구체적 방법론이 미비함",
+        "고등학생 및 교사의 AI 사용 허용 범위가 향후 어떻게 운용될지 추가 관찰 필요"
+      ],
+      "fact_check_targets": [
+        "뉴욕시 교육청의 AI 사용 유예 조치에 대한 공식 성명 및 세부 지침 확인",
+        "8학년 이하 대상 AI 금지 정책의 구체적 시행령 및 적용 범위 확인",
+        "저학년 대상 스크린타임 제한 정책의 세부 기준 확인",
+        "자동 검증 필요: UNSUPPORTED_NUMBER_OR_DATE / 8"
+      ],
+      "hallucination_risk": "high"
+    },
+    "status": "HOLD",
+    "issues": [
+      {
+        "code": "UNSUPPORTED_NUMBER_OR_DATE",
+        "value": "8"
+      }
+    ],
+    "verification": "NOT_FACT_CHECKED"
+  },
+  {
+    "analysis": {
+      "event_id": "evt_e8678aff244e50313192",
+      "category": "ai_education",
+      "scores": {
+        "education_relevance": 30,
+        "ai_technical_importance": 10,
+        "teacher_student_impact": 15,
+        "social_industry_impact": 10,
+        "source_reliability": 8,
+        "recency": 7,
+        "total": 80
+      },
+      "summary": "뉴욕시 공립학교가 학생들의 생성형 AI 도구 사용을 제한하는 새로운 정책을 발표했습니다. 유치원생부터 고등학생까지 감정적 교감을 시뮬레이션하는 챗봇 사용이 금지되며, 3학년까지는 별도의 화면이 있는 기기 사용이 제한됩니다. 교사는 수업 계획이나 행정 업무에는 AI를 활용할 수 있으나 성적 평가에는 사용할 수 없습니다.",
+      "why_it_matters": "미국 최대 학군인 뉴욕의 이번 정책은 학생들의 디지털 문해력 교육과 기술 의존도 사이의 균형을 맞추려는 시도로, AI 기술의 교육적 도입 범위와 윤리적 가이드라인 설정에 대한 중요한 선례가 될 수 있습니다.",
+      "education_implication": "학교 환경에서의 AI 활용이 기술적 편의성보다 학생의 비판적 사고력과 정보 습득 역량 저하 방지를 우선시하는 방향으로 논의되고 있습니다. 조기 AI 교육 시 'AI는 틀릴 수 있음'을 인지시키고 인간 고유의 사고 능력을 강조하는 교육적 접근이 필요합니다.",
+      "classroom_use": "학생들에게 AI가 생성한 결과물의 신뢰성을 평가하는 비판적 사고 훈련 토론 수업을 진행할 수 있으며, 교사는 수업 계획 수립 시 AI를 보조 도구로 활용하는 방식과 그 한계점에 대해 연구할 수 있습니다.",
+      "uncertainties": [
+        "뉴욕시 교육청의 전체 정책 전문 및 금지 조치의 세부 이행 기간이 완전히 명시되지 않음.",
+        "중학생까지의 AI 전면 사용 금지에 관한 한국 언론과 미국 언론 보도 간의 범위 해석 차이 존재.",
+        "금지 조치가 향후 교육 현장의 기술 수용성 및 학습 효율성에 미칠 장기적 영향은 검증되지 않음."
+      ],
+      "fact_check_targets": [
+        "뉴욕시 교육청 공식 보도자료의 AI 사용 제한 정책 범위 확인",
+        "교사의 성적 평가 업무에 대한 AI 사용 금지 조항의 구체적 범위",
+        "학생들의 3학년 이전 기기 사용 제한 조치에 대한 구체적 정의 및 예외 사항",
+        "자동 검증 필요: UNSUPPORTED_NUMBER_OR_DATE / 3"
+      ],
+      "hallucination_risk": "high"
+    },
+    "status": "HOLD",
+    "issues": [
+      {
+        "code": "UNSUPPORTED_NUMBER_OR_DATE",
+        "value": "3"
+      }
+    ],
+    "verification": "NOT_FACT_CHECKED"
+  },
+  {
+    "analysis": {
+      "event_id": "evt_5e1e8fa929a91cc7a20f",
+      "category": "ai_education",
+      "scores": {
+        "education_relevance": 28,
+        "ai_technical_importance": 12,
+        "teacher_student_impact": 14,
+        "social_industry_impact": 10,
+        "source_reliability": 9,
+        "recency": 10,
+        "total": 83
+      },
+      "summary": "Brookings reports on the strategy of 'going slow to go fast' in AI educational implementation, citing both positive and negative developments. In the Netherlands, teacher-led design initiatives successfully address specific classroom problems, such as handwriting intervention. Conversely, Estonia's 'AI Leap' program for secondary schools revealed unintended consequences: students increasingly prioritize AI for answers over teacher interaction, raising concerns about reduced interpersonal communication and the quality of the classroom experience.",
+      "why_it_matters": "This analysis highlights a critical tension in AI integration within education: the trade-off between the efficiency of AI-driven support and the essential human interactions that foster communication and learning depth. It emphasizes that 'narrow' AI, even when implemented with support and training, may fundamentally shift student behavior and classroom dynamics in ways not fully anticipated by educators or policymakers.",
+      "education_implication": "Educational institutions should prioritize teacher-led design processes to ensure AI tools align with actual pedagogical needs. Policymakers and educators must proactively address the potential erosion of student-teacher engagement and ensure that AI serves as a supplement to, rather than a replacement for, social learning practices and critical communication skills.",
+      "classroom_use": "Educators can use these findings to facilitate class discussions on the role of AI in their own learning process, helping students reflect on when to rely on AI and when to prioritize teacher interaction. Teachers can implement structured activities that encourage 'slow' thinking or collaborative problem-solving to balance the ease of AI-generated answers.",
+      "uncertainties": [
+        "The full scope and long-term academic outcomes of the Estonia AI Leap program remain unquantified.",
+        "The degree to which the Dutch teacher-led model can be scaled globally or replicated in different educational contexts is unclear.",
+        "It is uncertain whether the reduction in student-teacher interaction reported by Estonian students is a permanent shift or a temporary adjustment to new technology."
+      ],
+      "fact_check_targets": [
+        "Verify the specific details of the 'AI Leap' program outcomes in Estonia reported by official government or independent audit sources.",
+        "Confirm the collaboration structure between teachers, researchers, and technologists in the Netherlands mentioned in the article.",
+        "Investigate the 'ITI' tool mentioned in the snippet to understand its specific function in the Estonian secondary school context.",
+        "자동 검증 필요: UNSUPPORTED_ENTITY_MODEL_POLICY / AI-driven",
+        "자동 검증 필요: UNSUPPORTED_ENTITY_MODEL_POLICY / AI-generated",
+        "자동 검증 필요: UNSUPPORTED_ENTITY_MODEL_POLICY / Brookings",
+        "자동 검증 필요: UNSUPPORTED_ENTITY_MODEL_POLICY / Conversely",
+        "자동 검증 필요: UNSUPPORTED_ENTITY_MODEL_POLICY / Educators",
+        "자동 검증 필요: UNSUPPORTED_ENTITY_MODEL_POLICY / Policymakers"
+      ],
+      "hallucination_risk": "high"
+    },
+    "status": "HOLD",
+    "issues": [
+      {
+        "code": "UNSUPPORTED_ENTITY_MODEL_POLICY",
+        "value": "AI-driven"
+      },
+      {
+        "code": "UNSUPPORTED_ENTITY_MODEL_POLICY",
+        "value": "AI-generated"
+      },
+      {
+        "code": "UNSUPPORTED_ENTITY_MODEL_POLICY",
+        "value": "Brookings"
+      },
+      {
+        "code": "UNSUPPORTED_ENTITY_MODEL_POLICY",
+        "value": "Conversely"
+      },
+      {
+        "code": "UNSUPPORTED_ENTITY_MODEL_POLICY",
+        "value": "Educators"
+      },
+      {
+        "code": "UNSUPPORTED_ENTITY_MODEL_POLICY",
+        "value": "Policymakers"
+      }
+    ],
+    "verification": "NOT_FACT_CHECKED"
+  },
+  {
+    "analysis": {
+      "event_id": "evt_7d321aa730f2aca8e033",
+      "category": "ai_education",
+      "scores": {
+        "education_relevance": 30,
+        "ai_technical_importance": 10,
+        "teacher_student_impact": 15,
+        "social_industry_impact": 10,
+        "source_reliability": 8,
+        "recency": 10,
+        "total": 83
+      },
+      "summary": "시카고에 교사가 없는 첫 AI 기반 학교인 'Alpha Chicago'가 개교했습니다. Mackenzie Price가 개발한 '2시간 학습 모델'을 도입하여, 핵심 과목은 2시간 동안 AI를 통해 학습하고 나머지 시간은 금융 문해력, 기술 문해력, 공공 연설, 기업가 정신 등을 배우는 데 할애합니다. 전통적인 교사 대신 학생을 지원하는 '가이드'가 상주하며, Pre-K부터 8학년까지의 학생을 대상으로 운영되는 사립 학교로 연간 등록금은 55,000달러입니다.",
+      "why_it_matters": "전통적인 교육 모델에서 탈피하여 AI가 교육의 핵심 역할을 수행하고 교사를 대체하는 학교 모델이 실제 운영되기 시작했다는 점에서 교육 체계의 패러다임 변화를 시사합니다. 교육 현장에서 AI의 역할과 인간 지도자의 역할 재정립에 대한 중요한 사례가 될 것으로 보입니다.",
+      "education_implication": "AI가 개인 맞춤형 학습을 제공하고 핵심 학업 시간을 단축하는 교육 모델의 효율성을 실험하고 있습니다. 다만, 사회적 기술 및 비판적 사고 등을 '가이드'가 보조할 때의 학습 결과와 인간 교사의 직접적 교수법 대비 효과성에 대한 논의가 필요합니다.",
+      "classroom_use": "AI 학습 모델의 장단점을 비교 분석하고, 미래의 교육 현장에서 기술과 인간 상호작용이 어떻게 조화를 이루어야 할지 토론하는 자료로 활용 가능합니다.",
+      "uncertainties": [
+        "해당 학교의 '2시간 학습 모델'이 학생들의 장기적인 학업 성취도에 미치는 영향은 아직 검증되지 않았습니다.",
+        "'가이드'의 구체적인 자격 요건과 역할 범위가 교사의 역할과 실질적으로 얼마나 다른지 확인이 필요합니다.",
+        "고액의 등록금이 교육 접근성과 교육 격차에 미치는 영향에 대한 평가가 부족합니다."
+      ],
+      "fact_check_targets": [
+        "Alpha Chicago의 교육 커리큘럼이 정규 교육 과정을 충분히 충족하는지 여부 확인",
+        "학교의 'AI 기반 학습' 소프트웨어의 구체적인 명칭 및 작동 원리 검증",
+        "Mackenzie Price가 제안한 '2시간 학습 모델'에 대한 교육학적 연구 결과 및 근거 확인",
+        "자동 검증 필요: UNSUPPORTED_NUMBER_OR_DATE / 2"
+      ],
+      "hallucination_risk": "high"
+    },
+    "status": "HOLD",
+    "issues": [
+      {
+        "code": "UNSUPPORTED_NUMBER_OR_DATE",
+        "value": "2"
+      }
+    ],
+    "verification": "NOT_FACT_CHECKED"
+  }
+]

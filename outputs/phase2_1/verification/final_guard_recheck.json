@@ -1,0 +1,15 @@
+{
+  "method": "Same API outputs; restore original_model_risk and remove only appended guard targets",
+  "before": {
+    "PASS": 28,
+    "VERIFY": 5,
+    "AUTO_HOLD": 16
+  },
+  "after": {
+    "PASS": 28,
+    "VERIFY": 5,
+    "AUTO_HOLD": 16
+  },
+  "api_calls": 0,
+  "changes": []
+}

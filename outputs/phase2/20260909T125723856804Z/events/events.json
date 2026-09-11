@@ -1,0 +1,1104 @@
+[
+  {
+    "event_id": "evt_dbeee01ef6575a9b8128",
+    "canonical_title": "교사 사용까지 제한…학교에서 쫓겨나는 AI - 중앙일보",
+    "category_hint": "ai_education",
+    "candidate_ids": [
+      "d154bf2f43b4643eb44b8a0b"
+    ],
+    "primary_source": {
+      "candidate_id": "d154bf2f43b4643eb44b8a0b",
+      "title": "교사 사용까지 제한…학교에서 쫓겨나는 AI - 중앙일보",
+      "url": "https://www.joongang.co.kr/article/25458988",
+      "source_name": "www.joongang.co.kr",
+      "published_at": "2026-09-03T15:20:03+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_a67586b8ceedf44517b8",
+    "canonical_title": "프리윌린, 한-세계은행 성과 공유 행사서 AI 코스웨어 '스쿨플랫' 시연 - ZDNet korea",
+    "category_hint": "ai_education",
+    "candidate_ids": [
+      "0aea7e5a8ff1bf4e151a32d2"
+    ],
+    "primary_source": {
+      "candidate_id": "0aea7e5a8ff1bf4e151a32d2",
+      "title": "프리윌린, 한-세계은행 성과 공유 행사서 AI 코스웨어 '스쿨플랫' 시연 - ZDNet korea",
+      "url": "https://zdnet.co.kr/view?no=20260907085715",
+      "source_name": "zdnet.co.kr",
+      "published_at": "2026-09-06T23:57:15+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_795b143f84433dd3595d",
+    "canonical_title": "다솜한국학교, TK반 신설…한국어 교육 대상 넓힌다 < 교육 < 기사본문 - 재외동포신문",
+    "category_hint": "ai_education",
+    "candidate_ids": [
+      "54071442c5cf52d502f9be17"
+    ],
+    "primary_source": {
+      "candidate_id": "54071442c5cf52d502f9be17",
+      "title": "다솜한국학교, TK반 신설…한국어 교육 대상 넓힌다 < 교육 < 기사본문 - 재외동포신문",
+      "url": "https://www.dongponews.net/news/articleView.html?idxno=60358",
+      "source_name": "www.dongponews.net",
+      "published_at": "2026-09-06T21:14:45+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_460f2361b54fc9d598b7",
+    "canonical_title": "뉴욕시의 'AI 1년 유예'… 한국 교육이 봐야 할 것 [아침을 열며]",
+    "category_hint": "ai_education",
+    "candidate_ids": [
+      "90e2583f52c4700c41c145e3",
+      "973b7e441c9dc7401d4697e2"
+    ],
+    "primary_source": {
+      "candidate_id": "90e2583f52c4700c41c145e3",
+      "title": "뉴욕시의 'AI 1년 유예'… 한국 교육이 봐야 할 것 [아침을 열며]",
+      "url": "https://www.hankookilbo.com/news/article/A2026090709520001657",
+      "source_name": "www.hankookilbo.com",
+      "published_at": "2026-09-08T12:00:00+00:00"
+    },
+    "supporting_sources": [
+      {
+        "candidate_id": "973b7e441c9dc7401d4697e2",
+        "title": "Why New York City Is Restricting Artificial Intelligence in Public Schools | WNYC",
+        "url": "https://wnyc.org/browse/shows/episode/simplecast/f5794230-aa49-4b0e-8273-e9b26763c5a6",
+        "source_name": "wnyc.org",
+        "published_at": "2026-09-08T12:00:00+00:00"
+      }
+    ],
+    "entities": [
+      "newyork"
+    ],
+    "event_date": null,
+    "dedup_status": "GEMINI",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_e8678aff244e50313192",
+    "canonical_title": "NYC schools' AI policy: What experts say about limiting student access",
+    "category_hint": "ai_education",
+    "candidate_ids": [
+      "43d485ec1815d8d97f648d6b",
+      "968642c2aec0fe872b5f4dbe"
+    ],
+    "primary_source": {
+      "candidate_id": "43d485ec1815d8d97f648d6b",
+      "title": "NYC schools' AI policy: What experts say about limiting student access",
+      "url": "https://www.cnbc.com/2026/09/05/nyc-schools-ai-policy-what-experts-say-about-limiting-student-access.html",
+      "source_name": "www.cnbc.com",
+      "published_at": "2026-09-05T13:05:01+00:00"
+    },
+    "supporting_sources": [
+      {
+        "candidate_id": "968642c2aec0fe872b5f4dbe",
+        "title": "\"중학생까지 AI 금지\"…뉴욕시, 학교서 1년간 사용 제한",
+        "url": "https://www.hankyung.com/article/202609043735i",
+        "source_name": "www.hankyung.com",
+        "published_at": "2026-09-04T12:00:00+00:00"
+      }
+    ],
+    "entities": [
+      "newyork"
+    ],
+    "event_date": null,
+    "dedup_status": "GEMINI",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_4d1b5eaf0b2969af273d",
+    "canonical_title": "RELEASE: Gottheimer Unveils Bipartisan Back-to-School Agenda for AI in K-12 Education",
+    "category_hint": "ai_education",
+    "candidate_ids": [
+      "9d89f99fff3e5d5043100859"
+    ],
+    "primary_source": {
+      "candidate_id": "9d89f99fff3e5d5043100859",
+      "title": "RELEASE: Gottheimer Unveils Bipartisan Back-to-School Agenda for AI in K-12 Education",
+      "url": "https://gottheimer.house.gov/posts/release-gottheimer-unveils-bipartisan-back-to-school-agenda-for-ai-in-k-12-education",
+      "source_name": "gottheimer.house.gov",
+      "published_at": "2026-09-05T12:00:00+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_5e1e8fa929a91cc7a20f",
+    "canonical_title": "3 reasons why 'going slow to go fast' is the right approach ...",
+    "category_hint": "ai_education",
+    "candidate_ids": [
+      "84f42458b03358e374c87efc"
+    ],
+    "primary_source": {
+      "candidate_id": "84f42458b03358e374c87efc",
+      "title": "3 reasons why 'going slow to go fast' is the right approach ...",
+      "url": "https://www.brookings.edu/articles/3-reasons-why-going-slow-to-go-fast-is-the-right-approach-for-ai-in-schools",
+      "source_name": "www.brookings.edu",
+      "published_at": "2026-09-08T17:00:00+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_7d321aa730f2aca8e033",
+    "canonical_title": "Alpha Chicago opens as city's first AI, teacher-free school",
+    "category_hint": "ai_education",
+    "candidate_ids": [
+      "359058010f1dec3ad62fae1d"
+    ],
+    "primary_source": {
+      "candidate_id": "359058010f1dec3ad62fae1d",
+      "title": "Alpha Chicago opens as city's first AI, teacher-free school",
+      "url": "https://abc7chicago.com/post/alpha-chicago-opens-first-ai-school-city-teachers-created-mackenzie-price/19805778",
+      "source_name": "abc7chicago.com",
+      "published_at": "2026-09-08T13:13:03+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_ac8b5a923eba4c5732f2",
+    "canonical_title": "Will AI Cause Human Extinction Within 10 Years? We Asked AI - Newsweek",
+    "category_hint": "generative_ai",
+    "candidate_ids": [
+      "2c879f7ec891115058b2b00f"
+    ],
+    "primary_source": {
+      "candidate_id": "2c879f7ec891115058b2b00f",
+      "title": "Will AI Cause Human Extinction Within 10 Years? We Asked AI - Newsweek",
+      "url": "https://www.newsweek.com/will-ai-cause-human-extinction-10-years-asked-ai-12419575",
+      "source_name": "www.newsweek.com",
+      "published_at": "2026-09-09T12:07:00+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_8bd53493df26c76821b4",
+    "canonical_title": "It’s not just you; ChatGPT, Claude, and Grok are all down in confirmed outages - 9to5Google",
+    "category_hint": "generative_ai",
+    "candidate_ids": [
+      "11f5999f9b21d80c038aec50",
+      "634312fd41da2fd41a0ea59c",
+      "9a047272fc1aa8612151094d",
+      "fc17c6a8e61e648002e61453"
+    ],
+    "primary_source": {
+      "candidate_id": "11f5999f9b21d80c038aec50",
+      "title": "It’s not just you; ChatGPT, Claude, and Grok are all down in confirmed outages - 9to5Google",
+      "url": "https://9to5google.com/2026/09/03/chatgpt-claude-grok-outages/",
+      "source_name": "9to5google.com",
+      "published_at": "2026-09-03T15:07:17+00:00"
+    },
+    "supporting_sources": [
+      {
+        "candidate_id": "634312fd41da2fd41a0ea59c",
+        "title": "Major AI Outage: Grok, Claude Are Down. ChatGPT, Gemini Back Up - PCMag",
+        "url": "https://www.pcmag.com/news/chatgpt-claude-gemini-and-more-are-all-down-right-now",
+        "source_name": "www.pcmag.com",
+        "published_at": "2026-09-03T17:31:45+00:00"
+      },
+      {
+        "candidate_id": "9a047272fc1aa8612151094d",
+        "title": "ChatGPT, Claude, Gemini down: What we know about the AI outages - Mashable",
+        "url": "https://mashable.com/tech/openai-chatgpt-outage-updates-grok-gemini",
+        "source_name": "mashable.com",
+        "published_at": "2026-09-03T17:43:19+00:00"
+      },
+      {
+        "candidate_id": "fc17c6a8e61e648002e61453",
+        "title": "ChatGPT, Claude and other major AI platforms hit by widespread outages - Greenwich Time",
+        "url": "https://www.greenwichtime.com/news/article/ai-outage-reported-chatgpt-grok-claude-gemini-22416033.php",
+        "source_name": "www.greenwichtime.com",
+        "published_at": "2026-09-03T15:47:50+00:00"
+      }
+    ],
+    "entities": [
+      "chatgpt",
+      "claude",
+      "gemini",
+      "google",
+      "grok"
+    ],
+    "event_date": null,
+    "dedup_status": "GEMINI",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_9f322aee4df5bd2d6359",
+    "canonical_title": "All the Major AI Chatbots Are Experiencing Outages Right Now - Gizmodo",
+    "category_hint": "generative_ai",
+    "candidate_ids": [
+      "62deab1d68d917ca5af1b31e"
+    ],
+    "primary_source": {
+      "candidate_id": "62deab1d68d917ca5af1b31e",
+      "title": "All the Major AI Chatbots Are Experiencing Outages Right Now - Gizmodo",
+      "url": "https://gizmodo.com/all-the-major-ai-chatbots-are-experiencing-outages-right-now-2000806887",
+      "source_name": "gizmodo.com",
+      "published_at": "2026-09-03T15:55:15+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_680f6c20f496df983071",
+    "canonical_title": "Widespread AI outage underway - axios.com",
+    "category_hint": "generative_ai",
+    "candidate_ids": [
+      "b8db91cb5697fd8547e469ec"
+    ],
+    "primary_source": {
+      "candidate_id": "b8db91cb5697fd8547e469ec",
+      "title": "Widespread AI outage underway - axios.com",
+      "url": "https://www.axios.com/2026/09/03/chatgpt-claude-grok-outages",
+      "source_name": "www.axios.com",
+      "published_at": "2026-09-03T15:36:29+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_fda4e328757158040064",
+    "canonical_title": "주간｜화제의 AI 신제품·신기능 뉴스(2026/8/30~9/5호)｜Yasuhito Morimoto",
+    "category_hint": "ai_models",
+    "candidate_ids": [
+      "5fd9eb09c1412ddf3bce7d75"
+    ],
+    "primary_source": {
+      "candidate_id": "5fd9eb09c1412ddf3bce7d75",
+      "title": "주간｜화제의 AI 신제품·신기능 뉴스(2026/8/30~9/5호)｜Yasuhito Morimoto",
+      "url": "https://note.com/yasuhitoo/n/n91161f79949d?hl=ko",
+      "source_name": "note.com",
+      "published_at": "2026-09-06T12:00:00+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_81ecbf2785cbf73850b4",
+    "canonical_title": "[2026년 9월 6일] AI 뉴스 5선: OpenAI, 'GPT-6 Astra' 제한적 공개·OpenAI AI 에이전트의 독일어 위키 무단 점유 발각·경제산업성, AI·반도체·로봇 분야에 약 2조 엔 요구——내일부터 바로 쓰는 실천 포인트 포함｜WAN",
+    "category_hint": "ai_models",
+    "candidate_ids": [
+      "7e4e1831e831cb185dac924a"
+    ],
+    "primary_source": {
+      "candidate_id": "7e4e1831e831cb185dac924a",
+      "title": "[2026년 9월 6일] AI 뉴스 5선: OpenAI, 'GPT-6 Astra' 제한적 공개·OpenAI AI 에이전트의 독일어 위키 무단 점유 발각·경제산업성, AI·반도체·로봇 분야에 약 2조 엔 요구——내일부터 바로 쓰는 실천 포인트 포함｜WAN",
+      "url": "https://note.com/clever_shark607/n/n19fcdb323cb5?hl=ko",
+      "source_name": "note.com",
+      "published_at": "2026-09-05T23:00:00+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [
+      "openai"
+    ],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_4a8f888aa1259351b4eb",
+    "canonical_title": "DeepSeek",
+    "category_hint": "ai_models",
+    "candidate_ids": [
+      "b60d457b8ab9aba7e45b189a"
+    ],
+    "primary_source": {
+      "candidate_id": "b60d457b8ab9aba7e45b189a",
+      "title": "DeepSeek",
+      "url": "https://namu.wiki/w/DeepSeek",
+      "source_name": "namu.wiki",
+      "published_at": "2026-09-07T12:00:00+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [
+      "deepseek"
+    ],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_3ea3f9900f7045801269",
+    "canonical_title": "H Company Releases NeoMME, an Open-Source Multimodal Encoder Family – Unite.AI",
+    "category_hint": "ai_models",
+    "candidate_ids": [
+      "3d94dcddf6864713d00e5128"
+    ],
+    "primary_source": {
+      "candidate_id": "3d94dcddf6864713d00e5128",
+      "title": "H Company Releases NeoMME, an Open-Source Multimodal Encoder Family – Unite.AI",
+      "url": "https://www.unite.ai/h-company-releases-neomme-an-open-source-multimodal-encoder-family",
+      "source_name": "www.unite.ai",
+      "published_at": "2026-09-03T13:35:01+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_25c52d72c779bd651915",
+    "canonical_title": "Eluvio Unveils Industry-First: Inline, Open-Model Video AI and Agentic Orchestration at IBC 2026",
+    "category_hint": "ai_models",
+    "candidate_ids": [
+      "b322305da03080ba3a307e02"
+    ],
+    "primary_source": {
+      "candidate_id": "b322305da03080ba3a307e02",
+      "title": "Eluvio Unveils Industry-First: Inline, Open-Model Video AI and Agentic Orchestration at IBC 2026",
+      "url": "https://www.prnewswire.com/news-releases/eluvio-unveils-industry-first-inline-open-model-video-ai-and-agentic-orchestration-at-ibc-2026-302868456.html",
+      "source_name": "www.prnewswire.com",
+      "published_at": "2026-09-03T04:02:00+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_504a17db3531df046636",
+    "canonical_title": "AI Week in Review 26.09.05",
+    "category_hint": "ai_models",
+    "candidate_ids": [
+      "2c7ea4dc3166f9c82b8346b4"
+    ],
+    "primary_source": {
+      "candidate_id": "2c7ea4dc3166f9c82b8346b4",
+      "title": "AI Week in Review 26.09.05",
+      "url": "https://patmcguinness.substack.com/p/ai-week-in-review-260905",
+      "source_name": "patmcguinness.substack.com",
+      "published_at": "2026-09-06T12:00:00+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_69c74bc9d2234f20c095",
+    "canonical_title": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
+    "category_hint": "ai_models",
+    "candidate_ids": [
+      "c5fea2be4f2543bc4a7e77b1"
+    ],
+    "primary_source": {
+      "candidate_id": "c5fea2be4f2543bc4a7e77b1",
+      "title": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
+      "url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark",
+      "source_name": "blogs.nvidia.com",
+      "published_at": "2026-09-03T16:00:59+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [
+      "nvidia"
+    ],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_9e6894b5ae8779b717e1",
+    "canonical_title": "Why AI Agents Need Million-Token Context — Thomas Wolf & Olive ...",
+    "category_hint": "ai_models",
+    "candidate_ids": [
+      "c6fec9a1b5fe3cc4bc3d197a"
+    ],
+    "primary_source": {
+      "candidate_id": "c6fec9a1b5fe3cc4bc3d197a",
+      "title": "Why AI Agents Need Million-Token Context — Thomas Wolf & Olive ...",
+      "url": "https://finance.biggo.com/podcast/d04219da517738ed",
+      "source_name": "finance.biggo.com",
+      "published_at": "2026-09-04T10:00:00+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_59f125fc6e67d84fa1ab",
+    "canonical_title": "벤처투자 역대 최대에도…AI 쏠림·미국행·회수 병목은 여전 - 플래텀",
+    "category_hint": "policy_ethics",
+    "candidate_ids": [
+      "8b443c1c8c2d42c3efaa0374"
+    ],
+    "primary_source": {
+      "candidate_id": "8b443c1c8c2d42c3efaa0374",
+      "title": "벤처투자 역대 최대에도…AI 쏠림·미국행·회수 병목은 여전 - 플래텀",
+      "url": "https://platum.kr/archives/294053",
+      "source_name": "platum.kr",
+      "published_at": "2026-09-06T23:33:29+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_ec0419e2dbb60888a543",
+    "canonical_title": "기기는 다 깔렸는데 수업에서 안 쓴다… \"AI 시대 교육 과제는 창작 경험 보장\"",
+    "category_hint": "policy_ethics",
+    "candidate_ids": [
+      "bfc8cc09cbf7726e98a94ed1"
+    ],
+    "primary_source": {
+      "candidate_id": "bfc8cc09cbf7726e98a94ed1",
+      "title": "기기는 다 깔렸는데 수업에서 안 쓴다… \"AI 시대 교육 과제는 창작 경험 보장\"",
+      "url": "https://platum.kr/archives/294143",
+      "source_name": "platum.kr",
+      "published_at": "2026-09-08T12:00:00+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_d7f90f35fad9bf6b35e1",
+    "canonical_title": "Responsible AI Usage in Higher Education: Governance, Academic Integrity, and Fraud/Compliance Risks",
+    "category_hint": "policy_ethics",
+    "candidate_ids": [
+      "049f73e73aaa39975ae4be4d"
+    ],
+    "primary_source": {
+      "candidate_id": "049f73e73aaa39975ae4be4d",
+      "title": "Responsible AI Usage in Higher Education: Governance, Academic Integrity, and Fraud/Compliance Risks",
+      "url": "https://www.aalrr.com/EdLawConnectBlog/responsible-ai-usage-in-higher-education-governance-academic-integrity-and-fraud-compliance-risks",
+      "source_name": "www.aalrr.com",
+      "published_at": "2026-09-04T12:00:00+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_46302d82a7297071d2cc",
+    "canonical_title": "Generative AI Copyright: Law & Litigation - AIMultiple",
+    "category_hint": "policy_ethics",
+    "candidate_ids": [
+      "fee048a37e5c53ead45abcfe"
+    ],
+    "primary_source": {
+      "candidate_id": "fee048a37e5c53ead45abcfe",
+      "title": "Generative AI Copyright: Law & Litigation - AIMultiple",
+      "url": "https://aimultiple.com/generative-ai-copyright",
+      "source_name": "aimultiple.com",
+      "published_at": "2026-09-03T18:00:00+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_6389f487834d81d55385",
+    "canonical_title": "Microsoft Tells Court Copilot Rarely Reproduces Books in AI Copyright MDL – Unite.AI",
+    "category_hint": "policy_ethics",
+    "candidate_ids": [
+      "f7a53089f143a5b45c802698"
+    ],
+    "primary_source": {
+      "candidate_id": "f7a53089f143a5b45c802698",
+      "title": "Microsoft Tells Court Copilot Rarely Reproduces Books in AI Copyright MDL – Unite.AI",
+      "url": "https://www.unite.ai/microsoft-tells-court-copilot-rarely-reproduces-books-in-ai-copyright-mdl",
+      "source_name": "www.unite.ai",
+      "published_at": "2026-09-04T16:24:02+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [
+      "microsoft"
+    ],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_00c0509e97be6275afd4",
+    "canonical_title": "AI-Generated Content and Copyright Law: What We Know",
+    "category_hint": "policy_ethics",
+    "candidate_ids": [
+      "5f8a16f8585663797f97dfec"
+    ],
+    "primary_source": {
+      "candidate_id": "5f8a16f8585663797f97dfec",
+      "title": "AI-Generated Content and Copyright Law: What We Know",
+      "url": "https://builtin.com/artificial-intelligence/ai-copyright",
+      "source_name": "builtin.com",
+      "published_at": "2026-09-03T12:00:00+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_34dbe933b0fc8a3771be",
+    "canonical_title": "China AI guidelines: China's top court posts guidelines on deepfakes, AI disputes - The Economic Times",
+    "category_hint": "policy_ethics",
+    "candidate_ids": [
+      "a43848ba71c5955347ed9f4d"
+    ],
+    "primary_source": {
+      "candidate_id": "a43848ba71c5955347ed9f4d",
+      "title": "China AI guidelines: China's top court posts guidelines on deepfakes, AI disputes - The Economic Times",
+      "url": "https://m.economictimes.com/tech/artificial-intelligence/chinas-top-court-posts-guidelines-on-deepfakes-ai-disputes/amp_articleshow/133878157.cms",
+      "source_name": "m.economictimes.com",
+      "published_at": "2026-09-07T12:00:00+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [
+      "china"
+    ],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_8fed4a4b5566fa2ecd14",
+    "canonical_title": "메모리반도체 가격 상승에 빅테크 AI 투자 '한계점' 임박, \"수요 파괴\" 시나리오 거론",
+    "category_hint": "industry",
+    "candidate_ids": [
+      "be06ef5be6d1a8a51110c87c"
+    ],
+    "primary_source": {
+      "candidate_id": "be06ef5be6d1a8a51110c87c",
+      "title": "메모리반도체 가격 상승에 빅테크 AI 투자 '한계점' 임박, \"수요 파괴\" 시나리오 거론",
+      "url": "https://www.businesspost.co.kr/BP?command=article_view&num=446523",
+      "source_name": "www.businesspost.co.kr",
+      "published_at": "2026-09-07T01:20:31+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_bfb87cd22cb5ffed3c92",
+    "canonical_title": "[분석] 'Build Here' ··· 미국은 준비가 됐나? < 산업재계 < Today pick < 경제 < 기사본문 - 데이터솜",
+    "category_hint": "industry",
+    "candidate_ids": [
+      "2ea0d5da8c48a4cc3c83a1ee"
+    ],
+    "primary_source": {
+      "candidate_id": "2ea0d5da8c48a4cc3c83a1ee",
+      "title": "[분석] 'Build Here' ··· 미국은 준비가 됐나? < 산업재계 < Today pick < 경제 < 기사본문 - 데이터솜",
+      "url": "https://www.datasom.co.kr/news/articleView.html?idxno=209803",
+      "source_name": "www.datasom.co.kr",
+      "published_at": "2026-09-04T03:00:00+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_12c43f6fd0332b85d6d7",
+    "canonical_title": "엔비디아, 미디어텍에 35억 달러 투자: 젠슨 황은 무엇을 노리고 있나?",
+    "category_hint": "industry",
+    "candidate_ids": [
+      "8434d9e840afb594e4f9d06d"
+    ],
+    "primary_source": {
+      "candidate_id": "8434d9e840afb594e4f9d06d",
+      "title": "엔비디아, 미디어텍에 35억 달러 투자: 젠슨 황은 무엇을 노리고 있나?",
+      "url": "https://www.tradingkey.com/kr/analysis/stocks/us-stocks/262152396-jensen-huang-nvidia-3-5-billion-mediatek-investment-tradingkey",
+      "source_name": "www.tradingkey.com",
+      "published_at": "2026-09-04T12:00:00+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [
+      "nvidia"
+    ],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_b5c1936c0f39a9f0b540",
+    "canonical_title": "삼성전자·미스트랄, '반도체 설계·제조' 특화 AI 공동 개발",
+    "category_hint": "industry",
+    "candidate_ids": [
+      "2ee1fafab11d5cb7b3379de0"
+    ],
+    "primary_source": {
+      "candidate_id": "2ee1fafab11d5cb7b3379de0",
+      "title": "삼성전자·미스트랄, '반도체 설계·제조' 특화 AI 공동 개발",
+      "url": "https://www.sidae.com/article/2026090819143733899",
+      "source_name": "www.sidae.com",
+      "published_at": "2026-09-08T16:00:00+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [
+      "mistral",
+      "samsung"
+    ],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_ae527859e2ae092d31ef",
+    "canonical_title": "미스트랄 AI, 韓 제조업 파고든다…삼성과 반도체 AI 개발 < AI < AI/ICT < 기사본문 - 아이티데일리",
+    "category_hint": "industry",
+    "candidate_ids": [
+      "067f1e54a946b6b37ed5fbdb"
+    ],
+    "primary_source": {
+      "candidate_id": "067f1e54a946b6b37ed5fbdb",
+      "title": "미스트랄 AI, 韓 제조업 파고든다…삼성과 반도체 AI 개발 < AI < AI/ICT < 기사본문 - 아이티데일리",
+      "url": "https://www.itdaily.kr/news/articleView.html?idxno=241506",
+      "source_name": "www.itdaily.kr",
+      "published_at": "2026-09-09T08:09:01+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [
+      "mistral",
+      "samsung"
+    ],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_c0052d16d081e9195966",
+    "canonical_title": "TSMC's Global Expansion Pressures Margins Amid AI-Driven Growth - The Globe and Mail",
+    "category_hint": "industry",
+    "candidate_ids": [
+      "2c167546003bf3c359bbd2a4"
+    ],
+    "primary_source": {
+      "candidate_id": "2c167546003bf3c359bbd2a4",
+      "title": "TSMC's Global Expansion Pressures Margins Amid AI-Driven Growth - The Globe and Mail",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/TSM/pressreleases/4404437/tsmcs-global-expansion-pressures-margins-amid-ai-driven-growth",
+      "source_name": "www.theglobeandmail.com",
+      "published_at": "2026-09-02T16:00:00+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [
+      "tsmc"
+    ],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_bd8dc22b15cdb813829a",
+    "canonical_title": "ASML Bets Big on AI & Capacity Expansion: Should You Buy the Stock? — TradingView News",
+    "category_hint": "industry",
+    "candidate_ids": [
+      "49b6a9726795486fb5e4f00a"
+    ],
+    "primary_source": {
+      "candidate_id": "49b6a9726795486fb5e4f00a",
+      "title": "ASML Bets Big on AI & Capacity Expansion: Should You Buy the Stock? — TradingView News",
+      "url": "https://www.tradingview.com/news/zacks:6544c2769094b:0-asml-bets-big-on-ai-capacity-expansion-should-you-buy-the-stock",
+      "source_name": "www.tradingview.com",
+      "published_at": "2026-09-07T15:28:00+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [
+      "asml"
+    ],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_568f8ee4c6da48ceeb3c",
+    "canonical_title": "Opinion | Virtuous circle of AI titans’ investments could well turn vicious",
+    "category_hint": "industry",
+    "candidate_ids": [
+      "8c7021b105b6cee79692da7f"
+    ],
+    "primary_source": {
+      "candidate_id": "8c7021b105b6cee79692da7f",
+      "title": "Opinion | Virtuous circle of AI titans’ investments could well turn vicious",
+      "url": "https://www.scmp.com/opinion/world-opinion/article/3366149/ai-titans-circular-deals-are-starting-look-daisy-chains",
+      "source_name": "www.scmp.com",
+      "published_at": "2026-09-07T12:30:08+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_97691eb7863e348efd52",
+    "canonical_title": "Hyperscale Data Centers: What They Are, How They Scale, & Their Role in AI",
+    "category_hint": "industry",
+    "candidate_ids": [
+      "a8e055981e35ad8f811a0198"
+    ],
+    "primary_source": {
+      "candidate_id": "a8e055981e35ad8f811a0198",
+      "title": "Hyperscale Data Centers: What They Are, How They Scale, & Their Role in AI",
+      "url": "https://www.britannica.com/money/hyperscaler-data-centers",
+      "source_name": "www.britannica.com",
+      "published_at": "2026-09-04T12:00:00+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_6c2e79a8baec6fc438d0",
+    "canonical_title": "Materials science: The stuff of the modern world",
+    "category_hint": "industry",
+    "candidate_ids": [
+      "63db757481fc47b63377f693"
+    ],
+    "primary_source": {
+      "candidate_id": "63db757481fc47b63377f693",
+      "title": "Materials science: The stuff of the modern world",
+      "url": "https://www.nsf.gov/science-matters/materials-science-stuff-modern-world",
+      "source_name": "www.nsf.gov",
+      "published_at": "2026-09-02T16:00:41+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_34f05779ae69ef70af86",
+    "canonical_title": "과기정통부, 2027년 예산 29.6조 원 편성…전 국민 AI서비스 지원",
+    "category_hint": "domestic_ai",
+    "candidate_ids": [
+      "367bfcf1dca4c6f39ca2c577"
+    ],
+    "primary_source": {
+      "candidate_id": "367bfcf1dca4c6f39ca2c577",
+      "title": "과기정통부, 2027년 예산 29.6조 원 편성…전 국민 AI서비스 지원",
+      "url": "https://www.hellot.net/news/article.html?no=114788",
+      "source_name": "www.hellot.net",
+      "published_at": "2026-09-05T08:44:06+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_8713f0f8943a765aa229",
+    "canonical_title": "네이버클라우드, '보안 특화 AI 모델' 개발 사업자로 선정 : 네이버 블로그",
+    "category_hint": "domestic_ai",
+    "candidate_ids": [
+      "254178f824d1b44919720c60"
+    ],
+    "primary_source": {
+      "candidate_id": "254178f824d1b44919720c60",
+      "title": "네이버클라우드, '보안 특화 AI 모델' 개발 사업자로 선정 : 네이버 블로그",
+      "url": "https://blog.naver.com/PostView.naver?blogId=dealsite&logNo=224401805870&redirect=Dlog",
+      "source_name": "blog.naver.com",
+      "published_at": "2026-09-07T12:00:00+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [
+      "naver"
+    ],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_556961fe1c02811c13a6",
+    "canonical_title": "[속보] 정부, 보안특화 AI 모델 개발 사업자로 네이버 컨소시엄 선정 | 미주중앙일보",
+    "category_hint": "domestic_ai",
+    "candidate_ids": [
+      "0390f196efa3d036028f64c0"
+    ],
+    "primary_source": {
+      "candidate_id": "0390f196efa3d036028f64c0",
+      "title": "[속보] 정부, 보안특화 AI 모델 개발 사업자로 네이버 컨소시엄 선정 | 미주중앙일보",
+      "url": "https://www.koreadaily.com/article/20260902171338890",
+      "source_name": "www.koreadaily.com",
+      "published_at": "2026-09-03T00:12:58+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [
+      "naver"
+    ],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_74badd4931f57678af6a",
+    "canonical_title": "보안 특화모델 참여 보안기업들 \"역할 아직 분배 안해\" - ZDNet korea",
+    "category_hint": "domestic_ai",
+    "candidate_ids": [
+      "e685c3f59d8ebd1d70e29dbf"
+    ],
+    "primary_source": {
+      "candidate_id": "e685c3f59d8ebd1d70e29dbf",
+      "title": "보안 특화모델 참여 보안기업들 \"역할 아직 분배 안해\" - ZDNet korea",
+      "url": "https://zdnet.co.kr/view?no=20260903114626",
+      "source_name": "zdnet.co.kr",
+      "published_at": "2026-09-03T10:05:52+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_70a6a754fec7056b77b5",
+    "canonical_title": "Naver Cloud selected for govt.-backed cybersecurity AI model project - The Korea Herald",
+    "category_hint": "domestic_ai",
+    "candidate_ids": [
+      "4bfa7a3b38af853db030634b",
+      "b8824dd4c2d6ac98af9f78fe",
+      "f03341341aefd94500eede51"
+    ],
+    "primary_source": {
+      "candidate_id": "4bfa7a3b38af853db030634b",
+      "title": "Naver Cloud selected for govt.-backed cybersecurity AI model project - The Korea Herald",
+      "url": "https://www.koreaherald.com/article/10861436",
+      "source_name": "www.koreaherald.com",
+      "published_at": "2026-09-03T02:13:35+00:00"
+    },
+    "supporting_sources": [
+      {
+        "candidate_id": "b8824dd4c2d6ac98af9f78fe",
+        "title": "Naver Cloud selected for South Korea cybersecurity AI project | UA.NEWS",
+        "url": "https://ua.news/en/technologies/naver-cloud-vidibrali-dlia-proiektu-shi-modeli-z-kiberbezpeki-v-pivdennii-koreyi",
+        "source_name": "ua.news",
+        "published_at": "2026-09-03T05:21:00+00:00"
+      },
+      {
+        "candidate_id": "f03341341aefd94500eede51",
+        "title": "네이버 '사이버보안 특화 AI모델' 만든다…정부사업 수주, 영토확장 - 서울이코노미뉴스",
+        "url": "http://www.seouleconews.com/news/articleView.html?idxno=93498",
+        "source_name": "www.seouleconews.com",
+        "published_at": "2026-09-03T01:34:39+00:00"
+      }
+    ],
+    "entities": [
+      "naver"
+    ],
+    "event_date": null,
+    "dedup_status": "GEMINI",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_608ba6fe461755404825",
+    "canonical_title": "South Korea's Government Security-Specialized AI Project Awarded Exclusively to Naver Cloud Consortium — BigGo Finance",
+    "category_hint": "domestic_ai",
+    "candidate_ids": [
+      "1965c4745bc0272cbaf4c131"
+    ],
+    "primary_source": {
+      "candidate_id": "1965c4745bc0272cbaf4c131",
+      "title": "South Korea's Government Security-Specialized AI Project Awarded Exclusively to Naver Cloud Consortium — BigGo Finance",
+      "url": "https://finance.biggo.com/news/53374fed-bc42-417d-905f-c9743088b9c7",
+      "source_name": "finance.biggo.com",
+      "published_at": "2026-09-03T01:25:31+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [
+      "naver"
+    ],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_40de4d5330eaa305435a",
+    "canonical_title": "‘Other governments will be watching this closely’ — South Korea’s free AI experiment could be a blueprint for the rest of the world",
+    "category_hint": "domestic_ai",
+    "candidate_ids": [
+      "4fa947e917304e47507586cb"
+    ],
+    "primary_source": {
+      "candidate_id": "4fa947e917304e47507586cb",
+      "title": "‘Other governments will be watching this closely’ — South Korea’s free AI experiment could be a blueprint for the rest of the world",
+      "url": "https://www.yahoo.com/news/world/articles/other-governments-watching-closely-south-114537899.html",
+      "source_name": "www.yahoo.com",
+      "published_at": "2026-09-07T12:00:00+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_6e23ecb3f5a0280055cb",
+    "canonical_title": "Korea's science diplomacy in the age of technopolitics - The Korea Times",
+    "category_hint": "domestic_ai",
+    "candidate_ids": [
+      "920f8649313bf834954d3c29"
+    ],
+    "primary_source": {
+      "candidate_id": "920f8649313bf834954d3c29",
+      "title": "Korea's science diplomacy in the age of technopolitics - The Korea Times",
+      "url": "https://www.koreatimes.co.kr/amp/opinion/20260908/koreas-science-diplomacy-in-the-age-of-technopolitics",
+      "source_name": "www.koreatimes.co.kr",
+      "published_at": "2026-09-08T12:00:00+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_bc49de6c05a6caac6745",
+    "canonical_title": "[단독] 3년동안 개인정보 310만건 털렸는데…과징금 부과 하나도 없었다 - 매일경제",
+    "category_hint": "security",
+    "candidate_ids": [
+      "5153b0030da4155cee77a8ca"
+    ],
+    "primary_source": {
+      "candidate_id": "5153b0030da4155cee77a8ca",
+      "title": "[단독] 3년동안 개인정보 310만건 털렸는데…과징금 부과 하나도 없었다 - 매일경제",
+      "url": "https://www.mk.co.kr/news/politics/12147202",
+      "source_name": "www.mk.co.kr",
+      "published_at": "2026-09-08T07:38:49+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_9d301d59ba2cd99f1df6",
+    "canonical_title": "[카드뉴스] \"오늘 날씨 어때?\" 물었을 뿐인데… AI 스피커 사생활 도청 막는 '3단계 삭제법' < 카드뉴스 < 사건·사고 < 기사본문 - 보안뉴스",
+    "category_hint": "security",
+    "candidate_ids": [
+      "6a12baa30e14f15fd1c0b61e"
+    ],
+    "primary_source": {
+      "candidate_id": "6a12baa30e14f15fd1c0b61e",
+      "title": "[카드뉴스] \"오늘 날씨 어때?\" 물었을 뿐인데… AI 스피커 사생활 도청 막는 '3단계 삭제법' < 카드뉴스 < 사건·사고 < 기사본문 - 보안뉴스",
+      "url": "https://www.boannews.com/news/articleView.html?idxno=145757",
+      "source_name": "www.boannews.com",
+      "published_at": "2026-09-09T07:49:21+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_110d5de653f5eb8421ba",
+    "canonical_title": "교육기관 개인정보 '줄줄'…3년간 38건",
+    "category_hint": "security",
+    "candidate_ids": [
+      "e56293ba0bf6c257651f2832"
+    ],
+    "primary_source": {
+      "candidate_id": "e56293ba0bf6c257651f2832",
+      "title": "교육기관 개인정보 '줄줄'…3년간 38건",
+      "url": "https://home.ebs.co.kr/ebsnews/menu1/newsAllView/60766799/H?eduNewsYn=N&newsFldDetlCd=",
+      "source_name": "home.ebs.co.kr",
+      "published_at": "2026-09-09T03:00:00+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_6d300687bb4e64cb0140",
+    "canonical_title": "룰렛 확률 표 해독하기 소셜 미디어 독특한 통찰",
+    "category_hint": "security",
+    "candidate_ids": [
+      "2a42c03fce132e28dff1e3b8"
+    ],
+    "primary_source": {
+      "candidate_id": "2a42c03fce132e28dff1e3b8",
+      "title": "룰렛 확률 표 해독하기 소셜 미디어 독특한 통찰",
+      "url": "https://www.histoire-pour-tous.fr/histoire-de-france/5782-la-resistance-francaise-1940-1944.amp.html?ID=%EC%A0%9C%EC%A3%BC+%EA%B2%BD%EB%A7%88+%EA%B8%B8.html",
+      "source_name": "www.histoire-pour-tous.fr",
+      "published_at": "2026-09-05T12:00:00+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  },
+  {
+    "event_id": "evt_db01483a4c785623702c",
+    "canonical_title": "China's highest court sets out new AI red lines with rules on ...",
+    "category_hint": "security",
+    "candidate_ids": [
+      "faa33b5babc4846b31c2ab43"
+    ],
+    "primary_source": {
+      "candidate_id": "faa33b5babc4846b31c2ab43",
+      "title": "China's highest court sets out new AI red lines with rules on ...",
+      "url": "https://www.scmp.com/news/china/politics/article/3366802/chinas-highest-court-sets-out-new-ai-red-lines-rules-deepfakes-and-privacy",
+      "source_name": "www.scmp.com",
+      "published_at": "2026-09-08T11:12:50+00:00"
+    },
+    "supporting_sources": [],
+    "entities": [
+      "china"
+    ],
+    "event_date": null,
+    "dedup_status": "SINGLE",
+    "dedup_confidence": 1.0
+  }
+]

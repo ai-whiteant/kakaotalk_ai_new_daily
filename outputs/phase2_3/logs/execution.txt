@@ -1,0 +1,1 @@
+{'mode': 'TEST', 'gate_candidate': 'PASS', 'status': 'WARN', 'independent_review': 'PENDING', 'pre_candidates': 15, 'final_count': 8, 'tavily_calls': 0, 'gemini_calls': 0, 'kakao_calls': 0, 'live_runs': 0, 'packet_sha256': '3a524c1e4bc2abc59c095a22a0a57189841b3328d3ea5eb9ad1659b1d28d0be0'}

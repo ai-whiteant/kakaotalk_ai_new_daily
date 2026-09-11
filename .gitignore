@@ -232,3 +232,11 @@ config.json.*
 *.pem
 *.key
 news-output/
+# Kakao ai news local continuity artifacts
+PHASE*_RESULT_PACKAGE.zip
+Kakao_ai_news_HOME_OFFICE_CANONICAL_FILES_*.zip
+Kakao_ai_news_HOME_OFFICE_CANONICAL_FILES_*/
+references/*REFERENCE_PACK*.zip
+챗GPT에서 다음세션에서 지속/
+코덱스에서 다음 세션 이어가기_다른노트북/
+outputs/**/git_diff.patch

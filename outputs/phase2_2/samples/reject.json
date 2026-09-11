@@ -1,0 +1,186 @@
+[
+  {
+    "event_id": "evt_6d300687bb4e64cb0140",
+    "guard_original": "VERIFY",
+    "guard_original_record": {
+      "analysis": {
+        "event_id": "evt_6d300687bb4e64cb0140",
+        "category": "security",
+        "scores": {
+          "education_relevance": 0,
+          "ai_technical_importance": 1,
+          "teacher_student_impact": 0,
+          "social_industry_impact": 1,
+          "source_reliability": 1,
+          "recency": 2,
+          "total": 5
+        },
+        "summary": "제공된 정보는 방송 룰렛 확률, 배그 킬룰렛, 스트리머 룰렛 확률, 치지직 킬룰렛, 킬룰렛 설정 등 게임 및 방송 플랫폼 내 확률형 콘텐츠에 관한 키워드를 나열하고 있습니다. 마에스트로 포렌식과 AI 스마트라는 용어가 언급되었으나, 해당 용어와 룰렛 확률 간의 구체적인 상관관계나 기술적 맥락은 설명되어 있지 않습니다.",
+        "why_it_matters": "게임 및 스트리밍 플랫폼에서 발생하는 확률형 콘텐츠에 대한 대중의 관심이 반영된 것으로 보이나, 제공된 소스 내에서 관련 기술의 구체적인 분석이나 보안상의 함의가 확인되지 않아 정보 가치가 불분명합니다.",
+        "education_implication": null,
+        "classroom_use": null,
+        "uncertainties": [
+          "마에스트로 포렌식과 AI 스마트가 본문에서 나열된 룰렛 확률 주제와 어떠한 기술적 연관성을 갖는지 불명확함",
+          "입력된 소스가 룰렛 확률 해석에 관한 실질적인 통찰을 제공하는지 여부가 확인되지 않음",
+          "해당 키워드들이 교육적 또는 보안적 맥락에서 가지는 의미를 식별하기 어려움"
+        ],
+        "fact_check_targets": [
+          "마에스트로 포렌식의 실제 서비스 내용",
+          "언급된 플랫폼에서의 킬룰렛 설정 및 확률 관련 공식 기능 제공 여부",
+          "[VERIFY] hallucination_risk: high — Original model risk retained; it is not by itself proof of an unsupported claim"
+        ],
+        "hallucination_risk": "high"
+      },
+      "guard_status": "VERIFY",
+      "findings": [
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "MODEL_REPORTED_RISK",
+          "value": "high",
+          "status": "VERIFY",
+          "output_field": "hallucination_risk",
+          "reason": "Original model risk retained; it is not by itself proof of an unsupported claim",
+          "matched_input": null,
+          "candidate_ids": []
+        }
+      ],
+      "fact_check_evidence": [
+        {
+          "code": "MODEL_REPORTED_RISK",
+          "value": "high",
+          "status": "VERIFY",
+          "output_field": "hallucination_risk",
+          "reason": "Original model risk retained; it is not by itself proof of an unsupported claim",
+          "matched_input": null,
+          "candidate_ids": []
+        }
+      ],
+      "original_model_risk": "high",
+      "verification": "NOT_FACT_CHECKED"
+    },
+    "guard_original_sha256": "fb77cdf79b3fc0c85f0f1db7b826b0cb75610e082d07076bd72df4d7cb102000",
+    "original_targets": [
+      "마에스트로 포렌식의 실제 서비스 내용",
+      "언급된 플랫폼에서의 킬룰렛 설정 및 확률 관련 공식 기능 제공 여부",
+      "[VERIFY] hallucination_risk: high — Original model risk retained; it is not by itself proof of an unsupported claim"
+    ],
+    "original_model_risk": "high",
+    "original_scores": {
+      "education_relevance": 0,
+      "ai_technical_importance": 1,
+      "teacher_student_impact": 0,
+      "social_industry_impact": 1,
+      "source_reliability": 1,
+      "recency": 2,
+      "total": 5
+    },
+    "verification_final": "REJECT",
+    "claims": [
+      {
+        "event_id": "evt_6d300687bb4e64cb0140",
+        "target_id": "evt_6d300687bb4e64cb0140:fc:0",
+        "original_target_indices": [
+          0
+        ],
+        "claim": "마에스트로 포렌식의 실제 서비스 내용",
+        "claim_type": "other",
+        "guard_status": "VERIFY",
+        "requested_status": "UNRESOLVED",
+        "reason": "조회한 원문에서 해당 검증 질문 전체를 확정할 충분한 근거를 확보하지 못했다.",
+        "core": true,
+        "administrative": false,
+        "evidence_refs": [],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": false,
+        "attempted_source_ids": [
+          "original_6d300687bb4e64cb0140_0"
+        ],
+        "evidence": [],
+        "verification_status": "UNRESOLVED",
+        "validation_blocks": []
+      },
+      {
+        "event_id": "evt_6d300687bb4e64cb0140",
+        "target_id": "evt_6d300687bb4e64cb0140:fc:1",
+        "original_target_indices": [
+          1
+        ],
+        "claim": "언급된 플랫폼에서의 킬룰렛 설정 및 확률 관련 공식 기능 제공 여부",
+        "claim_type": "other",
+        "guard_status": "VERIFY",
+        "requested_status": "UNRESOLVED",
+        "reason": "조회한 원문에서 해당 검증 질문 전체를 확정할 충분한 근거를 확보하지 못했다.",
+        "core": true,
+        "administrative": false,
+        "evidence_refs": [],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": false,
+        "attempted_source_ids": [
+          "original_6d300687bb4e64cb0140_0"
+        ],
+        "evidence": [],
+        "verification_status": "UNRESOLVED",
+        "validation_blocks": []
+      },
+      {
+        "event_id": "evt_6d300687bb4e64cb0140",
+        "target_id": "evt_6d300687bb4e64cb0140:fc:2",
+        "original_target_indices": [
+          2
+        ],
+        "claim": "[VERIFY] hallucination_risk: high — Original model risk retained; it is not by itself proof of an unsupported claim",
+        "claim_type": "other",
+        "guard_status": "VERIFY",
+        "requested_status": "UNRESOLVED",
+        "reason": "원 모델 위험 표시는 사실 주장 자체가 아니며 원본에 보존한다. 콘텐츠 검증 결과와 별도로 남긴다.",
+        "core": false,
+        "administrative": true,
+        "evidence_refs": [],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": false,
+        "attempted_source_ids": [
+          "original_6d300687bb4e64cb0140_0"
+        ],
+        "evidence": [],
+        "verification_status": "UNRESOLVED",
+        "validation_blocks": []
+      }
+    ],
+    "removed_claims": [
+      {
+        "target_id": "evt_6d300687bb4e64cb0140:fc:0",
+        "status": "UNRESOLVED"
+      },
+      {
+        "target_id": "evt_6d300687bb4e64cb0140:fc:1",
+        "status": "UNRESOLVED"
+      },
+      {
+        "target_id": "evt_6d300687bb4e64cb0140:fc:2",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "hold_reasons": [
+      "출처 불일치·AI 뉴스 적격성 없음",
+      "UNRESOLVED_CORE_CLAIM",
+      "FINAL_SOURCE_URL_UNVERIFIED"
+    ],
+    "reject_reason": "기존 후보 내용이 도박·방송 키워드 나열이며 AI 뉴스 사건 근거가 없다. 역사 페이지 URL과 제목 불일치, 원문 조회 실패.",
+    "source_urls": [],
+    "safe_content": [],
+    "verified_fragments_for_review_only": [],
+    "dispatch_allowed": false,
+    "independent_review": "PENDING"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "before_events": 47,
+  "after_events": 49,
+  "new_event_analyses": [
+    "evt_a12434185e4151027d95",
+    "evt_fb9a5c5d8f4aa64a9afd",
+    "evt_0da37ec7577bcd6b517d",
+    "evt_d17b94b04c2d6a2f769d"
+  ],
+  "changed_pairs": [
+    {
+      "pair_id": "460f2361b54fc9d598b7",
+      "before": "SAME_EVENT",
+      "after": "FOLLOW_UP",
+      "reason": "Editorial/reaction versus originating report: preserve related events separately. Original model SAME_EVENT. 두 기사 모두 뉴욕시 공립학교에서 유아 및 초중학생을 대상으로 인공지능(AI) 사용을 1년간 금지하고 스크린타임 제한을 도입한 동일한 정책 결정 내용을 다루고 있습니다. 뉴욕시의 AI 규제 정책이라는 동일한 사건을 시간적 배경과 내용면에서 일치하게 보도하고 있습니다."
+    },
+    {
+      "pair_id": "cbd75ccf7781aad93d6b",
+      "before": "SAME_EVENT",
+      "after": "FOLLOW_UP",
+      "reason": "Editorial/reaction versus originating report: preserve related events separately. Original model SAME_EVENT. Both articles report on the same policy announcement by the New York City school district regarding the restriction of AI tool usage in schools. While the Korean article focuses on the initial announcement and the age restriction for students, the English article provides further details on the scope of the policy, including teacher usage guidelines and expert commentary. The core event, which is the implementation of new AI-related restrictions in NYC public schools, is consistent across both sources."
+    }
+  ]
+}

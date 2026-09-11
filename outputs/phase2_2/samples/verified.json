@@ -1,0 +1,1510 @@
+[
+  {
+    "event_id": "evt_0da37ec7577bcd6b517d",
+    "guard_original": "AUTO_HOLD",
+    "guard_original_record": {
+      "analysis": {
+        "event_id": "evt_0da37ec7577bcd6b517d",
+        "category": "ai_education",
+        "scores": {
+          "education_relevance": 30,
+          "ai_technical_importance": 10,
+          "teacher_student_impact": 15,
+          "social_industry_impact": 10,
+          "source_reliability": 8,
+          "recency": 10,
+          "total": 83
+        },
+        "summary": "뉴욕시 공립학교에서 인공지능(AI) 사용에 대한 제한 조치가 시행되었습니다. 8학년 이하 학생들을 대상으로 1년간 AI 사용이 금지되며, 저학년 학생의 경우 화면 시청 시간에 대한 새로운 제한이 도입됩니다. 고등학생과 교사에게는 AI 사용이 여전히 허용되지만, 학교 밖에서 학생들의 AI 사용을 통제해야 하는 집행상의 어려움이 지적되고 있습니다.",
+        "why_it_matters": "교육 현장에서 생성형 AI의 도입과 금지 사이의 정책적 딜레마를 보여주는 사례입니다. 학생들의 발달 단계에 따른 AI 활용의 적절성에 대한 사회적 합의가 여전히 논의 중이며, 학교 시스템 내에서의 기술 관리와 통제가 실질적으로 얼마나 가능한지에 대한 질문을 던지고 있습니다.",
+        "education_implication": "초등 및 중등 교육 과정에서 AI 기술 도입 속도와 학생의 학습권 보호 사이의 균형점을 찾는 것이 교육 당국의 주요 과제가 되었습니다. 특히 기술의 외부 사용을 완전히 차단하기 어려운 현실적 제약으로 인해 단순 금지 정책의 실효성에 대한 재검토가 필요할 수 있습니다.",
+        "classroom_use": "교실 내에서 학생들에게 AI의 기술적 작동 원리와 한계를 교육하고, 학교 밖에서의 책임 있는 AI 사용에 대해 토론하는 기회로 활용할 수 있습니다. 또한 디지털 리터러시 교육의 일부로서 AI 금지 정책의 배경과 기대 효과를 분석하는 비판적 사고 수업 자료로 사용할 수 있습니다.",
+        "uncertainties": [
+          "8학년 이하에 대한 1년 금지 조치 이후의 정책 방향성이 명확하지 않음",
+          "학교 밖에서의 AI 사용을 학교가 실질적으로 어떻게 관리하고 감독할지에 대한 구체적 방법론이 불분명함",
+          "이번 제한 조치가 학생들의 디지털 학습 역량 개발에 미칠 장기적 영향에 대한 평가"
+        ],
+        "fact_check_targets": [
+          "뉴욕시 교육청의 공식 AI 제한 정책 전문",
+          "8학년 이하 대상 AI 금지의 구체적 적용 범위 및 예외 사항",
+          "교사 대상 AI 허용 지침의 세부 내용",
+          "[AUTO_HOLD] summary: 8 — No equal normalized quantity in any related candidate",
+          "[VERIFY] summary: 1 — Quantity exists but grade context is not established"
+        ],
+        "hallucination_risk": "high"
+      },
+      "guard_status": "AUTO_HOLD",
+      "findings": [
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "UNSUPPORTED_NUMBER_OR_DATE",
+          "value": "8",
+          "status": "AUTO_HOLD",
+          "output_field": "summary",
+          "reason": "No equal normalized quantity in any related candidate",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "QUANTITY_CONTEXT_AMBIGUOUS",
+          "value": "1",
+          "status": "VERIFY",
+          "output_field": "summary",
+          "reason": "Quantity exists but grade context is not established",
+          "matched_input": "one year",
+          "candidate_ids": [
+            "973b7e441c9dc7401d4697e2"
+          ]
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "why_it_matters",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "why_it_matters",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "education_implication",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "classroom_use",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "classroom_use",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "classroom_use",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        }
+      ],
+      "fact_check_evidence": [
+        {
+          "code": "UNSUPPORTED_NUMBER_OR_DATE",
+          "value": "8",
+          "status": "AUTO_HOLD",
+          "output_field": "summary",
+          "reason": "No equal normalized quantity in any related candidate",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "QUANTITY_CONTEXT_AMBIGUOUS",
+          "value": "1",
+          "status": "VERIFY",
+          "output_field": "summary",
+          "reason": "Quantity exists but grade context is not established",
+          "matched_input": "one year",
+          "candidate_ids": [
+            "973b7e441c9dc7401d4697e2"
+          ]
+        }
+      ],
+      "original_model_risk": "low",
+      "verification": "NOT_FACT_CHECKED"
+    },
+    "guard_original_sha256": "6354989bc652d4f8413b9e569a15755e1451928de72e7599252b29d42ade9bf8",
+    "original_targets": [
+      "뉴욕시 교육청의 공식 AI 제한 정책 전문",
+      "8학년 이하 대상 AI 금지의 구체적 적용 범위 및 예외 사항",
+      "교사 대상 AI 허용 지침의 세부 내용",
+      "[AUTO_HOLD] summary: 8 — No equal normalized quantity in any related candidate",
+      "[VERIFY] summary: 1 — Quantity exists but grade context is not established"
+    ],
+    "original_model_risk": "low",
+    "original_scores": {
+      "education_relevance": 30,
+      "ai_technical_importance": 10,
+      "teacher_student_impact": 15,
+      "social_industry_impact": 10,
+      "source_reliability": 8,
+      "recency": 10,
+      "total": 83
+    },
+    "verification_final": "VERIFIED_WITH_CONTEXT",
+    "claims": [
+      {
+        "event_id": "evt_0da37ec7577bcd6b517d",
+        "target_id": "evt_0da37ec7577bcd6b517d:fc:0",
+        "original_target_indices": [
+          0
+        ],
+        "claim": "뉴욕시 교육청의 공식 AI 제한 정책 전문",
+        "claim_type": "policy",
+        "guard_status": "AUTO_HOLD",
+        "requested_status": "VERIFIED_SUPPORTED",
+        "reason": "공식 정책 본문 확인.",
+        "core": true,
+        "administrative": false,
+        "evidence_refs": [
+          {
+            "source_id": "nyc",
+            "note_index": 0
+          }
+        ],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": true,
+        "evidence": [
+          {
+            "source_id": "nyc",
+            "source_url": "https://www.schools.nyc.gov/about-us/policies/guidance-on-artificial-intelligence",
+            "source_name": "NYC Public Schools",
+            "source_type": "official",
+            "evidence_text": "2026–27학년도 2K–8 학생 대면 생성형 AI 유예, 고등학생 승인 프로그램 제한 사용. IEP·504 보조공학 등 예외가 있으며 모든 AI의 일반적 금지와는 다르다.",
+            "locator": "AI and Screen Time Policy Updates; How Teachers May Use AI",
+            "access": "body",
+            "candidate_id": null
+          }
+        ],
+        "verification_status": "VERIFIED_SUPPORTED",
+        "validation_blocks": []
+      },
+      {
+        "event_id": "evt_0da37ec7577bcd6b517d",
+        "target_id": "evt_0da37ec7577bcd6b517d:fc:1",
+        "original_target_indices": [
+          1
+        ],
+        "claim": "8학년 이하 대상 AI 금지의 구체적 적용 범위 및 예외 사항",
+        "claim_type": "policy",
+        "guard_status": "AUTO_HOLD",
+        "requested_status": "VERIFIED_CONTEXTUAL",
+        "reason": "모든 AI 금지가 아니라 학생 대면 생성형 AI 제한이며 예외를 보존해야 한다.",
+        "core": true,
+        "administrative": false,
+        "evidence_refs": [
+          {
+            "source_id": "nyc",
+            "note_index": 0
+          }
+        ],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": true,
+        "replacement": "뉴욕시 공립학교는 2026–27학년도 2K–8 학생의 대면 생성형 AI 사용을 유예한다. 보조공학 등 예외가 있으며 고등학생은 승인된 용도로 제한적으로 사용할 수 있다.",
+        "evidence": [
+          {
+            "source_id": "nyc",
+            "source_url": "https://www.schools.nyc.gov/about-us/policies/guidance-on-artificial-intelligence",
+            "source_name": "NYC Public Schools",
+            "source_type": "official",
+            "evidence_text": "2026–27학년도 2K–8 학생 대면 생성형 AI 유예, 고등학생 승인 프로그램 제한 사용. IEP·504 보조공학 등 예외가 있으며 모든 AI의 일반적 금지와는 다르다.",
+            "locator": "AI and Screen Time Policy Updates; How Teachers May Use AI",
+            "access": "body",
+            "candidate_id": null
+          }
+        ],
+        "verification_status": "VERIFIED_CONTEXTUAL",
+        "validation_blocks": []
+      },
+      {
+        "event_id": "evt_0da37ec7577bcd6b517d",
+        "target_id": "evt_0da37ec7577bcd6b517d:fc:2",
+        "original_target_indices": [
+          2
+        ],
+        "claim": "교사 대상 AI 허용 지침의 세부 내용",
+        "claim_type": "policy",
+        "guard_status": "AUTO_HOLD",
+        "requested_status": "VERIFIED_SUPPORTED",
+        "reason": "교사의 수업 준비·행정 허용과 채점 금지 구분 확인.",
+        "core": true,
+        "administrative": false,
+        "evidence_refs": [
+          {
+            "source_id": "nyc",
+            "note_index": 1
+          }
+        ],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": true,
+        "safe_statement": "교사는 승인 규칙 아래 수업 준비·행정에 활용할 수 있으나 AI 채점과 학생 관련 결정은 금지된다.",
+        "evidence": [
+          {
+            "source_id": "nyc",
+            "source_url": "https://www.schools.nyc.gov/about-us/policies/guidance-on-artificial-intelligence",
+            "source_name": "NYC Public Schools",
+            "source_type": "official",
+            "evidence_text": "2K–2는 개별 화면 사용 금지, 3–5와 6–8은 별도 권장시간. 교사는 승인·조달 규칙 아래 수업 준비·행정에 AI를 쓸 수 있으나 채점·학생 관련 결정에는 금지된다.",
+            "locator": "AI and Screen Time Policy Updates; How Teachers May Use AI",
+            "access": "body",
+            "candidate_id": null
+          }
+        ],
+        "verification_status": "VERIFIED_SUPPORTED",
+        "validation_blocks": []
+      },
+      {
+        "event_id": "evt_0da37ec7577bcd6b517d",
+        "target_id": "evt_0da37ec7577bcd6b517d:fc:3",
+        "original_target_indices": [
+          3
+        ],
+        "claim": "eighth grade와 8학년은 같은 학생 범위를 뜻한다.",
+        "claim_type": "number",
+        "guard_status": "AUTO_HOLD",
+        "requested_status": "VERIFIED_EQUIVALENT",
+        "reason": "미국 학년 체계의 동일 상한.",
+        "core": true,
+        "administrative": false,
+        "evidence_refs": [
+          {
+            "source_id": "nyc",
+            "note_index": 0
+          }
+        ],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": true,
+        "equivalence_context": "NYC 2K–8 policy; not Korean grade conversion",
+        "evidence": [
+          {
+            "source_id": "nyc",
+            "source_url": "https://www.schools.nyc.gov/about-us/policies/guidance-on-artificial-intelligence",
+            "source_name": "NYC Public Schools",
+            "source_type": "official",
+            "evidence_text": "2026–27학년도 2K–8 학생 대면 생성형 AI 유예, 고등학생 승인 프로그램 제한 사용. IEP·504 보조공학 등 예외가 있으며 모든 AI의 일반적 금지와는 다르다.",
+            "locator": "AI and Screen Time Policy Updates; How Teachers May Use AI",
+            "access": "body",
+            "candidate_id": null
+          }
+        ],
+        "verification_status": "VERIFIED_EQUIVALENT",
+        "validation_blocks": []
+      },
+      {
+        "event_id": "evt_0da37ec7577bcd6b517d",
+        "target_id": "evt_0da37ec7577bcd6b517d:fc:4",
+        "original_target_indices": [
+          4
+        ],
+        "claim": "one year와 1년 유예의 기간 동등성",
+        "claim_type": "date",
+        "guard_status": "AUTO_HOLD",
+        "requested_status": "VERIFIED_EQUIVALENT",
+        "reason": "1년은 해당 학년도 유예기간을 뜻한다.",
+        "core": true,
+        "administrative": false,
+        "evidence_refs": [
+          {
+            "source_id": "nyc",
+            "note_index": 2
+          }
+        ],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": true,
+        "equivalence_context": "2026–27 school year",
+        "evidence": [
+          {
+            "source_id": "nyc",
+            "source_url": "https://www.schools.nyc.gov/about-us/policies/guidance-on-artificial-intelligence",
+            "source_name": "NYC Public Schools",
+            "source_type": "official",
+            "evidence_text": "학년·기간은 미국 교육체계의 8학년까지, 해당 한 학년도이다.",
+            "locator": "AI and Screen Time Policy Updates; How Teachers May Use AI",
+            "access": "body",
+            "candidate_id": null
+          }
+        ],
+        "verification_status": "VERIFIED_EQUIVALENT",
+        "validation_blocks": []
+      }
+    ],
+    "removed_claims": [],
+    "hold_reasons": [],
+    "reject_reason": null,
+    "source_urls": [
+      "https://www.schools.nyc.gov/about-us/policies/guidance-on-artificial-intelligence"
+    ],
+    "safe_content": [
+      {
+        "target_id": "evt_0da37ec7577bcd6b517d:fc:1",
+        "text": "뉴욕시 공립학교는 2026–27학년도 2K–8 학생의 대면 생성형 AI 사용을 유예한다. 보조공학 등 예외가 있으며 고등학생은 승인된 용도로 제한적으로 사용할 수 있다."
+      },
+      {
+        "target_id": "evt_0da37ec7577bcd6b517d:fc:2",
+        "text": "교사는 승인 규칙 아래 수업 준비·행정에 활용할 수 있으나 AI 채점과 학생 관련 결정은 금지된다."
+      }
+    ],
+    "verified_fragments_for_review_only": [
+      {
+        "target_id": "evt_0da37ec7577bcd6b517d:fc:1",
+        "text": "뉴욕시 공립학교는 2026–27학년도 2K–8 학생의 대면 생성형 AI 사용을 유예한다. 보조공학 등 예외가 있으며 고등학생은 승인된 용도로 제한적으로 사용할 수 있다."
+      },
+      {
+        "target_id": "evt_0da37ec7577bcd6b517d:fc:2",
+        "text": "교사는 승인 규칙 아래 수업 준비·행정에 활용할 수 있으나 AI 채점과 학생 관련 결정은 금지된다."
+      }
+    ],
+    "dispatch_allowed": false,
+    "independent_review": "PENDING"
+  },
+  {
+    "event_id": "evt_69c74bc9d2234f20c095",
+    "guard_original": "AUTO_HOLD",
+    "guard_original_record": {
+      "analysis": {
+        "event_id": "evt_69c74bc9d2234f20c095",
+        "category": "ai_models",
+        "scores": {
+          "education_relevance": 15,
+          "ai_technical_importance": 18,
+          "teacher_student_impact": 5,
+          "social_industry_impact": 10,
+          "source_reliability": 9,
+          "recency": 10,
+          "total": 67
+        },
+        "summary": "IFA 2026에서 NVIDIA는 로컬 AI 성능을 강화하기 위한 여러 새로운 모델과 기술을 공개했다. Qwen은 다중 모달 MoE 모델인 Qwen3.8-Flash-Next와 코딩 및 에이전트 작업에 최적화된 Qwen3.8-27B를 발표했다. LTX는 영상 생성 모델 LTX 2.5를 최적화했으며, Z.ai는 멀티모달 MoE 모델인 GLM-5.3-Flash를 선보였다. 또한 300억 파라미터 규모의 Nemotron 3.5 Lightning 모델이 공개되어 다양한 NVIDIA 하드웨어 환경에서 구동될 예정이다.",
+        "why_it_matters": "로컬 환경에서 구동 가능한 고성능 모델들이 확산됨에 따라 외부 서버 의존 없이 강력한 AI 기능을 활용할 수 있는 기술적 환경이 조성되고 있다. 특히 에이전트 및 멀티모달 기능이 하드웨어와 통합됨으로써 로컬 컴퓨팅의 AI 활용 범위가 확대될 전망이다.",
+        "education_implication": "로컬 AI 모델의 발전은 교육용 디바이스에서 인터넷 연결 없이도 고성능 AI 모델을 사용할 수 있는 가능성을 제시한다. 이는 학생들의 데이터 프라이버시를 보호하고 오프라인 학습 환경에서도 고급 생성형 AI 도구를 활용하는 교육 혁신을 뒷받침할 수 있다.",
+        "classroom_use": "로컬 GPU가 탑재된 워크스테이션을 활용하여 클라우드 서버 없이 Qwen이나 Nemotron 모델을 사용하여 학생들이 자신만의 에이전트를 프로그래밍하거나 미디어 제작 프로젝트를 수행하는 교육 환경을 구성할 수 있다.",
+        "uncertainties": [
+          "공개된 모델들이 일반 교육용 하드웨어에서 원활하게 작동할 수 있는 최소 사양의 구체적 범위",
+          "이러한 로컬 모델들의 교육 현장 도입 시 고려해야 할 소프트웨어 관리 및 보안 가이드라인의 부재"
+        ],
+        "fact_check_targets": [
+          "Qwen3.8-Flash-Next의 멀티모달 성능 및 하드웨어 점유율",
+          "LTX 2.5의 영상 생성 속도 및 메모리 효율 개선 수치",
+          "Nemotron 3.5 Lightning이 지원하는 정확한 디바이스 범위",
+          "[AUTO_HOLD] summary: 300억 — No equal normalized quantity in any related candidate",
+          "[AUTO_HOLD] classroom_use: GPU — Specific named phrase absent from every related candidate"
+        ],
+        "hallucination_risk": "high"
+      },
+      "guard_status": "AUTO_HOLD",
+      "findings": [
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "IFA",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026\nQwen has released Qwen3.8-Flash-Next, an open weight multimodal MoE model, which can run locally on DGX Spark and DGX Station, along with Qwen3.8-27B, a 27-billion-parameter open model optimized for local agentic and coding workloads on NVIDIA GPUs.\n LTX’s LTX 2.5 is an open-world video generation model optimized for NVIDIA RTX GPUs, DGX Spark and DGX Station, with new NVFP4, FastVideo and ComfyUI enhancements for faster, more memory-efficient local generation. [...] Nemotron 3.5 Lightning — which can run on NVIDIA RTX PCs, RTX PRO Workstations, DGX Spark and Jetson — is a 30-billion parameter model that has been launched. Get started with Nemotron 3.5 Lightning today.\n Z.ai’s GLM-5.3-Flash is a multimodal mixture-of-experts (MoE) model that’s bringing agentic AI to DGX Station.\n",
+          "candidate_ids": [
+            "c5fea2be4f2543bc4a7e77b1"
+          ]
+        },
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "NVIDIA",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026\nQwen has released Qwen3.8-Flash-Next, an open weight multimodal MoE model, which can run locally on DGX Spark and DGX Station, along with Qwen3.8-27B, a 27-billion-parameter open model optimized for local agentic and coding workloads on NVIDIA GPUs.\n LTX’s LTX 2.5 is an open-world video generation model optimized for NVIDIA RTX GPUs, DGX Spark and DGX Station, with new NVFP4, FastVideo and ComfyUI enhancements for faster, more memory-efficient local generation. [...] Nemotron 3.5 Lightning — which can run on NVIDIA RTX PCs, RTX PRO Workstations, DGX Spark and Jetson — is a 30-billion parameter model that has been launched. Get started with Nemotron 3.5 Lightning today.\n Z.ai’s GLM-5.3-Flash is a multimodal mixture-of-experts (MoE) model that’s bringing agentic AI to DGX Station.\n",
+          "candidate_ids": [
+            "c5fea2be4f2543bc4a7e77b1"
+          ]
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "Qwen",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026\nQwen has released Qwen3.8-Flash-Next, an open weight multimodal MoE model, which can run locally on DGX Spark and DGX Station, along with Qwen3.8-27B, a 27-billion-parameter open model optimized for local agentic and coding workloads on NVIDIA GPUs.\n LTX’s LTX 2.5 is an open-world video generation model optimized for NVIDIA RTX GPUs, DGX Spark and DGX Station, with new NVFP4, FastVideo and ComfyUI enhancements for faster, more memory-efficient local generation. [...] Nemotron 3.5 Lightning — which can run on NVIDIA RTX PCs, RTX PRO Workstations, DGX Spark and Jetson — is a 30-billion parameter model that has been launched. Get started with Nemotron 3.5 Lightning today.\n Z.ai’s GLM-5.3-Flash is a multimodal mixture-of-experts (MoE) model that’s bringing agentic AI to DGX Station.\n",
+          "candidate_ids": [
+            "c5fea2be4f2543bc4a7e77b1"
+          ]
+        },
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "MoE",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026\nQwen has released Qwen3.8-Flash-Next, an open weight multimodal MoE model, which can run locally on DGX Spark and DGX Station, along with Qwen3.8-27B, a 27-billion-parameter open model optimized for local agentic and coding workloads on NVIDIA GPUs.\n LTX’s LTX 2.5 is an open-world video generation model optimized for NVIDIA RTX GPUs, DGX Spark and DGX Station, with new NVFP4, FastVideo and ComfyUI enhancements for faster, more memory-efficient local generation. [...] Nemotron 3.5 Lightning — which can run on NVIDIA RTX PCs, RTX PRO Workstations, DGX Spark and Jetson — is a 30-billion parameter model that has been launched. Get started with Nemotron 3.5 Lightning today.\n Z.ai’s GLM-5.3-Flash is a multimodal mixture-of-experts (MoE) model that’s bringing agentic AI to DGX Station.\n",
+          "candidate_ids": [
+            "c5fea2be4f2543bc4a7e77b1"
+          ]
+        },
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "Qwen3.8-Flash-Next",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026\nQwen has released Qwen3.8-Flash-Next, an open weight multimodal MoE model, which can run locally on DGX Spark and DGX Station, along with Qwen3.8-27B, a 27-billion-parameter open model optimized for local agentic and coding workloads on NVIDIA GPUs.\n LTX’s LTX 2.5 is an open-world video generation model optimized for NVIDIA RTX GPUs, DGX Spark and DGX Station, with new NVFP4, FastVideo and ComfyUI enhancements for faster, more memory-efficient local generation. [...] Nemotron 3.5 Lightning — which can run on NVIDIA RTX PCs, RTX PRO Workstations, DGX Spark and Jetson — is a 30-billion parameter model that has been launched. Get started with Nemotron 3.5 Lightning today.\n Z.ai’s GLM-5.3-Flash is a multimodal mixture-of-experts (MoE) model that’s bringing agentic AI to DGX Station.\n",
+          "candidate_ids": [
+            "c5fea2be4f2543bc4a7e77b1"
+          ]
+        },
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "Qwen3.8-27B",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026\nQwen has released Qwen3.8-Flash-Next, an open weight multimodal MoE model, which can run locally on DGX Spark and DGX Station, along with Qwen3.8-27B, a 27-billion-parameter open model optimized for local agentic and coding workloads on NVIDIA GPUs.\n LTX’s LTX 2.5 is an open-world video generation model optimized for NVIDIA RTX GPUs, DGX Spark and DGX Station, with new NVFP4, FastVideo and ComfyUI enhancements for faster, more memory-efficient local generation. [...] Nemotron 3.5 Lightning — which can run on NVIDIA RTX PCs, RTX PRO Workstations, DGX Spark and Jetson — is a 30-billion parameter model that has been launched. Get started with Nemotron 3.5 Lightning today.\n Z.ai’s GLM-5.3-Flash is a multimodal mixture-of-experts (MoE) model that’s bringing agentic AI to DGX Station.\n",
+          "candidate_ids": [
+            "c5fea2be4f2543bc4a7e77b1"
+          ]
+        },
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "LTX",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026\nQwen has released Qwen3.8-Flash-Next, an open weight multimodal MoE model, which can run locally on DGX Spark and DGX Station, along with Qwen3.8-27B, a 27-billion-parameter open model optimized for local agentic and coding workloads on NVIDIA GPUs.\n LTX’s LTX 2.5 is an open-world video generation model optimized for NVIDIA RTX GPUs, DGX Spark and DGX Station, with new NVFP4, FastVideo and ComfyUI enhancements for faster, more memory-efficient local generation. [...] Nemotron 3.5 Lightning — which can run on NVIDIA RTX PCs, RTX PRO Workstations, DGX Spark and Jetson — is a 30-billion parameter model that has been launched. Get started with Nemotron 3.5 Lightning today.\n Z.ai’s GLM-5.3-Flash is a multimodal mixture-of-experts (MoE) model that’s bringing agentic AI to DGX Station.\n",
+          "candidate_ids": [
+            "c5fea2be4f2543bc4a7e77b1"
+          ]
+        },
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "LTX",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026\nQwen has released Qwen3.8-Flash-Next, an open weight multimodal MoE model, which can run locally on DGX Spark and DGX Station, along with Qwen3.8-27B, a 27-billion-parameter open model optimized for local agentic and coding workloads on NVIDIA GPUs.\n LTX’s LTX 2.5 is an open-world video generation model optimized for NVIDIA RTX GPUs, DGX Spark and DGX Station, with new NVFP4, FastVideo and ComfyUI enhancements for faster, more memory-efficient local generation. [...] Nemotron 3.5 Lightning — which can run on NVIDIA RTX PCs, RTX PRO Workstations, DGX Spark and Jetson — is a 30-billion parameter model that has been launched. Get started with Nemotron 3.5 Lightning today.\n Z.ai’s GLM-5.3-Flash is a multimodal mixture-of-experts (MoE) model that’s bringing agentic AI to DGX Station.\n",
+          "candidate_ids": [
+            "c5fea2be4f2543bc4a7e77b1"
+          ]
+        },
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "Z.ai",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026\nQwen has released Qwen3.8-Flash-Next, an open weight multimodal MoE model, which can run locally on DGX Spark and DGX Station, along with Qwen3.8-27B, a 27-billion-parameter open model optimized for local agentic and coding workloads on NVIDIA GPUs.\n LTX’s LTX 2.5 is an open-world video generation model optimized for NVIDIA RTX GPUs, DGX Spark and DGX Station, with new NVFP4, FastVideo and ComfyUI enhancements for faster, more memory-efficient local generation. [...] Nemotron 3.5 Lightning — which can run on NVIDIA RTX PCs, RTX PRO Workstations, DGX Spark and Jetson — is a 30-billion parameter model that has been launched. Get started with Nemotron 3.5 Lightning today.\n Z.ai’s GLM-5.3-Flash is a multimodal mixture-of-experts (MoE) model that’s bringing agentic AI to DGX Station.\n",
+          "candidate_ids": [
+            "c5fea2be4f2543bc4a7e77b1"
+          ]
+        },
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "MoE",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026\nQwen has released Qwen3.8-Flash-Next, an open weight multimodal MoE model, which can run locally on DGX Spark and DGX Station, along with Qwen3.8-27B, a 27-billion-parameter open model optimized for local agentic and coding workloads on NVIDIA GPUs.\n LTX’s LTX 2.5 is an open-world video generation model optimized for NVIDIA RTX GPUs, DGX Spark and DGX Station, with new NVFP4, FastVideo and ComfyUI enhancements for faster, more memory-efficient local generation. [...] Nemotron 3.5 Lightning — which can run on NVIDIA RTX PCs, RTX PRO Workstations, DGX Spark and Jetson — is a 30-billion parameter model that has been launched. Get started with Nemotron 3.5 Lightning today.\n Z.ai’s GLM-5.3-Flash is a multimodal mixture-of-experts (MoE) model that’s bringing agentic AI to DGX Station.\n",
+          "candidate_ids": [
+            "c5fea2be4f2543bc4a7e77b1"
+          ]
+        },
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "GLM-5.3-Flash",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026\nQwen has released Qwen3.8-Flash-Next, an open weight multimodal MoE model, which can run locally on DGX Spark and DGX Station, along with Qwen3.8-27B, a 27-billion-parameter open model optimized for local agentic and coding workloads on NVIDIA GPUs.\n LTX’s LTX 2.5 is an open-world video generation model optimized for NVIDIA RTX GPUs, DGX Spark and DGX Station, with new NVFP4, FastVideo and ComfyUI enhancements for faster, more memory-efficient local generation. [...] Nemotron 3.5 Lightning — which can run on NVIDIA RTX PCs, RTX PRO Workstations, DGX Spark and Jetson — is a 30-billion parameter model that has been launched. Get started with Nemotron 3.5 Lightning today.\n Z.ai’s GLM-5.3-Flash is a multimodal mixture-of-experts (MoE) model that’s bringing agentic AI to DGX Station.\n",
+          "candidate_ids": [
+            "c5fea2be4f2543bc4a7e77b1"
+          ]
+        },
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "Nemotron",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026\nQwen has released Qwen3.8-Flash-Next, an open weight multimodal MoE model, which can run locally on DGX Spark and DGX Station, along with Qwen3.8-27B, a 27-billion-parameter open model optimized for local agentic and coding workloads on NVIDIA GPUs.\n LTX’s LTX 2.5 is an open-world video generation model optimized for NVIDIA RTX GPUs, DGX Spark and DGX Station, with new NVFP4, FastVideo and ComfyUI enhancements for faster, more memory-efficient local generation. [...] Nemotron 3.5 Lightning — which can run on NVIDIA RTX PCs, RTX PRO Workstations, DGX Spark and Jetson — is a 30-billion parameter model that has been launched. Get started with Nemotron 3.5 Lightning today.\n Z.ai’s GLM-5.3-Flash is a multimodal mixture-of-experts (MoE) model that’s bringing agentic AI to DGX Station.\n",
+          "candidate_ids": [
+            "c5fea2be4f2543bc4a7e77b1"
+          ]
+        },
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "Lightning",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026\nQwen has released Qwen3.8-Flash-Next, an open weight multimodal MoE model, which can run locally on DGX Spark and DGX Station, along with Qwen3.8-27B, a 27-billion-parameter open model optimized for local agentic and coding workloads on NVIDIA GPUs.\n LTX’s LTX 2.5 is an open-world video generation model optimized for NVIDIA RTX GPUs, DGX Spark and DGX Station, with new NVFP4, FastVideo and ComfyUI enhancements for faster, more memory-efficient local generation. [...] Nemotron 3.5 Lightning — which can run on NVIDIA RTX PCs, RTX PRO Workstations, DGX Spark and Jetson — is a 30-billion parameter model that has been launched. Get started with Nemotron 3.5 Lightning today.\n Z.ai’s GLM-5.3-Flash is a multimodal mixture-of-experts (MoE) model that’s bringing agentic AI to DGX Station.\n",
+          "candidate_ids": [
+            "c5fea2be4f2543bc4a7e77b1"
+          ]
+        },
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "NVIDIA",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026\nQwen has released Qwen3.8-Flash-Next, an open weight multimodal MoE model, which can run locally on DGX Spark and DGX Station, along with Qwen3.8-27B, a 27-billion-parameter open model optimized for local agentic and coding workloads on NVIDIA GPUs.\n LTX’s LTX 2.5 is an open-world video generation model optimized for NVIDIA RTX GPUs, DGX Spark and DGX Station, with new NVFP4, FastVideo and ComfyUI enhancements for faster, more memory-efficient local generation. [...] Nemotron 3.5 Lightning — which can run on NVIDIA RTX PCs, RTX PRO Workstations, DGX Spark and Jetson — is a 30-billion parameter model that has been launched. Get started with Nemotron 3.5 Lightning today.\n Z.ai’s GLM-5.3-Flash is a multimodal mixture-of-experts (MoE) model that’s bringing agentic AI to DGX Station.\n",
+          "candidate_ids": [
+            "c5fea2be4f2543bc4a7e77b1"
+          ]
+        },
+        {
+          "code": "NUMBER_SUPPORTED",
+          "value": "2026",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Equal literal quantity; semantic claim still requires fact checking",
+          "matched_input": "2026",
+          "candidate_ids": [
+            "c5fea2be4f2543bc4a7e77b1"
+          ]
+        },
+        {
+          "code": "NUMBER_SUPPORTED",
+          "value": "3.8",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Equal literal quantity; semantic claim still requires fact checking",
+          "matched_input": "3.8",
+          "candidate_ids": [
+            "c5fea2be4f2543bc4a7e77b1"
+          ]
+        },
+        {
+          "code": "NUMBER_SUPPORTED",
+          "value": "3.8",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Equal literal quantity; semantic claim still requires fact checking",
+          "matched_input": "3.8",
+          "candidate_ids": [
+            "c5fea2be4f2543bc4a7e77b1"
+          ]
+        },
+        {
+          "code": "NUMBER_SUPPORTED",
+          "value": "27",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Equal literal quantity; semantic claim still requires fact checking",
+          "matched_input": "27",
+          "candidate_ids": [
+            "c5fea2be4f2543bc4a7e77b1"
+          ]
+        },
+        {
+          "code": "NUMBER_SUPPORTED",
+          "value": "2.5",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Equal literal quantity; semantic claim still requires fact checking",
+          "matched_input": "2.5",
+          "candidate_ids": [
+            "c5fea2be4f2543bc4a7e77b1"
+          ]
+        },
+        {
+          "code": "NUMBER_SUPPORTED",
+          "value": "5.3",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Equal literal quantity; semantic claim still requires fact checking",
+          "matched_input": "5.3",
+          "candidate_ids": [
+            "c5fea2be4f2543bc4a7e77b1"
+          ]
+        },
+        {
+          "code": "UNSUPPORTED_NUMBER_OR_DATE",
+          "value": "300억",
+          "status": "AUTO_HOLD",
+          "output_field": "summary",
+          "reason": "No equal normalized quantity in any related candidate",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "NUMBER_SUPPORTED",
+          "value": "3.5",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Equal literal quantity; semantic claim still requires fact checking",
+          "matched_input": "3.5",
+          "candidate_ids": [
+            "c5fea2be4f2543bc4a7e77b1"
+          ]
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "why_it_matters",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "why_it_matters",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "education_implication",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "education_implication",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "education_implication",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "UNSUPPORTED_ENTITY_MODEL_POLICY",
+          "value": "GPU",
+          "status": "AUTO_HOLD",
+          "output_field": "classroom_use",
+          "reason": "Specific named phrase absent from every related candidate",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "Qwen",
+          "status": "PASS",
+          "output_field": "classroom_use",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026\nQwen has released Qwen3.8-Flash-Next, an open weight multimodal MoE model, which can run locally on DGX Spark and DGX Station, along with Qwen3.8-27B, a 27-billion-parameter open model optimized for local agentic and coding workloads on NVIDIA GPUs.\n LTX’s LTX 2.5 is an open-world video generation model optimized for NVIDIA RTX GPUs, DGX Spark and DGX Station, with new NVFP4, FastVideo and ComfyUI enhancements for faster, more memory-efficient local generation. [...] Nemotron 3.5 Lightning — which can run on NVIDIA RTX PCs, RTX PRO Workstations, DGX Spark and Jetson — is a 30-billion parameter model that has been launched. Get started with Nemotron 3.5 Lightning today.\n Z.ai’s GLM-5.3-Flash is a multimodal mixture-of-experts (MoE) model that’s bringing agentic AI to DGX Station.\n",
+          "candidate_ids": [
+            "c5fea2be4f2543bc4a7e77b1"
+          ]
+        },
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "Nemotron",
+          "status": "PASS",
+          "output_field": "classroom_use",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026\nQwen has released Qwen3.8-Flash-Next, an open weight multimodal MoE model, which can run locally on DGX Spark and DGX Station, along with Qwen3.8-27B, a 27-billion-parameter open model optimized for local agentic and coding workloads on NVIDIA GPUs.\n LTX’s LTX 2.5 is an open-world video generation model optimized for NVIDIA RTX GPUs, DGX Spark and DGX Station, with new NVFP4, FastVideo and ComfyUI enhancements for faster, more memory-efficient local generation. [...] Nemotron 3.5 Lightning — which can run on NVIDIA RTX PCs, RTX PRO Workstations, DGX Spark and Jetson — is a 30-billion parameter model that has been launched. Get started with Nemotron 3.5 Lightning today.\n Z.ai’s GLM-5.3-Flash is a multimodal mixture-of-experts (MoE) model that’s bringing agentic AI to DGX Station.\n",
+          "candidate_ids": [
+            "c5fea2be4f2543bc4a7e77b1"
+          ]
+        }
+      ],
+      "fact_check_evidence": [
+        {
+          "code": "UNSUPPORTED_NUMBER_OR_DATE",
+          "value": "300억",
+          "status": "AUTO_HOLD",
+          "output_field": "summary",
+          "reason": "No equal normalized quantity in any related candidate",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "UNSUPPORTED_ENTITY_MODEL_POLICY",
+          "value": "GPU",
+          "status": "AUTO_HOLD",
+          "output_field": "classroom_use",
+          "reason": "Specific named phrase absent from every related candidate",
+          "matched_input": null,
+          "candidate_ids": []
+        }
+      ],
+      "original_model_risk": "low",
+      "verification": "NOT_FACT_CHECKED"
+    },
+    "guard_original_sha256": "9b29c7447b402555ad66c41e367e789247afe492fe09e1ddd06aa74f19e0d0c1",
+    "original_targets": [
+      "Qwen3.8-Flash-Next의 멀티모달 성능 및 하드웨어 점유율",
+      "LTX 2.5의 영상 생성 속도 및 메모리 효율 개선 수치",
+      "Nemotron 3.5 Lightning이 지원하는 정확한 디바이스 범위",
+      "[AUTO_HOLD] summary: 300억 — No equal normalized quantity in any related candidate",
+      "[AUTO_HOLD] classroom_use: GPU — Specific named phrase absent from every related candidate"
+    ],
+    "original_model_risk": "low",
+    "original_scores": {
+      "education_relevance": 15,
+      "ai_technical_importance": 18,
+      "teacher_student_impact": 5,
+      "social_industry_impact": 10,
+      "source_reliability": 9,
+      "recency": 10,
+      "total": 67
+    },
+    "verification_final": "VERIFIED_WITH_CONTEXT",
+    "claims": [
+      {
+        "event_id": "evt_69c74bc9d2234f20c095",
+        "target_id": "evt_69c74bc9d2234f20c095:fc:0",
+        "original_target_indices": [
+          0
+        ],
+        "claim": "Qwen3.8-Flash-Next의 멀티모달 성능 및 하드웨어 점유율",
+        "claim_type": "other",
+        "guard_status": "AUTO_HOLD",
+        "requested_status": "UNRESOLVED",
+        "reason": "모델 존재와 구동 장치는 확인했지만 멀티모달 성능·점유율 수치 검증은 없다.",
+        "core": false,
+        "administrative": false,
+        "evidence_refs": [
+          {
+            "source_id": "original_69c74bc9d2234f20c095_0",
+            "note_index": 0
+          }
+        ],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": false,
+        "evidence": [
+          {
+            "source_id": "original_69c74bc9d2234f20c095_0",
+            "source_url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark",
+            "source_name": "blogs.nvidia.com",
+            "source_type": "official",
+            "evidence_text": "8월 모델 요약에 Nemotron 3.5 Lightning 30-billion과 RTX PC·RTX PRO·DGX Spark·Jetson 지원을 명시한다. Qwen3.8 두 모델과 GLM-5.3-Flash, LTX 2.5 GPU 최적화도 설명한다.",
+            "locator": "August roundup; Local Agents; PAIR",
+            "access": "body",
+            "candidate_id": "c5fea2be4f2543bc4a7e77b1"
+          }
+        ],
+        "verification_status": "UNRESOLVED",
+        "validation_blocks": []
+      },
+      {
+        "event_id": "evt_69c74bc9d2234f20c095",
+        "target_id": "evt_69c74bc9d2234f20c095:fc:1",
+        "original_target_indices": [
+          1
+        ],
+        "claim": "LTX 2.5의 영상 생성 속도 및 메모리 효율 개선 수치",
+        "claim_type": "other",
+        "guard_status": "AUTO_HOLD",
+        "requested_status": "VERIFIED_CONTEXTUAL",
+        "reason": "최적화 소개와 실측 개선 수치를 구분.",
+        "core": false,
+        "administrative": false,
+        "evidence_refs": [
+          {
+            "source_id": "original_69c74bc9d2234f20c095_0",
+            "note_index": 0
+          }
+        ],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": true,
+        "replacement": "NVIDIA는 LTX 2.5의 GPU 최적화를 소개했다. 여기서는 구체적인 성능 개선 수치를 확정하지 않는다.",
+        "evidence": [
+          {
+            "source_id": "original_69c74bc9d2234f20c095_0",
+            "source_url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark",
+            "source_name": "blogs.nvidia.com",
+            "source_type": "official",
+            "evidence_text": "8월 모델 요약에 Nemotron 3.5 Lightning 30-billion과 RTX PC·RTX PRO·DGX Spark·Jetson 지원을 명시한다. Qwen3.8 두 모델과 GLM-5.3-Flash, LTX 2.5 GPU 최적화도 설명한다.",
+            "locator": "August roundup; Local Agents; PAIR",
+            "access": "body",
+            "candidate_id": "c5fea2be4f2543bc4a7e77b1"
+          }
+        ],
+        "verification_status": "VERIFIED_CONTEXTUAL",
+        "validation_blocks": []
+      },
+      {
+        "event_id": "evt_69c74bc9d2234f20c095",
+        "target_id": "evt_69c74bc9d2234f20c095:fc:2",
+        "original_target_indices": [
+          2
+        ],
+        "claim": "Nemotron 3.5 Lightning이 지원하는 정확한 디바이스 범위",
+        "claim_type": "model",
+        "guard_status": "AUTO_HOLD",
+        "requested_status": "VERIFIED_SUPPORTED",
+        "reason": "공식 지원 장치 명시.",
+        "core": true,
+        "administrative": false,
+        "evidence_refs": [
+          {
+            "source_id": "original_69c74bc9d2234f20c095_0",
+            "note_index": 0
+          }
+        ],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": true,
+        "safe_statement": "공식 소개에 따르면 Nemotron 3.5 Lightning은 RTX PC·RTX PRO 워크스테이션·DGX Spark·Jetson에서 실행할 수 있다.",
+        "evidence": [
+          {
+            "source_id": "original_69c74bc9d2234f20c095_0",
+            "source_url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark",
+            "source_name": "blogs.nvidia.com",
+            "source_type": "official",
+            "evidence_text": "8월 모델 요약에 Nemotron 3.5 Lightning 30-billion과 RTX PC·RTX PRO·DGX Spark·Jetson 지원을 명시한다. Qwen3.8 두 모델과 GLM-5.3-Flash, LTX 2.5 GPU 최적화도 설명한다.",
+            "locator": "August roundup; Local Agents; PAIR",
+            "access": "body",
+            "candidate_id": "c5fea2be4f2543bc4a7e77b1"
+          }
+        ],
+        "verification_status": "VERIFIED_SUPPORTED",
+        "validation_blocks": []
+      },
+      {
+        "event_id": "evt_69c74bc9d2234f20c095",
+        "target_id": "evt_69c74bc9d2234f20c095:fc:3",
+        "original_target_indices": [
+          3
+        ],
+        "claim": "Nemotron 3.5 Lightning의 300억 파라미터",
+        "claim_type": "number",
+        "guard_status": "AUTO_HOLD",
+        "requested_status": "VERIFIED_EQUIVALENT",
+        "reason": "30 billion=300억의 규모 동등성; 활성 파라미터 수로 바꾸지 않는다.",
+        "core": true,
+        "administrative": false,
+        "evidence_refs": [
+          {
+            "source_id": "original_69c74bc9d2234f20c095_0",
+            "note_index": 0
+          }
+        ],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": true,
+        "equivalence_context": "Total parameters: 30 × 10^9 = 300 × 10^8",
+        "evidence": [
+          {
+            "source_id": "original_69c74bc9d2234f20c095_0",
+            "source_url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark",
+            "source_name": "blogs.nvidia.com",
+            "source_type": "official",
+            "evidence_text": "8월 모델 요약에 Nemotron 3.5 Lightning 30-billion과 RTX PC·RTX PRO·DGX Spark·Jetson 지원을 명시한다. Qwen3.8 두 모델과 GLM-5.3-Flash, LTX 2.5 GPU 최적화도 설명한다.",
+            "locator": "August roundup; Local Agents; PAIR",
+            "access": "body",
+            "candidate_id": "c5fea2be4f2543bc4a7e77b1"
+          }
+        ],
+        "verification_status": "VERIFIED_EQUIVALENT",
+        "validation_blocks": []
+      },
+      {
+        "event_id": "evt_69c74bc9d2234f20c095",
+        "target_id": "evt_69c74bc9d2234f20c095:fc:4",
+        "original_target_indices": [
+          4
+        ],
+        "claim": "로컬 AI에서 GPU 사용",
+        "claim_type": "entity",
+        "guard_status": "AUTO_HOLD",
+        "requested_status": "VERIFIED_SUPPORTED",
+        "reason": "공식 본문이 GPU를 명시한다.",
+        "core": false,
+        "administrative": false,
+        "evidence_refs": [
+          {
+            "source_id": "original_69c74bc9d2234f20c095_0",
+            "note_index": 0
+          }
+        ],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": true,
+        "evidence": [
+          {
+            "source_id": "original_69c74bc9d2234f20c095_0",
+            "source_url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark",
+            "source_name": "blogs.nvidia.com",
+            "source_type": "official",
+            "evidence_text": "8월 모델 요약에 Nemotron 3.5 Lightning 30-billion과 RTX PC·RTX PRO·DGX Spark·Jetson 지원을 명시한다. Qwen3.8 두 모델과 GLM-5.3-Flash, LTX 2.5 GPU 최적화도 설명한다.",
+            "locator": "August roundup; Local Agents; PAIR",
+            "access": "body",
+            "candidate_id": "c5fea2be4f2543bc4a7e77b1"
+          }
+        ],
+        "verification_status": "VERIFIED_SUPPORTED",
+        "validation_blocks": []
+      },
+      {
+        "event_id": "evt_69c74bc9d2234f20c095",
+        "target_id": "evt_69c74bc9d2234f20c095:extra:5",
+        "original_target_indices": [],
+        "claim": "모든 모델이 IFA에서 새로 공개되었다는 시간적 묶음",
+        "claim_type": "date",
+        "guard_status": "AUTO_HOLD",
+        "requested_status": "VERIFIED_CONTEXTUAL",
+        "reason": "원문은 8월 요약과 당일 발표를 나눈다.",
+        "core": true,
+        "administrative": false,
+        "evidence_refs": [
+          {
+            "source_id": "original_69c74bc9d2234f20c095_0",
+            "note_index": 1
+          }
+        ],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": true,
+        "replacement": "9월 3일 NVIDIA의 IFA 글은 당일 발표와 8월 모델 출시 요약을 함께 다룬다.",
+        "evidence": [
+          {
+            "source_id": "original_69c74bc9d2234f20c095_0",
+            "source_url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark",
+            "source_name": "blogs.nvidia.com",
+            "source_type": "official",
+            "evidence_text": "9월 3일 IFA 발표와 8월 모델 출시를 구분한다. PAIR는 가정 내 호환 컴퓨터로 추론 요청을 분산하는 무료 오픈소스 도구다.",
+            "locator": "August roundup; Local Agents; PAIR",
+            "access": "body",
+            "candidate_id": "c5fea2be4f2543bc4a7e77b1"
+          }
+        ],
+        "verification_status": "VERIFIED_CONTEXTUAL",
+        "validation_blocks": []
+      }
+    ],
+    "removed_claims": [
+      {
+        "target_id": "evt_69c74bc9d2234f20c095:fc:0",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "hold_reasons": [],
+    "reject_reason": null,
+    "source_urls": [
+      "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark"
+    ],
+    "safe_content": [
+      {
+        "target_id": "evt_69c74bc9d2234f20c095:fc:1",
+        "text": "NVIDIA는 LTX 2.5의 GPU 최적화를 소개했다. 여기서는 구체적인 성능 개선 수치를 확정하지 않는다."
+      },
+      {
+        "target_id": "evt_69c74bc9d2234f20c095:fc:2",
+        "text": "공식 소개에 따르면 Nemotron 3.5 Lightning은 RTX PC·RTX PRO 워크스테이션·DGX Spark·Jetson에서 실행할 수 있다."
+      },
+      {
+        "target_id": "evt_69c74bc9d2234f20c095:extra:5",
+        "text": "9월 3일 NVIDIA의 IFA 글은 당일 발표와 8월 모델 출시 요약을 함께 다룬다."
+      }
+    ],
+    "verified_fragments_for_review_only": [
+      {
+        "target_id": "evt_69c74bc9d2234f20c095:fc:1",
+        "text": "NVIDIA는 LTX 2.5의 GPU 최적화를 소개했다. 여기서는 구체적인 성능 개선 수치를 확정하지 않는다."
+      },
+      {
+        "target_id": "evt_69c74bc9d2234f20c095:fc:2",
+        "text": "공식 소개에 따르면 Nemotron 3.5 Lightning은 RTX PC·RTX PRO 워크스테이션·DGX Spark·Jetson에서 실행할 수 있다."
+      },
+      {
+        "target_id": "evt_69c74bc9d2234f20c095:extra:5",
+        "text": "9월 3일 NVIDIA의 IFA 글은 당일 발표와 8월 모델 출시 요약을 함께 다룬다."
+      }
+    ],
+    "dispatch_allowed": false,
+    "independent_review": "PENDING"
+  },
+  {
+    "event_id": "evt_d7f90f35fad9bf6b35e1",
+    "guard_original": "AUTO_HOLD",
+    "guard_original_record": {
+      "analysis": {
+        "event_id": "evt_d7f90f35fad9bf6b35e1",
+        "category": "policy_ethics",
+        "scores": {
+          "education_relevance": 28,
+          "ai_technical_importance": 10,
+          "teacher_student_impact": 12,
+          "social_industry_impact": 10,
+          "source_reliability": 8,
+          "recency": 10,
+          "total": 78
+        },
+        "summary": "고등교육 기관 내 AI 도입이 증가함에 따라 학문적 정직성, 데이터 보안, 지식 재산권, 그리고 AI 모델이 야기할 수 있는 윤리적 편향성 등에 대한 거버넌스 강화가 강조되고 있습니다. AALRR은 대학 내 교직원 및 학생의 AI 활용에 관한 정책을 명확히 규정하고, 특히 기밀 데이터의 유출 방지 및 AI 결과물에 대한 인간의 검토와 최종 책임 강화가 필요하다고 제언했습니다. UC Berkeley Law 등의 사례와 같이 기존 교육 기관들은 각자의 학문적 표준과 규정 준수를 결합한 개별 AI 정책을 수립하고 있습니다.",
+        "why_it_matters": "대학 내 AI 활용이 보편화되는 가운데, 기존 학칙만으로는 복잡한 데이터 프라이버시 및 학문적 윤리 문제를 충분히 다루기 어렵기 때문입니다. AI 생성 결과물의 오류 및 편향성 문제에 대해 기관과 개인의 책임을 명확히 규정하는 체계적인 가이드라인 마련은 교육 현장의 법적 리스크를 완화하고 AI의 신뢰성 있는 도입을 돕는 필수적인 절차입니다.",
+        "education_implication": "고등교육 기관은 AI를 활용한 학습 및 연구 활동의 허용 범위를 구체적으로 정의한 학칙 업데이트가 필요합니다. 특히 AI 사용에 대한 공개 의무(disclosure)와 금지 사항을 명시하고, AI를 보조 도구로 활용하되 인간이 최종 결과물에 대한 책임을 지는 책임 기반 모델 도입이 중요합니다.",
+        "classroom_use": "교수자는 수업 계획서에 AI 활용 여부와 출처 표기 방법을 명확히 명시하고, 학생들이 AI를 연구 보조 도구로 사용할 때 준수해야 할 데이터 보안 및 윤리 가이드라인을 제공할 수 있습니다. AI가 생성한 결과물에 대해 비판적으로 검토하고 사실 관계를 직접 확인하는 과제를 통해 학생들의 AI 리터러시를 교육할 수 있습니다.",
+        "uncertainties": [
+          "각 교육 기관마다 AI 정책의 수립 수준과 적용 범위가 상이할 수 있음",
+          "기술적 진보에 따른 정책 업데이트 주기가 법적 혹은 제도적 변화를 따라가지 못할 가능성",
+          "공개된 정책이 실제 교육 현장에서 AI 오남용을 효과적으로 억제할 수 있을지에 대한 실효성 여부"
+        ],
+        "fact_check_targets": [
+          "UC Berkeley Law의 구체적인 AI 사용 정책 내용",
+          "Chancellor’s guidance의 구체적인 권고 사항 및 가이드라인 내용",
+          "교육 기관의 AI 정책 위반 시 실제 적용되는 징계 사례",
+          "[AUTO_HOLD] summary: AALRR — Specific named phrase absent from every related candidate"
+        ],
+        "hallucination_risk": "high"
+      },
+      "guard_status": "AUTO_HOLD",
+      "findings": [
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "UNSUPPORTED_ENTITY_MODEL_POLICY",
+          "value": "AALRR",
+          "status": "AUTO_HOLD",
+          "output_field": "summary",
+          "reason": "Specific named phrase absent from every related candidate",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "UC Berkeley Law",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "Responsible AI Usage in Higher Education: Governance, Academic Integrity, and Fraud/Compliance Risks\nFaculty, administrators, and staff increasingly use AI for research, communications, data analysis, and administrative functions, raising important questions regarding confidentiality, data privacy, accuracy, intellectual property, and oversight. AI also raises ethical concerns regarding perpetuating bias, copyright, data privacy, accuracy, and environmental impact. Policy language should address human review of AI outputs, prohibit entry of confidential or regulated data into public tools, and [...] 1. Update academic integrity and personnel policies to clearly define acceptable AI use for students and employees, including disclosure expectations and prohibited uses. Existing policies often predate AI and lack clarity on permissibility and required citations.\n2. Require human oversight of AI-generated work and make employees accountable for final work product. [...] After reviewing the Chancellor’s guidance and policy framework, CCCs can learn a lot about tailoring an AI policy for their district from other California public educational institutions. For example, after using the Chancellor’s Guidance, UC Berkeley Law has published its own AI use policy as it relates to academic integrity.  This policy acknowledges the potential value of AI tools while also outlining prohibited uses and the need for compliance with both the law school’s academic standards\n",
+          "candidate_ids": [
+            "049f73e73aaa39975ae4be4d"
+          ]
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "why_it_matters",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "why_it_matters",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "why_it_matters",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "education_implication",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "education_implication",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "education_implication",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "classroom_use",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "classroom_use",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "classroom_use",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "classroom_use",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        }
+      ],
+      "fact_check_evidence": [
+        {
+          "code": "UNSUPPORTED_ENTITY_MODEL_POLICY",
+          "value": "AALRR",
+          "status": "AUTO_HOLD",
+          "output_field": "summary",
+          "reason": "Specific named phrase absent from every related candidate",
+          "matched_input": null,
+          "candidate_ids": []
+        }
+      ],
+      "original_model_risk": "low",
+      "verification": "NOT_FACT_CHECKED"
+    },
+    "guard_original_sha256": "6b256c846f2991344ed75495a7c71abf87d2821aa9ec9b95fb539fcab0167f9c",
+    "original_targets": [
+      "UC Berkeley Law의 구체적인 AI 사용 정책 내용",
+      "Chancellor’s guidance의 구체적인 권고 사항 및 가이드라인 내용",
+      "교육 기관의 AI 정책 위반 시 실제 적용되는 징계 사례",
+      "[AUTO_HOLD] summary: AALRR — Specific named phrase absent from every related candidate"
+    ],
+    "original_model_risk": "low",
+    "original_scores": {
+      "education_relevance": 28,
+      "ai_technical_importance": 10,
+      "teacher_student_impact": 12,
+      "social_industry_impact": 10,
+      "source_reliability": 8,
+      "recency": 10,
+      "total": 78
+    },
+    "verification_final": "VERIFIED_WITH_CONTEXT",
+    "claims": [
+      {
+        "event_id": "evt_d7f90f35fad9bf6b35e1",
+        "target_id": "evt_d7f90f35fad9bf6b35e1:fc:0",
+        "original_target_indices": [
+          0
+        ],
+        "claim": "UC Berkeley Law의 구체적인 AI 사용 정책 내용",
+        "claim_type": "policy",
+        "guard_status": "AUTO_HOLD",
+        "requested_status": "VERIFIED_SUPPORTED",
+        "reason": "대학 자체 정책 원문 확인.",
+        "core": true,
+        "administrative": false,
+        "evidence_refs": [
+          {
+            "source_id": "berkeley",
+            "note_index": 0
+          }
+        ],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": true,
+        "safe_statement": "Berkeley Law는 과제·시험 AI 사용의 기본 금지 범위와 교수의 사전 서면 예외, 학생의 정확성 책임을 규정한다.",
+        "evidence": [
+          {
+            "source_id": "berkeley",
+            "source_url": "https://www.law.berkeley.edu/academics/registrar/academic-rules/artificial-intelligence-policy/",
+            "source_name": "UC Berkeley Law",
+            "source_type": "official",
+            "evidence_text": "학점 과제의 구상·작성·수정·번역과 시험 AI 사용에 기본 금지 규칙이 있다. 교수의 사전 서면 예외와 공개 요건, 제한적인 출처 탐색 허용, 학생의 정확성 책임을 명시한다.",
+            "locator": "Effective Summer 2026; Rule",
+            "access": "body",
+            "candidate_id": null
+          }
+        ],
+        "verification_status": "VERIFIED_SUPPORTED",
+        "validation_blocks": []
+      },
+      {
+        "event_id": "evt_d7f90f35fad9bf6b35e1",
+        "target_id": "evt_d7f90f35fad9bf6b35e1:fc:1",
+        "original_target_indices": [
+          1
+        ],
+        "claim": "Chancellor’s guidance의 구체적인 권고 사항 및 가이드라인 내용",
+        "claim_type": "policy",
+        "guard_status": "AUTO_HOLD",
+        "requested_status": "VERIFIED_SUPPORTED",
+        "reason": "공식 기관 원칙 직접 확인.",
+        "core": true,
+        "administrative": false,
+        "evidence_refs": [
+          {
+            "source_id": "cccco",
+            "note_index": 0
+          }
+        ],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": true,
+        "evidence": [
+          {
+            "source_id": "cccco",
+            "source_url": "https://ai.cccco.edu/guidance-and-policy/",
+            "source_name": "California Community Colleges Chancellor Office",
+            "source_type": "official",
+            "evidence_text": "HUMANS 원칙은 인간 중심, 접근성, 개인정보 통제, 차별 방지, 고지와 설명, 안전을 포함한다. 개별 기관의 실제 징계 사례를 입증하는 자료는 아니다.",
+            "locator": "Our Approach / HUMANS / Official Guidance",
+            "access": "body",
+            "candidate_id": null
+          }
+        ],
+        "verification_status": "VERIFIED_SUPPORTED",
+        "validation_blocks": []
+      },
+      {
+        "event_id": "evt_d7f90f35fad9bf6b35e1",
+        "target_id": "evt_d7f90f35fad9bf6b35e1:fc:2",
+        "original_target_indices": [
+          2
+        ],
+        "claim": "교육 기관의 AI 정책 위반 시 실제 적용되는 징계 사례",
+        "claim_type": "other",
+        "guard_status": "AUTO_HOLD",
+        "requested_status": "UNRESOLVED",
+        "reason": "실제 개별 징계 사례가 없으므로 사례 존재를 생성하지 않는다.",
+        "core": false,
+        "administrative": false,
+        "evidence_refs": [
+          {
+            "source_id": "original_d7f90f35fad9bf6b35e1_0",
+            "note_index": 0
+          },
+          {
+            "source_id": "berkeley",
+            "note_index": 0
+          }
+        ],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": false,
+        "evidence": [
+          {
+            "source_id": "berkeley",
+            "source_url": "https://www.law.berkeley.edu/academics/registrar/academic-rules/artificial-intelligence-policy/",
+            "source_name": "UC Berkeley Law",
+            "source_type": "official",
+            "evidence_text": "학점 과제의 구상·작성·수정·번역과 시험 AI 사용에 기본 금지 규칙이 있다. 교수의 사전 서면 예외와 공개 요건, 제한적인 출처 탐색 허용, 학생의 정확성 책임을 명시한다.",
+            "locator": "Effective Summer 2026; Rule",
+            "access": "body",
+            "candidate_id": null
+          },
+          {
+            "source_id": "original_d7f90f35fad9bf6b35e1_0",
+            "source_url": "https://www.aalrr.com/EdLawConnectBlog/responsible-ai-usage-in-higher-education-governance-academic-integrity-and-fraud-compliance-risks",
+            "source_name": "www.aalrr.com",
+            "source_type": "specialist",
+            "evidence_text": "법률회사 AALRR은 인간 검토·최종 책임·기밀정보 보호를 권고하고 Berkeley Law를 예로 든다. 개별 실제 징계 사건은 이 글에서 제시하지 않는다.",
+            "locator": "Quick Checklist & Next Steps; Lessons from Early Adopters",
+            "access": "body",
+            "candidate_id": "049f73e73aaa39975ae4be4d"
+          }
+        ],
+        "verification_status": "UNRESOLVED",
+        "validation_blocks": []
+      },
+      {
+        "event_id": "evt_d7f90f35fad9bf6b35e1",
+        "target_id": "evt_d7f90f35fad9bf6b35e1:fc:3",
+        "original_target_indices": [
+          3
+        ],
+        "claim": "AALRR이 이 법률 해설의 발행기관이다.",
+        "claim_type": "entity",
+        "guard_status": "AUTO_HOLD",
+        "requested_status": "VERIFIED_EQUIVALENT",
+        "reason": "AALRR 도메인·발행기관 명칭 및 본문 자칭 일치.",
+        "core": true,
+        "administrative": false,
+        "evidence_refs": [
+          {
+            "source_id": "original_d7f90f35fad9bf6b35e1_0",
+            "note_index": 0
+          }
+        ],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": true,
+        "equivalence_context": "Atkinson, Andelson, Loya, Ruud & Romo acronym",
+        "safe_statement": "AALRR의 해설은 AI 업무의 인간 검토와 기밀정보 보호를 권고한다.",
+        "evidence": [
+          {
+            "source_id": "original_d7f90f35fad9bf6b35e1_0",
+            "source_url": "https://www.aalrr.com/EdLawConnectBlog/responsible-ai-usage-in-higher-education-governance-academic-integrity-and-fraud-compliance-risks",
+            "source_name": "www.aalrr.com",
+            "source_type": "specialist",
+            "evidence_text": "법률회사 AALRR은 인간 검토·최종 책임·기밀정보 보호를 권고하고 Berkeley Law를 예로 든다. 개별 실제 징계 사건은 이 글에서 제시하지 않는다.",
+            "locator": "Quick Checklist & Next Steps; Lessons from Early Adopters",
+            "access": "body",
+            "candidate_id": "049f73e73aaa39975ae4be4d"
+          }
+        ],
+        "verification_status": "VERIFIED_EQUIVALENT",
+        "validation_blocks": []
+      }
+    ],
+    "removed_claims": [
+      {
+        "target_id": "evt_d7f90f35fad9bf6b35e1:fc:2",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "hold_reasons": [],
+    "reject_reason": null,
+    "source_urls": [
+      "https://www.law.berkeley.edu/academics/registrar/academic-rules/artificial-intelligence-policy/",
+      "https://ai.cccco.edu/guidance-and-policy/",
+      "https://www.aalrr.com/EdLawConnectBlog/responsible-ai-usage-in-higher-education-governance-academic-integrity-and-fraud-compliance-risks"
+    ],
+    "safe_content": [
+      {
+        "target_id": "evt_d7f90f35fad9bf6b35e1:fc:0",
+        "text": "Berkeley Law는 과제·시험 AI 사용의 기본 금지 범위와 교수의 사전 서면 예외, 학생의 정확성 책임을 규정한다."
+      },
+      {
+        "target_id": "evt_d7f90f35fad9bf6b35e1:fc:3",
+        "text": "AALRR의 해설은 AI 업무의 인간 검토와 기밀정보 보호를 권고한다."
+      }
+    ],
+    "verified_fragments_for_review_only": [
+      {
+        "target_id": "evt_d7f90f35fad9bf6b35e1:fc:0",
+        "text": "Berkeley Law는 과제·시험 AI 사용의 기본 금지 범위와 교수의 사전 서면 예외, 학생의 정확성 책임을 규정한다."
+      },
+      {
+        "target_id": "evt_d7f90f35fad9bf6b35e1:fc:3",
+        "text": "AALRR의 해설은 AI 업무의 인간 검토와 기밀정보 보호를 권고한다."
+      }
+    ],
+    "dispatch_allowed": false,
+    "independent_review": "PENDING"
+  }
+]

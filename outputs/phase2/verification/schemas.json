@@ -1,0 +1,435 @@
+{
+  "candidate": {
+    "type": "object",
+    "properties": {
+      "candidate_id": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 2000
+      },
+      "query_id": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 2000
+      },
+      "category_hint": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 2000
+      },
+      "title": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 2000
+      },
+      "url": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 2000,
+        "format": "uri"
+      },
+      "source_name": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 2000
+      },
+      "retrieved_at": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 2000,
+        "format": "date-time"
+      },
+      "published_at": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "format": "date-time"
+      },
+      "snippet": {
+        "type": "string",
+        "maxLength": 50000
+      },
+      "raw_content": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "maxLength": 500000
+      },
+      "language": {
+        "enum": [
+          "ko",
+          "en",
+          "other"
+        ]
+      },
+      "country_hint": {
+        "enum": [
+          "KR",
+          "INTL",
+          "UNKNOWN"
+        ]
+      }
+    },
+    "required": [
+      "candidate_id",
+      "query_id",
+      "category_hint",
+      "title",
+      "url",
+      "source_name",
+      "retrieved_at",
+      "published_at",
+      "snippet",
+      "raw_content",
+      "language",
+      "country_hint"
+    ],
+    "additionalProperties": false
+  },
+  "event": {
+    "type": "object",
+    "properties": {
+      "event_id": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 100
+      },
+      "canonical_title": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 2000
+      },
+      "category_hint": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 100
+      },
+      "candidate_ids": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "primary_source": {
+        "type": "object",
+        "properties": {
+          "candidate_id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2000
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2000
+          },
+          "url": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2000,
+            "format": "uri"
+          },
+          "source_name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2000
+          },
+          "published_at": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          }
+        },
+        "required": [
+          "candidate_id",
+          "title",
+          "url",
+          "source_name",
+          "published_at"
+        ],
+        "additionalProperties": false
+      },
+      "supporting_sources": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "candidate_id": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 2000
+            },
+            "title": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 2000
+            },
+            "url": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 2000,
+              "format": "uri"
+            },
+            "source_name": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 2000
+            },
+            "published_at": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "format": "date-time"
+            }
+          },
+          "required": [
+            "candidate_id",
+            "title",
+            "url",
+            "source_name",
+            "published_at"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "entities": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 600
+        },
+        "maxItems": 100
+      },
+      "event_date": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "format": "date-time"
+      },
+      "dedup_status": {
+        "enum": [
+          "RULE",
+          "GEMINI",
+          "SINGLE"
+        ]
+      },
+      "dedup_confidence": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      }
+    },
+    "required": [
+      "event_id",
+      "canonical_title",
+      "category_hint",
+      "candidate_ids",
+      "primary_source",
+      "supporting_sources",
+      "entities",
+      "event_date",
+      "dedup_status",
+      "dedup_confidence"
+    ],
+    "additionalProperties": false
+  },
+  "analysis": {
+    "type": "object",
+    "properties": {
+      "event_id": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 100
+      },
+      "category": {
+        "enum": [
+          "ai_education",
+          "generative_ai",
+          "ai_models",
+          "policy_ethics",
+          "industry",
+          "domestic_ai",
+          "security",
+          "other"
+        ]
+      },
+      "scores": {
+        "type": "object",
+        "properties": {
+          "education_relevance": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 30
+          },
+          "ai_technical_importance": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 20
+          },
+          "teacher_student_impact": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 15
+          },
+          "social_industry_impact": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 15
+          },
+          "source_reliability": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 10
+          },
+          "recency": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 10
+          },
+          "total": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+          }
+        },
+        "required": [
+          "education_relevance",
+          "ai_technical_importance",
+          "teacher_student_impact",
+          "social_industry_impact",
+          "source_reliability",
+          "recency",
+          "total"
+        ],
+        "additionalProperties": false
+      },
+      "summary": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 1800
+      },
+      "why_it_matters": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 1800
+      },
+      "education_implication": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "minLength": 1,
+        "maxLength": 1800
+      },
+      "classroom_use": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "minLength": 1,
+        "maxLength": 1800
+      },
+      "uncertainties": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 600
+        },
+        "maxItems": 15
+      },
+      "fact_check_targets": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 600
+        },
+        "maxItems": 100
+      },
+      "hallucination_risk": {
+        "enum": [
+          "low",
+          "medium",
+          "high"
+        ]
+      }
+    },
+    "required": [
+      "event_id",
+      "category",
+      "scores",
+      "summary",
+      "why_it_matters",
+      "education_implication",
+      "classroom_use",
+      "uncertainties",
+      "fact_check_targets",
+      "hallucination_risk"
+    ],
+    "additionalProperties": false
+  },
+  "decision": {
+    "type": "object",
+    "properties": {
+      "pair_id": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 100
+      },
+      "relation": {
+        "enum": [
+          "SAME_EVENT",
+          "FOLLOW_UP",
+          "DIFFERENT_EVENT"
+        ]
+      },
+      "confidence": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "reason": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 800
+      },
+      "representative_source_preference": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 100
+      },
+      "left_evidence": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 500
+      },
+      "right_evidence": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 500
+      }
+    },
+    "required": [
+      "pair_id",
+      "relation",
+      "confidence",
+      "reason",
+      "representative_source_preference",
+      "left_evidence",
+      "right_evidence"
+    ],
+    "additionalProperties": false
+  }
+}

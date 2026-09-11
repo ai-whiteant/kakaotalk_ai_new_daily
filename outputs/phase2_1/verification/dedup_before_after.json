@@ -1,0 +1,24 @@
+{
+  "before": {
+    "candidates": 57,
+    "events": 50,
+    "same_event": 13,
+    "unresolved": 8
+  },
+  "after": {
+    "candidates": 57,
+    "events": 49,
+    "relations": {
+      "FOLLOW_UP": 3,
+      "SAME_EVENT": 17,
+      "DIFFERENT_EVENT": 1
+    },
+    "unresolved": 0,
+    "guard": {
+      "PASS": 28,
+      "VERIFY": 5,
+      "AUTO_HOLD": 16
+    },
+    "at_least_70": 20
+  }
+}

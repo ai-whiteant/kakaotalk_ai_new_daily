@@ -1,0 +1,778 @@
+[
+  {
+    "source_id": "original_ac8b5a923eba4c5732f2_0",
+    "url": "https://www.newsweek.com/will-ai-cause-human-extinction-10-years-asked-ai-12419575",
+    "source_name": "www.newsweek.com",
+    "source_type": "major_media",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "failed",
+    "locator": "web retrieval error",
+    "notes": [],
+    "evidence_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "candidate_id": "2c879f7ec891115058b2b00f",
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "original_81ecbf2785cbf73850b4_0",
+    "url": "https://note.com/clever_shark607/n/n19fcdb323cb5?hl=ko",
+    "source_name": "note.com",
+    "source_type": "other",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "body",
+    "locator": "sections 1, 3, 5",
+    "notes": [
+      "개인 블로그의 번역 요약이며 모델 출시·일본 예산·PAIR를 묶었다. 독립 검증 근거로 채택하지 않는다."
+    ],
+    "evidence_sha256": "24d0f5db8d1475419a8e549ca82c32d2251c15d2d651ead7f052c6528b46b00d",
+    "candidate_id": "7e4e1831e831cb185dac924a",
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "original_4a8f888aa1259351b4eb_0",
+    "url": "https://namu.wiki/w/DeepSeek",
+    "source_name": "namu.wiki",
+    "source_type": "other",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "failed",
+    "locator": "web retrieval failed; no body evidence",
+    "notes": [],
+    "evidence_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "candidate_id": "b60d457b8ab9aba7e45b189a",
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "original_504a17db3531df046636_0",
+    "url": "https://patmcguinness.substack.com/p/ai-week-in-review-260905",
+    "source_name": "patmcguinness.substack.com",
+    "source_type": "other",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "body",
+    "locator": "AI Tech and Product Releases",
+    "notes": [
+      "주간 개인 뉴스레터가 Meta 모델 성능과 가격을 비교한다. 공식 평가 수치와 같은 것으로 취급하지 않는다."
+    ],
+    "evidence_sha256": "344cefd5106d6a5772489978e1e2f4c726be0674133bd9642599c3c13e87f9ce",
+    "candidate_id": "2c7ea4dc3166f9c82b8346b4",
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "original_6d300687bb4e64cb0140_0",
+    "url": "https://www.histoire-pour-tous.fr/histoire-de-france/5782-la-resistance-francaise-1940-1944.amp.html?ID=%EC%A0%9C%EC%A3%BC+%EA%B2%BD%EB%A7%88+%EA%B8%B8.html",
+    "source_name": "www.histoire-pour-tous.fr",
+    "source_type": "other",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "failed",
+    "locator": "web retrieval failed; no body evidence",
+    "notes": [],
+    "evidence_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "candidate_id": "2a42c03fce132e28dff1e3b8",
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "original_0da37ec7577bcd6b517d_0",
+    "url": "https://wnyc.org/browse/shows/episode/simplecast/f5794230-aa49-4b0e-8273-e9b26763c5a6",
+    "source_name": "wnyc.org",
+    "source_type": "major_media",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "body",
+    "locator": "Episode description, paragraphs 1–2",
+    "notes": [
+      "WNYC는 8학년까지 1년 제한과 교사·고등학생의 제한적 사용을 설명한다."
+    ],
+    "evidence_sha256": "adb15d4ec17109bf64b2a156f6fc90a2df0c457856bf504c69596b4765d2f9fc",
+    "candidate_id": "973b7e441c9dc7401d4697e2",
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "original_7d321aa730f2aca8e033_0",
+    "url": "https://abc7chicago.com/post/alpha-chicago-opens-first-ai-school-city-teachers-created-mackenzie-price/19805778",
+    "source_name": "abc7chicago.com",
+    "source_type": "other",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "failed",
+    "locator": "web retrieval failed; no body evidence",
+    "notes": [],
+    "evidence_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "candidate_id": "359058010f1dec3ad62fae1d",
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "original_d17b94b04c2d6a2f769d_0",
+    "url": "https://www.cnbc.com/2026/09/05/nyc-schools-ai-policy-what-experts-say-about-limiting-student-access.html",
+    "source_name": "www.cnbc.com",
+    "source_type": "other",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "failed",
+    "locator": "web retrieval failed; no body evidence",
+    "notes": [],
+    "evidence_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "candidate_id": "43d485ec1815d8d97f648d6b",
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "original_63f754892b8bf18a540b_0",
+    "url": "https://9to5google.com/2026/09/03/chatgpt-claude-grok-outages/",
+    "source_name": "9to5google.com",
+    "source_type": "specialist",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "body",
+    "locator": "Update paragraphs including struck-out Azure hypothesis",
+    "notes": [
+      "원 기사는 Google 장애의 공식 확인이 없다고 적으며 Azure 원인설을 삭제하고 Microsoft의 부인을 추가했다."
+    ],
+    "evidence_sha256": "3ada050fbb105d1607a285089dcf8f0f21e51e9129c458400b6440f4dbf8be77",
+    "candidate_id": "11f5999f9b21d80c038aec50",
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "original_63f754892b8bf18a540b_1",
+    "url": "https://mashable.com/tech/openai-chatgpt-outage-updates-grok-gemini",
+    "source_name": "mashable.com",
+    "source_type": "specialist",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "failed",
+    "locator": "web retrieval attempted; not used for claim approval",
+    "notes": [],
+    "evidence_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "candidate_id": "9a047272fc1aa8612151094d",
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "original_63f754892b8bf18a540b_2",
+    "url": "https://www.greenwichtime.com/news/article/ai-outage-reported-chatgpt-grok-claude-gemini-22416033.php",
+    "source_name": "www.greenwichtime.com",
+    "source_type": "major_media",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "body",
+    "locator": "web retrieval attempted; not used for claim approval",
+    "notes": [
+      "기존 보조 기사 URL 접근은 확인했다. 주장 승인에는 사용하지 않았다."
+    ],
+    "evidence_sha256": "2dba0408378f373f821754b5d7a221037852ec77e5a38ab8af4ddd370176b19f",
+    "candidate_id": "fc17c6a8e61e648002e61453",
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "original_680f6c20f496df983071_0",
+    "url": "https://www.axios.com/2026/09/03/chatgpt-claude-grok-outages",
+    "source_name": "www.axios.com",
+    "source_type": "major_media",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "body",
+    "locator": "Driving the news and The intrigue",
+    "notes": [
+      "장애 보도; Azure 연관은 당시 추측."
+    ],
+    "evidence_sha256": "465204854ff5b302e54b45e5d19b26afbf168eeb9d987c5eb7df81c80e77f8c8",
+    "candidate_id": "b8db91cb5697fd8547e469ec",
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "original_69c74bc9d2234f20c095_0",
+    "url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark",
+    "source_name": "blogs.nvidia.com",
+    "source_type": "official",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "body",
+    "locator": "August roundup; Local Agents; PAIR",
+    "notes": [
+      "8월 모델 요약에 Nemotron 3.5 Lightning 30-billion과 RTX PC·RTX PRO·DGX Spark·Jetson 지원을 명시한다. Qwen3.8 두 모델과 GLM-5.3-Flash, LTX 2.5 GPU 최적화도 설명한다.",
+      "9월 3일 IFA 발표와 8월 모델 출시를 구분한다. PAIR는 가정 내 호환 컴퓨터로 추론 요청을 분산하는 무료 오픈소스 도구다."
+    ],
+    "evidence_sha256": "a79604c82badd01c3c88e2c3769c942dd5e2d1af87fafa8c533c5f90391c1fee",
+    "candidate_id": "c5fea2be4f2543bc4a7e77b1",
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "original_9e6894b5ae8779b717e1_0",
+    "url": "https://finance.biggo.com/podcast/d04219da517738ed",
+    "source_name": "finance.biggo.com",
+    "source_type": "other",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "failed",
+    "locator": "web retrieval failed; no body evidence",
+    "notes": [],
+    "evidence_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "candidate_id": "c6fec9a1b5fe3cc4bc3d197a",
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "original_ec0419e2dbb60888a543_0",
+    "url": "https://platum.kr/archives/294143",
+    "source_name": "platum.kr",
+    "source_type": "other",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "failed",
+    "locator": "web retrieval failed; no body evidence",
+    "notes": [],
+    "evidence_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "candidate_id": "bfc8cc09cbf7726e98a94ed1",
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "original_d7f90f35fad9bf6b35e1_0",
+    "url": "https://www.aalrr.com/EdLawConnectBlog/responsible-ai-usage-in-higher-education-governance-academic-integrity-and-fraud-compliance-risks",
+    "source_name": "www.aalrr.com",
+    "source_type": "specialist",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "body",
+    "locator": "Quick Checklist & Next Steps; Lessons from Early Adopters",
+    "notes": [
+      "법률회사 AALRR은 인간 검토·최종 책임·기밀정보 보호를 권고하고 Berkeley Law를 예로 든다. 개별 실제 징계 사건은 이 글에서 제시하지 않는다."
+    ],
+    "evidence_sha256": "cf072a9ad49ba781f49611c8c6bec8ee52d089bcc0891f37ffeb2882871c7746",
+    "candidate_id": "049f73e73aaa39975ae4be4d",
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "original_46302d82a7297071d2cc_0",
+    "url": "https://aimultiple.com/generative-ai-copyright",
+    "source_name": "aimultiple.com",
+    "source_type": "specialist",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "body",
+    "locator": "Article 53 GPAI copyright compliance",
+    "notes": [
+      "Article 53 의무를 요약한 전문 해설이다. 법적 판정에는 공식 조문을 우선한다."
+    ],
+    "evidence_sha256": "dfad3d5e80642b97e2338a4809682e20089339d3eef7d052c639a522c6a4eefb",
+    "candidate_id": "fee048a37e5c53ead45abcfe",
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "original_12c43f6fd0332b85d6d7_0",
+    "url": "https://www.tradingkey.com/kr/analysis/stocks/us-stocks/262152396-jensen-huang-nvidia-3-5-billion-mediatek-investment-tradingkey",
+    "source_name": "www.tradingkey.com",
+    "source_type": "other",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "body",
+    "locator": "Body paragraphs 85–111",
+    "notes": [
+      "투자 해설은 8월 31일 발표를 설명하며 순환금융 논쟁을 언론에 귀속한다. 거래 확인은 NVIDIA 공식 발표를 사용한다."
+    ],
+    "evidence_sha256": "791fc6ce0c347593bb8a71c12d698ecb4b73a2c3751b79cb9d04605d341a15fd",
+    "candidate_id": "8434d9e840afb594e4f9d06d",
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "original_34f05779ae69ef70af86_0",
+    "url": "https://www.hellot.net/news/article.html?no=114788",
+    "source_name": "www.hellot.net",
+    "source_type": "other",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "failed",
+    "locator": "web retrieval failed; no body evidence",
+    "notes": [],
+    "evidence_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "candidate_id": "367bfcf1dca4c6f39ca2c577",
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "original_8713f0f8943a765aa229_0",
+    "url": "https://blog.naver.com/PostView.naver?blogId=dealsite&logNo=224401805870&redirect=Dlog",
+    "source_name": "blog.naver.com",
+    "source_type": "other",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "failed",
+    "locator": "web retrieval failed; no body evidence",
+    "notes": [],
+    "evidence_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "candidate_id": "254178f824d1b44919720c60",
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "original_74badd4931f57678af6a_0",
+    "url": "https://zdnet.co.kr/view?no=20260903114626",
+    "source_name": "zdnet.co.kr",
+    "source_type": "other",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "failed",
+    "locator": "web retrieval failed; no body evidence",
+    "notes": [],
+    "evidence_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "candidate_id": "e685c3f59d8ebd1d70e29dbf",
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "original_40de4d5330eaa305435a_0",
+    "url": "https://www.yahoo.com/news/world/articles/other-governments-watching-closely-south-114537899.html",
+    "source_name": "www.yahoo.com",
+    "source_type": "other",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "failed",
+    "locator": "web retrieval failed; no body evidence",
+    "notes": [],
+    "evidence_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "candidate_id": "4fa947e917304e47507586cb",
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "original_bc49de6c05a6caac6745_0",
+    "url": "https://www.mk.co.kr/news/politics/12147202",
+    "source_name": "www.mk.co.kr",
+    "source_type": "major_media",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "body",
+    "locator": "Reporter body, before AI-generated summary sections",
+    "notes": [
+      "9월 8일 의원의 개인정보보호위원회 제출자료 분석 보도다. 초중고·교육청 과징금 0과 대학 제재를 구분하고 통지 위반 3기관을 적었다. 학생정보 항목과 2차 피해 검토 여부는 자료에서 확인되지 않는다고 명시했다."
+    ],
+    "evidence_sha256": "f00a95816224f612118862ad2a10e2e935652d61187abc3fa3b921d83b9bb7cd",
+    "candidate_id": "5153b0030da4155cee77a8ca",
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "nyc",
+    "url": "https://www.schools.nyc.gov/about-us/policies/guidance-on-artificial-intelligence",
+    "source_name": "NYC Public Schools",
+    "source_type": "official",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "body",
+    "locator": "AI and Screen Time Policy Updates; How Teachers May Use AI",
+    "notes": [
+      "2026–27학년도 2K–8 학생 대면 생성형 AI 유예, 고등학생 승인 프로그램 제한 사용. IEP·504 보조공학 등 예외가 있으며 모든 AI의 일반적 금지와는 다르다.",
+      "2K–2는 개별 화면 사용 금지, 3–5와 6–8은 별도 권장시간. 교사는 승인·조달 규칙 아래 수업 준비·행정에 AI를 쓸 수 있으나 채점·학생 관련 결정에는 금지된다.",
+      "학년·기간은 미국 교육체계의 8학년까지, 해당 한 학년도이다."
+    ],
+    "evidence_sha256": "42c874fec9d40496e6d6dd41165ede67b599934450e4934e62286ecf1fc42b20",
+    "candidate_id": null,
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "alpha",
+    "url": "https://alpha.school/chicago/",
+    "source_name": "Alpha School Chicago",
+    "source_type": "official",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "body",
+    "locator": "Welcome; Personalized Learning; PreK–8; Meet our Team",
+    "notes": [
+      "운영자 소개는 Chicago 캠퍼스의 핵심 교과 학습을 하루 2시간으로 설명하고 나머지는 생활 역량 활동이라고 설명한다. 이는 운영 방식 소개이며 학습 효과의 독립 실험 결과가 아니다.",
+      "캠퍼스 대상은 PreK–8th Grade이고 가이드를 만나는 설명회와 팀 소개가 있다. 실제 개교 완료일 및 모든 가이드의 필수 채용 자격은 이 페이지로 확정하지 못했다."
+    ],
+    "evidence_sha256": "db4879a9505030cc36c7e7b508cc34069edceb8dfd2107d2ffb07f73e9b76b3e",
+    "candidate_id": null,
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "budget",
+    "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148971010",
+    "source_name": "대한민국 정책브리핑 / 과학기술정보통신부",
+    "source_type": "official",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "body",
+    "locator": "2026-09-01; AI 대전환 / NEXT AI sections",
+    "notes": [
+      "2027년 예산안 29조6000억원, 24.5% 증가. AI 9조4000억원과 R&D 14조1000억원을 명시한다. 확정 지출액이 아니라 편성안이다.",
+      "AI중심대학 18→67, AX대학원, 3대 메가프로젝트(반도체·피지컬AI·AI데이터센터), 7대 시드 분야를 설명한다. 최초 공식 발표일은 9월 1일로 고정 수집 기간보다 앞선다."
+    ],
+    "evidence_sha256": "7d4abec8dd1a7c05738eb4b0eef25ab7f4d39bdc7346008a26be9878e81f534c",
+    "candidate_id": null,
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "nvidia_invest",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-and-mediatek-deepen-long-standing-partnership-to-build-ai-edge-to-cloud-computing-platforms",
+    "source_name": "NVIDIA Newsroom",
+    "source_type": "official",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "body",
+    "locator": "2026-08-31 announcement, partnership paragraphs",
+    "notes": [
+      "NVIDIA가 MediaTek 발행 전환사채에 35억 달러를 투자했다고 발표했다. MediaTek의 NVLink Fusion 채택과 맞춤 XPU·로컬 AI·자동차 협력을 설명한다.",
+      "발표일은 8월 31일이다. 거래 원문은 순환금융 논쟁이나 시장효과를 입증하지 않는다."
+    ],
+    "evidence_sha256": "5fb2f9a5d9b00f1316314c8017a154b7257b3b30bc50dce0aa02c3d2f55d2a11",
+    "candidate_id": null,
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "naver",
+    "url": "https://www.navercorp.com/media/pressReleasesDetail?seq=10034628",
+    "source_name": "NAVER Corp.",
+    "source_type": "official",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "body",
+    "locator": "2026-09-03 press release, main body",
+    "notes": [
+      "공식 기업 발표는 최종 선정과 참여 33개 기관을 명시한다. 이전 후보·분석의 총 32개와 숫자가 다르다. 명단 정의나 시점 차이를 이번 확인만으로 해소하지 못했다.",
+      "하이퍼클로바X·엑사원 기반 700B급 MoE 보안모델 두 개를 개발할 계획이다. 정부 물량과 별개로 네이버 B200 및 LG H200 자원을 설명한다. 이미 완성·실증된 모델이라는 의미가 아니다."
+    ],
+    "evidence_sha256": "2b8f76e924164cacdeb7e7560d340eee9a8d821ca23c95436bc0c5f23174b450",
+    "candidate_id": null,
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "etnews",
+    "url": "https://www.etnews.com/20260903000052",
+    "source_name": "전자신문",
+    "source_type": "specialist",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "body",
+    "locator": "2026-09-03; final paragraphs",
+    "notes": [
+      "정부가 10개월간 B200 GPU 256장을 지원할 예정이며 첫 5개월 이후 중간평가로 후반 지원을 정한다고 보도한다. 상세 역할표나 평가 세부 기준을 확정하는 자료는 아니다."
+    ],
+    "evidence_sha256": "f1260bb6409e5432b4e1bf0f1cb724c51982bc6253671be70b5e1cd6f3ba550a",
+    "candidate_id": null,
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "msit_ai",
+    "url": "https://www.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1285&sCode=eng",
+    "source_name": "Ministry of Science and ICT",
+    "source_type": "official",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "body",
+    "locator": "AI for All Project, July call for proposals",
+    "notes": [
+      "공모 단계 공식 자료는 국내 모델 중심 무료 무제한 AI 서비스의 연내 출시와 이후 에이전트 고도화를 계획한다. 공모 예정 기업 수만 있고 최종 선정·실제 GPU 배분 결과는 없다."
+    ],
+    "evidence_sha256": "e4ec44ea53c51932334d3069e23c7f64ff363f8957db1e8ed4d4f4e23fc992ba",
+    "candidate_id": null,
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "koreatimes",
+    "url": "https://www.koreatimes.co.kr/business/tech-science/20260828/skt-kt-kakao-consortiums-selected-for-free-ai-service-for-public",
+    "source_name": "The Korea Times",
+    "source_type": "major_media",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "body",
+    "locator": "2026-08-28 original article",
+    "notes": [
+      "SKT·KT·Kakao 컨소시엄 선정에 관한 원 기사에 접근했다. 구체적 책임 분담 계약과 미래 보조금 법적 근거는 확보하지 않았다."
+    ],
+    "evidence_sha256": "9033301f65f4e2d478661ad6ee550a0a78b5566d611f5e900e1b8368b8fa2376",
+    "candidate_id": null,
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "techradar",
+    "url": "https://www.techradar.com/ai-platforms-assistants/other-governments-will-be-watching-this-closely-south-korea-starts-testing-free-ai-for-the-public",
+    "source_name": "TechRadar",
+    "source_type": "specialist",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "body",
+    "locator": "Main article, paragraphs around AI for All",
+    "notes": [
+      "기존 Yahoo 기사의 원 출처는 3개 컨소시엄, 올해 B200 GPU 512개 지원 및 2027년 운영비 보조 계획을 보도한다. 실제 배분·운영 결과와 법적 확약으로 해석할 수 없다."
+    ],
+    "evidence_sha256": "c3ed5a81bf6c462e126592f830899db0a04f1ce1a41bf832b2c388b52d26a5b9",
+    "candidate_id": null,
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "berkeley",
+    "url": "https://www.law.berkeley.edu/academics/registrar/academic-rules/artificial-intelligence-policy/",
+    "source_name": "UC Berkeley Law",
+    "source_type": "official",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "body",
+    "locator": "Effective Summer 2026; Rule",
+    "notes": [
+      "학점 과제의 구상·작성·수정·번역과 시험 AI 사용에 기본 금지 규칙이 있다. 교수의 사전 서면 예외와 공개 요건, 제한적인 출처 탐색 허용, 학생의 정확성 책임을 명시한다."
+    ],
+    "evidence_sha256": "84453fb754224454d1f42c98ef1f40f01b998033198e27a296494b54642c3f04",
+    "candidate_id": null,
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "cccco",
+    "url": "https://ai.cccco.edu/guidance-and-policy/",
+    "source_name": "California Community Colleges Chancellor Office",
+    "source_type": "official",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "body",
+    "locator": "Our Approach / HUMANS / Official Guidance",
+    "notes": [
+      "HUMANS 원칙은 인간 중심, 접근성, 개인정보 통제, 차별 방지, 고지와 설명, 안전을 포함한다. 개별 기관의 실제 징계 사례를 입증하는 자료는 아니다."
+    ],
+    "evidence_sha256": "1b3f8c741074452bc19daa894a4043ab43291fa81e12bab6903c9f9d7786990d",
+    "candidate_id": null,
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "eu53",
+    "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-53",
+    "source_name": "European Commission AI Act Service Desk",
+    "source_type": "official",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "body",
+    "locator": "Article 53(1)(c),(d) and (2); legal text, not AI summary",
+    "notes": [
+      "제53조 1항 c·d는 범용 모델 제공자의 저작권 준수 정책, 권리유보 식별·준수, 학습내용 요약 공개를 규정한다. 2항의 오픈소스 예외는 a·b 문서 의무에 관한 것이다. 최신 전체 소송 결과까지 다루지는 않는다."
+    ],
+    "evidence_sha256": "7fdeb71432222c9db12907d8ce0a5b533f7be74fe2121d84c25b44325500c30b",
+    "candidate_id": null,
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "usco",
+    "url": "https://www.copyright.gov/newsnet/2025/1060.html",
+    "source_name": "U.S. Copyright Office",
+    "source_type": "official",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "body",
+    "locator": "2025-01-29; paragraphs 2–4",
+    "notes": [
+      "생성물의 충분한 표현 요소를 사람이 결정해야 보호될 수 있고 단순 프롬프트 제공만으로는 부족하다는 입장이다. 인간의 창의적 배열·수정이나 AI 보조 사용은 일률적으로 배제되지 않는다."
+    ],
+    "evidence_sha256": "17b9b8a04af2a81ab68f080656d191478339c13dc9332bbff9821d02376d15bd",
+    "candidate_id": null,
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "eurlex",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1747442914146&uri=CELEX%3A02024R1689-20260727",
+    "source_name": "EUR-Lex",
+    "source_type": "official",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "partial",
+    "locator": "retrieval returned no substantive legal body",
+    "notes": [],
+    "evidence_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "candidate_id": null,
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "meta",
+    "url": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
+    "source_name": "Meta AI Research",
+    "source_type": "official",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "body",
+    "locator": "2026-09-02; Intro / Agentic Workflows / Availability",
+    "notes": [
+      "Muse Spark 1.3 출시 및 Muse Code·Meta Model API 제공을 확인한다. 코딩·에이전트 개선을 발표하지만 이 본문만으로 GPT-5.6 Sol과 특정 점수·가격의 동등성을 입증하지 못했다."
+    ],
+    "evidence_sha256": "50d412d3c87155cb1575207df6c58735ab235f295d7737487a9ab64286f78243",
+    "candidate_id": null,
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "openclaw",
+    "url": "https://docs.openclaw.ai/releases/2026.8.1",
+    "source_name": "OpenClaw",
+    "source_type": "official",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "body",
+    "locator": "v2026.8.1 AKA OpenClaw 2.0 release sections",
+    "notes": [
+      "2.0 별칭의 공개 버전 노트는 설치·온보딩·웹 UI·권한 및 클라우드/연결 컴퓨터 세션 개선을 설명한다. 협업 기능 전체의 실제 동작 성능을 시험한 것은 아니다."
+    ],
+    "evidence_sha256": "043ee2a14bb39a326fc335bec09f1774818ca5ba0683e86258192ed313126ef4",
+    "candidate_id": null,
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "astra",
+    "url": "https://openai.com/index/gpt-6-astra/",
+    "source_name": "OpenAI",
+    "source_type": "official",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "body",
+    "locator": "Introducing Astra / Cybersecurity / Availability",
+    "notes": [
+      "GPT-6 Astra의 공개와 사이버보안 Critical 기준 도달을 개발사가 발표했다. 이는 자체 Preparedness Framework 평가이며 정부의 위험 인증이라는 뜻은 아니다."
+    ],
+    "evidence_sha256": "e63b785d9a3f0ccf6e30b96f46c005267a8521eaf68122fdb7ac9c4e2340864f",
+    "candidate_id": null,
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "meti",
+    "url": "https://www.meti.go.jp/main/yosangaisan/fy2027/index.html",
+    "source_name": "METI",
+    "source_type": "official",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "failed",
+    "locator": "linked budget original failed retrieval",
+    "notes": [],
+    "evidence_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "candidate_id": null,
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "garante",
+    "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10097450",
+    "source_name": "Italian Data Protection Authority",
+    "source_type": "official",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "body",
+    "locator": "English version; 2025-01-30",
+    "notes": [
+      "이탈리아 이용자의 데이터 처리 제한과 조사 개시를 발표했다. 이 문서로 EU 전체의 AI Act상 모델 사용 금지를 주장할 수 없다. 2026년의 모든 유럽 법적 상태도 입증하지 않는다."
+    ],
+    "evidence_sha256": "671d9a47cfcacf4204ea4d5e07a7bbeb5602d001703225c10ffce962421b4303",
+    "candidate_id": null,
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "engram",
+    "url": "https://github.com/deepseek-ai/Engram",
+    "source_name": "DeepSeek AI",
+    "source_type": "research",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "body",
+    "locator": "Repository title and README",
+    "notes": [
+      "DeepSeek의 Engram 연구 공개 저장소가 존재한다. MLA·MTP 전체의 혁신성, 세계 두 번째 순위, 팟캐스트 발언까지 검증한 것은 아니다."
+    ],
+    "evidence_sha256": "bdd797dbecb0d0cb980be79cd142c045c794ecc5c3e0dad91e5c1fe51cdf49d2",
+    "candidate_id": null,
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "oecd",
+    "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/06/pisa-2022-results-volume-iii-country-notes_72b418f8/korea_2f07f03a/adb21d76-en.pdf",
+    "source_name": "OECD",
+    "source_type": "research",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "body",
+    "locator": "PISA 2022 Volume III Korea factsheet, Digital activities",
+    "notes": [
+      "한국 학습 목적 디지털 사용 관련 비율을 제시하는 연구 원문에 접근했다. 기존 후보의 43개국 중 접근성 1위·수업 활용 43위라는 지표와 동일한 표를 확보하지 못했다. 서로 다른 지표를 반증으로 쓰지 않는다."
+    ],
+    "evidence_sha256": "06270ddbd0600e498a7c3251e5d67a997d34b4b2a25dcdfe6c9eec5081cf59a9",
+    "candidate_id": null,
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "anthropic",
+    "url": "https://anthropic.statuspage.io/",
+    "source_name": "Anthropic status",
+    "source_type": "official",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "body",
+    "locator": "Sep 3 2026, Elevated errors for multiple models",
+    "notes": [
+      "9월 3일 15:25 UTC 갱신은 Opus 4.8과 Opus 5 장애를 명시하며 다른 모델의 오류율 회복을 설명한다. 이후 해결 갱신도 있다. 동시 타사 장애의 공통 원인은 여기서 밝히지 않는다."
+    ],
+    "evidence_sha256": "2e0c8490249f208f9f0a6fb4840ad1446f86397ee6da6bdc3f54b087b34e5a65",
+    "candidate_id": null,
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "openai_status",
+    "url": "https://status.openai.com/",
+    "source_name": "OpenAI status",
+    "source_type": "official",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "body",
+    "locator": "current overview; historical incident not recovered",
+    "notes": [
+      "현재 상태 페이지 접근은 확인했으나 해당 날짜의 전체 원인 보고서를 이 페이지로 확보하지 못했다. 현재 정상 상태는 과거 장애의 부정 근거가 아니다."
+    ],
+    "evidence_sha256": "74d96bb5e0c95340eb88488bc83f004adbca48e725f4f6a81a42edb4cc2fa200",
+    "candidate_id": null,
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  },
+  {
+    "source_id": "ap_nyc",
+    "url": "https://apnews.com/article/647f6a968eea0399521b7934418b1aff",
+    "source_name": "Associated Press",
+    "source_type": "major_media",
+    "retrieved_at": "2026-09-10T08:52:15.516498+00:00",
+    "verification_only": true,
+    "access": "failed",
+    "locator": "NYC companion claim: body retrieval failed",
+    "notes": [],
+    "evidence_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "candidate_id": null,
+    "retrieval_method": "web.run open/find",
+    "timestamp_scope": "recorded after source review in this session; not publisher time"
+  }
+]

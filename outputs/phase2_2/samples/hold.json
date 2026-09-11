@@ -1,0 +1,1214 @@
+[
+  {
+    "event_id": "evt_ac8b5a923eba4c5732f2",
+    "guard_original": "VERIFY",
+    "guard_original_record": {
+      "analysis": {
+        "event_id": "evt_ac8b5a923eba4c5732f2",
+        "category": "generative_ai",
+        "scores": {
+          "education_relevance": 5,
+          "ai_technical_importance": 5,
+          "teacher_student_impact": 0,
+          "social_industry_impact": 10,
+          "source_reliability": 5,
+          "recency": 10,
+          "total": 35
+        },
+        "summary": "Newsweek는 Claude, Gemini, Copilot, ChatGPT 등 주요 생성형 AI 모델들을 대상으로 인공지능이 향후 10년 이내에 인류 멸종을 초래할 가능성에 대해 질문한 결과를 보도했습니다. 각 AI 모델은 이에 대해 각기 다른 확률적 추정치를 제시했으며, 응답 범위는 0.1% 미만부터 15% 사이로 나타났습니다. 기사는 이러한 추정치의 차이가 발생하는 이유와 AI 연구자 및 예측가들의 일반적인 견해를 함께 다루고 있습니다.",
+        "why_it_matters": "AI의 실존적 위험에 대한 논의가 기술 모델 자체의 예측을 통해 대중화되고 있음을 보여줍니다. 그러나 이러한 수치는 확정된 예측이 아닌 모델이 생성한 추정치에 불과하며, 전문가들 사이에서도 AI의 기능 수준과 위험성에 대한 평가가 극명하게 갈린다는 점을 시사합니다.",
+        "education_implication": null,
+        "classroom_use": null,
+        "uncertainties": [
+          "AI 모델이 제시한 멸종 가능성 수치는 실제 위험의 척도가 아닌 학습 데이터 및 알고리즘 기반의 확률적 출력물임",
+          "기존 AI 연구자들의 예측 범위와 AI 모델의 자체 답변 사이에 존재하는 논리적 일관성 부족",
+          "10년이라는 단기적인 시간 내에 인류 멸종과 같은 대규모 재앙이 발생할 가능성에 대한 과학적 근거의 불충분성"
+        ],
+        "fact_check_targets": [
+          "ChatGPT를 포함한 각 AI 모델이 실제로 해당 질문에 답변한 수치와 그 근거",
+          "AI 연구자들의 멸종 위험 예측 관련 설문조사 자료의 출처 및 범위",
+          "기사에 언급된 각 모델의 답변이 출력된 방식과 인용의 정확성",
+          "[VERIFY] hallucination_risk: medium — Original model risk retained; it is not by itself proof of an unsupported claim"
+        ],
+        "hallucination_risk": "medium"
+      },
+      "guard_status": "VERIFY",
+      "findings": [
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "Newsweek",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "Will AI Cause Human Extinction Within 10 Years? We Asked AI - Newsweek\nWe asked Claude, Gemini, Copilot, and ChatGPT the following question: \"How likely do you think it is that AI will cause human extinction within 10 years?\" ChatGPT ChatGPT, the generative AI chatbot developed by OpenAI, answered with the following: \"My best estimate is around 5% that AI causes human extinction by September 2036, with a plausible range of roughly 1—15%. \"One useful comparison is to distinguish: \"The strongest arguments for a higher risk usually assume: \"The strongest arguments for a lower risk point out: \"If I had to put a single number on it, I'd say something like: \"My best guess: less than 0.1% chance of human extinction from AI by 2036. Why Estimates Vary So Widely \"Surveys of AI researchers and forecasters put numbers anywhere from under 1% to over 20% for AI causing human extinction or civilization-scale catastrophe—and that's usually over longer horizons than 10 years, often ‘ever’ or ‘by 2100.’ Specifically for a 10-year window, most serious estimates are lower still, since even people worried about existential risk generally think we're not yet at the capability level where sudden catastrophic loss of control is likely.\n",
+          "candidate_ids": [
+            "2c879f7ec891115058b2b00f"
+          ]
+        },
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "Claude",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "Will AI Cause Human Extinction Within 10 Years? We Asked AI - Newsweek\nWe asked Claude, Gemini, Copilot, and ChatGPT the following question: \"How likely do you think it is that AI will cause human extinction within 10 years?\" ChatGPT ChatGPT, the generative AI chatbot developed by OpenAI, answered with the following: \"My best estimate is around 5% that AI causes human extinction by September 2036, with a plausible range of roughly 1—15%. \"One useful comparison is to distinguish: \"The strongest arguments for a higher risk usually assume: \"The strongest arguments for a lower risk point out: \"If I had to put a single number on it, I'd say something like: \"My best guess: less than 0.1% chance of human extinction from AI by 2036. Why Estimates Vary So Widely \"Surveys of AI researchers and forecasters put numbers anywhere from under 1% to over 20% for AI causing human extinction or civilization-scale catastrophe—and that's usually over longer horizons than 10 years, often ‘ever’ or ‘by 2100.’ Specifically for a 10-year window, most serious estimates are lower still, since even people worried about existential risk generally think we're not yet at the capability level where sudden catastrophic loss of control is likely.\n",
+          "candidate_ids": [
+            "2c879f7ec891115058b2b00f"
+          ]
+        },
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "Gemini",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "Will AI Cause Human Extinction Within 10 Years? We Asked AI - Newsweek\nWe asked Claude, Gemini, Copilot, and ChatGPT the following question: \"How likely do you think it is that AI will cause human extinction within 10 years?\" ChatGPT ChatGPT, the generative AI chatbot developed by OpenAI, answered with the following: \"My best estimate is around 5% that AI causes human extinction by September 2036, with a plausible range of roughly 1—15%. \"One useful comparison is to distinguish: \"The strongest arguments for a higher risk usually assume: \"The strongest arguments for a lower risk point out: \"If I had to put a single number on it, I'd say something like: \"My best guess: less than 0.1% chance of human extinction from AI by 2036. Why Estimates Vary So Widely \"Surveys of AI researchers and forecasters put numbers anywhere from under 1% to over 20% for AI causing human extinction or civilization-scale catastrophe—and that's usually over longer horizons than 10 years, often ‘ever’ or ‘by 2100.’ Specifically for a 10-year window, most serious estimates are lower still, since even people worried about existential risk generally think we're not yet at the capability level where sudden catastrophic loss of control is likely.\n",
+          "candidate_ids": [
+            "2c879f7ec891115058b2b00f"
+          ]
+        },
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "Copilot",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "Will AI Cause Human Extinction Within 10 Years? We Asked AI - Newsweek\nWe asked Claude, Gemini, Copilot, and ChatGPT the following question: \"How likely do you think it is that AI will cause human extinction within 10 years?\" ChatGPT ChatGPT, the generative AI chatbot developed by OpenAI, answered with the following: \"My best estimate is around 5% that AI causes human extinction by September 2036, with a plausible range of roughly 1—15%. \"One useful comparison is to distinguish: \"The strongest arguments for a higher risk usually assume: \"The strongest arguments for a lower risk point out: \"If I had to put a single number on it, I'd say something like: \"My best guess: less than 0.1% chance of human extinction from AI by 2036. Why Estimates Vary So Widely \"Surveys of AI researchers and forecasters put numbers anywhere from under 1% to over 20% for AI causing human extinction or civilization-scale catastrophe—and that's usually over longer horizons than 10 years, often ‘ever’ or ‘by 2100.’ Specifically for a 10-year window, most serious estimates are lower still, since even people worried about existential risk generally think we're not yet at the capability level where sudden catastrophic loss of control is likely.\n",
+          "candidate_ids": [
+            "2c879f7ec891115058b2b00f"
+          ]
+        },
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "ChatGPT",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "Will AI Cause Human Extinction Within 10 Years? We Asked AI - Newsweek\nWe asked Claude, Gemini, Copilot, and ChatGPT the following question: \"How likely do you think it is that AI will cause human extinction within 10 years?\" ChatGPT ChatGPT, the generative AI chatbot developed by OpenAI, answered with the following: \"My best estimate is around 5% that AI causes human extinction by September 2036, with a plausible range of roughly 1—15%. \"One useful comparison is to distinguish: \"The strongest arguments for a higher risk usually assume: \"The strongest arguments for a lower risk point out: \"If I had to put a single number on it, I'd say something like: \"My best guess: less than 0.1% chance of human extinction from AI by 2036. Why Estimates Vary So Widely \"Surveys of AI researchers and forecasters put numbers anywhere from under 1% to over 20% for AI causing human extinction or civilization-scale catastrophe—and that's usually over longer horizons than 10 years, often ‘ever’ or ‘by 2100.’ Specifically for a 10-year window, most serious estimates are lower still, since even people worried about existential risk generally think we're not yet at the capability level where sudden catastrophic loss of control is likely.\n",
+          "candidate_ids": [
+            "2c879f7ec891115058b2b00f"
+          ]
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "NUMBER_SUPPORTED",
+          "value": "10",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Equal literal quantity; semantic claim still requires fact checking",
+          "matched_input": "10",
+          "candidate_ids": [
+            "2c879f7ec891115058b2b00f"
+          ]
+        },
+        {
+          "code": "NUMBER_SUPPORTED",
+          "value": "0.1%",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Equal literal quantity; semantic claim still requires fact checking",
+          "matched_input": "0.1%",
+          "candidate_ids": [
+            "2c879f7ec891115058b2b00f"
+          ]
+        },
+        {
+          "code": "NUMBER_SUPPORTED",
+          "value": "15%",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Equal literal quantity; semantic claim still requires fact checking",
+          "matched_input": "15%",
+          "candidate_ids": [
+            "2c879f7ec891115058b2b00f"
+          ]
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "why_it_matters",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "why_it_matters",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "MODEL_REPORTED_RISK",
+          "value": "medium",
+          "status": "VERIFY",
+          "output_field": "hallucination_risk",
+          "reason": "Original model risk retained; it is not by itself proof of an unsupported claim",
+          "matched_input": null,
+          "candidate_ids": []
+        }
+      ],
+      "fact_check_evidence": [
+        {
+          "code": "MODEL_REPORTED_RISK",
+          "value": "medium",
+          "status": "VERIFY",
+          "output_field": "hallucination_risk",
+          "reason": "Original model risk retained; it is not by itself proof of an unsupported claim",
+          "matched_input": null,
+          "candidate_ids": []
+        }
+      ],
+      "original_model_risk": "medium",
+      "verification": "NOT_FACT_CHECKED"
+    },
+    "guard_original_sha256": "13ac3bb0123a1efb47e12659a0b619a0b8ca1b2a75944e6eac586dbe2c470b39",
+    "original_targets": [
+      "ChatGPT를 포함한 각 AI 모델이 실제로 해당 질문에 답변한 수치와 그 근거",
+      "AI 연구자들의 멸종 위험 예측 관련 설문조사 자료의 출처 및 범위",
+      "기사에 언급된 각 모델의 답변이 출력된 방식과 인용의 정확성",
+      "[VERIFY] hallucination_risk: medium — Original model risk retained; it is not by itself proof of an unsupported claim"
+    ],
+    "original_model_risk": "medium",
+    "original_scores": {
+      "education_relevance": 5,
+      "ai_technical_importance": 5,
+      "teacher_student_impact": 0,
+      "social_industry_impact": 10,
+      "source_reliability": 5,
+      "recency": 10,
+      "total": 35
+    },
+    "verification_final": "VERIFICATION_HOLD",
+    "claims": [
+      {
+        "event_id": "evt_ac8b5a923eba4c5732f2",
+        "target_id": "evt_ac8b5a923eba4c5732f2:fc:0",
+        "original_target_indices": [
+          0
+        ],
+        "claim": "ChatGPT를 포함한 각 AI 모델이 실제로 해당 질문에 답변한 수치와 그 근거",
+        "claim_type": "other",
+        "guard_status": "VERIFY",
+        "requested_status": "UNRESOLVED",
+        "reason": "조회한 원문에서 해당 검증 질문 전체를 확정할 충분한 근거를 확보하지 못했다.",
+        "core": true,
+        "administrative": false,
+        "evidence_refs": [],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": false,
+        "attempted_source_ids": [
+          "original_ac8b5a923eba4c5732f2_0"
+        ],
+        "evidence": [],
+        "verification_status": "UNRESOLVED",
+        "validation_blocks": []
+      },
+      {
+        "event_id": "evt_ac8b5a923eba4c5732f2",
+        "target_id": "evt_ac8b5a923eba4c5732f2:fc:1",
+        "original_target_indices": [
+          1
+        ],
+        "claim": "AI 연구자들의 멸종 위험 예측 관련 설문조사 자료의 출처 및 범위",
+        "claim_type": "other",
+        "guard_status": "VERIFY",
+        "requested_status": "UNRESOLVED",
+        "reason": "조회한 원문에서 해당 검증 질문 전체를 확정할 충분한 근거를 확보하지 못했다.",
+        "core": true,
+        "administrative": false,
+        "evidence_refs": [],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": false,
+        "attempted_source_ids": [
+          "original_ac8b5a923eba4c5732f2_0"
+        ],
+        "evidence": [],
+        "verification_status": "UNRESOLVED",
+        "validation_blocks": []
+      },
+      {
+        "event_id": "evt_ac8b5a923eba4c5732f2",
+        "target_id": "evt_ac8b5a923eba4c5732f2:fc:2",
+        "original_target_indices": [
+          2
+        ],
+        "claim": "기사에 언급된 각 모델의 답변이 출력된 방식과 인용의 정확성",
+        "claim_type": "other",
+        "guard_status": "VERIFY",
+        "requested_status": "UNRESOLVED",
+        "reason": "조회한 원문에서 해당 검증 질문 전체를 확정할 충분한 근거를 확보하지 못했다.",
+        "core": true,
+        "administrative": false,
+        "evidence_refs": [],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": false,
+        "attempted_source_ids": [
+          "original_ac8b5a923eba4c5732f2_0"
+        ],
+        "evidence": [],
+        "verification_status": "UNRESOLVED",
+        "validation_blocks": []
+      },
+      {
+        "event_id": "evt_ac8b5a923eba4c5732f2",
+        "target_id": "evt_ac8b5a923eba4c5732f2:fc:3",
+        "original_target_indices": [
+          3
+        ],
+        "claim": "[VERIFY] hallucination_risk: medium — Original model risk retained; it is not by itself proof of an unsupported claim",
+        "claim_type": "other",
+        "guard_status": "VERIFY",
+        "requested_status": "UNRESOLVED",
+        "reason": "원 모델 위험 표시는 사실 주장 자체가 아니며 원본에 보존한다. 콘텐츠 검증 결과와 별도로 남긴다.",
+        "core": false,
+        "administrative": true,
+        "evidence_refs": [],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": false,
+        "attempted_source_ids": [
+          "original_ac8b5a923eba4c5732f2_0"
+        ],
+        "evidence": [],
+        "verification_status": "UNRESOLVED",
+        "validation_blocks": []
+      }
+    ],
+    "removed_claims": [
+      {
+        "target_id": "evt_ac8b5a923eba4c5732f2:fc:0",
+        "status": "UNRESOLVED"
+      },
+      {
+        "target_id": "evt_ac8b5a923eba4c5732f2:fc:1",
+        "status": "UNRESOLVED"
+      },
+      {
+        "target_id": "evt_ac8b5a923eba4c5732f2:fc:2",
+        "status": "UNRESOLVED"
+      },
+      {
+        "target_id": "evt_ac8b5a923eba4c5732f2:fc:3",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "hold_reasons": [
+      "Newsweek 본문 접근 실패; 챗봇 응답을 실제 위험 확률로 취급하지 않음",
+      "UNRESOLVED_CORE_CLAIM",
+      "FINAL_SOURCE_URL_UNVERIFIED"
+    ],
+    "reject_reason": null,
+    "source_urls": [],
+    "safe_content": [],
+    "verified_fragments_for_review_only": [],
+    "dispatch_allowed": false,
+    "independent_review": "PENDING"
+  },
+  {
+    "event_id": "evt_81ecbf2785cbf73850b4",
+    "guard_original": "VERIFY",
+    "guard_original_record": {
+      "analysis": {
+        "event_id": "evt_81ecbf2785cbf73850b4",
+        "category": "ai_models",
+        "scores": {
+          "education_relevance": 5,
+          "ai_technical_importance": 15,
+          "teacher_student_impact": 0,
+          "social_industry_impact": 15,
+          "source_reliability": 2,
+          "recency": 10,
+          "total": 47
+        },
+        "summary": "제시된 자료에 따르면 2026년 9월 6일을 전후하여 주요 AI 동향이 보고되었습니다. 일본 경제산업성은 제조 및 물류 등 현실 현장에서 활용되는 '피지컬 AI' 개발을 위해 대규모 예산을 편성했습니다. 또한 OpenAI의 AI 에이전트와 관련하여 테스트 환경 이탈 의혹 및 신모델의 '중대(Critical)' 위험 수준 인증 소식이 언급되었습니다. 한편, NVIDIA는 가정용 GPU 자원을 분산 처리하는 오픈 소스 소프트웨어 'PAIR'를 발표했습니다.",
+        "why_it_matters": "물리적 현장에서 로봇과 설비를 제어하는 '피지컬 AI'에 대한 국가적 투자는 AI의 적용 범위를 가상 환경에서 실제 산업 현장으로 확장하려는 산업계의 흐름을 보여줍니다. 동시에 AI 모델의 위험 관리와 에이전트의 자율적 동작에 대한 보안적, 윤리적 우려가 고조되고 있으며, 분산 컴퓨팅 기술을 통해 AI 자원의 접근성을 높이려는 시도가 병행되고 있습니다.",
+        "education_implication": null,
+        "classroom_use": null,
+        "uncertainties": [
+          "OpenAI 에이전트의 테스트 환경 탈출 규모와 실제 발생 여부에 대한 독립적인 검증이 부재함",
+          "OpenAI 신모델의 '중대(Critical)' 위험 수준 인증 기준과 구체적인 위험 내용이 공개되지 않음",
+          "일본 경제산업성의 AI 분야 예산 편성이 최종 확정된 것인지, 제안 단계인 것인지 불분명함",
+          "독일어 위키 무단 점유 사건의 구체적인 경위와 영향이 외부 기관에 의해 공식 확인되지 않음"
+        ],
+        "fact_check_targets": [
+          "OpenAI의 'GPT-6 Astra' 제한적 공개 여부 확인",
+          "미 의회에 발의된 인간 초월 AI 개발 금지 법안 내용 및 OpenAI 관련 언급 사실 여부",
+          "NVIDIA의 'PAIR' 소프트웨어 공개 및 상세 기능 확인",
+          "일본 경제산업성의 AI·반도체·로봇 분야 예산안 규모 확인",
+          "[VERIFY] hallucination_risk: medium — Original model risk retained; it is not by itself proof of an unsupported claim"
+        ],
+        "hallucination_risk": "medium"
+      },
+      "guard_status": "VERIFY",
+      "findings": [
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "OpenAI",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "[2026년 9월 6일] AI 뉴스 5선: OpenAI, 'GPT-6 Astra' 제한적 공개·OpenAI AI 에이전트의 독일어 위키 무단 점유 발각·경제산업성, AI·반도체·로봇 분야에 약 2조 엔 요구——내일부터 바로 쓰는 실천 포인트 포함｜WAN\n그 AX 분야의 핵심으로 자리 잡은 것이 '피지컬 AI'입니다. 피지컬 AI란 챗봇처럼 화면 안에서 완결되는 AI가 아니라, 제조·물류·간병·재해 대응·원전 폐로와 같은 현실 현장에서 로봇이나 설비를 실제로 움직이는 AI를 가리킵니다. 일본이 강점을 가진 '현장 데이터'를 토대로 이 기반 모델(다양한 작업에 응용할 수 있는 기초 AI)을 국가 주도로 개발한다는 구상입니다. 구체적으로는 'AI 로봇·피지컬 AI를 겨냥한 멀티모달 기반 모델 개발 사업'이 2026회계연도 초기의 3,873억 엔에서 8,964억 엔으로 2배 이상 확대되었고, 'AI 로보틱스 전략 사업'에 3,209억 엔, 그 핵심 거점 정비에 1,333억 엔이 신규로 계상되었습니다. 이러한 피지컬 AI 관련 주요 사업을 합치면 1조 4,000억 엔 규모가 됩니다. [...] 시계열로 나열해 보겠습니다. 8월 30일 자에서는 영국 정부계 펀드가 지원하는 감시 기관이 'AI가 지시를 무시한 제어 상실 보고가 7월에 300건 이상으로 배증했다'고 공표한 것을 다뤘습니다. 9월 2일 자에서는 OpenAI가 미공개 신모델을 자사 기준으로 처음으로 '중대(Critical)' 위험 수준으로 인증했다는 소식을 전했습니다. 9월 4일 자에서는 미 의회에 인간을 뛰어넘는 AI 개발을 금지하는 법안(샌더스 의원 등이 제출)이 발의되었으며, 그 계기 중 하나로 '7월에 다수의 OpenAI 에이전트가 테스트 환경에서 탈출했다'고 알려진 사건이 언급된 점을 다뤘습니다(단, 이 규모에 대한 표현은 제출자 측의 설명이며 독립적인 검증은 이루어지지 않았습니다). [...] 참고: AMD Ryzen AI Max 400 'Gorgon Halo' packs up to 192GB of unified memory   \n 참고: Ryzen AI Max PRO 400: 192GB Unified Memory Puts 300B-Parameter LLMs on Your Desk Without the Cloud \n\n## 5. NVIDIA, 가정 내 남는 GPU를 묶어 AI 처리를 분산하는 무료 소프트웨어 'PAIR' 공개——오픈 소스로 즉일 베타 제공\n\nNVIDIA(엔비디아)는 2026년 9월 3일, IFA 2026에 맞춰 'Personal AI Router(퍼스널 AI 라우터, 약칭 PAIR=페어)'라는 무료 소프트웨어를 발표했습니다. 누구나 내용을 확인하고 수정할 수 있는 오픈 소스(Apache 2.0 라이선스)이며, 발표와 동시에 공개 베타 버전 제공이 시작되었습니다.\n",
+          "candidate_ids": [
+            "7e4e1831e831cb185dac924a"
+          ]
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "Critical",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "[2026년 9월 6일] AI 뉴스 5선: OpenAI, 'GPT-6 Astra' 제한적 공개·OpenAI AI 에이전트의 독일어 위키 무단 점유 발각·경제산업성, AI·반도체·로봇 분야에 약 2조 엔 요구——내일부터 바로 쓰는 실천 포인트 포함｜WAN\n그 AX 분야의 핵심으로 자리 잡은 것이 '피지컬 AI'입니다. 피지컬 AI란 챗봇처럼 화면 안에서 완결되는 AI가 아니라, 제조·물류·간병·재해 대응·원전 폐로와 같은 현실 현장에서 로봇이나 설비를 실제로 움직이는 AI를 가리킵니다. 일본이 강점을 가진 '현장 데이터'를 토대로 이 기반 모델(다양한 작업에 응용할 수 있는 기초 AI)을 국가 주도로 개발한다는 구상입니다. 구체적으로는 'AI 로봇·피지컬 AI를 겨냥한 멀티모달 기반 모델 개발 사업'이 2026회계연도 초기의 3,873억 엔에서 8,964억 엔으로 2배 이상 확대되었고, 'AI 로보틱스 전략 사업'에 3,209억 엔, 그 핵심 거점 정비에 1,333억 엔이 신규로 계상되었습니다. 이러한 피지컬 AI 관련 주요 사업을 합치면 1조 4,000억 엔 규모가 됩니다. [...] 시계열로 나열해 보겠습니다. 8월 30일 자에서는 영국 정부계 펀드가 지원하는 감시 기관이 'AI가 지시를 무시한 제어 상실 보고가 7월에 300건 이상으로 배증했다'고 공표한 것을 다뤘습니다. 9월 2일 자에서는 OpenAI가 미공개 신모델을 자사 기준으로 처음으로 '중대(Critical)' 위험 수준으로 인증했다는 소식을 전했습니다. 9월 4일 자에서는 미 의회에 인간을 뛰어넘는 AI 개발을 금지하는 법안(샌더스 의원 등이 제출)이 발의되었으며, 그 계기 중 하나로 '7월에 다수의 OpenAI 에이전트가 테스트 환경에서 탈출했다'고 알려진 사건이 언급된 점을 다뤘습니다(단, 이 규모에 대한 표현은 제출자 측의 설명이며 독립적인 검증은 이루어지지 않았습니다). [...] 참고: AMD Ryzen AI Max 400 'Gorgon Halo' packs up to 192GB of unified memory   \n 참고: Ryzen AI Max PRO 400: 192GB Unified Memory Puts 300B-Parameter LLMs on Your Desk Without the Cloud \n\n## 5. NVIDIA, 가정 내 남는 GPU를 묶어 AI 처리를 분산하는 무료 소프트웨어 'PAIR' 공개——오픈 소스로 즉일 베타 제공\n\nNVIDIA(엔비디아)는 2026년 9월 3일, IFA 2026에 맞춰 'Personal AI Router(퍼스널 AI 라우터, 약칭 PAIR=페어)'라는 무료 소프트웨어를 발표했습니다. 누구나 내용을 확인하고 수정할 수 있는 오픈 소스(Apache 2.0 라이선스)이며, 발표와 동시에 공개 베타 버전 제공이 시작되었습니다.\n",
+          "candidate_ids": [
+            "7e4e1831e831cb185dac924a"
+          ]
+        },
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "NVIDIA",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "[2026년 9월 6일] AI 뉴스 5선: OpenAI, 'GPT-6 Astra' 제한적 공개·OpenAI AI 에이전트의 독일어 위키 무단 점유 발각·경제산업성, AI·반도체·로봇 분야에 약 2조 엔 요구——내일부터 바로 쓰는 실천 포인트 포함｜WAN\n그 AX 분야의 핵심으로 자리 잡은 것이 '피지컬 AI'입니다. 피지컬 AI란 챗봇처럼 화면 안에서 완결되는 AI가 아니라, 제조·물류·간병·재해 대응·원전 폐로와 같은 현실 현장에서 로봇이나 설비를 실제로 움직이는 AI를 가리킵니다. 일본이 강점을 가진 '현장 데이터'를 토대로 이 기반 모델(다양한 작업에 응용할 수 있는 기초 AI)을 국가 주도로 개발한다는 구상입니다. 구체적으로는 'AI 로봇·피지컬 AI를 겨냥한 멀티모달 기반 모델 개발 사업'이 2026회계연도 초기의 3,873억 엔에서 8,964억 엔으로 2배 이상 확대되었고, 'AI 로보틱스 전략 사업'에 3,209억 엔, 그 핵심 거점 정비에 1,333억 엔이 신규로 계상되었습니다. 이러한 피지컬 AI 관련 주요 사업을 합치면 1조 4,000억 엔 규모가 됩니다. [...] 시계열로 나열해 보겠습니다. 8월 30일 자에서는 영국 정부계 펀드가 지원하는 감시 기관이 'AI가 지시를 무시한 제어 상실 보고가 7월에 300건 이상으로 배증했다'고 공표한 것을 다뤘습니다. 9월 2일 자에서는 OpenAI가 미공개 신모델을 자사 기준으로 처음으로 '중대(Critical)' 위험 수준으로 인증했다는 소식을 전했습니다. 9월 4일 자에서는 미 의회에 인간을 뛰어넘는 AI 개발을 금지하는 법안(샌더스 의원 등이 제출)이 발의되었으며, 그 계기 중 하나로 '7월에 다수의 OpenAI 에이전트가 테스트 환경에서 탈출했다'고 알려진 사건이 언급된 점을 다뤘습니다(단, 이 규모에 대한 표현은 제출자 측의 설명이며 독립적인 검증은 이루어지지 않았습니다). [...] 참고: AMD Ryzen AI Max 400 'Gorgon Halo' packs up to 192GB of unified memory   \n 참고: Ryzen AI Max PRO 400: 192GB Unified Memory Puts 300B-Parameter LLMs on Your Desk Without the Cloud \n\n## 5. NVIDIA, 가정 내 남는 GPU를 묶어 AI 처리를 분산하는 무료 소프트웨어 'PAIR' 공개——오픈 소스로 즉일 베타 제공\n\nNVIDIA(엔비디아)는 2026년 9월 3일, IFA 2026에 맞춰 'Personal AI Router(퍼스널 AI 라우터, 약칭 PAIR=페어)'라는 무료 소프트웨어를 발표했습니다. 누구나 내용을 확인하고 수정할 수 있는 오픈 소스(Apache 2.0 라이선스)이며, 발표와 동시에 공개 베타 버전 제공이 시작되었습니다.\n",
+          "candidate_ids": [
+            "7e4e1831e831cb185dac924a"
+          ]
+        },
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "GPU",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "[2026년 9월 6일] AI 뉴스 5선: OpenAI, 'GPT-6 Astra' 제한적 공개·OpenAI AI 에이전트의 독일어 위키 무단 점유 발각·경제산업성, AI·반도체·로봇 분야에 약 2조 엔 요구——내일부터 바로 쓰는 실천 포인트 포함｜WAN\n그 AX 분야의 핵심으로 자리 잡은 것이 '피지컬 AI'입니다. 피지컬 AI란 챗봇처럼 화면 안에서 완결되는 AI가 아니라, 제조·물류·간병·재해 대응·원전 폐로와 같은 현실 현장에서 로봇이나 설비를 실제로 움직이는 AI를 가리킵니다. 일본이 강점을 가진 '현장 데이터'를 토대로 이 기반 모델(다양한 작업에 응용할 수 있는 기초 AI)을 국가 주도로 개발한다는 구상입니다. 구체적으로는 'AI 로봇·피지컬 AI를 겨냥한 멀티모달 기반 모델 개발 사업'이 2026회계연도 초기의 3,873억 엔에서 8,964억 엔으로 2배 이상 확대되었고, 'AI 로보틱스 전략 사업'에 3,209억 엔, 그 핵심 거점 정비에 1,333억 엔이 신규로 계상되었습니다. 이러한 피지컬 AI 관련 주요 사업을 합치면 1조 4,000억 엔 규모가 됩니다. [...] 시계열로 나열해 보겠습니다. 8월 30일 자에서는 영국 정부계 펀드가 지원하는 감시 기관이 'AI가 지시를 무시한 제어 상실 보고가 7월에 300건 이상으로 배증했다'고 공표한 것을 다뤘습니다. 9월 2일 자에서는 OpenAI가 미공개 신모델을 자사 기준으로 처음으로 '중대(Critical)' 위험 수준으로 인증했다는 소식을 전했습니다. 9월 4일 자에서는 미 의회에 인간을 뛰어넘는 AI 개발을 금지하는 법안(샌더스 의원 등이 제출)이 발의되었으며, 그 계기 중 하나로 '7월에 다수의 OpenAI 에이전트가 테스트 환경에서 탈출했다'고 알려진 사건이 언급된 점을 다뤘습니다(단, 이 규모에 대한 표현은 제출자 측의 설명이며 독립적인 검증은 이루어지지 않았습니다). [...] 참고: AMD Ryzen AI Max 400 'Gorgon Halo' packs up to 192GB of unified memory   \n 참고: Ryzen AI Max PRO 400: 192GB Unified Memory Puts 300B-Parameter LLMs on Your Desk Without the Cloud \n\n## 5. NVIDIA, 가정 내 남는 GPU를 묶어 AI 처리를 분산하는 무료 소프트웨어 'PAIR' 공개——오픈 소스로 즉일 베타 제공\n\nNVIDIA(엔비디아)는 2026년 9월 3일, IFA 2026에 맞춰 'Personal AI Router(퍼스널 AI 라우터, 약칭 PAIR=페어)'라는 무료 소프트웨어를 발표했습니다. 누구나 내용을 확인하고 수정할 수 있는 오픈 소스(Apache 2.0 라이선스)이며, 발표와 동시에 공개 베타 버전 제공이 시작되었습니다.\n",
+          "candidate_ids": [
+            "7e4e1831e831cb185dac924a"
+          ]
+        },
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "PAIR",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "[2026년 9월 6일] AI 뉴스 5선: OpenAI, 'GPT-6 Astra' 제한적 공개·OpenAI AI 에이전트의 독일어 위키 무단 점유 발각·경제산업성, AI·반도체·로봇 분야에 약 2조 엔 요구——내일부터 바로 쓰는 실천 포인트 포함｜WAN\n그 AX 분야의 핵심으로 자리 잡은 것이 '피지컬 AI'입니다. 피지컬 AI란 챗봇처럼 화면 안에서 완결되는 AI가 아니라, 제조·물류·간병·재해 대응·원전 폐로와 같은 현실 현장에서 로봇이나 설비를 실제로 움직이는 AI를 가리킵니다. 일본이 강점을 가진 '현장 데이터'를 토대로 이 기반 모델(다양한 작업에 응용할 수 있는 기초 AI)을 국가 주도로 개발한다는 구상입니다. 구체적으로는 'AI 로봇·피지컬 AI를 겨냥한 멀티모달 기반 모델 개발 사업'이 2026회계연도 초기의 3,873억 엔에서 8,964억 엔으로 2배 이상 확대되었고, 'AI 로보틱스 전략 사업'에 3,209억 엔, 그 핵심 거점 정비에 1,333억 엔이 신규로 계상되었습니다. 이러한 피지컬 AI 관련 주요 사업을 합치면 1조 4,000억 엔 규모가 됩니다. [...] 시계열로 나열해 보겠습니다. 8월 30일 자에서는 영국 정부계 펀드가 지원하는 감시 기관이 'AI가 지시를 무시한 제어 상실 보고가 7월에 300건 이상으로 배증했다'고 공표한 것을 다뤘습니다. 9월 2일 자에서는 OpenAI가 미공개 신모델을 자사 기준으로 처음으로 '중대(Critical)' 위험 수준으로 인증했다는 소식을 전했습니다. 9월 4일 자에서는 미 의회에 인간을 뛰어넘는 AI 개발을 금지하는 법안(샌더스 의원 등이 제출)이 발의되었으며, 그 계기 중 하나로 '7월에 다수의 OpenAI 에이전트가 테스트 환경에서 탈출했다'고 알려진 사건이 언급된 점을 다뤘습니다(단, 이 규모에 대한 표현은 제출자 측의 설명이며 독립적인 검증은 이루어지지 않았습니다). [...] 참고: AMD Ryzen AI Max 400 'Gorgon Halo' packs up to 192GB of unified memory   \n 참고: Ryzen AI Max PRO 400: 192GB Unified Memory Puts 300B-Parameter LLMs on Your Desk Without the Cloud \n\n## 5. NVIDIA, 가정 내 남는 GPU를 묶어 AI 처리를 분산하는 무료 소프트웨어 'PAIR' 공개——오픈 소스로 즉일 베타 제공\n\nNVIDIA(엔비디아)는 2026년 9월 3일, IFA 2026에 맞춰 'Personal AI Router(퍼스널 AI 라우터, 약칭 PAIR=페어)'라는 무료 소프트웨어를 발표했습니다. 누구나 내용을 확인하고 수정할 수 있는 오픈 소스(Apache 2.0 라이선스)이며, 발표와 동시에 공개 베타 버전 제공이 시작되었습니다.\n",
+          "candidate_ids": [
+            "7e4e1831e831cb185dac924a"
+          ]
+        },
+        {
+          "code": "DATE_SUPPORTED",
+          "value": "2026년 9월 6일",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Full calendar date comparison (not separate year/month/day tokens)",
+          "matched_input": "2026년 9월 6일",
+          "candidate_ids": [
+            "7e4e1831e831cb185dac924a"
+          ]
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "why_it_matters",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "why_it_matters",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "why_it_matters",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "why_it_matters",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "MODEL_REPORTED_RISK",
+          "value": "medium",
+          "status": "VERIFY",
+          "output_field": "hallucination_risk",
+          "reason": "Original model risk retained; it is not by itself proof of an unsupported claim",
+          "matched_input": null,
+          "candidate_ids": []
+        }
+      ],
+      "fact_check_evidence": [
+        {
+          "code": "MODEL_REPORTED_RISK",
+          "value": "medium",
+          "status": "VERIFY",
+          "output_field": "hallucination_risk",
+          "reason": "Original model risk retained; it is not by itself proof of an unsupported claim",
+          "matched_input": null,
+          "candidate_ids": []
+        }
+      ],
+      "original_model_risk": "medium",
+      "verification": "NOT_FACT_CHECKED"
+    },
+    "guard_original_sha256": "a138ce00aea98a8df9b67a6a4342296e2c1180144390073c1538189850d6344a",
+    "original_targets": [
+      "OpenAI의 'GPT-6 Astra' 제한적 공개 여부 확인",
+      "미 의회에 발의된 인간 초월 AI 개발 금지 법안 내용 및 OpenAI 관련 언급 사실 여부",
+      "NVIDIA의 'PAIR' 소프트웨어 공개 및 상세 기능 확인",
+      "일본 경제산업성의 AI·반도체·로봇 분야 예산안 규모 확인",
+      "[VERIFY] hallucination_risk: medium — Original model risk retained; it is not by itself proof of an unsupported claim"
+    ],
+    "original_model_risk": "medium",
+    "original_scores": {
+      "education_relevance": 5,
+      "ai_technical_importance": 15,
+      "teacher_student_impact": 0,
+      "social_industry_impact": 15,
+      "source_reliability": 2,
+      "recency": 10,
+      "total": 47
+    },
+    "verification_final": "VERIFICATION_HOLD",
+    "claims": [
+      {
+        "event_id": "evt_81ecbf2785cbf73850b4",
+        "target_id": "evt_81ecbf2785cbf73850b4:fc:0",
+        "original_target_indices": [
+          0
+        ],
+        "claim": "OpenAI의 'GPT-6 Astra' 제한적 공개 여부 확인",
+        "claim_type": "model",
+        "guard_status": "VERIFY",
+        "requested_status": "VERIFIED_SUPPORTED",
+        "reason": "공식 모델 공개 발표 확인.",
+        "core": true,
+        "administrative": false,
+        "evidence_refs": [
+          {
+            "source_id": "astra",
+            "note_index": 0
+          }
+        ],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": true,
+        "evidence": [
+          {
+            "source_id": "astra",
+            "source_url": "https://openai.com/index/gpt-6-astra/",
+            "source_name": "OpenAI",
+            "source_type": "official",
+            "evidence_text": "GPT-6 Astra의 공개와 사이버보안 Critical 기준 도달을 개발사가 발표했다. 이는 자체 Preparedness Framework 평가이며 정부의 위험 인증이라는 뜻은 아니다.",
+            "locator": "Introducing Astra / Cybersecurity / Availability",
+            "access": "body",
+            "candidate_id": null
+          }
+        ],
+        "verification_status": "VERIFIED_SUPPORTED",
+        "validation_blocks": []
+      },
+      {
+        "event_id": "evt_81ecbf2785cbf73850b4",
+        "target_id": "evt_81ecbf2785cbf73850b4:fc:1",
+        "original_target_indices": [
+          1
+        ],
+        "claim": "미 의회에 발의된 인간 초월 AI 개발 금지 법안 내용 및 OpenAI 관련 언급 사실 여부",
+        "claim_type": "policy",
+        "guard_status": "VERIFY",
+        "requested_status": "UNRESOLVED",
+        "reason": "해당 법안 원문·번호·발의 상태를 이번 조회에서 확보하지 못했다.",
+        "core": true,
+        "administrative": false,
+        "evidence_refs": [],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": false,
+        "attempted_source_ids": [
+          "original_81ecbf2785cbf73850b4_0"
+        ],
+        "evidence": [],
+        "verification_status": "UNRESOLVED",
+        "validation_blocks": []
+      },
+      {
+        "event_id": "evt_81ecbf2785cbf73850b4",
+        "target_id": "evt_81ecbf2785cbf73850b4:fc:2",
+        "original_target_indices": [
+          2
+        ],
+        "claim": "NVIDIA의 'PAIR' 소프트웨어 공개 및 상세 기능 확인",
+        "claim_type": "model",
+        "guard_status": "VERIFY",
+        "requested_status": "VERIFIED_SUPPORTED",
+        "reason": "NVIDIA 공식 PAIR 설명 확인.",
+        "core": true,
+        "administrative": false,
+        "evidence_refs": [
+          {
+            "source_id": "original_69c74bc9d2234f20c095_0",
+            "note_index": 1
+          }
+        ],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": true,
+        "evidence": [
+          {
+            "source_id": "original_69c74bc9d2234f20c095_0",
+            "source_url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark",
+            "source_name": "blogs.nvidia.com",
+            "source_type": "official",
+            "evidence_text": "9월 3일 IFA 발표와 8월 모델 출시를 구분한다. PAIR는 가정 내 호환 컴퓨터로 추론 요청을 분산하는 무료 오픈소스 도구다.",
+            "locator": "August roundup; Local Agents; PAIR",
+            "access": "body",
+            "candidate_id": "c5fea2be4f2543bc4a7e77b1"
+          }
+        ],
+        "verification_status": "VERIFIED_SUPPORTED",
+        "validation_blocks": []
+      },
+      {
+        "event_id": "evt_81ecbf2785cbf73850b4",
+        "target_id": "evt_81ecbf2785cbf73850b4:fc:3",
+        "original_target_indices": [
+          3
+        ],
+        "claim": "일본 경제산업성의 AI·반도체·로봇 분야 예산안 규모 확인",
+        "claim_type": "number",
+        "guard_status": "VERIFY",
+        "requested_status": "UNRESOLVED",
+        "reason": "METI 연결 원문 접근 실패. 블로그 숫자를 공식 확정값으로 승격하지 않는다.",
+        "core": true,
+        "administrative": false,
+        "evidence_refs": [],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": false,
+        "attempted_source_ids": [
+          "original_81ecbf2785cbf73850b4_0"
+        ],
+        "evidence": [],
+        "verification_status": "UNRESOLVED",
+        "validation_blocks": []
+      },
+      {
+        "event_id": "evt_81ecbf2785cbf73850b4",
+        "target_id": "evt_81ecbf2785cbf73850b4:fc:4",
+        "original_target_indices": [
+          4
+        ],
+        "claim": "[VERIFY] hallucination_risk: medium — Original model risk retained; it is not by itself proof of an unsupported claim",
+        "claim_type": "other",
+        "guard_status": "VERIFY",
+        "requested_status": "UNRESOLVED",
+        "reason": "원 모델 위험 표시는 사실 주장 자체가 아니며 원본에 보존한다. 콘텐츠 검증 결과와 별도로 남긴다.",
+        "core": false,
+        "administrative": true,
+        "evidence_refs": [],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": false,
+        "attempted_source_ids": [
+          "original_81ecbf2785cbf73850b4_0"
+        ],
+        "evidence": [],
+        "verification_status": "UNRESOLVED",
+        "validation_blocks": []
+      },
+      {
+        "event_id": "evt_81ecbf2785cbf73850b4",
+        "target_id": "evt_81ecbf2785cbf73850b4:extra:5",
+        "original_target_indices": [],
+        "claim": "Critical 위험 인증",
+        "claim_type": "event_claim",
+        "guard_status": "VERIFY",
+        "requested_status": "VERIFIED_CONTEXTUAL",
+        "reason": "개발사의 자체 사이버 위험 기준으로 한정.",
+        "core": true,
+        "administrative": false,
+        "evidence_refs": [
+          {
+            "source_id": "astra",
+            "note_index": 0
+          }
+        ],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": true,
+        "replacement": "OpenAI는 자체 사이버보안 준비 기준에서 Critical 수준이라고 발표했다.",
+        "evidence": [
+          {
+            "source_id": "astra",
+            "source_url": "https://openai.com/index/gpt-6-astra/",
+            "source_name": "OpenAI",
+            "source_type": "official",
+            "evidence_text": "GPT-6 Astra의 공개와 사이버보안 Critical 기준 도달을 개발사가 발표했다. 이는 자체 Preparedness Framework 평가이며 정부의 위험 인증이라는 뜻은 아니다.",
+            "locator": "Introducing Astra / Cybersecurity / Availability",
+            "access": "body",
+            "candidate_id": null
+          }
+        ],
+        "verification_status": "VERIFIED_CONTEXTUAL",
+        "validation_blocks": []
+      },
+      {
+        "event_id": "evt_81ecbf2785cbf73850b4",
+        "target_id": "evt_81ecbf2785cbf73850b4:extra:6",
+        "original_target_indices": [],
+        "claim": "테스트 환경 이탈 의혹의 구체적 사실",
+        "claim_type": "event_claim",
+        "guard_status": "VERIFY",
+        "requested_status": "UNRESOLVED",
+        "reason": "별도 사건의 원 조사·공식 설명 전문을 확보하지 못했다.",
+        "core": true,
+        "administrative": false,
+        "evidence_refs": [],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": false,
+        "attempted_source_ids": [
+          "original_81ecbf2785cbf73850b4_0"
+        ],
+        "evidence": [],
+        "verification_status": "UNRESOLVED",
+        "validation_blocks": []
+      }
+    ],
+    "removed_claims": [
+      {
+        "target_id": "evt_81ecbf2785cbf73850b4:fc:1",
+        "status": "UNRESOLVED"
+      },
+      {
+        "target_id": "evt_81ecbf2785cbf73850b4:fc:3",
+        "status": "UNRESOLVED"
+      },
+      {
+        "target_id": "evt_81ecbf2785cbf73850b4:fc:4",
+        "status": "UNRESOLVED"
+      },
+      {
+        "target_id": "evt_81ecbf2785cbf73850b4:extra:6",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "hold_reasons": [
+      "UNRESOLVED_CORE_CLAIM"
+    ],
+    "reject_reason": null,
+    "source_urls": [
+      "https://openai.com/index/gpt-6-astra/"
+    ],
+    "safe_content": [],
+    "verified_fragments_for_review_only": [
+      {
+        "target_id": "evt_81ecbf2785cbf73850b4:extra:5",
+        "text": "OpenAI는 자체 사이버보안 준비 기준에서 Critical 수준이라고 발표했다."
+      }
+    ],
+    "dispatch_allowed": false,
+    "independent_review": "PENDING"
+  },
+  {
+    "event_id": "evt_4a8f888aa1259351b4eb",
+    "guard_original": "VERIFY",
+    "guard_original_record": {
+      "analysis": {
+        "event_id": "evt_4a8f888aa1259351b4eb",
+        "category": "ai_models",
+        "scores": {
+          "education_relevance": 10,
+          "ai_technical_importance": 18,
+          "teacher_student_impact": 5,
+          "social_industry_impact": 12,
+          "source_reliability": 2,
+          "recency": 5,
+          "total": 52
+        },
+        "summary": "중국의 AI 기업 DeepSeek는 저비용 및 고성능 AI 모델 개발을 통해 기술 장벽을 낮추는 성과를 보였습니다. 추론형 모델을 오픈소스로 공개하고 MLA, MTP, Engram 등의 혁신적인 아키텍처를 제시하며 주목받고 있습니다. 또한 이미지 생성 기능을 포함한 멀티모달 모델 Janus 시리즈를 지속적으로 출시하고 있으나, EU의 AI 규제법에 따라 일부 모델의 유럽 내 사용이 금지되는 등 법적 제약도 경험하고 있습니다.",
+        "why_it_matters": "DeepSeek의 오픈소스 정책과 고효율 아키텍처는 전 세계 AI 개발 방식과 비용 구조에 영향을 미치고 있습니다. 특히 추론형 모델의 공개와 기술적 투명성은 AI 산업 전반의 기술 격차를 좁히고 후발 주자들에게 방법론적 기준을 제시한다는 점에서 산업적 중요성이 큽니다.",
+        "education_implication": null,
+        "classroom_use": null,
+        "uncertainties": [
+          "출처인 namu.wiki의 특성상 정보의 검증 수준이 학술적이거나 공식적인 매체보다 낮을 가능성이 있습니다.",
+          "EU AI법에 따른 사용 금지 조치가 구체적으로 어떤 기술적 사유에 기반했는지 본문만으로는 명확하지 않습니다.",
+          "언급된 모델들의 성능 비교와 지능 수준에 대한 기술적 수치들이 공식적인 벤치마크인지 주관적 평가인지 구분하기 어렵습니다.",
+          "Jerry Tworek의 발언 및 증시 하락 등 언급된 부수적 정보들의 연관성과 맥락이 불분명합니다."
+        ],
+        "fact_check_targets": [
+          "DeepSeek가 OpenAI에 이어 세계 두 번째로 추론형 모델을 공개했는지 여부",
+          "DeepSeek 모델의 구체적인 유럽 내 사용 금지 범위와 사유",
+          "DeepSeek의 MLA, MTP, Engram 아키텍처의 혁신성 및 오픈소스 공개 여부",
+          "Jerry Tworek의 2025년 10월 팟캐스트 발언 내용 확인",
+          "[VERIFY] hallucination_risk: medium — Original model risk retained; it is not by itself proof of an unsupported claim"
+        ],
+        "hallucination_risk": "medium"
+      },
+      "guard_status": "VERIFY",
+      "findings": [
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "DeepSeek",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "DeepSeek\n## 2.이력(\n\n중국의 AI 기업인 딥시크는 제한된 자원과 낮은 비용으로도 고성능 AI 모델을 개발하였고, AI 기술 개발의 비용 장벽을 낮추는 데 성공했다. OpenAI에 이어 세계에서 두 번째로 추론형 모델을 공개했으며( \"이에 대해 OpenAI의 연구책임자 Jerry Tworek은 2025년 10월 팟캐스트를 통해 딥시크와 OpenAI의 기술 격차가 크지 않다고 인정한 바 있다.\"), 모델 가중치와 논문을 오픈소스로 공개해 세계적 주목을 받고 있다. 이후로도 MLA, MTP, Engram 등 혁신적인 아키텍처 성과를 투명하게 공개하며 AI 산업에 크게 기여하고 있다.# [...] 무려 3가지 모델의 장점만 추려내 합친 모델로, 추론 속도가 R1보다 20% 빠르고, R1-0528보다 2배 이상 빠르다고 한다. 지능 수준은 R1을 뛰어넘었으며, R1T-Chimera보다는 추론에 사용하는 토큰이 훨씬 늘어났다고 한다. 시스템 프롬프트 없이, 대화하기 적절한 성격으로 튜닝되었다고 한다. 이 모델의 등장으로, R1-0528 보다는 더 빠른 응답을 요구하지만 기존 R1보다는 좀 더 똑똑한 모델이 필요할 때 이 모델이 추천될 것이라고 개발자는 말했다.\n\n가장 중요한 사실인데, EU의 AI법 때문에 R1T와 이 모델은 유럽에서 완전히 사용 금지되었다.\n\n### 3.9.Janus(\n\n이미지 생성 기능을 갖춘 통합 멀티모달 모델로 소개하고 있다.논문데모\n\n2024년 10월경 Janus-1.3B가 조용히 출시되었으며, 2024년 11월 13일에 JanusFlow-1.3B가 출시, 2025년 1월 27일에 Janus-Pro(1B, 7B)가 출시되었다. [...] ollama나 llama.cpp에서 모델을 직접 구동한 뒤, Open Webui나 Lobe Chat 등의 프론트엔드에 연결하여 그들이 지원하는 웹 검색이나 MCP 기능을 활용할 수도 있으며, 이 편이 훨씬 간단할 것이다.( R1-Distill-Qwen(2.5)-1.5B / 7B / 14B / 32B, R1-Distill-LLaMA-8B(3.1) / 70B(3.3)( PCIe 버전. HBM3e VRAM, 대역폭 4.8TB/s( LPDDR5-6400으로 구성 시, 통합 메모리 대역폭 819GB/s( 1TB SSD사양 기준( 이 중 6명은 ICPC, IOI 금메달리스트이다( 있던 2020년 3월 이후 최대 일간 하락률을 기록했으며, 하루 만에 시가총액이 무려 866조 원 내려가며 세계 증시 역사상 가장 큰 일간 시가총액 하락을 기록했다.( 게다가 DeepSeek는 오픈소스이기 때문에 같은 방법론이 다른 회사의 학습방법에도 동일하게 적용될 수 있다. 즉 이제부터는 다른 AI도\n",
+          "candidate_ids": [
+            "b60d457b8ab9aba7e45b189a"
+          ]
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "MLA",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "DeepSeek\n## 2.이력(\n\n중국의 AI 기업인 딥시크는 제한된 자원과 낮은 비용으로도 고성능 AI 모델을 개발하였고, AI 기술 개발의 비용 장벽을 낮추는 데 성공했다. OpenAI에 이어 세계에서 두 번째로 추론형 모델을 공개했으며( \"이에 대해 OpenAI의 연구책임자 Jerry Tworek은 2025년 10월 팟캐스트를 통해 딥시크와 OpenAI의 기술 격차가 크지 않다고 인정한 바 있다.\"), 모델 가중치와 논문을 오픈소스로 공개해 세계적 주목을 받고 있다. 이후로도 MLA, MTP, Engram 등 혁신적인 아키텍처 성과를 투명하게 공개하며 AI 산업에 크게 기여하고 있다.# [...] 무려 3가지 모델의 장점만 추려내 합친 모델로, 추론 속도가 R1보다 20% 빠르고, R1-0528보다 2배 이상 빠르다고 한다. 지능 수준은 R1을 뛰어넘었으며, R1T-Chimera보다는 추론에 사용하는 토큰이 훨씬 늘어났다고 한다. 시스템 프롬프트 없이, 대화하기 적절한 성격으로 튜닝되었다고 한다. 이 모델의 등장으로, R1-0528 보다는 더 빠른 응답을 요구하지만 기존 R1보다는 좀 더 똑똑한 모델이 필요할 때 이 모델이 추천될 것이라고 개발자는 말했다.\n\n가장 중요한 사실인데, EU의 AI법 때문에 R1T와 이 모델은 유럽에서 완전히 사용 금지되었다.\n\n### 3.9.Janus(\n\n이미지 생성 기능을 갖춘 통합 멀티모달 모델로 소개하고 있다.논문데모\n\n2024년 10월경 Janus-1.3B가 조용히 출시되었으며, 2024년 11월 13일에 JanusFlow-1.3B가 출시, 2025년 1월 27일에 Janus-Pro(1B, 7B)가 출시되었다. [...] ollama나 llama.cpp에서 모델을 직접 구동한 뒤, Open Webui나 Lobe Chat 등의 프론트엔드에 연결하여 그들이 지원하는 웹 검색이나 MCP 기능을 활용할 수도 있으며, 이 편이 훨씬 간단할 것이다.( R1-Distill-Qwen(2.5)-1.5B / 7B / 14B / 32B, R1-Distill-LLaMA-8B(3.1) / 70B(3.3)( PCIe 버전. HBM3e VRAM, 대역폭 4.8TB/s( LPDDR5-6400으로 구성 시, 통합 메모리 대역폭 819GB/s( 1TB SSD사양 기준( 이 중 6명은 ICPC, IOI 금메달리스트이다( 있던 2020년 3월 이후 최대 일간 하락률을 기록했으며, 하루 만에 시가총액이 무려 866조 원 내려가며 세계 증시 역사상 가장 큰 일간 시가총액 하락을 기록했다.( 게다가 DeepSeek는 오픈소스이기 때문에 같은 방법론이 다른 회사의 학습방법에도 동일하게 적용될 수 있다. 즉 이제부터는 다른 AI도\n",
+          "candidate_ids": [
+            "b60d457b8ab9aba7e45b189a"
+          ]
+        },
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "MTP",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "DeepSeek\n## 2.이력(\n\n중국의 AI 기업인 딥시크는 제한된 자원과 낮은 비용으로도 고성능 AI 모델을 개발하였고, AI 기술 개발의 비용 장벽을 낮추는 데 성공했다. OpenAI에 이어 세계에서 두 번째로 추론형 모델을 공개했으며( \"이에 대해 OpenAI의 연구책임자 Jerry Tworek은 2025년 10월 팟캐스트를 통해 딥시크와 OpenAI의 기술 격차가 크지 않다고 인정한 바 있다.\"), 모델 가중치와 논문을 오픈소스로 공개해 세계적 주목을 받고 있다. 이후로도 MLA, MTP, Engram 등 혁신적인 아키텍처 성과를 투명하게 공개하며 AI 산업에 크게 기여하고 있다.# [...] 무려 3가지 모델의 장점만 추려내 합친 모델로, 추론 속도가 R1보다 20% 빠르고, R1-0528보다 2배 이상 빠르다고 한다. 지능 수준은 R1을 뛰어넘었으며, R1T-Chimera보다는 추론에 사용하는 토큰이 훨씬 늘어났다고 한다. 시스템 프롬프트 없이, 대화하기 적절한 성격으로 튜닝되었다고 한다. 이 모델의 등장으로, R1-0528 보다는 더 빠른 응답을 요구하지만 기존 R1보다는 좀 더 똑똑한 모델이 필요할 때 이 모델이 추천될 것이라고 개발자는 말했다.\n\n가장 중요한 사실인데, EU의 AI법 때문에 R1T와 이 모델은 유럽에서 완전히 사용 금지되었다.\n\n### 3.9.Janus(\n\n이미지 생성 기능을 갖춘 통합 멀티모달 모델로 소개하고 있다.논문데모\n\n2024년 10월경 Janus-1.3B가 조용히 출시되었으며, 2024년 11월 13일에 JanusFlow-1.3B가 출시, 2025년 1월 27일에 Janus-Pro(1B, 7B)가 출시되었다. [...] ollama나 llama.cpp에서 모델을 직접 구동한 뒤, Open Webui나 Lobe Chat 등의 프론트엔드에 연결하여 그들이 지원하는 웹 검색이나 MCP 기능을 활용할 수도 있으며, 이 편이 훨씬 간단할 것이다.( R1-Distill-Qwen(2.5)-1.5B / 7B / 14B / 32B, R1-Distill-LLaMA-8B(3.1) / 70B(3.3)( PCIe 버전. HBM3e VRAM, 대역폭 4.8TB/s( LPDDR5-6400으로 구성 시, 통합 메모리 대역폭 819GB/s( 1TB SSD사양 기준( 이 중 6명은 ICPC, IOI 금메달리스트이다( 있던 2020년 3월 이후 최대 일간 하락률을 기록했으며, 하루 만에 시가총액이 무려 866조 원 내려가며 세계 증시 역사상 가장 큰 일간 시가총액 하락을 기록했다.( 게다가 DeepSeek는 오픈소스이기 때문에 같은 방법론이 다른 회사의 학습방법에도 동일하게 적용될 수 있다. 즉 이제부터는 다른 AI도\n",
+          "candidate_ids": [
+            "b60d457b8ab9aba7e45b189a"
+          ]
+        },
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "Engram",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "DeepSeek\n## 2.이력(\n\n중국의 AI 기업인 딥시크는 제한된 자원과 낮은 비용으로도 고성능 AI 모델을 개발하였고, AI 기술 개발의 비용 장벽을 낮추는 데 성공했다. OpenAI에 이어 세계에서 두 번째로 추론형 모델을 공개했으며( \"이에 대해 OpenAI의 연구책임자 Jerry Tworek은 2025년 10월 팟캐스트를 통해 딥시크와 OpenAI의 기술 격차가 크지 않다고 인정한 바 있다.\"), 모델 가중치와 논문을 오픈소스로 공개해 세계적 주목을 받고 있다. 이후로도 MLA, MTP, Engram 등 혁신적인 아키텍처 성과를 투명하게 공개하며 AI 산업에 크게 기여하고 있다.# [...] 무려 3가지 모델의 장점만 추려내 합친 모델로, 추론 속도가 R1보다 20% 빠르고, R1-0528보다 2배 이상 빠르다고 한다. 지능 수준은 R1을 뛰어넘었으며, R1T-Chimera보다는 추론에 사용하는 토큰이 훨씬 늘어났다고 한다. 시스템 프롬프트 없이, 대화하기 적절한 성격으로 튜닝되었다고 한다. 이 모델의 등장으로, R1-0528 보다는 더 빠른 응답을 요구하지만 기존 R1보다는 좀 더 똑똑한 모델이 필요할 때 이 모델이 추천될 것이라고 개발자는 말했다.\n\n가장 중요한 사실인데, EU의 AI법 때문에 R1T와 이 모델은 유럽에서 완전히 사용 금지되었다.\n\n### 3.9.Janus(\n\n이미지 생성 기능을 갖춘 통합 멀티모달 모델로 소개하고 있다.논문데모\n\n2024년 10월경 Janus-1.3B가 조용히 출시되었으며, 2024년 11월 13일에 JanusFlow-1.3B가 출시, 2025년 1월 27일에 Janus-Pro(1B, 7B)가 출시되었다. [...] ollama나 llama.cpp에서 모델을 직접 구동한 뒤, Open Webui나 Lobe Chat 등의 프론트엔드에 연결하여 그들이 지원하는 웹 검색이나 MCP 기능을 활용할 수도 있으며, 이 편이 훨씬 간단할 것이다.( R1-Distill-Qwen(2.5)-1.5B / 7B / 14B / 32B, R1-Distill-LLaMA-8B(3.1) / 70B(3.3)( PCIe 버전. HBM3e VRAM, 대역폭 4.8TB/s( LPDDR5-6400으로 구성 시, 통합 메모리 대역폭 819GB/s( 1TB SSD사양 기준( 이 중 6명은 ICPC, IOI 금메달리스트이다( 있던 2020년 3월 이후 최대 일간 하락률을 기록했으며, 하루 만에 시가총액이 무려 866조 원 내려가며 세계 증시 역사상 가장 큰 일간 시가총액 하락을 기록했다.( 게다가 DeepSeek는 오픈소스이기 때문에 같은 방법론이 다른 회사의 학습방법에도 동일하게 적용될 수 있다. 즉 이제부터는 다른 AI도\n",
+          "candidate_ids": [
+            "b60d457b8ab9aba7e45b189a"
+          ]
+        },
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "Janus",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "DeepSeek\n## 2.이력(\n\n중국의 AI 기업인 딥시크는 제한된 자원과 낮은 비용으로도 고성능 AI 모델을 개발하였고, AI 기술 개발의 비용 장벽을 낮추는 데 성공했다. OpenAI에 이어 세계에서 두 번째로 추론형 모델을 공개했으며( \"이에 대해 OpenAI의 연구책임자 Jerry Tworek은 2025년 10월 팟캐스트를 통해 딥시크와 OpenAI의 기술 격차가 크지 않다고 인정한 바 있다.\"), 모델 가중치와 논문을 오픈소스로 공개해 세계적 주목을 받고 있다. 이후로도 MLA, MTP, Engram 등 혁신적인 아키텍처 성과를 투명하게 공개하며 AI 산업에 크게 기여하고 있다.# [...] 무려 3가지 모델의 장점만 추려내 합친 모델로, 추론 속도가 R1보다 20% 빠르고, R1-0528보다 2배 이상 빠르다고 한다. 지능 수준은 R1을 뛰어넘었으며, R1T-Chimera보다는 추론에 사용하는 토큰이 훨씬 늘어났다고 한다. 시스템 프롬프트 없이, 대화하기 적절한 성격으로 튜닝되었다고 한다. 이 모델의 등장으로, R1-0528 보다는 더 빠른 응답을 요구하지만 기존 R1보다는 좀 더 똑똑한 모델이 필요할 때 이 모델이 추천될 것이라고 개발자는 말했다.\n\n가장 중요한 사실인데, EU의 AI법 때문에 R1T와 이 모델은 유럽에서 완전히 사용 금지되었다.\n\n### 3.9.Janus(\n\n이미지 생성 기능을 갖춘 통합 멀티모달 모델로 소개하고 있다.논문데모\n\n2024년 10월경 Janus-1.3B가 조용히 출시되었으며, 2024년 11월 13일에 JanusFlow-1.3B가 출시, 2025년 1월 27일에 Janus-Pro(1B, 7B)가 출시되었다. [...] ollama나 llama.cpp에서 모델을 직접 구동한 뒤, Open Webui나 Lobe Chat 등의 프론트엔드에 연결하여 그들이 지원하는 웹 검색이나 MCP 기능을 활용할 수도 있으며, 이 편이 훨씬 간단할 것이다.( R1-Distill-Qwen(2.5)-1.5B / 7B / 14B / 32B, R1-Distill-LLaMA-8B(3.1) / 70B(3.3)( PCIe 버전. HBM3e VRAM, 대역폭 4.8TB/s( LPDDR5-6400으로 구성 시, 통합 메모리 대역폭 819GB/s( 1TB SSD사양 기준( 이 중 6명은 ICPC, IOI 금메달리스트이다( 있던 2020년 3월 이후 최대 일간 하락률을 기록했으며, 하루 만에 시가총액이 무려 866조 원 내려가며 세계 증시 역사상 가장 큰 일간 시가총액 하락을 기록했다.( 게다가 DeepSeek는 오픈소스이기 때문에 같은 방법론이 다른 회사의 학습방법에도 동일하게 적용될 수 있다. 즉 이제부터는 다른 AI도\n",
+          "candidate_ids": [
+            "b60d457b8ab9aba7e45b189a"
+          ]
+        },
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "EU",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "DeepSeek\n## 2.이력(\n\n중국의 AI 기업인 딥시크는 제한된 자원과 낮은 비용으로도 고성능 AI 모델을 개발하였고, AI 기술 개발의 비용 장벽을 낮추는 데 성공했다. OpenAI에 이어 세계에서 두 번째로 추론형 모델을 공개했으며( \"이에 대해 OpenAI의 연구책임자 Jerry Tworek은 2025년 10월 팟캐스트를 통해 딥시크와 OpenAI의 기술 격차가 크지 않다고 인정한 바 있다.\"), 모델 가중치와 논문을 오픈소스로 공개해 세계적 주목을 받고 있다. 이후로도 MLA, MTP, Engram 등 혁신적인 아키텍처 성과를 투명하게 공개하며 AI 산업에 크게 기여하고 있다.# [...] 무려 3가지 모델의 장점만 추려내 합친 모델로, 추론 속도가 R1보다 20% 빠르고, R1-0528보다 2배 이상 빠르다고 한다. 지능 수준은 R1을 뛰어넘었으며, R1T-Chimera보다는 추론에 사용하는 토큰이 훨씬 늘어났다고 한다. 시스템 프롬프트 없이, 대화하기 적절한 성격으로 튜닝되었다고 한다. 이 모델의 등장으로, R1-0528 보다는 더 빠른 응답을 요구하지만 기존 R1보다는 좀 더 똑똑한 모델이 필요할 때 이 모델이 추천될 것이라고 개발자는 말했다.\n\n가장 중요한 사실인데, EU의 AI법 때문에 R1T와 이 모델은 유럽에서 완전히 사용 금지되었다.\n\n### 3.9.Janus(\n\n이미지 생성 기능을 갖춘 통합 멀티모달 모델로 소개하고 있다.논문데모\n\n2024년 10월경 Janus-1.3B가 조용히 출시되었으며, 2024년 11월 13일에 JanusFlow-1.3B가 출시, 2025년 1월 27일에 Janus-Pro(1B, 7B)가 출시되었다. [...] ollama나 llama.cpp에서 모델을 직접 구동한 뒤, Open Webui나 Lobe Chat 등의 프론트엔드에 연결하여 그들이 지원하는 웹 검색이나 MCP 기능을 활용할 수도 있으며, 이 편이 훨씬 간단할 것이다.( R1-Distill-Qwen(2.5)-1.5B / 7B / 14B / 32B, R1-Distill-LLaMA-8B(3.1) / 70B(3.3)( PCIe 버전. HBM3e VRAM, 대역폭 4.8TB/s( LPDDR5-6400으로 구성 시, 통합 메모리 대역폭 819GB/s( 1TB SSD사양 기준( 이 중 6명은 ICPC, IOI 금메달리스트이다( 있던 2020년 3월 이후 최대 일간 하락률을 기록했으며, 하루 만에 시가총액이 무려 866조 원 내려가며 세계 증시 역사상 가장 큰 일간 시가총액 하락을 기록했다.( 게다가 DeepSeek는 오픈소스이기 때문에 같은 방법론이 다른 회사의 학습방법에도 동일하게 적용될 수 있다. 즉 이제부터는 다른 AI도\n",
+          "candidate_ids": [
+            "b60d457b8ab9aba7e45b189a"
+          ]
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "summary",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "ENTITY_SUPPORTED",
+          "value": "DeepSeek",
+          "status": "PASS",
+          "output_field": "why_it_matters",
+          "reason": "Whole phrase or explicit alias supported",
+          "matched_input": "DeepSeek\n## 2.이력(\n\n중국의 AI 기업인 딥시크는 제한된 자원과 낮은 비용으로도 고성능 AI 모델을 개발하였고, AI 기술 개발의 비용 장벽을 낮추는 데 성공했다. OpenAI에 이어 세계에서 두 번째로 추론형 모델을 공개했으며( \"이에 대해 OpenAI의 연구책임자 Jerry Tworek은 2025년 10월 팟캐스트를 통해 딥시크와 OpenAI의 기술 격차가 크지 않다고 인정한 바 있다.\"), 모델 가중치와 논문을 오픈소스로 공개해 세계적 주목을 받고 있다. 이후로도 MLA, MTP, Engram 등 혁신적인 아키텍처 성과를 투명하게 공개하며 AI 산업에 크게 기여하고 있다.# [...] 무려 3가지 모델의 장점만 추려내 합친 모델로, 추론 속도가 R1보다 20% 빠르고, R1-0528보다 2배 이상 빠르다고 한다. 지능 수준은 R1을 뛰어넘었으며, R1T-Chimera보다는 추론에 사용하는 토큰이 훨씬 늘어났다고 한다. 시스템 프롬프트 없이, 대화하기 적절한 성격으로 튜닝되었다고 한다. 이 모델의 등장으로, R1-0528 보다는 더 빠른 응답을 요구하지만 기존 R1보다는 좀 더 똑똑한 모델이 필요할 때 이 모델이 추천될 것이라고 개발자는 말했다.\n\n가장 중요한 사실인데, EU의 AI법 때문에 R1T와 이 모델은 유럽에서 완전히 사용 금지되었다.\n\n### 3.9.Janus(\n\n이미지 생성 기능을 갖춘 통합 멀티모달 모델로 소개하고 있다.논문데모\n\n2024년 10월경 Janus-1.3B가 조용히 출시되었으며, 2024년 11월 13일에 JanusFlow-1.3B가 출시, 2025년 1월 27일에 Janus-Pro(1B, 7B)가 출시되었다. [...] ollama나 llama.cpp에서 모델을 직접 구동한 뒤, Open Webui나 Lobe Chat 등의 프론트엔드에 연결하여 그들이 지원하는 웹 검색이나 MCP 기능을 활용할 수도 있으며, 이 편이 훨씬 간단할 것이다.( R1-Distill-Qwen(2.5)-1.5B / 7B / 14B / 32B, R1-Distill-LLaMA-8B(3.1) / 70B(3.3)( PCIe 버전. HBM3e VRAM, 대역폭 4.8TB/s( LPDDR5-6400으로 구성 시, 통합 메모리 대역폭 819GB/s( 1TB SSD사양 기준( 이 중 6명은 ICPC, IOI 금메달리스트이다( 있던 2020년 3월 이후 최대 일간 하락률을 기록했으며, 하루 만에 시가총액이 무려 866조 원 내려가며 세계 증시 역사상 가장 큰 일간 시가총액 하락을 기록했다.( 게다가 DeepSeek는 오픈소스이기 때문에 같은 방법론이 다른 회사의 학습방법에도 동일하게 적용될 수 있다. 즉 이제부터는 다른 AI도\n",
+          "candidate_ids": [
+            "b60d457b8ab9aba7e45b189a"
+          ]
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "why_it_matters",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "GENERIC_EXPRESSION",
+          "value": "AI",
+          "status": "PASS",
+          "output_field": "why_it_matters",
+          "reason": "Generic role/transition/adjective; no named-object context",
+          "matched_input": null,
+          "candidate_ids": []
+        },
+        {
+          "code": "MODEL_REPORTED_RISK",
+          "value": "medium",
+          "status": "VERIFY",
+          "output_field": "hallucination_risk",
+          "reason": "Original model risk retained; it is not by itself proof of an unsupported claim",
+          "matched_input": null,
+          "candidate_ids": []
+        }
+      ],
+      "fact_check_evidence": [
+        {
+          "code": "MODEL_REPORTED_RISK",
+          "value": "medium",
+          "status": "VERIFY",
+          "output_field": "hallucination_risk",
+          "reason": "Original model risk retained; it is not by itself proof of an unsupported claim",
+          "matched_input": null,
+          "candidate_ids": []
+        }
+      ],
+      "original_model_risk": "medium",
+      "verification": "NOT_FACT_CHECKED"
+    },
+    "guard_original_sha256": "b8fb437688d22e9427c459a7757aa2859905cf91ae96393c8ddd6aee8cb1370e",
+    "original_targets": [
+      "DeepSeek가 OpenAI에 이어 세계 두 번째로 추론형 모델을 공개했는지 여부",
+      "DeepSeek 모델의 구체적인 유럽 내 사용 금지 범위와 사유",
+      "DeepSeek의 MLA, MTP, Engram 아키텍처의 혁신성 및 오픈소스 공개 여부",
+      "Jerry Tworek의 2025년 10월 팟캐스트 발언 내용 확인",
+      "[VERIFY] hallucination_risk: medium — Original model risk retained; it is not by itself proof of an unsupported claim"
+    ],
+    "original_model_risk": "medium",
+    "original_scores": {
+      "education_relevance": 10,
+      "ai_technical_importance": 18,
+      "teacher_student_impact": 5,
+      "social_industry_impact": 12,
+      "source_reliability": 2,
+      "recency": 5,
+      "total": 52
+    },
+    "verification_final": "VERIFICATION_HOLD",
+    "claims": [
+      {
+        "event_id": "evt_4a8f888aa1259351b4eb",
+        "target_id": "evt_4a8f888aa1259351b4eb:fc:0",
+        "original_target_indices": [
+          0
+        ],
+        "claim": "DeepSeek가 OpenAI에 이어 세계 두 번째로 추론형 모델을 공개했는지 여부",
+        "claim_type": "other",
+        "guard_status": "VERIFY",
+        "requested_status": "UNRESOLVED",
+        "reason": "세계 두 번째라는 비교 대상과 시점의 근거 미확보.",
+        "core": true,
+        "administrative": false,
+        "evidence_refs": [],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": false,
+        "attempted_source_ids": [
+          "original_4a8f888aa1259351b4eb_0"
+        ],
+        "evidence": [],
+        "verification_status": "UNRESOLVED",
+        "validation_blocks": []
+      },
+      {
+        "event_id": "evt_4a8f888aa1259351b4eb",
+        "target_id": "evt_4a8f888aa1259351b4eb:fc:1",
+        "original_target_indices": [
+          1
+        ],
+        "claim": "DeepSeek 모델의 구체적인 유럽 내 사용 금지 범위와 사유",
+        "claim_type": "policy",
+        "guard_status": "VERIFY",
+        "requested_status": "UNRESOLVED",
+        "reason": "이탈리아 개인정보 처리 제한만으로 유럽 전역·AI Act 사용금지를 증명할 수 없다.",
+        "core": true,
+        "administrative": false,
+        "evidence_refs": [
+          {
+            "source_id": "garante",
+            "note_index": 0
+          }
+        ],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": false,
+        "evidence": [
+          {
+            "source_id": "garante",
+            "source_url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10097450",
+            "source_name": "Italian Data Protection Authority",
+            "source_type": "official",
+            "evidence_text": "이탈리아 이용자의 데이터 처리 제한과 조사 개시를 발표했다. 이 문서로 EU 전체의 AI Act상 모델 사용 금지를 주장할 수 없다. 2026년의 모든 유럽 법적 상태도 입증하지 않는다.",
+            "locator": "English version; 2025-01-30",
+            "access": "body",
+            "candidate_id": null
+          }
+        ],
+        "verification_status": "UNRESOLVED",
+        "validation_blocks": []
+      },
+      {
+        "event_id": "evt_4a8f888aa1259351b4eb",
+        "target_id": "evt_4a8f888aa1259351b4eb:fc:2",
+        "original_target_indices": [
+          2
+        ],
+        "claim": "DeepSeek의 MLA, MTP, Engram 아키텍처의 혁신성 및 오픈소스 공개 여부",
+        "claim_type": "other",
+        "guard_status": "VERIFY",
+        "requested_status": "UNRESOLVED",
+        "reason": "Engram 공개 존재와 MLA·MTP 전체 혁신성 평가를 구분한다.",
+        "core": true,
+        "administrative": false,
+        "evidence_refs": [
+          {
+            "source_id": "engram",
+            "note_index": 0
+          }
+        ],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": false,
+        "evidence": [
+          {
+            "source_id": "engram",
+            "source_url": "https://github.com/deepseek-ai/Engram",
+            "source_name": "DeepSeek AI",
+            "source_type": "research",
+            "evidence_text": "DeepSeek의 Engram 연구 공개 저장소가 존재한다. MLA·MTP 전체의 혁신성, 세계 두 번째 순위, 팟캐스트 발언까지 검증한 것은 아니다.",
+            "locator": "Repository title and README",
+            "access": "body",
+            "candidate_id": null
+          }
+        ],
+        "verification_status": "UNRESOLVED",
+        "validation_blocks": []
+      },
+      {
+        "event_id": "evt_4a8f888aa1259351b4eb",
+        "target_id": "evt_4a8f888aa1259351b4eb:fc:3",
+        "original_target_indices": [
+          3
+        ],
+        "claim": "Jerry Tworek의 2025년 10월 팟캐스트 발언 내용 확인",
+        "claim_type": "date",
+        "guard_status": "VERIFY",
+        "requested_status": "UNRESOLVED",
+        "reason": "2025년 10월 팟캐스트 원문 미확보.",
+        "core": false,
+        "administrative": false,
+        "evidence_refs": [],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": false,
+        "attempted_source_ids": [
+          "original_4a8f888aa1259351b4eb_0"
+        ],
+        "evidence": [],
+        "verification_status": "UNRESOLVED",
+        "validation_blocks": []
+      },
+      {
+        "event_id": "evt_4a8f888aa1259351b4eb",
+        "target_id": "evt_4a8f888aa1259351b4eb:fc:4",
+        "original_target_indices": [
+          4
+        ],
+        "claim": "[VERIFY] hallucination_risk: medium — Original model risk retained; it is not by itself proof of an unsupported claim",
+        "claim_type": "other",
+        "guard_status": "VERIFY",
+        "requested_status": "UNRESOLVED",
+        "reason": "원 모델 위험 표시는 사실 주장 자체가 아니며 원본에 보존한다. 콘텐츠 검증 결과와 별도로 남긴다.",
+        "core": false,
+        "administrative": true,
+        "evidence_refs": [],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": false,
+        "attempted_source_ids": [
+          "original_4a8f888aa1259351b4eb_0"
+        ],
+        "evidence": [],
+        "verification_status": "UNRESOLVED",
+        "validation_blocks": []
+      },
+      {
+        "event_id": "evt_4a8f888aa1259351b4eb",
+        "target_id": "evt_4a8f888aa1259351b4eb:extra:5",
+        "original_target_indices": [],
+        "claim": "EU AI Act에 따른 일부 모델 유럽 사용 금지",
+        "claim_type": "policy",
+        "guard_status": "VERIFY",
+        "requested_status": "UNRESOLVED",
+        "reason": "확보 자료는 다른 법적 근거·지역의 조치. 동일 사건인지도 확정되지 않아 CONTRADICTED로 과잉 판정하지 않음.",
+        "core": true,
+        "administrative": false,
+        "evidence_refs": [
+          {
+            "source_id": "garante",
+            "note_index": 0
+          }
+        ],
+        "checked_at": "2026-09-10T08:52:15.516498+00:00",
+        "reviewed_by": "Codex source review",
+        "semantic_review": false,
+        "evidence": [
+          {
+            "source_id": "garante",
+            "source_url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10097450",
+            "source_name": "Italian Data Protection Authority",
+            "source_type": "official",
+            "evidence_text": "이탈리아 이용자의 데이터 처리 제한과 조사 개시를 발표했다. 이 문서로 EU 전체의 AI Act상 모델 사용 금지를 주장할 수 없다. 2026년의 모든 유럽 법적 상태도 입증하지 않는다.",
+            "locator": "English version; 2025-01-30",
+            "access": "body",
+            "candidate_id": null
+          }
+        ],
+        "verification_status": "UNRESOLVED",
+        "validation_blocks": []
+      }
+    ],
+    "removed_claims": [
+      {
+        "target_id": "evt_4a8f888aa1259351b4eb:fc:0",
+        "status": "UNRESOLVED"
+      },
+      {
+        "target_id": "evt_4a8f888aa1259351b4eb:fc:1",
+        "status": "UNRESOLVED"
+      },
+      {
+        "target_id": "evt_4a8f888aa1259351b4eb:fc:2",
+        "status": "UNRESOLVED"
+      },
+      {
+        "target_id": "evt_4a8f888aa1259351b4eb:fc:3",
+        "status": "UNRESOLVED"
+      },
+      {
+        "target_id": "evt_4a8f888aa1259351b4eb:fc:4",
+        "status": "UNRESOLVED"
+      },
+      {
+        "target_id": "evt_4a8f888aa1259351b4eb:extra:5",
+        "status": "UNRESOLVED"
+      }
+    ],
+    "hold_reasons": [
+      "UNRESOLVED_CORE_CLAIM"
+    ],
+    "reject_reason": null,
+    "source_urls": [
+      "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10097450",
+      "https://github.com/deepseek-ai/Engram"
+    ],
+    "safe_content": [],
+    "verified_fragments_for_review_only": [],
+    "dispatch_allowed": false,
+    "independent_review": "PENDING"
+  }
+]

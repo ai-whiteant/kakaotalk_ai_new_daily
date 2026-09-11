@@ -1,0 +1,21 @@
+{
+  "method": "web.run body retrieval and official evidence lookup for existing events only",
+  "registry_urls": 47,
+  "referenced_sources": 25,
+  "referenced_source_types": {
+    "major_media": 2,
+    "official": 17,
+    "research": 2,
+    "specialist": 4
+  },
+  "disposition_evidence_sources": 20,
+  "disposition_source_types": {
+    "official": 15,
+    "specialist": 4,
+    "major_media": 1
+  },
+  "candidate_collection": false,
+  "tavily_calls": 0,
+  "snippet_final_approvals": 0,
+  "notes": "Registry logs relevant URL attempts, not every search-result link. Notes are paraphrases; hashes cover notes, not full source bodies."
+}

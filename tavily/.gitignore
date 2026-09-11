@@ -1,0 +1,6 @@
+# Local MCP credentials (all directories)
+config.json
+config.json.*
+
+# Temporary validation files
+/work/

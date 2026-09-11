@@ -1,0 +1,112 @@
+[
+  {
+    "event_id": "evt_8713f0f8943a765aa229",
+    "target_id": "evt_8713f0f8943a765aa229:extra:4",
+    "original_target_indices": [],
+    "claim": "참여기관 총 32개라는 확정 표현",
+    "claim_type": "number",
+    "guard_status": "AUTO_HOLD",
+    "requested_status": "CONTRADICTED",
+    "reason": "동일일 공식 발표는 총 33개라고 명시하므로 32개 확정문을 제거한다. 원인은 미해결.",
+    "core": false,
+    "administrative": false,
+    "evidence_refs": [
+      {
+        "source_id": "naver",
+        "note_index": 0
+      }
+    ],
+    "checked_at": "2026-09-10T08:52:15.516498+00:00",
+    "reviewed_by": "Codex source review",
+    "semantic_review": false,
+    "contradicting_fact": "NAVER September 3 release: total 33",
+    "conflict": true,
+    "conflict_resolution": "Prefer dated first-party total for detecting contradiction; do not replace 32 with 33 until membership definition reconciled",
+    "evidence": [
+      {
+        "source_id": "naver",
+        "source_url": "https://www.navercorp.com/media/pressReleasesDetail?seq=10034628",
+        "source_name": "NAVER Corp.",
+        "source_type": "official",
+        "evidence_text": "공식 기업 발표는 최종 선정과 참여 33개 기관을 명시한다. 이전 후보·분석의 총 32개와 숫자가 다르다. 명단 정의나 시점 차이를 이번 확인만으로 해소하지 못했다.",
+        "locator": "2026-09-03 press release, main body",
+        "access": "body",
+        "candidate_id": null
+      }
+    ],
+    "verification_status": "CONTRADICTED",
+    "validation_blocks": []
+  },
+  {
+    "event_id": "evt_74badd4931f57678af6a",
+    "target_id": "evt_74badd4931f57678af6a:extra:4",
+    "original_target_indices": [],
+    "claim": "참여기관 총 32개",
+    "claim_type": "number",
+    "guard_status": "AUTO_HOLD",
+    "requested_status": "CONTRADICTED",
+    "reason": "공식 33개와 다름; 후속기사의 숫자 확정 표현 제거.",
+    "core": false,
+    "administrative": false,
+    "evidence_refs": [
+      {
+        "source_id": "naver",
+        "note_index": 0
+      }
+    ],
+    "checked_at": "2026-09-10T08:52:15.516498+00:00",
+    "reviewed_by": "Codex source review",
+    "semantic_review": false,
+    "contradicting_fact": "NAVER official total 33",
+    "evidence": [
+      {
+        "source_id": "naver",
+        "source_url": "https://www.navercorp.com/media/pressReleasesDetail?seq=10034628",
+        "source_name": "NAVER Corp.",
+        "source_type": "official",
+        "evidence_text": "공식 기업 발표는 최종 선정과 참여 33개 기관을 명시한다. 이전 후보·분석의 총 32개와 숫자가 다르다. 명단 정의나 시점 차이를 이번 확인만으로 해소하지 못했다.",
+        "locator": "2026-09-03 press release, main body",
+        "access": "body",
+        "candidate_id": null
+      }
+    ],
+    "verification_status": "CONTRADICTED",
+    "validation_blocks": []
+  },
+  {
+    "event_id": "evt_bc49de6c05a6caac6745",
+    "target_id": "evt_bc49de6c05a6caac6745:extra:4",
+    "original_target_indices": [],
+    "claim": "학생 관련 데이터가 포함되어 있을 가능성이 높다는 확률적 추정",
+    "claim_type": "event_claim",
+    "guard_status": "AUTO_HOLD",
+    "requested_status": "VERIFIED_UNSUPPORTED",
+    "reason": "기자는 범위를 알 수 없다고 했고 높다는 확률의 근거를 제시하지 않았다. 불명으로 보존한다.",
+    "core": false,
+    "administrative": false,
+    "evidence_refs": [
+      {
+        "source_id": "original_bc49de6c05a6caac6745_0",
+        "note_index": 0
+      }
+    ],
+    "checked_at": "2026-09-10T08:52:15.516498+00:00",
+    "reviewed_by": "Codex source review",
+    "semantic_review": false,
+    "absence_review": "Reporter body paragraphs on missing information categories reviewed; no probability evidence",
+    "evidence": [
+      {
+        "source_id": "original_bc49de6c05a6caac6745_0",
+        "source_url": "https://www.mk.co.kr/news/politics/12147202",
+        "source_name": "www.mk.co.kr",
+        "source_type": "major_media",
+        "evidence_text": "9월 8일 의원의 개인정보보호위원회 제출자료 분석 보도다. 초중고·교육청 과징금 0과 대학 제재를 구분하고 통지 위반 3기관을 적었다. 학생정보 항목과 2차 피해 검토 여부는 자료에서 확인되지 않는다고 명시했다.",
+        "locator": "Reporter body, before AI-generated summary sections",
+        "access": "body",
+        "candidate_id": "5153b0030da4155cee77a8ca"
+      }
+    ],
+    "verification_status": "VERIFIED_UNSUPPORTED",
+    "validation_blocks": []
+  }
+]

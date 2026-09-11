@@ -1,0 +1,24 @@
+{
+  "input_hashes": {
+    "outputs/phase2_1/analysis/analysis.json": "889d783ccaaa9c97be6a7d8f973a2e12e7f6e52415998d1469aae369d4910b62",
+    "outputs/phase2_1/analysis/auto_hold.json": "55ed8181a34d9778826a8ef6fedb9957d23a140cb6a608bf67f33afdaa563507",
+    "outputs/phase2_1/analysis/verify.json": "8f2dd550d83cf1cd9a1fb47d34470613e9e2915192114d24380b819c6b531cf4",
+    "outputs/phase2_1/events/decisions.json": "624aa158fb882340b345e19058ce6c57dadb8fdd5c47fd1f35584d9ced614283",
+    "outputs/phase2_1/events/events.json": "288c027eae0ff89feb810fcf646f4b33e5506606c27aeb360d3d3d84684eddcc",
+    "outputs/phase2_1/logs/audit.json": "39a8735ca055bd917556535677a508f3713aed10584eb19615e04b4448166d06",
+    "outputs/phase2_1/logs/run.json": "887a22abd8547c7293be6070a685be8db05dcd43d72d6304d957eedf5423016a",
+    "outputs/phase2_1/logs/tests.txt": "73d7a96b2d011220ab7cc85463b1aef2b8d83a7d45f3777ce1b814be2030b817",
+    "outputs/phase2_1/samples/analysis.json": "aad84c07dd71378678406a9489aa12925fce265b11de3e3934838b8aaf41ac29",
+    "outputs/phase2_1/samples/auto_hold.json": "b83c754c4bc5e77f27ea1d0c98c261c1e8d932ea441e968db67df54d35e01918",
+    "outputs/phase2_1/samples/events.json": "5dd1f096e76cade1ab01a84a3b9248cb2c1889667d8d57e06cd343c94ada42a0",
+    "outputs/phase2_1/samples/verify.json": "b6c51a9e30388a465935242fe2979295dbfcc1ad5d9a750196c81fd68382bd6f",
+    "outputs/phase2_1/verification/dedup_before_after.json": "87b5cc1d557035607fbce5a9b6d4fc070b2860163c9ff261c222730bd3c2db69",
+    "outputs/phase2_1/verification/editorial_relation_review.json": "7abfc5f0b055583730debcec816ca2a43ec0f66d81644860ec3b55894efa9520",
+    "outputs/phase2_1/verification/final_guard_recheck.json": "029e42439f5453a3ea69ea95f434b287c9df8594a94b728dcbf587c10228d268",
+    "outputs/phase2_1/verification/git_diff.patch": "2b78d339895464176f5c04053e32b306d85868cda8cc738d1b9092c48ee97411",
+    "outputs/phase2_1/verification/guard_before_after.json": "3df99d3f6118008d77d1ee3e530468d5233cb4bd9e7fbcf447e086fd368e3b71",
+    "outputs/phase1/normalized/candidates_20260909T123020056320Z.json": "490b4608eb820ed679ee41a6dcfd969f22d032c493837c3ca220eee53d389e40"
+  },
+  "unchanged": true,
+  "original_pass_sha256": "d554cab38cdd9fc17f4895ce22e7c7b025dfd4550d0856a65b6912e23751d755"
+}

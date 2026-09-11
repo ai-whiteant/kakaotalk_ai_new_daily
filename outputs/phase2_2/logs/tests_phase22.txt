@@ -1,0 +1,38 @@
+test_body_access_failure_holds (news.test_phase22.EvidenceTests.test_body_access_failure_holds) ... ok
+test_context_requires_replacement (news.test_phase22.EvidenceTests.test_context_requires_replacement) ... ok
+test_contradiction_without_specific_fact_downgrades (news.test_phase22.EvidenceTests.test_contradiction_without_specific_fact_downgrades) ... ok
+test_duplicate_target_id_fails (news.test_phase22.EvidenceTests.test_duplicate_target_id_fails) ... ok
+test_equivalence_without_context_downgrades (news.test_phase22.EvidenceTests.test_equivalence_without_context_downgrades) ... ok
+test_generated_url_without_input_or_official_provenance_is_unsupported (news.test_phase22.EvidenceTests.test_generated_url_without_input_or_official_provenance_is_unsupported) ... ok
+test_grade_eight_equivalence_review (news.test_phase22.EvidenceTests.test_grade_eight_equivalence_review) ... ok
+test_input_sha_mismatch_holds (news.test_phase22.EvidenceTests.test_input_sha_mismatch_holds) ... ok
+test_invented_number_requires_reviewed_absence (news.test_phase22.EvidenceTests.test_invented_number_requires_reviewed_absence) ... ok
+test_live_mode_rejected_before_io (news.test_phase22.EvidenceTests.test_live_mode_rejected_before_io) ... ok
+test_missing_absence_review_downgrades (news.test_phase22.EvidenceTests.test_missing_absence_review_downgrades) ... ok
+test_missing_date_holds (news.test_phase22.EvidenceTests.test_missing_date_holds) ... ok
+test_missing_semantic_review_holds (news.test_phase22.EvidenceTests.test_missing_semantic_review_holds) ... ok
+test_missing_target_coverage_fails (news.test_phase22.EvidenceTests.test_missing_target_coverage_fails) ... ok
+test_new_url_requires_actual_body_retrieval (news.test_phase22.EvidenceTests.test_new_url_requires_actual_body_retrieval) ... ok
+test_noncore_unsupported_removed_from_safe_content (news.test_phase22.EvidenceTests.test_noncore_unsupported_removed_from_safe_content) ... ok
+test_number_absent_from_candidate_can_have_official_evidence (news.test_phase22.EvidenceTests.test_number_absent_from_candidate_can_have_official_evidence) ... ok
+test_old_unreviewed_summary_not_exported (news.test_phase22.EvidenceTests.test_old_unreviewed_summary_not_exported) ... ok
+test_original_guard_and_scores_immutable (news.test_phase22.EvidenceTests.test_original_guard_and_scores_immutable) ... ok
+test_original_record_tampering_fails (news.test_phase22.EvidenceTests.test_original_record_tampering_fails) ... ok
+test_partial_body_is_not_final_evidence (news.test_phase22.EvidenceTests.test_partial_body_is_not_final_evidence) ... ok
+test_private_and_credential_urls_rejected (news.test_phase22.EvidenceTests.test_private_and_credential_urls_rejected) ... ok
+test_search_failure_does_not_establish_unsupported (news.test_phase22.EvidenceTests.test_search_failure_does_not_establish_unsupported) ... ok
+test_snippet_is_not_final_evidence (news.test_phase22.EvidenceTests.test_snippet_is_not_final_evidence) ... ok
+test_source_conflict_needs_explicit_resolution (news.test_phase22.EvidenceTests.test_source_conflict_needs_explicit_resolution) ... ok
+test_source_notes_tampering_fails (news.test_phase22.EvidenceTests.test_source_notes_tampering_fails) ... ok
+test_source_priority_is_preserved (news.test_phase22.EvidenceTests.test_source_priority_is_preserved) ... ok
+test_two_hour_equivalence_review (news.test_phase22.EvidenceTests.test_two_hour_equivalence_review) ... ok
+test_unreliable_blog_not_final_evidence (news.test_phase22.EvidenceTests.test_unreliable_blog_not_final_evidence) ... ok
+test_unresolved_core_never_passes (news.test_phase22.EvidenceTests.test_unresolved_core_never_passes) ... ok
+test_unsupported_model_removed (news.test_phase22.EvidenceTests.test_unsupported_model_removed) ... ok
+test_verification_url_cannot_be_new_candidate (news.test_phase22.EvidenceTests.test_verification_url_cannot_be_new_candidate) ... ok
+test_wrong_policy_contradiction_rejects (news.test_phase22.EvidenceTests.test_wrong_policy_contradiction_rejects) ... ok
+
+----------------------------------------------------------------------
+Ran 33 tests in 0.010s
+
+OK

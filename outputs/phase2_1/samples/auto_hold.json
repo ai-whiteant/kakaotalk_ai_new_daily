@@ -1,0 +1,697 @@
+[
+  {
+    "analysis": {
+      "event_id": "evt_0da37ec7577bcd6b517d",
+      "category": "ai_education",
+      "scores": {
+        "education_relevance": 30,
+        "ai_technical_importance": 10,
+        "teacher_student_impact": 15,
+        "social_industry_impact": 10,
+        "source_reliability": 8,
+        "recency": 10,
+        "total": 83
+      },
+      "summary": "뉴욕시 공립학교에서 인공지능(AI) 사용에 대한 제한 조치가 시행되었습니다. 8학년 이하 학생들을 대상으로 1년간 AI 사용이 금지되며, 저학년 학생의 경우 화면 시청 시간에 대한 새로운 제한이 도입됩니다. 고등학생과 교사에게는 AI 사용이 여전히 허용되지만, 학교 밖에서 학생들의 AI 사용을 통제해야 하는 집행상의 어려움이 지적되고 있습니다.",
+      "why_it_matters": "교육 현장에서 생성형 AI의 도입과 금지 사이의 정책적 딜레마를 보여주는 사례입니다. 학생들의 발달 단계에 따른 AI 활용의 적절성에 대한 사회적 합의가 여전히 논의 중이며, 학교 시스템 내에서의 기술 관리와 통제가 실질적으로 얼마나 가능한지에 대한 질문을 던지고 있습니다.",
+      "education_implication": "초등 및 중등 교육 과정에서 AI 기술 도입 속도와 학생의 학습권 보호 사이의 균형점을 찾는 것이 교육 당국의 주요 과제가 되었습니다. 특히 기술의 외부 사용을 완전히 차단하기 어려운 현실적 제약으로 인해 단순 금지 정책의 실효성에 대한 재검토가 필요할 수 있습니다.",
+      "classroom_use": "교실 내에서 학생들에게 AI의 기술적 작동 원리와 한계를 교육하고, 학교 밖에서의 책임 있는 AI 사용에 대해 토론하는 기회로 활용할 수 있습니다. 또한 디지털 리터러시 교육의 일부로서 AI 금지 정책의 배경과 기대 효과를 분석하는 비판적 사고 수업 자료로 사용할 수 있습니다.",
+      "uncertainties": [
+        "8학년 이하에 대한 1년 금지 조치 이후의 정책 방향성이 명확하지 않음",
+        "학교 밖에서의 AI 사용을 학교가 실질적으로 어떻게 관리하고 감독할지에 대한 구체적 방법론이 불분명함",
+        "이번 제한 조치가 학생들의 디지털 학습 역량 개발에 미칠 장기적 영향에 대한 평가"
+      ],
+      "fact_check_targets": [
+        "뉴욕시 교육청의 공식 AI 제한 정책 전문",
+        "8학년 이하 대상 AI 금지의 구체적 적용 범위 및 예외 사항",
+        "교사 대상 AI 허용 지침의 세부 내용",
+        "[AUTO_HOLD] summary: 8 — No equal normalized quantity in any related candidate",
+        "[VERIFY] summary: 1 — Quantity exists but grade context is not established"
+      ],
+      "hallucination_risk": "high"
+    },
+    "guard_status": "AUTO_HOLD",
+    "findings": [
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "summary",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "summary",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "summary",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "summary",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "UNSUPPORTED_NUMBER_OR_DATE",
+        "value": "8",
+        "status": "AUTO_HOLD",
+        "output_field": "summary",
+        "reason": "No equal normalized quantity in any related candidate",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "QUANTITY_CONTEXT_AMBIGUOUS",
+        "value": "1",
+        "status": "VERIFY",
+        "output_field": "summary",
+        "reason": "Quantity exists but grade context is not established",
+        "matched_input": "one year",
+        "candidate_ids": [
+          "973b7e441c9dc7401d4697e2"
+        ]
+      },
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "why_it_matters",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "why_it_matters",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "education_implication",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "classroom_use",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "classroom_use",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "classroom_use",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      }
+    ],
+    "fact_check_evidence": [
+      {
+        "code": "UNSUPPORTED_NUMBER_OR_DATE",
+        "value": "8",
+        "status": "AUTO_HOLD",
+        "output_field": "summary",
+        "reason": "No equal normalized quantity in any related candidate",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "QUANTITY_CONTEXT_AMBIGUOUS",
+        "value": "1",
+        "status": "VERIFY",
+        "output_field": "summary",
+        "reason": "Quantity exists but grade context is not established",
+        "matched_input": "one year",
+        "candidate_ids": [
+          "973b7e441c9dc7401d4697e2"
+        ]
+      }
+    ],
+    "original_model_risk": "low",
+    "verification": "NOT_FACT_CHECKED"
+  },
+  {
+    "analysis": {
+      "event_id": "evt_7d321aa730f2aca8e033",
+      "category": "ai_education",
+      "scores": {
+        "education_relevance": 30,
+        "ai_technical_importance": 10,
+        "teacher_student_impact": 15,
+        "social_industry_impact": 15,
+        "source_reliability": 8,
+        "recency": 10,
+        "total": 88
+      },
+      "summary": "미국 시카고에 인공지능을 활용하고 교사가 없는 학교인 Alpha Chicago가 개교했습니다. 이 학교는 Mackenzie Price가 고안한 2시간 학습 모델을 도입하여, AI 기반의 핵심 교과 학습을 2시간 동안 진행하고 나머지 시간에는 금융, 기술, 대중 연설, 기업가 정신 등을 교육하는 방식으로 운영됩니다. 기존 교사 대신 학생을 지원하는 '가이드' 역할을 하는 인력이 상주하며, Pre-K부터 8학년까지의 학생들을 대상으로 합니다.",
+      "why_it_matters": "전통적인 교사 중심의 교육 방식에서 벗어나 AI가 교육의 핵심 매개체가 되는 새로운 학교 모델의 등장을 보여줍니다. 이는 AI 교육 기술이 실제 학교 운영 체계에 도입되는 사례로서, 향후 교육 현장에서의 AI 역할과 교사의 기능 변화에 대한 논의를 촉발할 수 있습니다.",
+      "education_implication": "AI가 교사의 강의 기능을 대체하고, 학생의 개별 학습 지원을 위한 가이드로서의 새로운 역할 분담을 시험하는 모델입니다. 핵심 교과 학습 시간을 최소화하고 실무 및 응용 능력을 강조하는 교육 과정 편성이 향후 교육 현장에 시사하는 바가 큽니다.",
+      "classroom_use": "AI 보조 도구를 활용한 자기주도적 학습 모델을 사례 연구 자료로 활용할 수 있습니다. 또한 교사의 전통적인 역할과 AI가 보완하는 학습 가이드 모델 간의 차이점에 대해 토론하는 주제로 사용할 수 있습니다.",
+      "uncertainties": [
+        "AI 기반 학습이 학생들의 정서적, 사회적 발달에 미치는 영향은 아직 검증되지 않음",
+        "교사가 없는 교육 환경에서의 학생 지도 및 생활 관리 실효성",
+        "가이드 인력이 수행하는 역할이 실제 교육 과정에서 어떻게 구체적으로 구현되는지 불분명",
+        "이 모델의 장기적인 학업 성취도에 관한 데이터 부족"
+      ],
+      "fact_check_targets": [
+        "Alpha Chicago의 구체적인 교육 과정 구성",
+        "교사 대신 투입된 가이드의 자격 요건 및 업무 범위",
+        "2시간 학습 모델의 학습 효율성 및 교육적 근거",
+        "[AUTO_HOLD] summary: 2 — No equal normalized quantity in any related candidate",
+        "[AUTO_HOLD] summary: 2 — No equal normalized quantity in any related candidate"
+      ],
+      "hallucination_risk": "high"
+    },
+    "guard_status": "AUTO_HOLD",
+    "findings": [
+      {
+        "code": "ENTITY_SUPPORTED",
+        "value": "Alpha Chicago",
+        "status": "PASS",
+        "output_field": "summary",
+        "reason": "Whole phrase or explicit alias supported",
+        "matched_input": "Alpha Chicago opens as city's first AI, teacher-free school\nRather than having teachers lecture students, they have \"guides\" that support students throughout the day.\n\nThe learning model condenses core subjects into two hours of AI-powered learning. Students then focus the rest of the day on financial literacy, tech literacy, public speaking, entrepreneurship, and more.\n\nTuition for the private school costs $55,000.\n\nTo learn more about the learning program, click here.\n\n## Related Topics\n\n## Education [...] # Alpha Chicago opens as city's first AI, teacher-free school\n\nWLS logo\nChicago's first AI, teacher-free school opens\n\nCHICAGO (WLS) -- Alpha opened the first school in Chicago that uses artificial intelligence and has no teachers on Tuesday.\n\n### ABC7 Chicago is now streaming 24/7. Click here to watch\n\nThe campus is located at 350 E South Water Street and serves students from Pre-K through 8th grade.\n\nChicago's school features the \"two-hour learning model,\" created by Mackenzie Price.\n",
+        "candidate_ids": [
+          "359058010f1dec3ad62fae1d"
+        ]
+      },
+      {
+        "code": "ENTITY_SUPPORTED",
+        "value": "Mackenzie Price",
+        "status": "PASS",
+        "output_field": "summary",
+        "reason": "Whole phrase or explicit alias supported",
+        "matched_input": "Alpha Chicago opens as city's first AI, teacher-free school\nRather than having teachers lecture students, they have \"guides\" that support students throughout the day.\n\nThe learning model condenses core subjects into two hours of AI-powered learning. Students then focus the rest of the day on financial literacy, tech literacy, public speaking, entrepreneurship, and more.\n\nTuition for the private school costs $55,000.\n\nTo learn more about the learning program, click here.\n\n## Related Topics\n\n## Education [...] # Alpha Chicago opens as city's first AI, teacher-free school\n\nWLS logo\nChicago's first AI, teacher-free school opens\n\nCHICAGO (WLS) -- Alpha opened the first school in Chicago that uses artificial intelligence and has no teachers on Tuesday.\n\n### ABC7 Chicago is now streaming 24/7. Click here to watch\n\nThe campus is located at 350 E South Water Street and serves students from Pre-K through 8th grade.\n\nChicago's school features the \"two-hour learning model,\" created by Mackenzie Price.\n",
+        "candidate_ids": [
+          "359058010f1dec3ad62fae1d"
+        ]
+      },
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "summary",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "ENTITY_SUPPORTED",
+        "value": "Pre-K",
+        "status": "PASS",
+        "output_field": "summary",
+        "reason": "Whole phrase or explicit alias supported",
+        "matched_input": "Alpha Chicago opens as city's first AI, teacher-free school\nRather than having teachers lecture students, they have \"guides\" that support students throughout the day.\n\nThe learning model condenses core subjects into two hours of AI-powered learning. Students then focus the rest of the day on financial literacy, tech literacy, public speaking, entrepreneurship, and more.\n\nTuition for the private school costs $55,000.\n\nTo learn more about the learning program, click here.\n\n## Related Topics\n\n## Education [...] # Alpha Chicago opens as city's first AI, teacher-free school\n\nWLS logo\nChicago's first AI, teacher-free school opens\n\nCHICAGO (WLS) -- Alpha opened the first school in Chicago that uses artificial intelligence and has no teachers on Tuesday.\n\n### ABC7 Chicago is now streaming 24/7. Click here to watch\n\nThe campus is located at 350 E South Water Street and serves students from Pre-K through 8th grade.\n\nChicago's school features the \"two-hour learning model,\" created by Mackenzie Price.\n",
+        "candidate_ids": [
+          "359058010f1dec3ad62fae1d"
+        ]
+      },
+      {
+        "code": "UNSUPPORTED_NUMBER_OR_DATE",
+        "value": "2",
+        "status": "AUTO_HOLD",
+        "output_field": "summary",
+        "reason": "No equal normalized quantity in any related candidate",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "UNSUPPORTED_NUMBER_OR_DATE",
+        "value": "2",
+        "status": "AUTO_HOLD",
+        "output_field": "summary",
+        "reason": "No equal normalized quantity in any related candidate",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "ORDINAL_SUPPORTED",
+        "value": "8",
+        "status": "PASS",
+        "output_field": "summary",
+        "reason": "Same grade and ordinal/cardinal quantity",
+        "matched_input": "Alpha Chicago opens as city's first AI, teacher-free school\nRather than having teachers lecture students, they have \"guides\" that support students throughout the day.\n\nThe learning model condenses core subjects into two hours of AI-powered learning. Students then focus the rest of the day on financial literacy, tech literacy, public speaking, entrepreneurship, and more.\n\nTuition for the private school costs $55,000.\n\nTo learn more about the learning program, click here.\n\n## Related Topics\n\n## Education [...] # Alpha Chicago opens as city's first AI, teacher-free school\n\nWLS logo\nChicago's first AI, teacher-free school opens\n\nCHICAGO (WLS) -- Alpha opened the first school in Chicago that uses artificial intelligence and has no teachers on Tuesday.\n\n### ABC7 Chicago is now streaming 24/7. Click here to watch\n\nThe campus is located at 350 E South Water Street and serves students from Pre-K through 8th grade.\n\nChicago's school features the \"two-hour learning model,\" created by Mackenzie Price.\n",
+        "candidate_ids": [
+          "359058010f1dec3ad62fae1d"
+        ]
+      },
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "why_it_matters",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "why_it_matters",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "why_it_matters",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "education_implication",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "classroom_use",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "classroom_use",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      }
+    ],
+    "fact_check_evidence": [
+      {
+        "code": "UNSUPPORTED_NUMBER_OR_DATE",
+        "value": "2",
+        "status": "AUTO_HOLD",
+        "output_field": "summary",
+        "reason": "No equal normalized quantity in any related candidate",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "UNSUPPORTED_NUMBER_OR_DATE",
+        "value": "2",
+        "status": "AUTO_HOLD",
+        "output_field": "summary",
+        "reason": "No equal normalized quantity in any related candidate",
+        "matched_input": null,
+        "candidate_ids": []
+      }
+    ],
+    "original_model_risk": "low",
+    "verification": "NOT_FACT_CHECKED"
+  },
+  {
+    "analysis": {
+      "event_id": "evt_d17b94b04c2d6a2f769d",
+      "category": "ai_education",
+      "scores": {
+        "education_relevance": 28,
+        "ai_technical_importance": 12,
+        "teacher_student_impact": 14,
+        "social_industry_impact": 10,
+        "source_reliability": 9,
+        "recency": 7,
+        "total": 80
+      },
+      "summary": "뉴욕시 교육청은 관내 학교에서 학생들의 생성형 AI 도구 활용을 제한하는 엄격한 지침을 발표했습니다. 초등학교 3학년 미만 학생의 학생 대상 AI 소프트웨어 사용 및 개별 기기 사용이 제한되며, 유아부터 고등학생까지 감정적 교류를 시뮬레이션하는 동반형 챗봇 사용이 금지되었습니다. 교사의 경우 AI를 활용한 수업 계획 수립과 행정 업무는 허용되지만, 과제 채점에는 AI를 사용할 수 없습니다.",
+      "why_it_matters": "공교육 기관이 생성형 AI의 교육적 잠재력과 잠재적 부작용 사이에서 선제적인 규제 모델을 수립하고 있다는 점에서 중요합니다. 특히 학생들의 인지 발달 단계와 정서적 영향을 고려하여 AI 접촉 시기를 분리하고, 기술 의존도를 낮추기 위한 교육 현장의 대응 방향을 제시합니다.",
+      "education_implication": "AI가 학습 도구로 활용될 때 발생할 수 있는 데이터 신뢰성 문제와 비판적 사고력 저하를 방지하기 위해 단계적인 디지털 리터러시 교육이 강조됩니다. 교사는 AI를 보조적 도구로 활용하되 인간의 판단과 평가 영역을 유지해야 하며, 학생들에게는 기술의 기술적 오류 가능성을 가르치는 것이 필수적입니다.",
+      "classroom_use": "교사들은 수업 계획서 작성이나 보조적인 행정 작업에 AI를 활용할 수 있으나, 학생의 결과물 평가 및 채점 과정에는 직접 참여하여 학습자의 성취를 평가해야 합니다. 학생들에게는 AI의 답변이 항상 정확하지 않다는 사실을 교육하고, 정보를 수동적으로 수용하지 않도록 비판적 분석 연습을 수업에 포함할 수 있습니다.",
+      "uncertainties": [
+        "뉴욕시 교육청의 AI 제한 정책이 향후 학생들의 기술 활용 역량에 미칠 장기적 영향",
+        "교사의 행정 업무 AI 사용 금지와 채점 업무 제한이 실제 현장에서 어느 정도 수준으로 준수될지 여부",
+        "동반형 챗봇 금지 정책이 학생들의 사회적 교류 방식에 미칠 영향"
+      ],
+      "fact_check_targets": [
+        "뉴욕시 교육청의 학생 대상 생성형 AI 활용 가이드라인 전문",
+        "교사의 AI 채점 금지 및 수업 계획 활용 범위에 대한 구체적 세부 지침",
+        "[AUTO_HOLD] summary: 3 — No equal normalized quantity in any related candidate"
+      ],
+      "hallucination_risk": "high"
+    },
+    "guard_status": "AUTO_HOLD",
+    "findings": [
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "summary",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "summary",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "summary",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "summary",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "UNSUPPORTED_NUMBER_OR_DATE",
+        "value": "3",
+        "status": "AUTO_HOLD",
+        "output_field": "summary",
+        "reason": "No equal normalized quantity in any related candidate",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "why_it_matters",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "why_it_matters",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "education_implication",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "education_implication",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "classroom_use",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "classroom_use",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      }
+    ],
+    "fact_check_evidence": [
+      {
+        "code": "UNSUPPORTED_NUMBER_OR_DATE",
+        "value": "3",
+        "status": "AUTO_HOLD",
+        "output_field": "summary",
+        "reason": "No equal normalized quantity in any related candidate",
+        "matched_input": null,
+        "candidate_ids": []
+      }
+    ],
+    "original_model_risk": "low",
+    "verification": "NOT_FACT_CHECKED"
+  },
+  {
+    "analysis": {
+      "event_id": "evt_63f754892b8bf18a540b",
+      "category": "generative_ai",
+      "scores": {
+        "education_relevance": 5,
+        "ai_technical_importance": 15,
+        "teacher_student_impact": 5,
+        "social_industry_impact": 10,
+        "source_reliability": 8,
+        "recency": 2,
+        "total": 45
+      },
+      "summary": "주요 생성형 AI 서비스인 ChatGPT, Claude, Grok, Gemini 등에서 동시다발적인 접속 장애가 보고되었습니다. 각 플랫폼은 서비스 상태 페이지와 다운디텍터(DownDetector)를 통해 문제 발생이 확인되었으며, Anthropic은 인프라 문제를 원인으로 지목했습니다. 이후 대부분의 서비스는 복구된 것으로 알려졌으나, 여러 대형 AI 서비스가 동시에 장애를 겪은 현상이 주목받고 있습니다.",
+      "why_it_matters": "AI 의존도가 높아진 상황에서 주요 서비스들이 동시에 중단될 경우 학업, 업무, 서비스 통합형 도구(Cursor 등) 운영에 즉각적인 차질이 발생할 수 있습니다. 이는 AI 인프라의 중앙 집중화와 잠재적인 단일 실패 지점(SPOF)에 대한 안정성 우려를 시사합니다.",
+      "education_implication": "학교 수업 등 교육 현장에서 생성형 AI 도구를 학습 보조로 활용할 경우, 서비스 중단 상황에 대비한 오프라인 대안 수업 계획이 필요합니다. 디지털 도구 의존도가 높아질수록 기술적 결함이 교육 활동을 방해하지 않도록 하는 대비책이 중요해집니다.",
+      "classroom_use": "AI 모델이 정상 작동하지 않을 때를 대비해 학생들에게 해당 도구 없이 비판적 사고나 분석을 수행하는 훈련을 경험하게 하는 교육적 대응 방안을 마련할 수 있습니다.",
+      "uncertainties": [
+        "동시다발적 장애를 유발한 구체적인 공통 인프라 요인이 무엇인지 확인되지 않음",
+        "각 언론사마다 서비스별 장애 인정 여부에 대한 보도 내용이 다소 엇갈림",
+        "Google의 Gemini는 공식적인 장애를 인정하지 않았으나 사용자들이 장애를 보고함"
+      ],
+      "fact_check_targets": [
+        "OpenAI, Anthropic, xAI, Google의 공식 장애 보고서 및 원인 규명 결과",
+        "Downdetector 데이터의 객관적 정확성 및 서비스 장애 판단 기준",
+        "[AUTO_HOLD] why_it_matters: SPOF — Specific named phrase absent from every related candidate"
+      ],
+      "hallucination_risk": "high"
+    },
+    "guard_status": "AUTO_HOLD",
+    "findings": [
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "summary",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "ENTITY_SUPPORTED",
+        "value": "ChatGPT",
+        "status": "PASS",
+        "output_field": "summary",
+        "reason": "Whole phrase or explicit alias supported",
+        "matched_input": "It’s not just you; ChatGPT, Claude, and Grok are all down in confirmed outages - 9to5Google\n# It’s not just you; ChatGPT, Claude, and Grok are all down in confirmed outages. A widespread outage has taken out popular AI platforms including ChatGPT, Claude, and Grok. Despite a spike in user reports which are now dropping, Google’s Gemini never reported an official outage during this event. With a spike in reports on *DownDetector* as well as confirmed outages on their respective dashboards, OpenAI’s ChatGPT, Anthropic’s Claude, and X’s Grok are *all* down. While AI outages aren’t particularly uncommon, it’s interesting to see all three down at the same time. Cursor, an AI agent, has also confirmed an outage due to the Grok and Claude outages. Despite a spike in user reports around the same time, Google has not confirmed an outage. Be sure to check out our homepage for all the latest news, and follow 9to5Google on Twitter, Facebook, and LinkedIn to stay in the loop. *Check out 9to5Google on YouTube for more news:*.\n",
+        "candidate_ids": [
+          "11f5999f9b21d80c038aec50",
+          "9a047272fc1aa8612151094d",
+          "fc17c6a8e61e648002e61453"
+        ]
+      },
+      {
+        "code": "ENTITY_SUPPORTED",
+        "value": "Claude",
+        "status": "PASS",
+        "output_field": "summary",
+        "reason": "Whole phrase or explicit alias supported",
+        "matched_input": "It’s not just you; ChatGPT, Claude, and Grok are all down in confirmed outages - 9to5Google\n# It’s not just you; ChatGPT, Claude, and Grok are all down in confirmed outages. A widespread outage has taken out popular AI platforms including ChatGPT, Claude, and Grok. Despite a spike in user reports which are now dropping, Google’s Gemini never reported an official outage during this event. With a spike in reports on *DownDetector* as well as confirmed outages on their respective dashboards, OpenAI’s ChatGPT, Anthropic’s Claude, and X’s Grok are *all* down. While AI outages aren’t particularly uncommon, it’s interesting to see all three down at the same time. Cursor, an AI agent, has also confirmed an outage due to the Grok and Claude outages. Despite a spike in user reports around the same time, Google has not confirmed an outage. Be sure to check out our homepage for all the latest news, and follow 9to5Google on Twitter, Facebook, and LinkedIn to stay in the loop. *Check out 9to5Google on YouTube for more news:*.\n",
+        "candidate_ids": [
+          "11f5999f9b21d80c038aec50",
+          "9a047272fc1aa8612151094d",
+          "fc17c6a8e61e648002e61453"
+        ]
+      },
+      {
+        "code": "ENTITY_SUPPORTED",
+        "value": "Grok",
+        "status": "PASS",
+        "output_field": "summary",
+        "reason": "Whole phrase or explicit alias supported",
+        "matched_input": "It’s not just you; ChatGPT, Claude, and Grok are all down in confirmed outages - 9to5Google\n# It’s not just you; ChatGPT, Claude, and Grok are all down in confirmed outages. A widespread outage has taken out popular AI platforms including ChatGPT, Claude, and Grok. Despite a spike in user reports which are now dropping, Google’s Gemini never reported an official outage during this event. With a spike in reports on *DownDetector* as well as confirmed outages on their respective dashboards, OpenAI’s ChatGPT, Anthropic’s Claude, and X’s Grok are *all* down. While AI outages aren’t particularly uncommon, it’s interesting to see all three down at the same time. Cursor, an AI agent, has also confirmed an outage due to the Grok and Claude outages. Despite a spike in user reports around the same time, Google has not confirmed an outage. Be sure to check out our homepage for all the latest news, and follow 9to5Google on Twitter, Facebook, and LinkedIn to stay in the loop. *Check out 9to5Google on YouTube for more news:*.\n",
+        "candidate_ids": [
+          "11f5999f9b21d80c038aec50",
+          "9a047272fc1aa8612151094d",
+          "fc17c6a8e61e648002e61453"
+        ]
+      },
+      {
+        "code": "ENTITY_SUPPORTED",
+        "value": "Gemini",
+        "status": "PASS",
+        "output_field": "summary",
+        "reason": "Whole phrase or explicit alias supported",
+        "matched_input": "It’s not just you; ChatGPT, Claude, and Grok are all down in confirmed outages - 9to5Google\n# It’s not just you; ChatGPT, Claude, and Grok are all down in confirmed outages. A widespread outage has taken out popular AI platforms including ChatGPT, Claude, and Grok. Despite a spike in user reports which are now dropping, Google’s Gemini never reported an official outage during this event. With a spike in reports on *DownDetector* as well as confirmed outages on their respective dashboards, OpenAI’s ChatGPT, Anthropic’s Claude, and X’s Grok are *all* down. While AI outages aren’t particularly uncommon, it’s interesting to see all three down at the same time. Cursor, an AI agent, has also confirmed an outage due to the Grok and Claude outages. Despite a spike in user reports around the same time, Google has not confirmed an outage. Be sure to check out our homepage for all the latest news, and follow 9to5Google on Twitter, Facebook, and LinkedIn to stay in the loop. *Check out 9to5Google on YouTube for more news:*.\n",
+        "candidate_ids": [
+          "11f5999f9b21d80c038aec50",
+          "9a047272fc1aa8612151094d",
+          "fc17c6a8e61e648002e61453"
+        ]
+      },
+      {
+        "code": "ENTITY_SUPPORTED",
+        "value": "DownDetector",
+        "status": "PASS",
+        "output_field": "summary",
+        "reason": "Whole phrase or explicit alias supported",
+        "matched_input": "It’s not just you; ChatGPT, Claude, and Grok are all down in confirmed outages - 9to5Google\n# It’s not just you; ChatGPT, Claude, and Grok are all down in confirmed outages. A widespread outage has taken out popular AI platforms including ChatGPT, Claude, and Grok. Despite a spike in user reports which are now dropping, Google’s Gemini never reported an official outage during this event. With a spike in reports on *DownDetector* as well as confirmed outages on their respective dashboards, OpenAI’s ChatGPT, Anthropic’s Claude, and X’s Grok are *all* down. While AI outages aren’t particularly uncommon, it’s interesting to see all three down at the same time. Cursor, an AI agent, has also confirmed an outage due to the Grok and Claude outages. Despite a spike in user reports around the same time, Google has not confirmed an outage. Be sure to check out our homepage for all the latest news, and follow 9to5Google on Twitter, Facebook, and LinkedIn to stay in the loop. *Check out 9to5Google on YouTube for more news:*.\n",
+        "candidate_ids": [
+          "11f5999f9b21d80c038aec50",
+          "9a047272fc1aa8612151094d",
+          "fc17c6a8e61e648002e61453"
+        ]
+      },
+      {
+        "code": "ENTITY_SUPPORTED",
+        "value": "Anthropic",
+        "status": "PASS",
+        "output_field": "summary",
+        "reason": "Whole phrase or explicit alias supported",
+        "matched_input": "It’s not just you; ChatGPT, Claude, and Grok are all down in confirmed outages - 9to5Google\n# It’s not just you; ChatGPT, Claude, and Grok are all down in confirmed outages. A widespread outage has taken out popular AI platforms including ChatGPT, Claude, and Grok. Despite a spike in user reports which are now dropping, Google’s Gemini never reported an official outage during this event. With a spike in reports on *DownDetector* as well as confirmed outages on their respective dashboards, OpenAI’s ChatGPT, Anthropic’s Claude, and X’s Grok are *all* down. While AI outages aren’t particularly uncommon, it’s interesting to see all three down at the same time. Cursor, an AI agent, has also confirmed an outage due to the Grok and Claude outages. Despite a spike in user reports around the same time, Google has not confirmed an outage. Be sure to check out our homepage for all the latest news, and follow 9to5Google on Twitter, Facebook, and LinkedIn to stay in the loop. *Check out 9to5Google on YouTube for more news:*.\n",
+        "candidate_ids": [
+          "11f5999f9b21d80c038aec50",
+          "9a047272fc1aa8612151094d",
+          "fc17c6a8e61e648002e61453"
+        ]
+      },
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "summary",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "why_it_matters",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "ENTITY_SUPPORTED",
+        "value": "Cursor",
+        "status": "PASS",
+        "output_field": "why_it_matters",
+        "reason": "Whole phrase or explicit alias supported",
+        "matched_input": "It’s not just you; ChatGPT, Claude, and Grok are all down in confirmed outages - 9to5Google\n# It’s not just you; ChatGPT, Claude, and Grok are all down in confirmed outages. A widespread outage has taken out popular AI platforms including ChatGPT, Claude, and Grok. Despite a spike in user reports which are now dropping, Google’s Gemini never reported an official outage during this event. With a spike in reports on *DownDetector* as well as confirmed outages on their respective dashboards, OpenAI’s ChatGPT, Anthropic’s Claude, and X’s Grok are *all* down. While AI outages aren’t particularly uncommon, it’s interesting to see all three down at the same time. Cursor, an AI agent, has also confirmed an outage due to the Grok and Claude outages. Despite a spike in user reports around the same time, Google has not confirmed an outage. Be sure to check out our homepage for all the latest news, and follow 9to5Google on Twitter, Facebook, and LinkedIn to stay in the loop. *Check out 9to5Google on YouTube for more news:*.\n",
+        "candidate_ids": [
+          "11f5999f9b21d80c038aec50"
+        ]
+      },
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "why_it_matters",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "UNSUPPORTED_ENTITY_MODEL_POLICY",
+        "value": "SPOF",
+        "status": "AUTO_HOLD",
+        "output_field": "why_it_matters",
+        "reason": "Specific named phrase absent from every related candidate",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "education_implication",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      },
+      {
+        "code": "GENERIC_EXPRESSION",
+        "value": "AI",
+        "status": "PASS",
+        "output_field": "classroom_use",
+        "reason": "Generic role/transition/adjective; no named-object context",
+        "matched_input": null,
+        "candidate_ids": []
+      }
+    ],
+    "fact_check_evidence": [
+      {
+        "code": "UNSUPPORTED_ENTITY_MODEL_POLICY",
+        "value": "SPOF",
+        "status": "AUTO_HOLD",
+        "output_field": "why_it_matters",
+        "reason": "Specific named phrase absent from every related candidate",
+        "matched_input": null,
+        "candidate_ids": []
+      }
+    ],
+    "original_model_risk": "low",
+    "verification": "NOT_FACT_CHECKED"
+  }
+]

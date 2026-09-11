@@ -1,0 +1,741 @@
+{
+  "run_id": "20260909T125723856804Z",
+  "mode": "TEST",
+  "status": "HOLD",
+  "started_at": "2026-09-09T12:57:23.856829+00:00",
+  "errors": [],
+  "warnings": [
+    {
+      "code": "DEDUP_EVIDENCE_INVALID",
+      "pair_ids": [
+        "32715f99174205f77814",
+        "d6a714447eb9102f7b6c",
+        "43203c424ad6aea6ff95",
+        "93ffae44d932c8af1e63",
+        "5f31c62553db61e15ee9",
+        "0566f8ce53144603fff6",
+        "615ec98b34899b0fd91d",
+        "2dff68a85afb7dc15255"
+      ]
+    }
+  ],
+  "kakao": "NOT_CALLED",
+  "tavily": "NOT_CALLED",
+  "final_selection": "NOT_PERFORMED",
+  "security": "PASS",
+  "events": [
+    {
+      "event_id": "evt_dbeee01ef6575a9b8128",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_a67586b8ceedf44517b8",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_795b143f84433dd3595d",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_460f2361b54fc9d598b7",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_e8678aff244e50313192",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_4d1b5eaf0b2969af273d",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_5e1e8fa929a91cc7a20f",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_7d321aa730f2aca8e033",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_ac8b5a923eba4c5732f2",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_8bd53493df26c76821b4",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_9f322aee4df5bd2d6359",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_680f6c20f496df983071",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_fda4e328757158040064",
+      "status": "PASS",
+      "risk": "medium"
+    },
+    {
+      "event_id": "evt_81ecbf2785cbf73850b4",
+      "status": "PASS",
+      "risk": "medium"
+    },
+    {
+      "event_id": "evt_4a8f888aa1259351b4eb",
+      "status": "PASS",
+      "risk": "medium"
+    },
+    {
+      "event_id": "evt_3ea3f9900f7045801269",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_25c52d72c779bd651915",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_504a17db3531df046636",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_69c74bc9d2234f20c095",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_9e6894b5ae8779b717e1",
+      "status": "PASS",
+      "risk": "medium"
+    },
+    {
+      "event_id": "evt_59f125fc6e67d84fa1ab",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_ec0419e2dbb60888a543",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_d7f90f35fad9bf6b35e1",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_46302d82a7297071d2cc",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_6389f487834d81d55385",
+      "status": "PASS",
+      "risk": "medium"
+    },
+    {
+      "event_id": "evt_00c0509e97be6275afd4",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_34dbe933b0fc8a3771be",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_8fed4a4b5566fa2ecd14",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_bfb87cd22cb5ffed3c92",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_12c43f6fd0332b85d6d7",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_b5c1936c0f39a9f0b540",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_ae527859e2ae092d31ef",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_c0052d16d081e9195966",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_bd8dc22b15cdb813829a",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_568f8ee4c6da48ceeb3c",
+      "status": "PASS",
+      "risk": "medium"
+    },
+    {
+      "event_id": "evt_97691eb7863e348efd52",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_6c2e79a8baec6fc438d0",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_34f05779ae69ef70af86",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_8713f0f8943a765aa229",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_556961fe1c02811c13a6",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_74badd4931f57678af6a",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_70a6a754fec7056b77b5",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_608ba6fe461755404825",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_40de4d5330eaa305435a",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_6e23ecb3f5a0280055cb",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_bc49de6c05a6caac6745",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_9d301d59ba2cd99f1df6",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_110d5de653f5eb8421ba",
+      "status": "PASS",
+      "risk": "low"
+    },
+    {
+      "event_id": "evt_6d300687bb4e64cb0140",
+      "status": "HOLD",
+      "risk": "high"
+    },
+    {
+      "event_id": "evt_db01483a4c785623702c",
+      "status": "HOLD",
+      "risk": "high"
+    }
+  ],
+  "model": "gemini-3.1-flash-lite",
+  "billing_tier": "USER_IDENTIFIED_PAID_PROJECT; NOT_INFERRED_FROM_API",
+  "input_sha256": "490b4608eb820ed679ee41a6dcfd969f22d032c493837c3ca220eee53d389e40",
+  "calls": [
+    {
+      "stage": "DEDUP",
+      "attempt": 1,
+      "time": "2026-09-09T12:57:23.968736+00:00",
+      "status": "PASS",
+      "total_tokens": 8701,
+      "response_id": "sVehapuxCvHZ1e8Pk8DS0Qo"
+    },
+    {
+      "stage": "DEDUP",
+      "attempt": 1,
+      "time": "2026-09-09T12:57:28.197420+00:00",
+      "status": "FAIL",
+      "code": "DEDUP_EVIDENCE_INVALID"
+    },
+    {
+      "stage": "DEDUP",
+      "attempt": 2,
+      "time": "2026-09-09T12:57:33.689804+00:00",
+      "status": "FAIL",
+      "code": "DEDUP_EVIDENCE_INVALID"
+    },
+    {
+      "stage": "DEDUP",
+      "attempt": 1,
+      "time": "2026-09-09T12:57:38.856211+00:00",
+      "status": "PASS",
+      "total_tokens": 7406,
+      "response_id": "wFehatyDApqA1e8Pzrv7gA0"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:57:42.757582+00:00",
+      "status": "PASS",
+      "total_tokens": 2243,
+      "response_id": "xFehapecAbWEvr0PuL_vgA0"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:57:47.134097+00:00",
+      "status": "PASS",
+      "total_tokens": 2118,
+      "response_id": "yFehatuKDbWEvr0PuL_vgA0"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:57:50.309888+00:00",
+      "status": "PASS",
+      "total_tokens": 2424,
+      "response_id": "y1ehao-oGtuA0-kPnMG5uQ0"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:57:54.002478+00:00",
+      "status": "PASS",
+      "total_tokens": 2025,
+      "response_id": "z1ehatuVCL6i9tMPjZjWiAo"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:57:57.206647+00:00",
+      "status": "PASS",
+      "total_tokens": 2095,
+      "response_id": "0leharCJEdyAvr0Pi4vquA0"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:58:00.795733+00:00",
+      "status": "PASS",
+      "total_tokens": 1742,
+      "response_id": "1lehatSiAufVrfcPhtThmQw"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:58:04.532841+00:00",
+      "status": "PASS",
+      "total_tokens": 1690,
+      "response_id": "2VehatuXJs3mrfcPnbDw-Qw"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:58:08.197531+00:00",
+      "status": "PASS",
+      "total_tokens": 1709,
+      "response_id": "3VehaqfdEsvjrfcPtMWb6Ak"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:58:11.944531+00:00",
+      "status": "PASS",
+      "total_tokens": 1556,
+      "response_id": "4VehaujpA6TkrfcPkOz12Qk"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:58:15.095065+00:00",
+      "status": "PASS",
+      "total_tokens": 3505,
+      "response_id": "5Fehar6vC_ON0-kP9vPw6QM"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:58:18.864763+00:00",
+      "status": "PASS",
+      "total_tokens": 1672,
+      "response_id": "51ehap26PLaM1e8Pv4epiQo"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:58:22.394307+00:00",
+      "status": "PASS",
+      "total_tokens": 1593,
+      "response_id": "61ehatTOHunB0-kP4puV6As"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:58:25.594388+00:00",
+      "status": "PASS",
+      "total_tokens": 2240,
+      "response_id": "7lehavLgKMDqrfcProSOqAI"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:58:29.321822+00:00",
+      "status": "PASS",
+      "total_tokens": 2421,
+      "response_id": "8lehapjxGfTIrfcPutmi2QE"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:58:34.163090+00:00",
+      "status": "PASS",
+      "total_tokens": 2220,
+      "response_id": "91ehasKgEfaN1e8P8q_WkAo"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:58:38.371502+00:00",
+      "status": "PASS",
+      "total_tokens": 1551,
+      "response_id": "-1ehasyYHKn72roP2OTNqAs"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:58:41.096259+00:00",
+      "status": "PASS",
+      "total_tokens": 1672,
+      "response_id": "_lehao6fEsrfrfcPw6KgwAc"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:58:45.495028+00:00",
+      "status": "PASS",
+      "total_tokens": 1532,
+      "response_id": "AlihasPPJouy2roPu--uqQE"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:58:48.726779+00:00",
+      "status": "PASS",
+      "total_tokens": 1635,
+      "response_id": "BVihar-XMruM1e8P5cjIqAo"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:58:52.008077+00:00",
+      "status": "PASS",
+      "total_tokens": 1592,
+      "response_id": "CVihaubnB8zM0-kP7IyJiQs"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:58:54.893287+00:00",
+      "status": "PASS",
+      "total_tokens": 1905,
+      "response_id": "C1ihauS9PL3arfcP5de3yAk"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:58:58.434024+00:00",
+      "status": "PASS",
+      "total_tokens": 1377,
+      "response_id": "D1ihaunZII_arfcPwqC0-QE"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:59:01.477895+00:00",
+      "status": "PASS",
+      "total_tokens": 1773,
+      "response_id": "ElihaoKBI7H_vr0Pm-XJ6Aw"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:59:05.246597+00:00",
+      "status": "PASS",
+      "total_tokens": 1749,
+      "response_id": "FlihauzzFOXN1e8PmIqm6Qo"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:59:08.921584+00:00",
+      "status": "PASS",
+      "total_tokens": 1602,
+      "response_id": "GlihapCgA52w1e8PuYuciQo"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:59:12.436375+00:00",
+      "status": "PASS",
+      "total_tokens": 1734,
+      "response_id": "HVihavz8IOzc2roPuYjj2QI"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:59:16.215790+00:00",
+      "status": "PASS",
+      "total_tokens": 1476,
+      "response_id": "IVihatzlErH_vr0PnOXJ6Aw"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:59:18.872473+00:00",
+      "status": "PASS",
+      "total_tokens": 2122,
+      "response_id": "I1ihaq2uOovF0-kP6_fGoQE"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:59:22.114964+00:00",
+      "status": "PASS",
+      "total_tokens": 1662,
+      "response_id": "J1ihatvlDpP_1e8P-qCj-Qw"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:59:25.195219+00:00",
+      "status": "PASS",
+      "total_tokens": 2161,
+      "response_id": "KliharC7E_K_vr0P9p3F6Qo"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:59:28.757562+00:00",
+      "status": "PASS",
+      "total_tokens": 1597,
+      "response_id": "LVihaqLRM4C5vr0PxN_M8Aw"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:59:31.470079+00:00",
+      "status": "PASS",
+      "total_tokens": 2110,
+      "response_id": "MFihap2HIujfrfcPw_LmyQs"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:59:34.889971+00:00",
+      "status": "PASS",
+      "total_tokens": 1607,
+      "response_id": "M1ihav38O_uXosUP5dfL2Qo"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:59:37.708188+00:00",
+      "status": "PASS",
+      "total_tokens": 1505,
+      "response_id": "NlihapHXMajMrfcPubPLqQI"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:59:40.453037+00:00",
+      "status": "PASS",
+      "total_tokens": 1520,
+      "response_id": "OVihaqryIZDfrfcP_cyH6Ak"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:59:43.345893+00:00",
+      "status": "PASS",
+      "total_tokens": 1411,
+      "response_id": "PFihavCjHJGe2roPxJbb4QQ"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:59:46.582111+00:00",
+      "status": "PASS",
+      "total_tokens": 1374,
+      "response_id": "P1ihauPrJ6Gz1e8P9P6V0Qk"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:59:50.640649+00:00",
+      "status": "FAIL",
+      "code": "GEMINI_HTTP_ERROR",
+      "http_status": 503,
+      "retry_delay_seconds": 1
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 2,
+      "time": "2026-09-09T12:59:51.924613+00:00",
+      "status": "PASS",
+      "total_tokens": 2445,
+      "response_id": "RVihasbnA9uA0-kPnMG5uQ0"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:59:55.832446+00:00",
+      "status": "PASS",
+      "total_tokens": 2498,
+      "response_id": "SFihaoHJOYborfcPiculmAU"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T12:59:59.724431+00:00",
+      "status": "PASS",
+      "total_tokens": 2094,
+      "response_id": "TFihauuMM9SM1e8Prc-tmQo"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:00:03.620243+00:00",
+      "status": "PASS",
+      "total_tokens": 1936,
+      "response_id": "UFihaue2LpDfrfcP_cyH6Ak"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:00:06.692041+00:00",
+      "status": "PASS",
+      "total_tokens": 3490,
+      "response_id": "U1ihaorZMuSD0-kP-6yzkAs"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:00:09.664543+00:00",
+      "status": "PASS",
+      "total_tokens": 1797,
+      "response_id": "VlihapiuL5_r2roP56iPyQw"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:00:13.164693+00:00",
+      "status": "PASS",
+      "total_tokens": 1758,
+      "response_id": "WlihaoPgEoG3vr0PwuDL-Aw"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:00:17.127152+00:00",
+      "status": "PASS",
+      "total_tokens": 1642,
+      "response_id": "XlihaqHvDo6i9tMP9LK1uQo"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:00:20.873623+00:00",
+      "status": "PASS",
+      "total_tokens": 2188,
+      "response_id": "Ylihar_1BrH_vr0Pm-XJ6Aw"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:00:24.920350+00:00",
+      "status": "PASS",
+      "total_tokens": 2399,
+      "response_id": "ZlihavnbAeXN1e8P7Ymm6Qo"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:00:28.672278+00:00",
+      "status": "PASS",
+      "total_tokens": 1492,
+      "response_id": "aVihauPCMYjgrfcPjsDfmA0"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:00:32.060857+00:00",
+      "status": "PASS",
+      "total_tokens": 1445,
+      "response_id": "bVihatWzCOnB0-kP4puV6As"
+    },
+    {
+      "stage": "ANALYZE",
+      "attempt": 1,
+      "time": "2026-09-09T13:00:34.954434+00:00",
+      "status": "PASS",
+      "total_tokens": 1644,
+      "response_id": "cFihapacA62Q0-kP5vmKqQw"
+    }
+  ],
+  "counts": {
+    "input_candidates": 57,
+    "events": 50,
+    "merged_candidates": 7,
+    "dedup_relations": {
+      "SAME_EVENT": 13
+    },
+    "analyses": 50,
+    "non_high_risk": 22,
+    "high_risk": 28,
+    "http_attempts": 55,
+    "scores": {
+      "min": 5,
+      "max": 85,
+      "mean": 59.18,
+      "at_least_70": 18
+    }
+  },
+  "finished_at": "2026-09-09T13:00:38.358143+00:00"
+}
